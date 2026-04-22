@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baltimore — FYS: Progress — AS.001.219</title>
+  <meta name="description" content="Baltimore as classroom for FYS: Progress. Interactive map of 12 sites connecting Baltimore's history to course themes of progress, inequality, and innovation." />
+  <link rel="stylesheet" href="progress.css" />
+  <!-- Leaflet for the embedded map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <style>
+    #map {
+      width: 100%;
+      height: 520px;
+      border: 1px solid var(--rule);
+      border-radius: 4px;
+      background: var(--bg-alt);
+    }
+    /* Custom Leaflet marker style */
+    .progress-marker {
+      background: var(--accent, #A84A2E);
+      border: 2px solid #fff;
+      border-radius: 50%;
+      width: 14px;
+      height: 14px;
+      box-shadow: 0 1px 4px rgba(28,24,18,0.35);
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+    .progress-marker:hover { transform: scale(1.35); }
+    .leaflet-popup-content-wrapper {
+      border-radius: 4px;
+      font-family: 'Open Sans', system-ui, sans-serif;
+      font-size: 0.85rem;
+      color: #1C1812;
+      box-shadow: 0 4px 16px rgba(28,24,18,0.14);
+    }
+    .leaflet-popup-content strong {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 1rem;
+      display: block;
+      margin-bottom: 4px;
+      color: #A84A2E;
+    }
+    .popup-theme {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #7A7368;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Navigation ─────────────────────────────────────────────── -->
+<nav class="site-nav" aria-label="Site navigation">
+  <div class="site-nav__inner">
+    <a href="index.html" class="site-nav__brand">FYS: <span>Progress</span></a>
+    <ul class="site-nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="syllabus.html">Syllabus</a></li>
+      <li><a href="assignments.html">Assignments</a></li>
+      <li><a href="baltimore.html" class="active">Baltimore</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ── Page Header ────────────────────────────────────────────── -->
+<header style="padding-block: var(--sp-2xl); border-bottom: 1px solid var(--rule);">
+  <div class="container--text">
+    <p class="hero__eyebrow">AS.001.219 · Baltimore as Classroom</p>
+    <h1>Progress in the City</h1>
+    <p class="lead">
+      Every session in this course is connected to a place in Baltimore where the history
+      of progress — and its limits — is visible on the street. Twelve sites, twelve stories.
+    </p>
+  </div>
+</header>
+
+<!-- ── Map ────────────────────────────────────────────────────── -->
+<section>
+  <div class="container">
+    <div id="map"></div>
+    <p class="small text-mid mt-md">
+      Click a marker to learn about each site. Sites marked in
+      <span style="color: var(--accent); font-weight: 600;">terracotta</span>
+      are available for the Baltimore Video assignment. Sites visited as a full class
+      (BMI, BMA) may still be chosen for your video, focusing on a specific aspect.
+    </p>
+  </div>
+</section>
+
+<!-- ── Site List ──────────────────────────────────────────────── -->
+<section style="background: var(--bg-alt);">
+  <div class="container">
+    <h2 class="mb-lg">The twelve sites</h2>
+    <div class="module-grid">
+
+      <div class="module-card">
+        <div class="module-card__number">Site 1</div>
+        <div class="module-card__title">Baltimore Museum of Industry</div>
+        <p class="module-card__desc">
+          Inner Harbor. Baltimore's industrial revolution — canning, garment manufacture,
+          printing. The BMI documents how ordinary workers built the modern economy.
+        </p>
+        <div class="module-card__sessions" style="color: var(--accent);">Class field trip · Oct 15</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 2</div>
+        <div class="module-card__title">Frederick Douglass–Isaac Myers Maritime Park</div>
+        <p class="module-card__desc">
+          Fells Point. Abolition, Black entrepreneurship, and the history of labor rights.
+          A site that asks who progress is for — and who has been excluded from it.
+        </p>
+        <div class="module-card__sessions">Theme: Race &amp; progress</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 3</div>
+        <div class="module-card__title">Johns Hopkins Hospital &amp; Medical Campus</div>
+        <p class="module-card__desc">
+          East Baltimore. Medical science as an engine of progress — and the contested
+          history of how the campus was built and who it displaced.
+        </p>
+        <div class="module-card__sessions">Theme: Medical innovation · inequality</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 4</div>
+        <div class="module-card__title">Science + Technology Park at Hopkins</div>
+        <p class="module-card__desc">
+          East Baltimore. A biotech knowledge cluster built in one of Baltimore's most
+          disadvantaged neighborhoods. Urban renewal, displacement, and the knowledge economy.
+        </p>
+        <div class="module-card__sessions">Theme: Knowledge economy · urban renewal</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 5</div>
+        <div class="module-card__title">Port of Baltimore</div>
+        <p class="module-card__desc">
+          Dundalk / Seagirt Marine Terminal. Global trade and logistics — the material
+          infrastructure of progress. Also a story of deindustrialization and re-skilling.
+        </p>
+        <div class="module-card__sessions">Theme: Global trade · deindustrialization</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 6</div>
+        <div class="module-card__title">Enoch Pratt Free Library</div>
+        <p class="module-card__desc">
+          Central Branch, Cathedral Street. Public knowledge infrastructure. One of
+          America's first free public library systems — and the politics of who got access.
+        </p>
+        <div class="module-card__sessions">Theme: Information access · public goods</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 7</div>
+        <div class="module-card__title">Lexington Market</div>
+        <p class="module-card__desc">
+          West Baltimore. One of America's oldest continuously operating public markets.
+          Urban markets, entrepreneurship, food systems, and neighborhood change.
+        </p>
+        <div class="module-card__sessions">Theme: Markets · urban history</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 8</div>
+        <div class="module-card__title">Maryland Institute College of Art (MICA)</div>
+        <p class="module-card__desc">
+          Mount Royal Avenue. Creative economy and design innovation. How do art
+          and design institutions shape what counts as progress?
+        </p>
+        <div class="module-card__sessions">Theme: Creative economy · design</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 9</div>
+        <div class="module-card__title">Inner Harbor / Harborplace</div>
+        <p class="module-card__desc">
+          From industrial waterfront to tourist destination. A case study in urban
+          renewal, deindustrialization, and the politics of who a city is rebuilt for.
+        </p>
+        <div class="module-card__sessions">Theme: Urban renewal · tourism economy</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 10</div>
+        <div class="module-card__title">Port Covington / Sagamore Development</div>
+        <p class="module-card__desc">
+          South Baltimore. One of the largest private urban development projects in
+          American history. What does 21st-century urban progress look like?
+        </p>
+        <div class="module-card__sessions">Theme: Contemporary urbanism · investment</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 11</div>
+        <div class="module-card__title">Sandtown-Winchester</div>
+        <p class="module-card__desc">
+          West Baltimore. What happens when progress bypasses a community for generations?
+          A neighborhood asking hard questions about disinvestment, policy failure, and agency.
+        </p>
+        <div class="module-card__sessions">Theme: Exclusion · what progress stalls</div>
+      </div>
+
+      <div class="module-card">
+        <div class="module-card__number">Site 12</div>
+        <div class="module-card__title">Baltimore Biotech Corridor</div>
+        <p class="module-card__desc">
+          Including Emergent BioSolutions. Pharmaceutical and biotech manufacturing.
+          Vaccine production, public health infrastructure, and the limits of market-driven R&amp;D.
+        </p>
+        <div class="module-card__sessions">Theme: Biotech · pharma · public health</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Video Assignment Reminder ─────────────────────────────── -->
+<section>
+  <div class="container--text">
+    <h2>Choosing your site</h2>
+    <p>
+      For the Baltimore Progress Video assignment, your group will choose one of these twelve
+      sites. No two groups may select the same site. The goal is not to produce a tourist
+      video — it is to use the site as a lens for thinking rigorously about progress.
+    </p>
+    <p>
+      The best videos will find something surprising: a tension, a contradiction, an untold story,
+      or an unexpected connection to the ideas we read about in class. The site is a prompt
+      for thinking, not a conclusion.
+    </p>
+    <p>
+      Site groups are confirmed in class on October 20. The full assignment description is on
+      the <a href="assignments.html">Assignments page</a>.
+    </p>
+  </div>
+</section>
+
+<!-- ── Footer ─────────────────────────────────────────────────── -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__brand">
+      <strong>FYS: Progress</strong> · AS.001.219<br />
+      Simon D. Halliday · Department of Economics<br />
+      Johns Hopkins University
+    </div>
+    <ul class="site-footer__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="syllabus.html">Syllabus</a></li>
+      <li><a href="assignments.html">Assignments</a></li>
+      <li><a href="https://canvas.jhu.edu">Canvas</a></li>
+      <li><a href="https://simondhalliday.com">simondhalliday.com</a></li>
+    </ul>
+    <p class="site-footer__copy">
+      Fall 2026 · Krieger School of Arts &amp; Sciences, Johns Hopkins University.
+      Course materials © Simon D. Halliday.
+    </p>
+  </div>
+</footer>
+
+<!-- ── Leaflet Map Script ──────────────────────────────────────── -->
+<script>
+(function() {
+  var map = L.map('map', {
+    center: [39.295, -76.610],
+    zoom: 12,
+    scrollWheelZoom: false
+  });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 20
+  }).addTo(map);
+
+  var accentColor = '#A84A2E';
+
+  function makeIcon() {
+    return L.divIcon({
+      className: '',
+      html: '<div class="progress-marker"></div>',
+      iconSize: [14, 14],
+      iconAnchor: [7, 7],
+      popupAnchor: [0, -10]
+    });
+  }
+
+  var sites = [
+    {
+      lat: 39.2805, lng: -76.6140,
+      name: 'Baltimore Museum of Industry',
+      desc: 'Industrial revolution, labor history, and manufacturing. Class field trip October 15.',
+      theme: 'Industrial · Labor'
+    },
+    {
+      lat: 39.2842, lng: -76.5955,
+      name: 'Frederick Douglass–Isaac Myers Maritime Park',
+      desc: 'Abolition, Black entrepreneurship, and labor rights in Fells Point.',
+      theme: 'Race · Progress · Labor'
+    },
+    {
+      lat: 39.2963, lng: -76.5918,
+      name: 'Johns Hopkins Hospital & Medical Campus',
+      desc: 'Medical science, public health innovation — and the contested history of the campus.',
+      theme: 'Medical Innovation · Inequality'
+    },
+    {
+      lat: 39.2905, lng: -76.5883,
+      name: 'Science + Technology Park at Hopkins',
+      desc: 'Biotech cluster and knowledge economy in East Baltimore.',
+      theme: 'Knowledge Economy · Urban Renewal'
+    },
+    {
+      lat: 39.2538, lng: -76.5313,
+      name: 'Port of Baltimore (Seagirt Marine Terminal)',
+      desc: 'Global trade, logistics, deindustrialization, and re-skilling.',
+      theme: 'Global Trade · Deindustrialization'
+    },
+    {
+      lat: 39.2979, lng: -76.6156,
+      name: 'Enoch Pratt Free Library (Central Branch)',
+      desc: 'One of America\'s first free public libraries — the politics of public knowledge.',
+      theme: 'Information Access · Public Goods'
+    },
+    {
+      lat: 39.2907, lng: -76.6239,
+      name: 'Lexington Market',
+      desc: 'One of America\'s oldest continuously operating public markets.',
+      theme: 'Markets · Urban History'
+    },
+    {
+      lat: 39.3070, lng: -76.6240,
+      name: 'Maryland Institute College of Art (MICA)',
+      desc: 'Creative economy and design innovation on Mount Royal Avenue.',
+      theme: 'Creative Economy · Design'
+    },
+    {
+      lat: 39.2844, lng: -76.6122,
+      name: 'Inner Harbor / Harborplace',
+      desc: 'From industrial waterfront to tourist destination — urban renewal and its politics.',
+      theme: 'Urban Renewal · Tourism'
+    },
+    {
+      lat: 39.2647, lng: -76.6283,
+      name: 'Port Covington / Sagamore Development',
+      desc: 'One of the largest private urban development projects in American history.',
+      theme: 'Contemporary Urbanism · Investment'
+    },
+    {
+      lat: 39.3075, lng: -76.6480,
+      name: 'Sandtown-Winchester',
+      desc: 'What happens when progress bypasses a community for generations?',
+      theme: 'Exclusion · Disinvestment'
+    },
+    {
+      lat: 39.3255, lng: -76.6125,
+      name: 'Baltimore Biotech Corridor',
+      desc: 'Pharmaceutical and biotech manufacturing, including vaccine production infrastructure.',
+      theme: 'Biotech · Public Health'
+    }
+  ];
+
+  sites.forEach(function(site) {
+    L.marker([site.lat, site.lng], { icon: makeIcon() })
+      .addTo(map)
+      .bindPopup(
+        '<strong>' + site.name + '</strong>' +
+        site.desc +
+        '<div class="popup-theme">' + site.theme + '</div>'
+      );
+  });
+})();
+</script>
+
+</body>
+</html>
