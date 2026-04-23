@@ -415,6 +415,24 @@ section + section { border-top: 1px solid var(--rule); }
   color: var(--ink-mid);
 }
 
+.reading-list {
+  margin-top: 0.4em;
+  padding-left: 1.1em;
+  list-style: disc;
+}
+.reading-list li {
+  margin-bottom: 0.3em;
+  line-height: 1.5;
+}
+.reading-list li:last-child {
+  margin-bottom: 0;
+}
+.reading-note {
+  margin-top: 0.4em;
+  font-style: italic;
+  color: var(--ink-light);
+}
+
 .session-row__tags {
   display: flex;
   flex-wrap: wrap;
