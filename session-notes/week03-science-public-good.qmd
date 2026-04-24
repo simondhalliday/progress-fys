@@ -27,8 +27,6 @@ Spend 5 minutes on the Crookes story before revealing that Haber solved it. Let 
 Connection to Crawford's "Solutionism" (Module 5 reading): Crookes is the archetype of what Crawford calls a solutionist — pessimistic about the problem, optimistic about the solution. Worth flagging briefly.
 :::
 
----
-
 ## What kind of thing is knowledge?
 
 Consider two objects. The first is a bag of nitrogen fertilizer. If you spread it on your field, your neighbor cannot spread that same fertilizer on theirs. Economists say fertilizer is **[rival]{.term data-example="A bag of fertilizer: if you use it, it is gone. One person's use reduces what is available for others."}** — one person's use reduces what is available for others.
@@ -63,8 +61,6 @@ Haber-Bosch was eventually developed by a private company (BASF), not directly b
 Common confusion here: students often think "BASF did it, so markets work." The nuance is that BASF benefited from Haber's publicly-funded university research, from government-funded infrastructure, and from the wartime industrial mobilization context. The public goods problem explains underinvestment in early-stage research, not in commercial scale-up ([**applied research**]{.term data-example="BASF's scale-up of Haber's chemistry into industrial ammonia production — taking existing basic knowledge and engineering it into a manufacturable product."}). Nelson (1959) is precise on this distinction.
 :::
 
----
-
 ## What [**institutions**]{.term data-example="The NSF and NIH are institutions — formal rules and organizations created specifically because markets failed to fund basic research. Bush's 1945 report was an argument for building them."} filled the gap?
 
 If markets underprovide [**basic research**]{.term}, two kinds of institutions have historically filled the gap: **public funding** and **scientific norms**.
@@ -91,8 +87,6 @@ Key institutional timeline for class:
 - DARPA (as ARPA): February 1958, response to Sputnik — a fundamentally different model
 :::
 
----
-
 ## How much do governments actually spend?
 
 The chart below shows government and private R&D expenditure as a share of GDP across major economies since the mid-1990s. Notice how the United States, Japan, South Korea, and Germany cluster around 2–3 percent, while the post-Sputnik surge in US spending — which peaked around 1964 at nearly 2 percent of GDP from federal sources alone — is not captured in data this recent.
@@ -105,8 +99,6 @@ The chart below shows government and private R&D expenditure as a share of GDP a
 Two things to draw out from the chart: (1) the cross-country variation — South Korea and China have increased rapidly, while US federal R&D as a share of GDP has actually fallen since the 1960s; (2) the public/private mix matters as much as the total — a country could have high total R&D but most of it in commercial development rather than basic research. The Nelson public goods argument applies specifically to basic research, not to the total.
 :::
 
----
-
 ## Connections
 
 **Builds on:** The public goods framework introduced here runs directly from the discussion of externalities and market failures that students encounter in the UOE readings (Week 1–2). Knowledge spillovers are the clearest example of a positive [**externality**]{.term data-example="When Haber published his nitrogen fixation findings, the benefits flowed to every chemist, fertilizer firm, and farmer worldwide — none of whom paid for the research. That uncompensated benefit to others is the externality."} that markets undersupply.
@@ -116,8 +108,6 @@ Two things to draw out from the chart: (1) the cross-country variation — South
 ::: {.instructor}
 **Arc note:** This session is the economic foundation for two later arguments the course makes. First, that science policy choices have large, long-run consequences (Module 4). Second, that the right response to a resource constraint or [**market failure**]{.term data-example="Decades without private investment in nitrogen fixation, despite enormous potential returns — private firms couldn't capture enough of the social benefit to justify the cost. That gap is the market failure Bush's report was designed to fix."} is institutional design, not despair (Module 5 — Crawford's solutionism is exactly the attitude Vannevar Bush embodied). Students who leave without grasping the public goods argument will struggle to engage with both those later discussions.
 :::
-
----
 
 ```{=html}
 <div class="quiz">

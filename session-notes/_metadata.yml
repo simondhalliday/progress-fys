@@ -10,3 +10,5 @@ format:
         <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
         <!-- Default Orbit colour for all review areas on session-notes pages -->
         <meta property="orbit:color" content="orange" />
+        <!-- Section pagination script -->
+        <script src="../paginate.js" defer></script>
