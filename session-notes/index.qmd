@@ -1,16 +1,149 @@
 ---
 title: "Session Notes"
-description: "Reading guides, discussion questions, and framing notes for each session."
-listing:
-  contents: "week*.qmd"
-  type: table
-  sort: "order"
-  fields: [title, description]
-  field-display-names:
-    title: "Session"
-    description: "Topic"
+description: "Reading guides, concept summaries, discussion questions, and review cards for each session."
 ---
 
-<div style="padding-block: var(--sp-lg); font-family: var(--font-sans); font-size: 0.88rem; color: var(--ink-mid); max-width: 600px;">
-Each note summarises the key concepts for the week, frames the readings, and includes discussion questions. They are meant to be read alongside — not instead of — the assigned texts.
-</div>
+<p style="font-family: var(--font-sans); font-size: 0.88rem; color: var(--ink-mid); max-width: 640px; margin-bottom: var(--sp-xl);">
+Each note summarises the key concepts for the week, frames the readings, and includes discussion questions and review cards. Read alongside — not instead of — the assigned texts. Notes for upcoming sessions are added as the course progresses.
+</p>
+
+```{=html}
+<table style="width:100%; border-collapse:collapse; font-family:var(--font-sans); font-size:0.85rem;">
+  <thead>
+    <tr style="border-bottom:2px solid var(--accent);">
+      <th style="text-align:left; padding:8px 16px 8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; white-space:nowrap;">#</th>
+      <th style="text-align:left; padding:8px 16px 8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase;">Session title</th>
+      <th style="text-align:left; padding:8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; white-space:nowrap;">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- Module 1 -->
+    <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 1 — What Is Progress?</td></tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">1</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session01-introduction.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Introduction: Why Progress?</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Opening reflection: what is the world's biggest unsolved problem?</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 1</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">2</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session02-chimpanzee-test.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">The Chimpanzee Test</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Rosling — why experts score worse than random chance on global facts; the Gap Instinct</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 3</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">3</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session03-progress-and-freedom.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Progress Getting Better — And What That Means</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Rosling Ch 2 — the Negativity Instinct; Sen — development as freedom</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 8</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">4</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session04-great-enrichment.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">The Great Enrichment</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">UOE Ch 3 + Crawford — capitalism, the hockey stick, and why prosperity is invisible</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 10</td>
+    </tr>
+
+    <!-- Module 2 -->
+    <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 2 — Institutions &amp; Innovation</td></tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">5–6</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="week03-science-public-good.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Science as a Public Good</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Nelson + Bush — why markets underprovide basic research and what institutions fill the gap</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Sep 15–17</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">7</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Cities 1: Renaissance Florence</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Ada Palmer + Chiasson — what makes certain places engines of innovation?</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 22</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">8</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Cities 2: Silicon Valley</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Economies of agglomeration — why do innovators cluster?</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 24</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">9–11</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Baltimore + Escaping the Poverty Trap</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Baltimore as classroom; Ang — how poor societies bootstrap growth</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Sep 29 – Oct 6</td>
+    </tr>
+
+    <!-- Module 3 -->
+    <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 3 — Who Benefits?</td></tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">12–16</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Inequality, Race, Baltimore, Labor</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Piketty/Chetty, Wilkerson, BMI visit, Smith + Dickens</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 8–22</td>
+    </tr>
+
+    <!-- Module 4 -->
+    <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 4 — Ambition &amp; Agency</td></tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">17–21</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Great Inventors, Guest Speakers, Top-Down Innovation</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Carlyle + Koyama; Teles; Collison &amp; Cowen + Reinhardt</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 27 – Nov 10</td>
+    </tr>
+
+    <!-- Module 5 -->
+    <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 5 — Limits &amp; Risks</td></tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">22–24</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Environment, Slowdown, Catastrophic Risk</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Ritchie; Thompson + Crawford Solutionism; existential risks</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Nov 12–19</td>
+    </tr>
+
+    <!-- Module 6 -->
+    <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 6 — Looking Forward</td></tr>
+
+    <tr>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">25–28</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Synthesis + Data Project Presentations</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Closing reflection: how has your thinking changed?</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Dec 1–10</td>
+    </tr>
+
+  </tbody>
+</table>
+```

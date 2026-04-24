@@ -1,0 +1,184 @@
+---
+title: "The Great Enrichment"
+subtitle: "Session 4 · Thu Sep 10"
+description: "How capitalism transformed the world since 1800 — and why industrial civilization has become invisible to us precisely because it succeeded."
+order: 4
+---
+
+## New York City in the dark
+
+On the evening of October 29, 2012, Hurricane Sandy made landfall on the New Jersey coast and swept through New York City. Winds hit 100 miles per hour. Lower Manhattan flooded. Subways filled with water. The power went out.
+
+What happened next was revealing.
+
+Without electricity, residents discovered they had lost not just lighting but everything that depended on it: elevators, heating and cooling, refrigerators, washing machines. Gas station pumps failed. Subway trains stopped. Charging your phone became a neighborhood event. People carried water up stairs.
+
+The storm gave millions of New Yorkers a direct experience of something they had never experienced before: life without the infrastructure of modernity. It lasted a few days. For most of human history, those were just normal conditions.
+
+Think about what the residents of New York in 1800 actually had: no electric light (candles and oil lamps), no indoor plumbing (wells and outhouses), no central heating (wood fires), no refrigeration (root cellars and iceboxes in winter), no telephone, no subway, no mass-produced clothing, no anesthesia. Life expectancy at birth in the United States was about 35 years, largely because infant and child mortality was enormous. The typical American spent most of their time and energy simply securing food, warmth, and water.
+
+In two centuries — roughly the lifespan of the United States — all of that changed beyond recognition.
+
+**The question this session is about: how did this happen? Why 1800? Why Britain first? And what does Jason Crawford mean when he says industrial civilization has become invisible to us — and why does that matter?**
+
+::: {.instructor}
+The Hurricane Sandy hook is from UOE Chapter 3. It works particularly well because it makes the infrastructure of modernity viscerally real — students can imagine losing it. The follow-up question to ask: "When did you last think about how your food got to the supermarket? How your water gets clean? Who keeps the lights on?" Crawford's "Fish in Water" is the deeper reflection on this — we've been so thoroughly insulated from the problems that the solutions have become invisible.
+:::
+
+## Two centuries of transformation
+
+The chart below shows what economic historians call the "hockey stick" — the most dramatic fact in the history of human welfare. For most of recorded history, GDP per capita changed slowly or not at all. Living standards in England in 1700 were not dramatically higher than in ancient Rome. Then, around 1800, something changed. Growth accelerated, compounded, and produced a world that would be unrecognizable to any previous generation.
+
+<iframe src="https://ourworldindata.org/grapher/gdp-per-capita-maddison" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+*Source: Maddison Project Database (2023) via Our World in Data. Figures are in 2011 international dollars, adjusted for purchasing power parity.*
+
+::: {.instructor}
+Walk students through reading this chart: what is on the axes, what does each line represent, when does the kink happen, and why does the shape matter? Key observations: (1) for most of history, all countries were roughly flat; (2) Britain kinks first, around 1750–1800; (3) other countries follow at different times; (4) China and India's rise is very recent and extremely rapid; (5) the divergence between countries is enormous.
+
+Ask: if a person from 1700 were transported to any point between 1000 and 1700, life would feel roughly familiar. If transported to today, it would be incomprehensible. What changed?
+:::
+
+## What capitalism is, and what it did
+
+The transformation after 1800 was not an accident. It required specific institutional conditions — what economists call **capitalism**: the combination of private property, [**markets**]{.term}, wage labor, and the pursuit of profit through innovation.
+
+UOE Chapter 3 makes three key arguments:
+
+First, capitalism created incentives for innovation that had never existed before at scale. When entrepreneurs could capture the returns from new products and processes, they had powerful reasons to invest in finding them. This is the **[**innovation rent**]{.term}** mechanism: the temporary profits from being first to market with something new drive the search for new things.
+
+Second, capitalism is a system of continuous creative destruction. Old products are displaced by better ones. Old firms fail and are replaced by more productive ones. The process is inherently disruptive — it is very good for aggregate output growth, but it produces winners and losers at every stage.
+
+Third, capitalist growth is historically contingent. It required specific institutional features that were not inevitable: secure property rights, rule of law, contract enforcement, access to credit. These conditions developed in particular places at particular times. Britain had them first; others followed; some are still developing them.
+
+> Capitalism transformed the world because it created for the first time in history a system in which the search for profit was channeled into the search for innovation.
+
+::: {.discuss}
+Capitalism produced unprecedented prosperity — but it also produced [**inequality**]{.term}, environmental degradation, and significant human costs in the transition. Is it possible to get the benefits of capitalist growth without the harms? Or are the harms intrinsic to the system? Think about what trade-offs you would be willing to accept.
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What does UOE Chapter 3 identify as the key institutional feature that drove growth after 1800?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Technological discoveries happened throughout history without producing sustained growth. The key question is what changed around 1800 — and the answer is the institutional conditions that channeled discovery into production at scale.">The discovery of new technologies through scientific research.</li>
+    <li data-correct="true" data-fb="Correct. Capitalism — the combination of private property, markets, wage labor, and profit-driven innovation — created incentives for the first time at scale for producers to search for and implement better ways of doing things. Innovation rents (temporary profits from being first) drove the search.">Capitalism — private property, markets, and profit-driven innovation — created sustained incentives for growth.</li>
+    <li data-correct="false" data-fb="Colonialism transferred wealth and resources, and played a role in British industrialization, but cannot by itself explain why capitalism produced sustained compound growth. Many colonial powers did not industrialize rapidly.">European colonialism transferred wealth that funded industrialization.</li>
+    <li data-correct="false" data-fb="Population growth creates demand but also creates competition for resources. Before industrialization, population growth often just meant more people sharing the same low-productivity conditions. Something changed the productivity side, not just the demand side.">Rapid population growth created demand that stimulated production.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+Students often confuse the *conditions* for growth ([**institutions**]{.term}, property rights) with the *mechanism* of growth (innovation rents, creative destruction). Push them to be specific: what is it about private property and markets that produces innovation incentives that, say, a planned economy does not? This connects forward to the DARPA/science policy sessions.
+:::
+
+## Fish in water
+
+Jason Crawford's "Fish in Water" makes a different kind of argument. Not about how capitalism worked, but about how we see it — or rather, how we fail to.
+
+Crawford's central observation: industrial civilization has become a victim of its own success. It has solved the problems of daily existence so thoroughly that the solutions — and the problems — have faded from our collective memory. We live inside a vast system of productive cooperation, technology, and accumulated knowledge, and we do not see it at all.
+
+Consider the mundane objects around you right now. The chair you are sitting on required lumber, steel, foam, fabric, paint, and dozens of other inputs — each produced by specialized workers using specialized equipment, assembled in a factory, transported across thousands of miles, inventoried by a retailer, purchased through a payment system. You have never thought about any of this. You have never had to.
+
+Crawford writes:
+
+> "Industrial civilization has become a victim of its own success: it has solved the problems of daily existence so thoroughly, and with such finesse, that the solutions and even the problems fade from our collective memory."
+
+This invisibility has consequences. We take for granted things that required enormous effort to build and that continue to require ongoing maintenance. We attribute prosperity to nature rather than to human ingenuity, institutions, and labor. We fail to appreciate the fragility of systems that seem permanent.
+
+More directly: we forget that progress is not automatic. Everything had to be invented, built, and sustained. The light switch that works every time is not a fact of nature. It is the product of a million decisions made by engineers, workers, regulators, and investors across more than a century.
+
+::: {.discuss}
+Crawford says the invisibility of prosperity makes it harder to value and harder to protect. Can you think of something that was once a remarkable achievement but is now so normalized that its loss would be catastrophic — and yet we give it almost no thought? What would it take to make these things visible again?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why does Crawford say industrial civilization has become "invisible"?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="The opposite is true — industrial civilization is highly visible in terms of physical infrastructure, products, and technology. The invisibility Crawford is describing is perceptual: we don't *notice* it or think about it, despite seeing it constantly.">Because industrial infrastructure is hidden underground or inside buildings.</li>
+    <li data-correct="true" data-fb="Correct. Industrial civilization has solved the problems of daily life so thoroughly that neither the solutions nor the original problems are salient anymore. Like fish in water, we are completely immersed in the system but don't notice it — until it fails.">Because it has solved the problems of daily life so thoroughly that we no longer notice the solutions or the original problems.</li>
+    <li data-correct="false" data-fb="Crawford is writing for a general audience and explicitly wants to make industrial civilization more visible. His argument is that we don't know enough about it — the opposite of saying it's too technically complex to discuss.">Because industrial systems are too technically complex for ordinary people to understand.</li>
+    <li data-correct="false" data-fb="Crawford's point is about our *perception* of progress, not about deliberate concealment. No one is hiding it — we simply stopped looking.">Because corporations deliberately conceal how products are made.</li>
+  </ol>
+</div>
+```
+
+## Connections
+
+**Builds on:** Sessions 2 and 3 established that the world has improved dramatically (Rosling) and that development means expanding freedom (Sen). Session 4 asks: where did this improvement come from? The answer — capitalism and its institutions — sets up a key tension: the same system that produced the Great Enrichment also produced inequality, environmental degradation, and the costs of creative destruction.
+
+**Sets up:** Module 2 (Institutions & Innovation) asks what institutions produce and sustain progress: science, cities, the state. The Crawford piece connects forward to Module 5 (Limits & Risks): if we have forgotten how progress was made, we may also be underinvesting in maintaining and extending it.
+
+::: {.instructor}
+**Arc note:** Session 4 is the pivot between the "what has happened" (Sessions 1–3) and the "how and why" (rest of the course). Students should leave with: (1) a clear picture of the hockey stick and what produced it; (2) Crawford's insight that prosperity is invisible to those who live inside it; (3) the first hint that progress is not automatic — which sets up the entire arc of the course from innovation through limits and risks.
+:::
+
+## Review cards
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="What is the 'hockey stick' in economic history?"
+    answer="The shape of the GDP per capita graph over the past 1000 years: flat or barely growing for most of history, then rising sharply after about 1800. The kink marks the beginning of sustained compound growth under capitalism — something unprecedented in human history.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is an 'innovation rent' and why does it drive growth?"
+    answer="Innovation rent is the temporary profit a firm earns by being first to market with a new product or process. Because these profits exist, firms have an incentive to search for innovations. This creates sustained pressure for improvement that did not exist before capitalist institutions.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What institutional conditions were necessary for capitalism to produce sustained growth?"
+    answer="Secure private property rights, rule of law, contract enforcement, access to credit, and competitive markets. These create the conditions where innovation rents are capturable and reinvestable. Britain developed these conditions first; other countries followed at different times.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What does Crawford mean when he says industrial civilization is 'invisible'?"
+    answer="We are so immersed in the products and infrastructure of modernity that we no longer notice them or think about what produced them. Like fish in water, we cannot see the medium we live in. We take prosperity for granted because it has solved the problems that used to be salient.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why does the invisibility of prosperity matter, according to Crawford?"
+    answer="If we forget that progress was built and has to be maintained, we risk undervaluing and underinvesting in the conditions that produced it. We attribute prosperity to nature rather than to human ingenuity, institutions, and effort — and are therefore unprepared for its fragility.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is 'creative destruction' and why is it central to capitalism?"
+    answer="The process by which new products, firms, and technologies displace old ones. It is 'creative' because it produces better things; 'destruction' because it eliminates existing businesses and jobs. It is central to capitalism because profit-seeking innovation continuously renders older methods obsolete.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Reading guide
+
+### Required
+
+**Halliday, Simon D., and Luz Marina Arias.** *Understanding Our Economy*, Chapter 3: "Our world transformed" (selections). Available at [core-understanding-our-economy.netlify.app](https://core-understanding-our-economy.netlify.app/uoe-101/03-01.html).
+
+> **What to look for:** The chapter moves from the hurricane Sandy hook to the hockey stick to the institutions of capitalism. Pay particular attention to Sections 3.2 (the hockey stick), 3.3 (institutions of capitalism), and 3.4 (capitalism and living standards). What is the mechanism that connects capitalist institutions to sustained growth?
+>
+> **Key argument:** Capitalism produced unprecedented prosperity because it created for the first time a sustained incentive to innovate — but it also created inequality and environmental costs that are inseparable from the growth process.
+>
+> **Bring to class:** One institution that the chapter describes as central to capitalism (property rights, rule of law, markets, firms, etc.) — and one country or historical case where the absence of that institution seems to explain a failure to develop.
+
+**Crawford, Jason.** "Fish in Water," Chapter 1 of *The Techno-Humanist Manifesto* (2024, ~2,500 words). Free at [rootsofprogress.org/manifesto](https://newsletter.rootsofprogress.org/p/fish-in-water).
+
+> **What to look for:** Crawford is doing something different from UOE — he is not explaining the mechanism of growth but changing your *perception* of it. Read slowly and notice when you feel surprised. What had you been taking for granted that you now see differently?
+>
+> **Key argument:** Industrial civilization has solved the problems of daily existence so thoroughly that both the solutions and the original problems are now invisible. This invisibility is dangerous because it leads us to treat prosperity as natural rather than as a human achievement that requires ongoing attention.
+>
+> **Bring to class:** One thing you use every day that Crawford's essay made you see differently. What is it, where does it come from, who built it, and what would life be like without it?
+
+### Recommended
+
+**Koyama, Mark, and Jared Rubin.** *How the World Became Rich*, Chapter 1: "Why, When, and How Did the World Become Rich?" Cambridge: Cambridge University Press, 2022.
+
+> A rigorous survey of the leading economic history explanations for the Great Enrichment: geography, institutions, culture, colonialism, human capital, and more. Good background for students who want to go deeper on the "why Britain?" question. No technical prerequisites.
+
+::: {.instructor}
+**Teaching note:** The UOE reading and the Crawford reading work well in sequence: UOE explains the mechanism (how capitalism produced growth); Crawford changes the perception (why we can't see what surrounds us). Students who read both should be able to answer the session question — how did this happen, and why can't we see it? — with some real precision.
+:::

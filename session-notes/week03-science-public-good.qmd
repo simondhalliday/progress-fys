@@ -1,8 +1,8 @@
 ---
 title: "Science as a Public Good"
-subtitle: "Week 3 · Tue Sep 15 & Thu Sep 17"
+subtitle: "Sessions 5 & 6 · Tue Sep 15 & Thu Sep 17"
 description: "Why markets underprovide basic research, how scientific norms solve part of the problem, and the institutions that emerged from Vannevar Bush's 1945 report."
-order: 3
+order: 5
 ---
 
 ## A warning from 1898

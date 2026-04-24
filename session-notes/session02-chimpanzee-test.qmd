@@ -1,0 +1,176 @@
+---
+title: "The Chimpanzee Test"
+subtitle: "Session 2 · Thu Sep 3"
+description: "Why experts score worse than random chance on basic facts about the world — and what the Gap Instinct tells us about how we see development."
+order: 2
+---
+
+## A quiz that embarrassed the world's leaders
+
+In January 2015, Hans Rosling stepped onto the stage at the World Economic Forum in Davos. In the audience sat heads of state, CEOs of major multinationals, central bank governors, senior UN officials — roughly a thousand of the most powerful and informed people on the planet. He asked them three simple questions about global development.
+
+Almost all of them got the answers wrong.
+
+Not just wrong. Wrong in a systematic direction — believing the world was far poorer, far more dangerous, and far more divided than the data showed. Rosling had been running versions of this test for decades, across thousands of respondents in dozens of countries. The pattern was always the same: students, professors, Nobel laureates, investment bankers, politicians — they all got it wrong, and they all got it wrong in the same direction.
+
+The punchline that Rosling kept returning to: chimpanzees would do better.
+
+If you gave a chimp three bananas labelled A, B, and C and read out one of Rosling's questions, the chimp would pick randomly and score 33% right by chance. The average human taking Rosling's 13-question test in 2017 — across nearly 12,000 respondents in 14 countries — scored just 2 out of 12. That is not ignorance. Random ignorance produces 4 correct answers. Scoring 2 out of 12 requires *actively wrong* beliefs, a worldview so systematically distorted that it pushes you away from the truth.
+
+**The question this session is about: why do highly educated, globally aware people believe things about the world that are demonstrably, measurably false — and worse than random?**
+
+::: {.instructor}
+Start class with a version of Rosling's quiz — even 3–4 questions is enough. Have students answer before any discussion. The experience of getting things wrong (and discovering you did worse than chance) is the lesson. You can use the Gapminder quiz at gapminder.org/ignorance or just ask verbally:
+
+- What % of girls in low-income countries finish primary school? (A: 20%, B: 40%, C: 60%)
+- What % of the world lives in low-income countries? (A: 9%, B: 35%, C: 59%)
+- What has happened to extreme poverty in the last 20 years? (A: doubled, B: stayed about the same, C: nearly halved)
+
+Correct answers: C, A, C. Most students will get most of these wrong.
+:::
+
+## Why do we get the world wrong?
+
+The first temptation is to blame the media, or education, or politics. Rosling rejects all of these as the *primary* explanation. He reaches a more unsettling conclusion: the problem is in how our brains are wired.
+
+We evolved in small hunter-gatherer groups. We needed fast, heuristic thinking — rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
+
+This is the **negativity instinct** at work: we notice threats, disasters, and deterioration far more readily than we notice gradual improvement. If a thousand things get 1% better and one thing gets dramatically worse, we notice the one dramatic thing. The news reinforces this — it is structurally biased toward bad events (which are sudden and visible) over good ones (which are slow and diffuse).
+
+There is also a second problem: we misremember the past. We romanticize older times. The result is that progress is invisible twice over — we don't see it happening, and we've forgotten how bad things used to be.
+
+> Most people think the world is getting worse. The data says they are wrong.
+
+::: {.discuss}
+If highly educated, globally engaged people systematically misperceive the state of the world, what does that imply for how we make policy, run businesses, or respond to crises? Can you think of a real decision that went wrong because the decision-maker had an outdated map of reality?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">In 2017, nearly 12,000 people in 14 countries took Rosling's global knowledge test. The average score was 2 out of 12 questions. What does this tell us?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Most respondents were highly educated and took an active interest in global affairs — education level did not help. If anything, some educated groups scored worse than the general public.">Most people aren't educated enough to know about global development.</li>
+    <li data-correct="false" data-fb="Random guessing would produce ~4 correct answers out of 12. Scoring only 2 means respondents did worse than random — they had actively wrong beliefs, not just absent ones.">People were guessing randomly due to lack of interest.</li>
+    <li data-correct="true" data-fb="Correct. Scoring below chance requires active misconceptions — a systematic bias pushing answers away from reality. This is what Rosling calls the overdramatic worldview: we don't just lack correct knowledge, we hold incorrect beliefs.">People hold actively wrong beliefs — a systematic bias worse than random chance.</li>
+    <li data-correct="false" data-fb="The questions were about well-documented, uncontested statistics from the World Bank and UN — the facts themselves were not in dispute. The problem was that people's beliefs diverged sharply from the facts.">The questions were about contested or ambiguous statistics.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+Common confusion: students sometimes say "well, that just shows media bias." Push back: Rosling's point is that the media can't fully explain the pattern, because (a) the bias is systematic across countries with very different media environments, and (b) even people who know the data get it wrong in the same direction. The explanation lies in cognitive instincts that predate modern media.
+:::
+
+## The Gap Instinct: the world is not divided into two
+
+The deepest misconception Rosling identifies is also the most fundamental: the belief that the world is divided into "us" — the rich, developed West — and "them" — the poor, developing rest. This is what he calls the **Gap Instinct**: the irresistible urge to split things into two groups with a gap between them.
+
+It is a powerful and intuitive mental model. It also no longer describes the world.
+
+In 1965, when the developed/developing binary was invented, the data supported it. There were genuinely two clusters: rich countries with small families and low child mortality, and poor countries with large families and high child mortality. The gap was real.
+
+Today, that picture is 60 years out of date. Eighty-five percent of humanity now lives in what used to be called the "developed world" — in terms of family size and child survival rates. The remaining 15% are mostly in between the two old boxes. Only 13 countries, containing 6% of the world's population, still fit the old "developing" category.
+
+The world has moved, but most people's mental maps have not.
+
+> The majority of humanity lives in the middle — in countries and conditions that fit neither "developed" nor "developing."
+
+Rosling replaces the binary with four income levels — a spectrum from extreme poverty ($1–2/day) to affluence ($32+/day). Most of humanity lives on Levels 2 and 3, not Level 1. Understanding this matters practically: if you're a humanitarian, you need to find the poorest people efficiently; if you're a business, you're missing 5 billion potential consumers if you assume they're all "poor."
+
+::: {.discuss}
+The labels "developed" and "developing" are still widely used in journalism, policy, and international [**institutions**]{.term}. If Rosling is right that these labels create a false picture, why do you think they persist? What would it take to replace them — and would replacing them change anything?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">According to Rosling's data, where does the majority of the world's population live today?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Only about 9% of the world's population lives in low-income countries today — far fewer than most people estimate. And even those countries are more developed than the average person believes.">In low-income countries, surviving on less than $2 a day.</li>
+    <li data-correct="true" data-fb="Correct. About 75% of humanity lives in middle-income countries — neither the extreme poverty of Level 1 nor the affluence of Level 4. This is the gap that is supposed to separate 'developed' from 'developing' — and it is largely empty.">In middle-income countries — the gap that supposedly separates rich from poor.</li>
+    <li data-correct="false" data-fb="High-income countries contain roughly 16% of the world's population. A real and important group, but the minority, not the majority.">In high-income countries, with all the comforts of the Level 4 lifestyle.</li>
+    <li data-correct="false" data-fb="The world is not evenly distributed across income levels. The four-level framework shows that the middle two levels contain the vast majority of humanity.">Equally spread across all four income levels.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+The Four Levels framework is worth spending time on because it comes back throughout the course. The key intuition: life looks very different at each level, not just in income but in diet, transport, cooking fuel, and family structure. Rosling's "Dollar Street" photos (gapminder.org/dollar-street) are excellent for this — photographs of homes, food, and possessions at each level make the differences visceral.
+:::
+
+## How much has the world improved?
+
+The data on global progress is one of the most important and underappreciated stories of the past two centuries. The chart below shows the decline in extreme poverty — perhaps the most fundamental measure of human deprivation.
+
+<iframe src="https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+*Source: Our World in Data, based on World Bank and historical estimates. Note: "extreme poverty" is defined as living on less than $2.15/day in 2017 PPP terms.*
+
+::: {.instructor}
+This chart pairs well with asking students: "When do you think the biggest drop happened? Was it gradual or sudden?" The answer — that the sharpest declines happened in the last 30–40 years, especially in China and India — surprises most people. The recent period, which feels chaotic and troubled, has actually been the most successful in human history for poverty reduction.
+:::
+
+## Connections
+
+**Builds on:** Session 1 introduced the course's central question — why does progress happen? Rosling provides the empirical baseline: progress has happened, more than most people realize, and our failure to see it is systematic and cognitively rooted.
+
+**Sets up:** Session 3 extends the question — if the world is getting better by standard metrics, what counts as "better"? Sen's *Development as Freedom* asks us to interrogate the metrics themselves.
+
+::: {.instructor}
+**Arc note:** Rosling's sessions (2 and 3) serve as the empirical and methodological foundation for everything that follows. Students who leave these two sessions with a fact-based worldview will engage with the rest of the course differently — they'll be able to distinguish "things are bad" from "things are getting worse," and "things are improving" from "things are fine." These are crucial distinctions for the Module 5 sessions on limits and risks.
+:::
+
+## Review cards
+
+Work through these cards now. Orbit will schedule them for review over the coming weeks.
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="What is Rosling's 'chimpanzee test'?"
+    answer="If chimpanzees answered Rosling's global knowledge questions by picking randomly, they would score ~33% correct. Humans average ~17% (2/12) — below random chance — because they hold actively wrong beliefs, not just absent ones.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why does scoring below random chance on global knowledge questions matter?"
+    answer="It means people don't just lack knowledge — they hold systematically incorrect beliefs. Wrong beliefs in a consistent direction means they are operating from an outdated or distorted mental map. Decisions based on wrong maps lead people and institutions in the wrong direction.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is the Gap Instinct, and why is it a problem?"
+    answer="The Gap Instinct is our urge to divide things into two groups with a gap between them — 'developed' vs 'developing,' 'us' vs 'them.' It's a problem because the gap barely exists today: 75% of humanity lives in middle-income countries, between the two old boxes.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What has happened to the developed/developing binary since 1965?"
+    answer="In 1965 the binary was roughly accurate. Today, 85% of humanity lives in what used to be called the 'developed world' by the standards of child mortality and family size. Only 13 countries (6% of world population) still fit the old 'developing' category. The map is 60 years out of date.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What are Rosling's Four Income Levels?"
+    answer="Level 1: ~$1–2/day (extreme poverty, 1 billion people). Level 2: ~$2–8/day (basic needs met with effort, 3 billion). Level 3: ~$8–32/day (relative comfort, 2 billion). Level 4: $32+/day (affluence, 1 billion). The key insight: most people live on Levels 2 and 3, not Level 1.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is the negativity instinct, and why does Rosling think it explains our distorted worldview?"
+    answer="The negativity instinct is our tendency to notice bad news more than good news — an evolved bias toward threats. Combined with misremembering the past (romanticizing older times), it makes gradual progress invisible and sudden bad events salient. The result is a systematically more negative picture of the world than the data warrants.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Reading guide
+
+### Required
+
+**Rosling, Hans, Ola Rosling, and Anna Rosling Rönnlund.** *Factfulness: Ten Reasons We're Wrong About the World — and Why Things Are Better Than You Think.* New York: Flatiron Books, 2018. Introduction + Chapter 1 ("The Gap Instinct").
+
+> **What to look for:** Rosling's central argument is that our worldview is not just incomplete but *actively wrong* — and in a systematic direction. As you read, notice the structure: (1) a quiz that reveals the problem; (2) a cognitive explanation (the instinct); (3) data that shows the real picture; (4) a replacement framework (the Four Levels). Does his explanation for *why* we get it wrong convince you?
+>
+> **Key argument:** Human brains are wired with instincts that were adaptive for our evolutionary environment but distort our perception of a complex modern world. The Gap Instinct — dividing everything into "us" and "them" — produces a worldview 60 years out of date.
+>
+> **Bring to class:** Find one example from your own experience — a news story, a conversation, a policy debate — where you can see the Gap Instinct at work. What would change if the participants had a fact-based worldview instead?
+
+::: {.instructor}
+**Teaching note:** Students sometimes push back that Rosling is too optimistic and ignores injustice and [**inequality**]{.term}. This is a productive tension worth surfacing: Rosling is not saying everything is fine, he's saying our picture of what is *getting better and worse* is wrong. The inequality point gets addressed directly in Session 3 (Sen) and Module 3 (Who Benefits?). Let students sit with the discomfort for now — it's generative.
+:::

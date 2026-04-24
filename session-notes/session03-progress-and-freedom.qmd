@@ -1,0 +1,184 @@
+---
+title: "Progress Getting Better — And What That Means"
+subtitle: "Session 3 · Tue Sep 8"
+description: "Why we think the world is getting worse when it isn't — and why income growth alone is the wrong measure of development."
+order: 3
+---
+
+## Born in Sweden, 1948
+
+Hans Rosling grew up in Sweden in the 1950s. When he was four years old, he fell headfirst into the sewage ditch in front of his grandmother's house — a trench filled with a mix of last night's rain and wastewater from a nearby factory. His grandmother hauled him out by the ankles, carried him to the kitchen sink, and washed him with the hot water meant for dishes.
+
+That was Sweden in the early 1950s. Open sewage ditches. Tuberculosis common enough that Rosling's mother spent months hospitalized, waving to him from a third-floor balcony while he watched from the street below, too young to visit.
+
+Now look at the global health chart. Sweden in 1948 sits where Egypt is today: mid-Level 3, with decent but not affluent living standards. Rosling's grandmother was born in 1891, when Sweden was where Lesotho is now — close to the border between Level 1 and Level 2.
+
+In one family's lifetime, Sweden traveled from Lesotho to the top of the world in human development.
+
+This happened everywhere. In 1997, 42% of the population of India lived in extreme poverty. By 2017: 12%. That's 270 million fewer people in extreme deprivation — in twenty years. China's story is even more dramatic: from 42% in extreme poverty to 0.7% in the same period. Half a billion people crossed the threshold.
+
+**The question this session is about: if the world is getting dramatically better by these measures, why does almost everyone think it's getting worse? And even if it is getting better — is income growth really what development is for?**
+
+::: {.instructor}
+Open with a quick poll: "Put your hand up if you think the world has gotten better over the last 20 years. Better in terms of poverty, health, or education." Typically, a minority raise their hands. Then show the data. The gap between what people believe and what the data shows is the entry point.
+
+Rosling's personal story of his grandmother is in Chapter 2 and is among his most moving passages. If time permits, read it aloud: "When she was born in 1891, Sweden was like Lesotho is today..."
+:::
+
+## Why we think things are getting worse
+
+If the data shows dramatic improvements in poverty, life expectancy, literacy, child mortality, and violence, why do surveys consistently show that most people believe the world is getting worse?
+
+Rosling identifies the **Negativity Instinct** as the primary explanation: our tendency to notice the bad more readily than the good. This is not a character flaw or a sign of ignorance — it is a feature of how human brains evolved.
+
+Three mechanisms reinforce the negativity instinct:
+
+**We misremember the past.** People in rich countries have forgotten that open sewage ditches and tuberculosis were normal living conditions a few generations ago. People in China and India have largely forgotten the extreme poverty of the 1970s. When we romanticize "the way things used to be," we are comparing today's actual world against an imagined past that never existed.
+
+**The media is structurally biased toward bad news.** Not because of conspiracy, but because of economics. Sudden, dramatic events — a pandemic, a flood, a massacre — are news. A thousand children not dying today from a disease they would have died from in 1990 is not. The information environment we swim in is systematically tilted toward the visible bad and away from the invisible good.
+
+**It feels callous to celebrate progress while suffering persists.** If you say "child mortality has fallen by 70%," there is a risk of sounding indifferent to the children who still die. So people self-censor. The result is a public conversation that focuses almost entirely on what remains wrong.
+
+> Billions of people have improved their lives without Level 4 people noticing.
+
+The cure is not optimism. Rosling is not asking us to pretend things are fine. He is asking us to be *accurate*. Accuracy about what is getting better helps us understand what is working. Accuracy about what is getting worse helps us focus our attention where it is actually needed.
+
+::: {.discuss}
+Rosling says that knowing the world is getting better should make us feel more positive, not less concerned. But is this right? Could knowing that poverty has fallen dramatically make us less motivated to act on the poverty that remains? How do you think about the relationship between acknowledging progress and maintaining urgency about what still needs to change?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">In 1997, 42% of China's population lived in extreme poverty. By 2017, what was that figure?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="This is still far too high — it would suggest virtually no progress. The actual decline was dramatically larger and faster than most people expect.">About 30% — a meaningful decline but the majority still in poverty.</li>
+    <li data-correct="false" data-fb="Still too pessimistic. The actual figure is much lower — this was the scale of decline seen in some other countries, but China's reduction was even more dramatic.">About 15% — roughly a halving of the poverty rate.</li>
+    <li data-correct="true" data-fb="Correct. China reduced its extreme poverty rate from 42% to 0.7% in 20 years — about 500 million people crossing the poverty threshold. This is the largest reduction in poverty in human history, in the shortest time.">About 0.7% — a near-complete elimination of extreme poverty.</li>
+    <li data-correct="false" data-fb="China's poverty rate did not increase — it fell dramatically. This is one of the most underappreciated facts about the last 30 years.">About 50% — poverty actually increased during this period.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+The China statistic is consistently one of the most surprising for students. It is worth pausing on the scale: 500 million people is roughly 1.5 times the entire population of the United States. This happened largely invisibly to people in Level 4 countries, which illustrates Rosling's point about the invisibility of good news.
+:::
+
+## Development as freedom
+
+So far we have been measuring progress in terms of income, poverty rates, and life expectancy. Rosling's data is compelling. But Amartya Sen, the Indian economist and philosopher who won the Nobel Prize in 1998, asks a harder question: what is development *for*?
+
+Sen argues that we have been measuring the instrument rather than the goal. Income growth is a means to an end, not the end itself. The end — the thing that development is ultimately supposed to produce — is *freedom*: the ability to live a life you have reason to value.
+
+This is not a vague aspiration. Sen is making a precise conceptual claim. He distinguishes between two roles of freedom in development:
+
+The **constitutive role**: freedom is part of what development *is*. A person who cannot vote, cannot read, cannot choose their occupation, or cannot access basic healthcare is unfree in ways that matter regardless of their income. Development that increases income while leaving these freedoms untouched is incomplete.
+
+The **instrumental role**: freedom is also the *means* by which development happens. Political freedoms produce accountable governments that address famines; educational opportunities produce human capital that drives growth; social opportunities — healthcare, literacy — enable people to participate in economic life.
+
+> Development is not just growing the economy. It is expanding the real freedoms that people have to live lives they have reason to value.
+
+This reframing has significant implications for what we measure. A country where GDP per capita is growing but women cannot leave the house, cannot vote, and cannot own property is not developing in the sense that matters. A country where life expectancy rises but people live in fear of an arbitrary state has gained something but lost something else.
+
+::: {.discuss}
+Sen argues that development is fundamentally about freedom, not income. If you had to apply this framework to Baltimore, what would it imply? Which freedoms are expanding in the city? Which are not? And does the distinction between constitutive and instrumental freedoms change how you would prioritize interventions?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">According to Sen, what is the primary goal of economic development?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="GDP growth is an important instrument for development, but Sen argues it is a means, not the end. A country could have growing GDP while its people remain deeply unfree — that would not qualify as development in Sen's framework.">Maximizing GDP per capita growth over time.</li>
+    <li data-correct="false" data-fb="Poverty reduction is vital, but Sen's framework is broader: even a person above the poverty line can be severely unfree (unable to vote, to work freely, to access education). Development requires more than escaping extreme deprivation.">Reducing the number of people in extreme poverty.</li>
+    <li data-correct="true" data-fb="Correct. Sen argues that development is the expansion of substantive freedoms — the ability to live a life you have reason to value. Income and poverty reduction matter instrumentally because they expand freedom, but they are not the end in themselves.">Expanding the real freedoms people have to live lives they have reason to value.</li>
+    <li data-correct="false" data-fb="Equality of income is one possible concern, but Sen's framework is specifically about freedom — the capability to choose and act — rather than about equality of outcomes as such.">Achieving equality of income across the population.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+The Rosling/Sen pairing is productive precisely because they can look like they are saying opposite things: Rosling says things are getting better; Sen asks whether the metrics capture what matters. They are actually complementary: Rosling is making an empirical claim about measured outcomes, Sen is making a conceptual claim about what should be measured. A student who understands both readings has a much richer toolkit for evaluating claims about progress.
+
+The five instrumental freedoms Sen identifies (political freedoms, economic facilities, social opportunities, transparency guarantees, protective security) are worth listing briefly in class — they reappear later in discussions of [**institutions**]{.term} and policy.
+:::
+
+## How does the picture look?
+
+<iframe src="https://ourworldindata.org/grapher/life-expectancy" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+*Source: Our World in Data. Note: this shows period life expectancy at birth — the average number of years a newborn would live if current mortality rates remained constant. The dramatic increase since 1800 reflects improvements in sanitation, vaccination, nutrition, and medicine.*
+
+::: {.instructor}
+Life expectancy is a good bridge between the two readings: it is one of Rosling's key indicators of improvement (and a question on his test where most people think the world average is about 60 when it is actually 70+), and it also illustrates Sen's point — longer life is valuable partly because it expands what people can do and be, not just because it is "more" life. Ask students: is longer life expectancy a measure of income, of freedom, or of both?
+:::
+
+## Connections
+
+**Builds on:** Session 2 showed that most people believe the world is getting worse — Rosling's chimpanzee test. Session 3 completes the picture: the world has been getting dramatically better by standard measures, and we systematically fail to notice this; but the metrics themselves need scrutiny.
+
+**Sets up:** Session 4 (The Great Enrichment) asks where this improvement came from: what institutions and forces produced the transformation? Module 3 (Who Benefits?) asks the question Sen implicitly raises: who is included in the progress we are measuring, and who is left out?
+
+::: {.instructor}
+**Arc note:** After Sessions 2 and 3, students should have two things: (1) a genuinely fact-based picture of global development that is more optimistic than their starting point; and (2) a more demanding definition of what development is for. These two things are in productive tension, and that tension runs through the rest of the course.
+:::
+
+## Review cards
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="What is Rosling's 'Negativity Instinct'?"
+    answer="Our tendency to notice bad news more readily than good news — an evolved cognitive bias. Combined with misremembering the past and media bias toward dramatic events, it produces a worldview where gradual progress is invisible and sudden setbacks are salient.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why does Rosling say the world's progress is 'secret and silent'?"
+    answer="Because improvements happen slowly and diffusely — a child not dying today from a disease that would have killed them in 1990 is not news. The media reports sudden events, not gradual improvement. Billions of people have escaped extreme poverty without Level 4 people noticing.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is Sen's 'constitutive role' of freedom in development?"
+    answer="Freedom is part of what development IS — not just a means to it. A person who cannot vote, access healthcare, or choose their occupation is unfree in ways that matter regardless of their income. Development that ignores these freedoms is incomplete by definition.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is Sen's 'instrumental role' of freedom in development?"
+    answer="Freedoms are also the means by which development happens: political freedoms produce accountable governments; educational opportunities produce human capital; social opportunities enable economic participation. Freedom drives development as well as constituting it.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="How do Rosling and Sen complement each other?"
+    answer="Rosling makes an empirical claim: the world is getting better by measurable outcomes (poverty, mortality, education). Sen makes a conceptual claim: those outcomes are valuable insofar as they expand real freedoms. Together: the world is improving, but we need richer measures to capture what improvement actually means.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Name three of Sen's five instrumental freedoms."
+    answer="Any three of: (1) political freedoms (voting, civil rights), (2) economic facilities (access to markets and finance), (3) social opportunities (education, healthcare), (4) transparency guarantees (right to disclosure, anti-corruption), (5) protective security (social safety nets, unemployment benefits).">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Reading guide
+
+### Required
+
+**Rosling, Hans, Ola Rosling, and Anna Rosling Rönnlund.** *Factfulness*, Chapter 2: "The Negativity Instinct." New York: Flatiron Books, 2018.
+
+> **What to look for:** Rosling opens with a personal memory of nearly drowning in a sewage ditch as a child in 1950s Sweden — and uses it to show how far Sweden has traveled in one lifetime. Track his three explanations for the negativity instinct: misremembering the past, media bias, and the feeling that acknowledging progress is callous. Which of these three resonates most with your own experience?
+>
+> **Key argument:** Progress is real, dramatic, and largely invisible — because it happens slowly and diffusely, because we romanticize the past, and because the news is structurally biased toward sudden bad events.
+>
+> **Bring to class:** One example of something you believed was getting worse that Rosling's data suggests is actually getting better. What would it take to update your worldview on this?
+
+**Sen, Amartya.** *Development as Freedom*, Chapter 2: "The Ends and the Means of Development." Oxford: Oxford University Press, 1999.
+
+> **What to look for:** Sen distinguishes between development as income growth (the "fierce" view) and development as freedom expansion. The key move is the distinction between constitutive and instrumental roles of freedom. Pay attention to his examples — Japan's literacy before industrialization, the China/India comparison — where he shows that "social opportunities" (health, education) drive [**economic growth**]{.term}, not just the other way around.
+>
+> **Key argument:** Development is fundamentally about expanding the real freedoms people have to live lives they have reason to value. Income growth is a means, not the end.
+>
+> **Bring to class:** One case from anywhere in the world (or Baltimore) where you think Sen's framework gives a different verdict on development than pure income growth would. What freedom is missing that GDP doesn't capture?
+
+::: {.instructor}
+**Teaching note:** The two readings reinforce each other but from different angles. Rosling gives students empirical tools to see progress they were missing; Sen gives them conceptual tools to evaluate whether that progress is the right kind. The productive classroom question is: does anything on Rosling's 32-improvements list *fail* to count as progress under Sen's framework? (Students who think carefully about this realize that some improvements in income or life expectancy might not expand freedom — e.g., longer life in an authoritarian state, or income growth that goes entirely to a tiny elite.)
+:::
