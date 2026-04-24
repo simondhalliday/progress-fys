@@ -139,12 +139,62 @@ main.content {
   color: var(--ink-mid);
 }
 
+/* ── Blockquotes (sage — key claims) ────────────────────────── */
+blockquote,
 .session-note-body blockquote {
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid var(--bg-quote-border);
   padding: var(--sp-sm) var(--sp-lg);
   margin-block: var(--sp-md);
-  background: var(--accent-pale);
+  background: var(--bg-quote);
   font-style: italic;
+  color: var(--ink);
+  border-radius: 0;
+}
+
+/* ── Discussion callout (slate blue — questions/prompts) ─────── */
+.discuss {
+  border-left: 4px solid var(--bg-discuss-border);
+  padding: var(--sp-sm) var(--sp-lg);
+  margin-block: var(--sp-md);
+  background: var(--bg-discuss);
+  color: var(--ink);
+  border-radius: 0;
+}
+
+.discuss p:last-child { margin-bottom: 0; }
+
+.discuss::before {
+  content: "Discussion";
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--bg-discuss-border);
+  margin-bottom: 0.4em;
+}
+
+/* ── Glossary terms ──────────────────────────────────────────── */
+.term {
+  border-bottom: 1px dotted var(--accent);
+  cursor: help;
+  font-style: normal; /* don't inherit italic from blockquotes */
+}
+
+/* Bootstrap tooltip overrides — match site design */
+.glossary-tooltip .tooltip-inner {
+  background: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  max-width: 280px;
+  text-align: left;
+  padding: 0.5em 0.8em;
+  border-radius: 3px;
+}
+.glossary-tooltip .tooltip-arrow::before {
+  border-top-color: var(--ink);
 }
 
 /* ── Print ───────────────────────────────────────────────────── */

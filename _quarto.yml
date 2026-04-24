@@ -45,6 +45,7 @@ format:
     css:
       - progress.css
       - quarto-nav.css
+    include-after-body: _glossary-init.html
     toc: false
     smooth-scroll: true
     email-obfuscation: javascript

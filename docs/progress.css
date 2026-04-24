@@ -24,6 +24,12 @@
   --accent-dark:  #8C3A22;
   --accent-pale:  #F2E0DA;
 
+  /* Quote/callout backgrounds */
+  --bg-quote:        #E3EBE0;  /* soft sage — key claims, blockquotes   */
+  --bg-quote-border: #7A9E72;  /* sage border                           */
+  --bg-discuss:      #DDE6F2;  /* dusty slate blue — discussion prompts */
+  --bg-discuss-border: #6A8FAF; /* slate border                         */
+
   /* Structural */
   --rule:    #D8D0C6;
   --tag-bg:  #EDE6DC;
@@ -329,10 +335,10 @@ section + section { border-top: 1px solid var(--rule); }
 
 /* ── 9. Pull Quote ───────────────────────────────────────────── */
 .pull-quote {
-  border-left: 4px solid var(--accent);
+  border-left: 4px solid var(--bg-quote-border);
   padding: var(--sp-md) var(--sp-lg);
   margin-block: var(--sp-xl);
-  background: var(--accent-pale);
+  background: var(--bg-quote);
 }
 
 .pull-quote p {
