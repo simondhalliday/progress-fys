@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "FYS: Progress"
+  favicon: favicon.svg
+  description: "AS.001.219 · Fall 2026 · Johns Hopkins University"
+
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - href: assignments.qmd
+        text: Assignments
+      - href: baltimore.qmd
+        text: Baltimore
+      - href: session-notes/index.qmd
+        text: Session Notes
+
+  page-footer:
+    left: |
+      **FYS: Progress** · AS.001.219<br>
+      Simon D. Halliday ·
+      [Center for Economy and Society](https://snfagora.jhu.edu/our-work/labs/center-for-economy-society/) ·
+      [SNF Agora Institute](https://snfagora.jhu.edu/) · Johns Hopkins University
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Assignments
+        href: assignments.qmd
+      - text: Baltimore
+        href: baltimore.qmd
+      - text: Canvas
+        href: https://canvas.jhu.edu
+      - text: simondhalliday.com
+        href: https://simondhalliday.com
+
+format:
+  html:
+    theme: none
+    css:
+      - progress.css
+      - quarto-nav.css
+    toc: false
+    smooth-scroll: true
+    email-obfuscation: javascript

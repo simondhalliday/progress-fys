@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Syllabus — FYS: Progress — AS.001.219</title>
-  <meta name="description" content="Session-by-session syllabus for FYS: Progress, AS.001.219, Fall 2026. Instructor: Simon D. Halliday, Johns Hopkins University." />
-  <link rel="stylesheet" href="progress.css" />
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-</head>
-<body>
-
-<!-- ── Navigation ─────────────────────────────────────────────── -->
-<nav class="site-nav" aria-label="Site navigation">
-  <div class="site-nav__inner">
-    <a href="index.html" class="site-nav__brand">FYS: <span>Progress</span></a>
-    <ul class="site-nav__links" id="site-nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="syllabus.html" class="active">Syllabus</a></li>
-      <li><a href="assignments.html">Assignments</a></li>
-      <li><a href="baltimore.html">Baltimore</a></li>
-    </ul>
-    <button class="site-nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-links">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</nav>
+---
+title: "Syllabus"
+description: "Syllabus — FYS: Progress"
+---
 
 <!-- ── Page Header ────────────────────────────────────────────── -->
 <header style="padding-block: var(--sp-2xl); border-bottom: 1px solid var(--rule);">
@@ -171,7 +148,7 @@
           <div class="session-row__title">How Much Has the World Improved? Data and Instincts</div>
           <div class="session-row__meta">Baltimore Video sites confirmed by end of this week; filming begins.
             <ul class="reading-list">
-              <li>Hans Rosling, <em>Factfulness</em>, Introduction + Chapters 1–2 — the case that the world has improved dramatically, and why our instincts about global development are systematically wrong.</li>
+              <li><span class="tag tag--required">Required</span> Hans Rosling, <em>Factfulness</em>, Introduction + Chapters 1–2 — the case that the world has improved dramatically, and why our instincts about global development are systematically wrong.</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">Video sites confirmed</span></div>
@@ -184,7 +161,7 @@
           <div class="session-row__title">Measuring Wellbeing Beyond GDP</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Amartya Sen, <em>Development as Freedom</em>, Chapter 2 (selections) — what counts as progress when income is not enough?</li>
+              <li><span class="tag tag--required">Required</span> Amartya Sen, <em>Development as Freedom</em>, Chapter 2 (selections) — what counts as progress when income is not enough?</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -197,9 +174,9 @@
           <div class="session-row__title">The Great Enrichment: Capitalism and Transformation</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Simon D. Halliday &amp; Luz Marina Arias, <em>Understanding Our Economy</em>, Chapter 3: "Our world transformed" (selections) — how capitalism's institutions produced extraordinary growth, and at what cost.</li>
-              <li>Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 1: "Why, When, and How Did the World Become Rich?" (~10 pp.) — why did sustained growth only begin in the last two centuries, and why did the Malthusian trap persist for so long before that?</li>
-              <li><a href="https://newsletter.rootsofprogress.org/p/fish-in-water" target="_blank" rel="noopener">Jason Crawford, "Fish in Water," Chapter 1 of <em>The Techno-Humanist Manifesto</em> (2024, ~2,500 words)</a> — industrial civilization has become invisible to us precisely because it has solved so many problems. A short provocation on why we take prosperity for granted, and why that matters.</li>
+              <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Luz Marina Arias, <em>Understanding Our Economy</em>, Chapter 3: "Our world transformed" (selections) — how capitalism's institutions produced extraordinary growth, and at what cost.</li>
+              <li><span class="tag tag--required">Required</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 1: "Why, When, and How Did the World Become Rich?" (~10 pp.) — why did sustained growth only begin in the last two centuries, and why did the Malthusian trap persist for so long before that?</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://newsletter.rootsofprogress.org/p/fish-in-water" target="_blank" rel="noopener">Jason Crawford, "Fish in Water," Chapter 1 of <em>The Techno-Humanist Manifesto</em> (2024, ~2,500 words)</a> — industrial civilization has become invisible to us precisely because it has solved so many problems. A short provocation on why we take prosperity for granted, and why that matters.</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">UOE Ch. 3</span></div>
@@ -228,7 +205,12 @@
           <div class="session-row__title">Science as a Public Good</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Michael Polanyi, "The Republic of Science" (1962) — how does the scientific community govern itself, and why does that matter for progress? <span style="color:var(--ink-light);">[PDF via library — Canvas link coming]</span></li>
+              <li><span class="tag tag--required">Required</span> Richard R. Nelson, &#x201C;The Simple Economics of Basic Scientific Research,&#x201D; <em>Journal of Political Economy</em> 67, no. 3 (1959): 297&#x2013;306 &#x2014; the foundational public-goods-of-science argument: why markets underinvest in basic research, and what institutions fill the gap.</li>
+              <li><span class="tag tag--required">Required</span> Vannevar Bush, <em>Science, The Endless Frontier</em> (1945), transmittal letter + Chapter 3 (~8 pp.) &#x2014; the report that shaped US science policy for a generation. Why should government fund basic research? <a href="https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm" target="_blank" rel="noopener">[free at nsf.gov]</a></li>
+              <li><span class="tag tag--recommended">Recommended</span> Partha Dasgupta and Paul A. David, &#x201C;Toward a New Economics of Science,&#x201D; <em>Research Policy</em> 23, no. 5 (1994): 487&#x2013;521 &#x2014; the fullest economic framework for scientific norms and open science. Read pp. 487&#x2013;497 if you read nothing else.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Paul M. Romer, &#x201C;The Origins of Endogenous Growth,&#x201D; <em>Journal of Economic Perspectives</em> 8, no. 1 (1994): 3&#x2013;22 &#x2014; accessible account of why non-rival ideas drive long-run growth; connects Nelson to growth theory.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Michael Polanyi, &#x201C;The Republic of Science,&#x201D; <em>Minerva</em> 1, no. 1 (1962): 54&#x2013;73 &#x2014; science as spontaneous order, analogous to a market. The philosophical complement to Nelson. <span style="color:var(--ink-light);">[PDF via library]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review" target="_blank" rel="noopener">Adam Mastroianni, &#x201C;The Rise and Fall of Peer Review,&#x201D; <em>Experimental History</em> (2022)</a> &#x2014; does scientific self-governance actually work? A short, provocative read for students who want a contemporary angle.</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -241,7 +223,7 @@
           <div class="session-row__title">Innovation, Incentives, and Technology</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Simon D. Halliday &amp; Eric Bottorff, <em>Understanding Our Economy</em>, Chapter 4: "Innovation, incentives, and technology" (selections) — how do incentives shape the direction and pace of innovation?</li>
+              <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Eric Bottorff, <em>Understanding Our Economy</em>, Chapter 4: "Innovation, incentives, and technology" (selections) — how do incentives shape the direction and pace of innovation?</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">UOE Ch. 4</span></div>
@@ -254,8 +236,8 @@
           <div class="session-row__title">Cities 1: Renaissance Florence and the Geography of Ideas</div>
           <div class="session-row__meta"><span style="color: var(--accent);">Field visit: Walters Art Museum, Mount Vernon — Renaissance collection.</span>
             <ul class="reading-list">
-              <li>Ada Palmer, excerpts from <em>Inventing the Renaissance</em> (2025) — what made Florence a crucible of innovation?</li>
-              <li>Dan Chiasson, "Man of the House" (<em>New Yorker</em>, Apr 29 2019) on the Bauhaus — a counterpoint on design, craft, and collective creativity.</li>
+              <li><span class="tag tag--required">Required</span> Ada Palmer, excerpts from <em>Inventing the Renaissance</em> (2025) — what made Florence a crucible of innovation?</li>
+              <li><span class="tag tag--recommended">Recommended</span> Dan Chiasson, "Man of the House" (<em>New Yorker</em>, Apr 29 2019) on the Bauhaus — a counterpoint on design, craft, and collective creativity.</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">Walters Art Museum visit</span></div>
@@ -300,7 +282,7 @@
           <div class="session-row__title">Escaping the Poverty Trap</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Yuen Yuen Ang, <em>How China Escaped the Poverty Trap</em>, Chapter 2 — how do poor societies bootstrap growth, and what does this mean for the role of the state?</li>
+              <li><span class="tag tag--required">Required</span> Yuen Yuen Ang, <em>How China Escaped the Poverty Trap</em>, Chapter 2 — how do poor societies bootstrap growth, and what does this mean for the role of the state?</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -344,8 +326,8 @@
           <div class="session-row__title">Race and Progress in America</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Isabel Wilkerson, <em>The Warmth of Other Suns</em>, Prologue (~10 pp.) — three Black Americans who joined the Great Migration, told as an act of economic agency and hope.</li>
-              <li>Eric Bottorff, Trevon Logan &amp; Suresh Naidu, <a href="https://books.core-econ.org/insights/persistent-racial-inequality-in-the-united-states/00-highlights.html" target="_blank" rel="noopener">"Persistent Racial Inequality in the United States," <em>CORE Insights</em> (2022)</a> — the mechanisms of segregation, discrimination, and political inequality that have slowed convergence.</li>
+              <li><span class="tag tag--required">Required</span> Isabel Wilkerson, <em>The Warmth of Other Suns</em>, Prologue (~10 pp.) — three Black Americans who joined the Great Migration, told as an act of economic agency and hope.</li>
+              <li><span class="tag tag--required">Required</span> Eric Bottorff, Trevon Logan &amp; Suresh Naidu, <a href="https://books.core-econ.org/insights/persistent-racial-inequality-in-the-united-states/00-highlights.html" target="_blank" rel="noopener">"Persistent Racial Inequality in the United States," <em>CORE Insights</em> (2022)</a> — the mechanisms of segregation, discrimination, and political inequality that have slowed convergence.</li>
             </ul>
             <p class="reading-note">Together: what did Black progress look like in motion, and why has it remained incomplete?</p>
           </div>
@@ -385,8 +367,8 @@
           <div class="session-row__title">Progress and the Labor Market: Work, Wages, and What Has Changed</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li><a href="https://www.econlib.org/library/Smith/smWN1.html" target="_blank" rel="noopener">Adam Smith, "Pin Factory," <em>Wealth of Nations</em> Bk I Ch. 1–3</a> (extract) — the classical vision of industrial work as productivity gain.</li>
-              <li><a href="https://www.gutenberg.org/ebooks/786" target="_blank" rel="noopener">Charles Dickens, <em>Hard Times</em></a> (extract) — the human cost of that same system, rendered in fiction.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://www.econlib.org/library/Smith/smWN1.html" target="_blank" rel="noopener">Adam Smith, "Pin Factory," <em>Wealth of Nations</em> Bk I Ch. 1–3</a> (extract) — the classical vision of industrial work as productivity gain.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://www.gutenberg.org/ebooks/786" target="_blank" rel="noopener">Charles Dickens, <em>Hard Times</em></a> (extract) — the human cost of that same system, rendered in fiction.</li>
             </ul>
             <p class="reading-note">Two visions of the factory system — then data on how work has changed since. How much has the experience of work improved, and for whom?</p>
           </div>
@@ -416,8 +398,8 @@
           <div class="session-row__title">Great Men, Great Women, and Inevitable Inventions</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Thomas Carlyle, <a href="https://www.gutenberg.org/ebooks/1091" target="_blank" rel="noopener">"The Hero as Man of Letters" (extract from <em>On Heroes, Hero-Worship, and the Heroic in History</em>, 1841)</a> — the philosophical case for exceptional individuals as the engine of history.</li>
-              <li>Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 8: "Britain's Industrial Revolution" (selections, ~15 pp.) — why did sustained technological change first occur in Britain when it did, and not in the Dutch Republic, which shared so many of the same features?</li>
+              <li><span class="tag tag--required">Required</span> Thomas Carlyle, <a href="https://www.gutenberg.org/ebooks/1091" target="_blank" rel="noopener">"The Hero as Man of Letters" (extract from <em>On Heroes, Hero-Worship, and the Heroic in History</em>, 1841)</a> — the philosophical case for exceptional individuals as the engine of history.</li>
+              <li><span class="tag tag--required">Required</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 8: "Britain's Industrial Revolution" (selections, ~15 pp.) — why did sustained technological change first occur in Britain when it did, and not in the Dutch Republic, which shared so many of the same features?</li>
             </ul>
             <p class="reading-note">Together: was Watt inevitable?</p>
           </div>
@@ -449,8 +431,8 @@
           <div class="session-row__title">Top-Down Innovation: The State, the Market, and Who Decides</div>
           <div class="session-row__meta">Reading TBD — options:
             <ul class="reading-list">
-              <li><a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~4 pp.)</a> — the manifesto that launched the Progress Studies movement.</li>
-              <li><a href="https://blog.benjaminreinhardt.com/wddw" target="_blank" rel="noopener">Ben Reinhardt, "Why Does DARPA Work?" (~20 pp.)</a> — a deep dive into government-directed innovation and what makes it succeed.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~4 pp.)</a> — the manifesto that launched the Progress Studies movement.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://blog.benjaminreinhardt.com/wddw" target="_blank" rel="noopener">Ben Reinhardt, "Why Does DARPA Work?" (~20 pp.)</a> — a deep dive into government-directed innovation and what makes it succeed.</li>
             </ul>
             <p class="reading-note">Case studies: Operation Warp Speed, Bell Labs, the internet. What makes government-directed innovation succeed or fail — and when is it a good idea at all?</p>
           </div>
@@ -489,7 +471,7 @@
           <div class="session-row__title">Environmental Progress: Can We Fix What We Broke?</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li>Hannah Ritchie, <em>Not the End of the World</em> (2024), Chapter 1: "Air Pollution" (~35 pp.) — the evidence for environmental progress, and where it falls short.</li>
+              <li><span class="tag tag--required">Required</span> Hannah Ritchie, <em>Not the End of the World</em> (2024), Chapter 1: "Air Pollution" (~35 pp.) — the evidence for environmental progress, and where it falls short.</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -502,9 +484,9 @@
           <div class="session-row__title">When Progress Ends — and What We Must Maintain</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li><a href="https://www.theatlantic.com/magazine/archive/2023/01/science-technology-vaccine-invention-history/672227/" target="_blank" rel="noopener">Derek Thompson, "Why the Age of American Progress Ended," <em>The Atlantic</em> (Jan/Feb 2023)</a> — the case that innovation has slowed and what might explain it. <span style="color:var(--ink-light);">[free, may ask you to create an account]</span></li>
-              <li><a href="https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more" target="_blank" rel="noopener">Andrew Russell &amp; Lee Vinsel, "Hail the Maintainers," <em>Aeon</em> (2016, ~2,900 words)</a> — the counterargument: we celebrated disruption while neglecting the work of keeping things running.</li>
-              <li><a href="https://newsletter.rootsofprogress.org/p/solutionism-part-1" target="_blank" rel="noopener">Jason Crawford, "Solutionism, Part 1," Chapter 5 of <em>The Techno-Humanist Manifesto</em> (2025, ~3,000 words)</a> — from Malthus to the Green Revolution: why the right response to a real crisis is neither complacency nor despair, but active problem-solving. A counterpoint to Thompson.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/magazine/archive/2023/01/science-technology-vaccine-invention-history/672227/" target="_blank" rel="noopener">Derek Thompson, "Why the Age of American Progress Ended," <em>The Atlantic</em> (Jan/Feb 2023)</a> — the case that innovation has slowed and what might explain it. <span style="color:var(--ink-light);">[free, may ask you to create an account]</span></li>
+              <li><span class="tag tag--required">Required</span> <a href="https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more" target="_blank" rel="noopener">Andrew Russell &amp; Lee Vinsel, "Hail the Maintainers," <em>Aeon</em> (2016, ~2,900 words)</a> — the counterargument: we celebrated disruption while neglecting the work of keeping things running.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://newsletter.rootsofprogress.org/p/solutionism-part-1" target="_blank" rel="noopener">Jason Crawford, "Solutionism, Part 1," Chapter 5 of <em>The Techno-Humanist Manifesto</em> (2025, ~3,000 words)</a> — from Malthus to the Green Revolution: why the right response to a real crisis is neither complacency nor despair, but active problem-solving. A counterpoint to Thompson.</li>
             </ul>
             <p class="reading-note">Is progress failing because we stopped inventing, or because we stopped maintaining? And when it does seem to stall — what does history say we should do about it?</p>
           </div>
@@ -610,27 +592,3 @@
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────────── -->
-<footer class="site-footer">
-  <div class="site-footer__inner">
-    <div class="site-footer__brand">
-      <strong>FYS: Progress</strong> · AS.001.219<br />
-      Simon D. Halliday · <a href="https://snfagora.jhu.edu/our-work/labs/center-for-economy-society/" target="_blank" rel="noopener">Center for Economy and Society</a><br />
-      <a href="https://snfagora.jhu.edu/" target="_blank" rel="noopener">SNF Agora Institute</a> · Johns Hopkins University
-    </div>
-    <ul class="site-footer__links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="assignments.html">Assignments</a></li>
-      <li><a href="baltimore.html">Baltimore</a></li>
-      <li><a href="https://canvas.jhu.edu">Canvas</a></li>
-      <li><a href="https://simondhalliday.com">simondhalliday.com</a></li>
-    </ul>
-    <p class="site-footer__copy">
-      Fall 2026 · Krieger School of Arts &amp; Sciences, Johns Hopkins University.
-      Course materials © Simon D. Halliday.
-    </p>
-  </div>
-</footer>
-
-<script src="site.js"></script>
-</body>
-</html>

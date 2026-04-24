@@ -11,3 +11,15 @@
 
 # Local environment
 .env
+
+# Quarto
+.quarto/
+*_cache/
+
+# Note: docs/ is intentionally NOT ignored — GitHub Pages serves from it
+.Rproj.user
+
+/.quarto/
+.positai
+
+**/*.quarto_ipynb

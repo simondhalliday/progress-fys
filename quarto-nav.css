@@ -1,0 +1,153 @@
+/* =============================================================
+   quarto-nav.css — Override Quarto's Bootstrap 5 navbar and
+   page chrome to match the FYS: Progress design system.
+   ============================================================= */
+
+/* ── Navbar ──────────────────────────────────────────────────── */
+.navbar {
+  background: var(--bg) !important;
+  border-bottom: 1px solid var(--rule);
+  padding: 0;
+  min-height: 56px;
+  font-family: var(--font-sans);
+}
+
+.navbar-brand {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--ink) !important;
+  padding: 0;
+}
+.navbar-brand:hover { color: var(--ink) !important; text-decoration: none; }
+
+/* "Progress" in the brand gets terracotta via the title span Quarto generates */
+.navbar-title {
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+}
+
+.navbar-nav .nav-link {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-mid) !important;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--accent) !important;
+  border-bottom-color: var(--accent);
+  text-decoration: none;
+}
+
+/* Hamburger toggler — styled to match site */
+.navbar-toggler {
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  transition: background 0.2s ease;
+}
+.navbar-toggler:hover { background: var(--bg-hover); }
+.navbar-toggler:focus { box-shadow: none; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%231C1812' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 20px;
+  height: 20px;
+}
+
+/* Mobile dropdown */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: var(--bg);
+    border-bottom: 2px solid var(--accent);
+    padding: 0.25rem 0;
+    box-shadow: 0 6px 16px rgba(28,24,18,0.10);
+  }
+  .navbar-nav .nav-link {
+    padding: 0.85rem var(--sp-lg);
+    border-bottom: 1px solid var(--rule);
+    border-left: none;
+  }
+  .navbar-nav .nav-item:last-child .nav-link { border-bottom: none; }
+  .navbar-nav .nav-link.active {
+    background: var(--accent-pale);
+    border-bottom: 1px solid var(--rule);
+  }
+}
+
+/* ── Page layout ─────────────────────────────────────────────── */
+
+/* Quarto wraps content in these — make them transparent */
+#quarto-content,
+#quarto-document-content,
+main.content {
+  padding: 0;
+  max-width: 100%;
+}
+
+/* Remove Quarto's default title block (we have our own headers) */
+#title-block-header { display: none; }
+
+/* ── Footer ──────────────────────────────────────────────────── */
+.nav-footer {
+  background: var(--bg-alt);
+  border-top: 1px solid var(--rule);
+  padding-block: var(--sp-xl);
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--ink-mid);
+}
+
+.nav-footer a {
+  color: var(--ink-mid);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+}
+.nav-footer a:hover { color: var(--accent); text-decoration: none; }
+
+.nav-footer strong { color: var(--ink); }
+
+/* ── Session notes (prose pages with toc) ────────────────────── */
+.session-note-body {
+  max-width: var(--col-text);
+  margin-inline: auto;
+  padding-inline: var(--sp-lg);
+  padding-block: var(--sp-2xl);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.session-note-body h2 {
+  font-size: 1.4rem;
+  margin-top: var(--sp-2xl);
+  margin-bottom: var(--sp-sm);
+  padding-bottom: var(--sp-xs);
+  border-bottom: 1px solid var(--rule);
+}
+
+.session-note-body h3 {
+  font-size: 1.1rem;
+  margin-top: var(--sp-xl);
+  color: var(--ink-mid);
+}
+
+.session-note-body blockquote {
+  border-left: 4px solid var(--accent);
+  padding: var(--sp-sm) var(--sp-lg);
+  margin-block: var(--sp-md);
+  background: var(--accent-pale);
+  font-style: italic;
+}
+
+/* ── Print ───────────────────────────────────────────────────── */
+@media print {
+  .navbar, .nav-footer { display: none; }
+}

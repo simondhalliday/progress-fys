@@ -1,0 +1,16 @@
+---
+title: "Session Notes"
+description: "Reading guides, discussion questions, and framing notes for each session."
+listing:
+  contents: "week*.qmd"
+  type: table
+  sort: "order"
+  fields: [title, description]
+  field-display-names:
+    title: "Session"
+    description: "Topic"
+---
+
+<div style="padding-block: var(--sp-lg); font-family: var(--font-sans); font-size: 0.88rem; color: var(--ink-mid); max-width: 600px;">
+Each note summarises the key concepts for the week, frames the readings, and includes discussion questions. They are meant to be read alongside — not instead of — the assigned texts.
+</div>

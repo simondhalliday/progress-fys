@@ -1,0 +1,6 @@
+# Applied to every page in session-notes/ automatically
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "On this page"
