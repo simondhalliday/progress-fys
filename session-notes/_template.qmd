@@ -1,0 +1,135 @@
+---
+title: "[Session Title]"
+subtitle: "Week [N] · [Day Month Year]"
+description: "[One sentence: the core question or puzzle this session addresses]"
+order: [N]
+---
+
+<!-- ╔══════════════════════════════════════════════════════════════╗
+     ║  WORKFLOW CHECKLIST — delete this block before publishing   ║
+     ║                                                              ║
+     ║  □ Draft content sections (or generate with skill)          ║
+     ║  □ Embed OWID chart (verify URL loads)                      ║
+     ║  □ python3 tag-terms.py session-notes/this-file.qmd        ║
+     ║  □ Add data-example="" to key .term spans                   ║
+     ║  □ Write one .discuss block per major section               ║
+     ║  □ Complete reading guide prompts                           ║
+     ║  □ Fill in Connections (builds on / sets up)                ║
+     ║  □ Validate citation links                                  ║
+     ╚══════════════════════════════════════════════════════════════╝ -->
+
+## Opening hook
+
+[1–2 paragraphs. Start with something concrete and surprising — a number,
+a historical episode, a paradox — that makes students want to understand
+what is going on. Avoid abstract statements of purpose. The hook should
+raise a question that the rest of the note answers.]
+
+[Embed empirical exhibit here — OWID iframe or similar]
+
+*Source: [Source]. [1–2 sentences on what to observe in the chart and why it matters.]*
+
+::: {.instructor}
+**Exhibit notes:** What to emphasise when showing this in class. What is the
+single takeaway? Any caveats on the data or context students should know?
+:::
+
+---
+
+## [Core concept 1]
+
+[Plain-language explanation, 2–4 paragraphs. Write at the register of
+*Understanding Our Economy*: clear, direct, no jargon without definition,
+first-person plural where natural ("We can think of this as..."). Each
+paragraph should do one job — don't pack multiple moves into a single paragraph.]
+
+> [The key claim of this section as a blockquote. One sentence a student
+> should be able to reproduce and explain after class.]
+
+[Further explanation, qualification, or worked example that shows the
+concept in action.]
+
+::: {.discuss}
+[Discussion question for this concept. The best questions ask students to
+apply the idea to a new case, evaluate an argument, or resolve an apparent
+contradiction — not just recall the definition.]
+:::
+
+::: {.instructor}
+[Pacing guidance, common confusions to anticipate, connections to other
+sessions, suggested board-work, or things that worked well / didn't work
+in past classes.]
+:::
+
+---
+
+## [Core concept 2]
+
+[Same structure as above.]
+
+> [Key claim.]
+
+::: {.discuss}
+[Discussion question.]
+:::
+
+::: {.instructor}
+[Instructor notes.]
+:::
+
+---
+
+## [Core concept 3 — add or remove sections as needed]
+
+[Same structure.]
+
+---
+
+## Connections
+
+**Builds on:** [Previous session or reading — one sentence on the link.]
+
+**Sets up:** [What this week prepares students for — one sentence.]
+
+::: {.instructor}
+**Arc note:** Where this session sits in the module. What would students
+be missing later in the course if they left without grasping the central
+idea here?
+:::
+
+---
+
+## Reading guide
+
+### Required
+
+**[Last, First].** "[Title]." *[Journal or Publisher]* [Year], [pages if relevant].
+[Free link if available.]
+
+> **What to look for:** [1–2 specific things — an argument, a method, a
+> case, a tension to notice while reading.]
+>
+> **Key argument:** [One sentence.]
+>
+> **Bring to class:** [A specific passage, claim, or question to raise in discussion.]
+
+**[Author].** "[Title]." [Year].
+
+> **What to look for:** [...]
+>
+> **Key argument:** [...]
+>
+> **Bring to class:** [...]
+
+### Recommended
+
+**[Author].** "[Title]." [Year].
+
+> [One sentence on why this is worth reading for students who want to go deeper,
+> and what angle it adds that the required readings don't cover.]
+
+::: {.instructor}
+**Teaching note on readings:** How the required readings work together.
+Which one to prioritise if time is short. Any productive contrasts or
+tensions between them worth surfacing in discussion.
+:::

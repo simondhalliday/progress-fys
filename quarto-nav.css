@@ -175,6 +175,66 @@ blockquote,
   margin-bottom: 0.4em;
 }
 
+/* ── Module grid: restore 3-column layout against Bootstrap ─────── */
+/* Bootstrap's box model slightly narrows containers, pushing auto-fill
+   from 3 to 2 columns. Force 3 explicitly at wide viewports. */
+@media (min-width: 860px) {
+  .module-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+/* ── Instructor toggle button ────────────────────────────────────────── */
+.instructor-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-bottom: var(--sp-lg);
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9A7520;
+  background: #FBF3DC;
+  border: 1px solid #C8A040;
+  border-radius: 3px;
+  padding: 0.3em 0.75em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.instructor-toggle:hover { background: #F5E8B8; }
+.instructor-toggle::before {
+  content: "👁";
+  font-size: 0.85em;
+}
+
+/* ── Instructor callout (amber — teaching notes, not student-facing) ── */
+.instructor {
+  border-left: 4px solid var(--bg-discuss-border);
+  padding: var(--sp-sm) var(--sp-lg);
+  margin-block: var(--sp-md);
+  background: #FBF3DC;
+  color: var(--ink);
+  border-radius: 0;
+  border-left-color: #C8A040;
+  background: #FBF3DC;
+}
+
+.instructor p:last-child { margin-bottom: 0; }
+
+.instructor::before {
+  content: "Instructor";
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #9A7520;
+  margin-bottom: 0.4em;
+}
+
 /* ── Glossary terms ──────────────────────────────────────────── */
 .term {
   border-bottom: 1px dotted var(--accent);
@@ -188,7 +248,7 @@ blockquote,
   font-family: var(--font-sans);
   font-size: 0.8rem;
   line-height: 1.5;
-  max-width: 280px;
+  max-width: 300px;
   text-align: left;
   padding: 0.5em 0.8em;
   border-radius: 3px;
@@ -196,6 +256,199 @@ blockquote,
 .glossary-tooltip .tooltip-arrow::before {
   border-top-color: var(--ink);
 }
+
+/* Standard definition text — white */
+.glossary-tooltip .glossary-def {
+  color: #fff;
+}
+
+/* Context-specific example — sage green, italic, separated by a fine rule */
+.glossary-tooltip .glossary-example {
+  color: #a8cca0;
+  font-style: italic;
+  margin-top: 0.45em;
+  padding-top: 0.45em;
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+.glossary-tooltip .glossary-example::before {
+  content: "e.g. ";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.72em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #7fb87a;
+}
+
+/* ── Embedded quiz blocks ────────────────────────────────────── */
+.quiz {
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: var(--sp-md) var(--sp-lg);
+  margin-block: var(--sp-xl);
+  background: var(--bg-alt);
+}
+
+.quiz-q {
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: var(--sp-md);
+}
+
+.quiz-q::before {
+  content: "Check your understanding  ";
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 0.4em;
+}
+
+.quiz-opts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.quiz-opts li {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  padding: 0.55em 0.9em;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--bg);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+  line-height: 1.5;
+}
+
+.quiz-opts li:hover:not(.quiz-opt--correct):not(.quiz-opt--wrong) {
+  background: var(--bg-hover);
+  border-color: var(--ink-light);
+}
+
+.quiz--answered .quiz-opts li {
+  cursor: default;
+}
+
+.quiz-opt--correct {
+  background: var(--bg-quote) !important;
+  border-color: var(--bg-quote-border) !important;
+  font-weight: 600;
+}
+
+.quiz-opt--wrong {
+  background: #fde8e8 !important;
+  border-color: #c47070 !important;
+}
+
+.quiz-opt--reveal {
+  background: var(--bg-quote) !important;
+  border-color: var(--bg-quote-border) !important;
+  opacity: 0.75;
+}
+
+.quiz-feedback {
+  font-size: 0.82rem;
+  margin-top: 0.4em;
+  padding-top: 0.4em;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  font-style: italic;
+}
+
+.quiz-feedback--correct { color: #2a5c2a; }
+.quiz-feedback--wrong   { color: #7a2020; }
+
+.quiz-retry {
+  display: inline-block;
+  margin-top: var(--sp-md);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  padding: 0.3em 0.8em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.quiz-retry:hover { background: var(--accent-pale); }
+
+/* ── Orbit fallback (shown when CDN unavailable) ─────────────── */
+.orbit-fallback {
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: var(--sp-md) var(--sp-lg);
+  margin-block: var(--sp-xl);
+  background: var(--bg-alt);
+}
+.orbit-fallback__label {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: var(--sp-md);
+}
+.orbit-fallback__card {
+  border-bottom: 1px solid var(--rule);
+  padding-block: var(--sp-md);
+}
+.orbit-fallback__card:last-child { border-bottom: none; }
+.orbit-fallback__front {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: var(--sp-sm);
+}
+.orbit-fallback__num {
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.4em;
+  text-align: center;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.72rem;
+  margin-right: 0.5em;
+  flex-shrink: 0;
+}
+.orbit-fallback__back {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--ink-mid);
+  background: var(--bg-quote);
+  border-left: 3px solid var(--bg-quote-border);
+  padding: var(--sp-sm) var(--sp-md);
+  margin-block: var(--sp-sm);
+  line-height: 1.6;
+}
+.orbit-fallback__reveal {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  padding: 0.25em 0.7em;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.orbit-fallback__reveal:hover { background: var(--accent-pale); }
 
 /* ── Print ───────────────────────────────────────────────────── */
 @media print {

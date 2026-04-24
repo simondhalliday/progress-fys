@@ -1,6 +1,41 @@
 ---
 title: "Baltimore"
 description: "Baltimore — FYS: Progress"
+include-in-header:
+  text: |
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+      #map {
+        width: 100%;
+        height: 520px;
+        border: 1px solid var(--rule);
+        border-radius: 4px;
+        background: var(--bg-alt);
+      }
+      .leaflet-popup-content-wrapper {
+        border-radius: 4px;
+        font-family: 'Open Sans', system-ui, sans-serif;
+        font-size: 0.85rem;
+        color: #1C1812;
+        box-shadow: 0 4px 16px rgba(28,24,18,0.14);
+      }
+      .leaflet-popup-content strong {
+        font-family: 'EB Garamond', Georgia, serif;
+        font-size: 1rem;
+        display: block;
+        margin-bottom: 4px;
+        color: #A84A2E;
+      }
+      .popup-theme {
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #7A7368;
+        margin-top: 4px;
+      }
+    </style>
 ---
 
 ```{=html}
@@ -234,5 +269,84 @@ description: "Baltimore — FYS: Progress"
   </div>
 </section>
 
-<!-- ── Footer ─────────────────────────────────────────────────── -->
+<!-- ── Leaflet map initialisation ─────────────────────────────── -->
+<script>
+(function () {
+  var map = L.map('map', { center: [39.295, -76.610], zoom: 12, scrollWheelZoom: false });
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd', maxZoom: 20
+  }).addTo(map);
+
+  function makeIcon(isClassVisit) {
+    var color = isClassVisit ? '#7A7368' : '#A84A2E';
+    var size  = isClassVisit ? 12 : 14;
+    var half  = size / 2;
+    return L.divIcon({
+      className: '',
+      html: '<div style="background:' + color + ';border:2px solid #fff;border-radius:50%;width:' + size + 'px;height:' + size + 'px;box-shadow:0 1px 4px rgba(28,24,18,0.35);cursor:pointer;"></div>',
+      iconSize: [size, size], iconAnchor: [half, half], popupAnchor: [0, -10]
+    });
+  }
+
+  var classVisits = [
+    { lat: 39.2805, lng: -76.6140, name: 'Baltimore Museum of Industry',
+      desc: 'Industrial revolution, labor history, and manufacturing. <em>Class field trip — not available for video assignment.</em>',
+      theme: 'Class Visit · Industrial · Labor' },
+    { lat: 39.2957, lng: -76.6180, name: 'Walters Art Museum',
+      desc: 'Art, patronage, and cultural progress in Mount Vernon. <em>Class field trip (Renaissance session) — not available for video assignment.</em>',
+      theme: 'Class Visit · Cultural Institutions · Patronage' }
+  ];
+
+  var studentSites = [
+    { num:1,  lat:39.2842, lng:-76.5955, name:'Frederick Douglass–Isaac Myers Maritime Park',
+      desc:'Abolition, Black entrepreneurship, and labor rights in Fells Point.',
+      theme:'Race · Progress · Labor' },
+    { num:2,  lat:39.2963, lng:-76.5918, name:'Johns Hopkins Hospital &amp; Medical Campus',
+      desc:'Medical science, public health innovation — and the contested history of the campus.',
+      theme:'Medical Innovation · Public Health' },
+    { num:3,  lat:39.2905, lng:-76.5883, name:'Science + Technology Park at Hopkins',
+      desc:'Biotech cluster and knowledge economy in East Baltimore.',
+      theme:'Knowledge Economy · Urban Renewal' },
+    { num:4,  lat:39.2538, lng:-76.5313, name:'Port of Baltimore (Seagirt Marine Terminal)',
+      desc:'Global trade, logistics, deindustrialization, and re-skilling.',
+      theme:'Global Trade · Deindustrialization' },
+    { num:5,  lat:39.2979, lng:-76.6156, name:'Enoch Pratt Free Library (Central Branch)',
+      desc:'One of America\'s first free public libraries — the politics of public knowledge.',
+      theme:'Information Access · Public Goods' },
+    { num:6,  lat:39.2907, lng:-76.6239, name:'Lexington Market',
+      desc:'One of America\'s oldest continuously operating public markets.',
+      theme:'Markets · Urban History' },
+    { num:7,  lat:39.3070, lng:-76.6240, name:'Maryland Institute College of Art (MICA)',
+      desc:'Creative economy and design innovation. Consider pairing with the BMA (Site 8).',
+      theme:'Creative Economy · Design' },
+    { num:8,  lat:39.3262, lng:-76.6196, name:'Baltimore Museum of Art (BMA)',
+      desc:'Civic art institution on the JHU Homewood campus. Consider pairing with MICA (Site 7).',
+      theme:'Cultural Institutions · Patronage · Civic Progress' },
+    { num:9,  lat:39.2844, lng:-76.6122, name:'Inner Harbor / Harborplace',
+      desc:'From industrial waterfront to tourist destination — urban renewal and its politics.',
+      theme:'Urban Renewal · Tourism' },
+    { num:10, lat:39.2647, lng:-76.6283, name:'Port Covington / Sagamore Development',
+      desc:'One of the largest private urban development projects in American history.',
+      theme:'Contemporary Urbanism · Private Investment' },
+    { num:11, lat:39.3075, lng:-76.6480, name:'Sandtown-Winchester',
+      desc:'A $130M public-private initiative to rebuild this neighborhood produced deeply mixed results — a case study in why well-intentioned reform often fails to stick.',
+      theme:'Attempted Progress · Reform · What Goes Wrong' },
+    { num:12, lat:39.3255, lng:-76.6125, name:'Baltimore Biotech Corridor',
+      desc:'Pharmaceutical and biotech manufacturing, including vaccine production infrastructure.',
+      theme:'Biotech · Pharma · Public Health' }
+  ];
+
+  classVisits.forEach(function (s) {
+    L.marker([s.lat, s.lng], { icon: makeIcon(true) }).addTo(map)
+      .bindPopup('<strong>' + s.name + '</strong>' + s.desc + '<div class="popup-theme">' + s.theme + '</div>');
+  });
+
+  studentSites.forEach(function (s) {
+    L.marker([s.lat, s.lng], { icon: makeIcon(false) }).addTo(map)
+      .bindPopup('<strong>Site ' + s.num + ': ' + s.name + '</strong>' + s.desc + '<div class="popup-theme">' + s.theme + '</div>');
+  });
+}());
+</script>
 ```

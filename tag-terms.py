@@ -90,9 +90,9 @@ def tag_first_occurrences(body: str, terms: list[str]) -> tuple[str, dict]:
                 continue
 
             # Already tagged on this or a previous line?
-            # Catches both [term]{.term} and [**term**]{.term}
+            # Catches [term]{.term} and [**term**]{.term data-example="..."}
             already = re.search(
-                r"\[(?:\*{0,2})" + re.escape(term) + r"(?:\*{0,2})\]\{\.term\}",
+                r"\[(?:\*{0,2})" + re.escape(term) + r"(?:\*{0,2})\]\{\.term[^}]*\}",
                 line, re.IGNORECASE,
             )
             if already:
