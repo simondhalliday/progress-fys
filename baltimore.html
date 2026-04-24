@@ -60,12 +60,15 @@
 <nav class="site-nav" aria-label="Site navigation">
   <div class="site-nav__inner">
     <a href="index.html" class="site-nav__brand">FYS: <span>Progress</span></a>
-    <ul class="site-nav__links">
+    <ul class="site-nav__links" id="site-nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="syllabus.html">Syllabus</a></li>
       <li><a href="assignments.html">Assignments</a></li>
       <li><a href="baltimore.html" class="active">Baltimore</a></li>
     </ul>
+    <button class="site-nav__toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav-links">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -475,5 +478,6 @@
 })();
 </script>
 
+<script src="site.js"></script>
 </body>
 </html>

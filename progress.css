@@ -655,14 +655,102 @@ section + section { border-top: 1px solid var(--rule); }
   .assignment-card { grid-template-columns: 3rem 1fr; }
 }
 
+/* ── 15b. Hamburger toggle ───────────────────────────────────── */
+.site-nav__toggle {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .site-nav {
+    /* needed so the open drawer positions relative to the bar */
+    position: sticky;
+  }
+
+  .site-nav__toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+    transition: background var(--ease);
+    flex-shrink: 0;
+  }
+  .site-nav__toggle:hover { background: var(--bg-hover); }
+
+  .site-nav__toggle span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--ink);
+    border-radius: 1px;
+    transition: transform 0.22s ease, opacity 0.22s ease;
+    transform-origin: center;
+  }
+
+  /* Animate to × when open */
+  .site-nav--open .site-nav__toggle span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+  .site-nav--open .site-nav__toggle span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  .site-nav--open .site-nav__toggle span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  /* Nav links become a full-width dropdown */
+  .site-nav__links {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: var(--bg);
+    border-bottom: 2px solid var(--accent);
+    box-shadow: 0 6px 16px rgba(28,24,18,0.10);
+    padding: var(--sp-sm) 0;
+    margin: 0;
+    z-index: 99;
+  }
+
+  .site-nav--open .site-nav__links {
+    display: flex;
+  }
+
+  .site-nav__links li {
+    list-style: none;
+    border-bottom: 1px solid var(--rule);
+  }
+  .site-nav__links li:last-child { border-bottom: none; }
+
+  .site-nav__links a {
+    display: block;
+    padding: 0.85rem var(--sp-lg);
+    font-size: 0.88rem;
+    border-bottom: none;  /* override desktop underline style */
+  }
+  .site-nav__links a.active {
+    color: var(--accent);
+    background: var(--accent-pale);
+    border-bottom: none;
+  }
+}
+
 @media (max-width: 480px) {
   .container,
   .container--text,
   .container--full { padding-inline: var(--sp-md); }
-
-  .site-nav__links {
-    display: none; /* mobile: implement hamburger or hide */
-  }
 
   .hero__meta { flex-direction: column; gap: var(--sp-md); }
 
