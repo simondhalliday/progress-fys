@@ -385,64 +385,63 @@ blockquote,
 
 /* ── Section pagination nav (CORE-style) ─────────────────────── */
 .section-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-top: var(--sp-2xl);
   padding-top: var(--sp-lg);
-  border-top: 1px solid var(--rule);
-  gap: var(--sp-md);
+  border-top: 2px solid var(--rule);
 }
 
 .section-nav__progress {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--ink-light);
-  letter-spacing: 0.04em;
-  white-space: nowrap;
-  flex-shrink: 0;
+  margin-bottom: var(--sp-sm);
+  display: block;
 }
 
 .section-nav__links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex: 1;
+  align-items: flex-start;
   gap: var(--sp-md);
 }
 
 .section-nav__btn {
+  appearance: none;
+  -webkit-appearance: none;
   background: none;
   border: none;
+  outline: none;
+  box-shadow: none;
   cursor: pointer;
+  padding: 0;
   font-family: var(--font-sans);
   font-size: 0.82rem;
+  font-weight: 600;
   color: var(--accent);
-  padding: 0;
-  text-align: left;
   line-height: 1.4;
   transition: color var(--ease);
-  max-width: 42%;
+  max-width: 46%;
 }
-.section-nav__btn:hover { color: var(--accent-dark); }
+.section-nav__btn:hover,
+.section-nav__btn:focus { color: var(--accent-dark); outline: none; }
 
 .section-nav__btn span {
   display: block;
+  font-weight: 400;
   font-size: 0.78rem;
   color: var(--ink-mid);
   margin-top: 2px;
 }
 .section-nav__btn:hover span { color: var(--ink); }
 
-.section-nav__next {
-  text-align: right;
-  margin-left: auto;
-}
+.section-nav__next { text-align: right; margin-left: auto; }
 
-@media (max-width: 480px) {
-  .section-nav { flex-direction: column; align-items: flex-start; }
-  .section-nav__links { flex-direction: column; gap: var(--sp-sm); width: 100%; }
-  .section-nav__btn { max-width: 100%; }
+@media (max-width: 600px) {
+  .section-nav__links { flex-direction: column; gap: var(--sp-md); }
+  .section-nav__btn  { max-width: 100%; }
   .section-nav__next { text-align: left; margin-left: 0; }
 }
 
