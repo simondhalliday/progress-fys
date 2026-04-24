@@ -24,20 +24,53 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-.display.math{display: block; text-align: center; margin: 0.5rem auto;}
 </style>
 
 
-<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html-640605f58ae58ee79329c070719e555b.min.css" rel="stylesheet" append-hash="true" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-45431c2918bd31147ddb3fa7038bb99f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
 
@@ -45,18 +78,88 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../quarto-nav.css">
 </head>
 
-<body>
+<body class="nav-fixed quarto-light">
 
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS: Progress</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assignments.html"> 
+<span class="menu-text">Assignments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../baltimore.html"> 
+<span class="menu-text">Baltimore</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../session-notes/index.html"> 
+<span class="menu-text">Session Notes</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">Science as a Public Good</h1>
-<p class="subtitle">Week 3 · Tue Sep 15 &amp; Thu Sep 17</p>
+<p class="subtitle lead">Week 3 · Tue Sep 15 &amp; Thu Sep 17</p>
+</div>
+
+<div>
+  <div class="description">
+    Why markets underinvest in basic research, how scientific norms solve the problem, and the institutions that emerged from Vannevar Bush’s 1945 report.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
 
 </header>
 
 
 <div class="session-note-body">
-<h2 id="introduction" class="anchored">Introduction</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>Modern science produces one of the most valuable things in our economy: knowledge. But knowledge is not like most goods we study in economics.</p>
 <p>When you eat a sandwich, no one else can eat that same sandwich. When you wear a shirt, others cannot wear it at the same time. These are rival goods.</p>
 <p>Knowledge is different.</p>
@@ -64,9 +167,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Knowledge is also often hard to contain. Once discovered, it tends to spread through publications, teaching, imitation, and informal communication. This makes it at least partially nonexcludable. When something is <em>nonexcludable</em> it means other people cannot be excluded from using or consuming it.</p>
 <p>Together, these features mean that scientific knowledge is a <em>public good</em>.</p>
 <hr>
-<h2 id="the-basic-economic-problem" class="anchored">The Basic Economic Problem</h2>
+</section>
+<section id="the-basic-economic-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-basic-economic-problem">The Basic Economic Problem</h2>
 <p>Public goods create a familiar challenge:</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>If people cannot easily capture the full benefits of producing something, they will tend to produce too little of it.</p>
 </blockquote>
 <p>This is the core economic problem of science.</p>
@@ -77,15 +182,17 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>As a result, markets alone will underinvest in basic scientific research.</p>
 <p>This creates a central question:</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>If markets do not produce enough science, how does science get produced at all?</p>
 </blockquote>
 <hr>
-<h2 id="a-first-answer-public-funding" class="anchored">A First Answer: Public Funding</h2>
+</section>
+<section id="a-first-answer-public-funding" class="level2">
+<h2 class="anchored" data-anchor-id="a-first-answer-public-funding">A First Answer: Public Funding</h2>
 <p>One answer is government support.</p>
 <p>In the United States, the modern system of publicly funded science traces back to Vannevar Bush’s 1945 report, <em>Science, The Endless Frontier</em>.</p>
 <p>Bush argued that scientific research generates broad social benefits — in health, national security, and economic growth — that private actors cannot fully capture. Because of this, he concluded that:</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>The federal government should play a central role in funding basic scientific research.</p>
 </blockquote>
 <p>This argument helped justify the creation and expansion of institutions such as:</p>
@@ -96,7 +203,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Public funding is therefore not an accident — it is a response to the economics of knowledge.</p>
 <hr>
-<h2 id="a-second-answer-scientific-norms" class="anchored">A Second Answer: Scientific Norms</h2>
+</section>
+<section id="a-second-answer-scientific-norms" class="level2">
+<h2 class="anchored" data-anchor-id="a-second-answer-scientific-norms">A Second Answer: Scientific Norms</h2>
 <p>Public funding alone does not explain how science works.</p>
 <p>Scientific research is not centrally planned. There is no single authority deciding what all scientists should study or how they should proceed. Instead, science is a decentralized system.</p>
 <p>So how is this system organized?</p>
@@ -117,7 +226,9 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>In this way, the scientific community has developed institutional practices that encourage the production and dissemination of knowledge — even when markets alone would not.</p>
 <hr>
-<h2 id="science-as-a-system" class="anchored">Science as a System</h2>
+</section>
+<section id="science-as-a-system" class="level2">
+<h2 class="anchored" data-anchor-id="science-as-a-system">Science as a System</h2>
 <p>Putting these pieces together, we can think of science as an economic system with three key features:</p>
 <ol type="1">
 <li><p><strong>The output is a public good.</strong> Scientific knowledge is nonrival and often nonexcludable.</p></li>
@@ -126,7 +237,9 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>This combination allows science to generate sustained advances in knowledge, even in the presence of strong incentive problems.</p>
 <hr>
-<h2 id="looking-ahead-from-theory-to-policy" class="anchored">Looking Ahead: From Theory to Policy</h2>
+</section>
+<section id="looking-ahead-from-theory-to-policy" class="level2">
+<h2 class="anchored" data-anchor-id="looking-ahead-from-theory-to-policy">Looking Ahead: From Theory to Policy</h2>
 <p>Understanding science as a public good helps us analyze real-world institutions.</p>
 <p>For example:</p>
 <ul>
@@ -137,20 +250,25 @@ ul.task-list li input[type="checkbox"] {
 <p>These are not just historical accidents. They are responses — more or less successful — to the underlying economics of knowledge production.</p>
 <p>In the next part of the course, we will examine how different institutions attempt to solve these problems, and what makes some approaches more effective than others.</p>
 <hr>
-<h2 id="rd-spending-as-a-share-of-gdp" class="anchored">R&amp;D Spending as a Share of GDP</h2>
+</section>
+<section id="rd-spending-as-a-share-of-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="rd-spending-as-a-share-of-gdp">R&amp;D Spending as a Share of GDP</h2>
 <p>The chart below shows gross domestic expenditure on research and development (R&amp;D) as a percentage of GDP across major economies. Notice the post-Sputnik surge in US spending from the late 1950s, the plateau and relative decline from the 1980s, and the rise of South Korea and China as science-intensive economies.</p>
 <iframe src="https://ourworldindata.org/grapher/research-spending-gdp" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write">
 </iframe>
 <p><em>Source: UNESCO UIS / World Bank via Our World in Data (2026). Requires an internet connection to render.</em></p>
 <hr>
-<h2 id="readings" class="anchored">Readings</h2>
-<h3 id="required-excerpts" class="anchored">Required (excerpts)</h3>
+</section>
+<section id="readings" class="level2">
+<h2 class="anchored" data-anchor-id="readings">Readings</h2>
+<section id="required-excerpts" class="level3">
+<h3 class="anchored" data-anchor-id="required-excerpts">Required (excerpts)</h3>
 <p><strong>Nelson, Richard R.</strong> “The Simple Economics of Basic Scientific Research.” <em>Journal of Political Economy</em> 67, no. 3 (1959): 297–306.</p>
-<blockquote>
+<blockquote class="blockquote">
 <p><strong>Best excerpt:</strong> The whole paper is only 10 pages and worth assigning in full. Pages 297–302 (through “Why Is Basic Research Underproduced?”) give students the core argument; pages 303–306 on universities as an institutional solution pair directly with Bush.</p>
 </blockquote>
 <p><strong>Bush, Vannevar.</strong> <em>Science, The Endless Frontier: A Report to the President on a Program for Postwar Scientific Research.</em> Washington, D.C.: United States Government Printing Office, 1945. Available free at <a href="https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm">nsf.gov</a>.</p>
-<blockquote>
+<blockquote class="blockquote">
 <p><strong>Best excerpt:</strong> The transmittal letter to President Truman (2 pages) + Chapter 3, “The Importance of Basic Research” (~4 pages). Under 10 pages total; gives students Bush’s full argument in plain English.</p>
 <p><strong>Institutional timeline for class discussion:</strong></p>
 <ul>
@@ -161,32 +279,34 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>The Bush → DARPA contrast is the key thread to pull in Module 4.</p>
 </blockquote>
-<h3 id="recommended" class="anchored">Recommended</h3>
+</section>
+<section id="recommended" class="level3">
+<h3 class="anchored" data-anchor-id="recommended">Recommended</h3>
 <p><strong>Dasgupta, Partha, and Paul A. David.</strong> “Toward a New Economics of Science.” <em>Research Policy</em> 23, no. 5 (1994): 487–521.</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>Provides the fullest economic framework for this session. Pages 487–497 (Introduction + Section II, “Open Science and Its Institutions”) cover the nonrivalry argument, the priority/credit norm, and why scientists share rather than hoard. The later sections (pp.&nbsp;497–521) are more technical.</p>
 </blockquote>
 <p><strong>Romer, Paul M.</strong> “The Origins of Endogenous Growth.” <em>Journal of Economic Perspectives</em> 8, no. 1 (1994): 3–22.</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>Accessible account of why non-rival ideas are at the heart of long-run economic growth. Connects the public goods argument in Nelson to the broader growth theory literature. No technical prerequisites.</p>
 </blockquote>
 <p><strong>Polanyi, Michael.</strong> “The Republic of Science: Its Political and Economic Theory.” <em>Minerva</em> 1, no. 1 (1962): 54–73.</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>The philosophical complement to Nelson and Dasgupta &amp; David. Polanyi argues science is a spontaneous order, analogous to a market, governed by mutual adjustment rather than central direction. [PDF via library — Canvas link coming.]</p>
 </blockquote>
 <p><strong>Mastroianni, Adam.</strong> “The Rise and Fall of Peer Review.” <em>Experimental History</em> (Substack), 2022. <a href="https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review">experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review</a></p>
-<blockquote>
+<blockquote class="blockquote">
 <p>A brisk, provocative read (~3,500 words) asking whether peer review — the mechanism Polanyi calls scientific self-governance — actually works. [Verify URL before semester.]</p>
 </blockquote>
+</section>
+</section>
 </div>
 
 
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-    tabsets.forEach(function(tabset) {
-      const tabby = new Tabby('#' + tabset.id);
-    });
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -285,7 +405,7 @@ ul.task-list li input[type="checkbox"] {
         },
         interactive: true,
         interactiveBorder: 10,
-        theme: 'light-border',
+        theme: 'quarto',
         placement: 'bottom-start',
       };
       if (contentFn) {
@@ -585,6 +705,46 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>FYS: Progress</strong> · AS.001.219<br> Simon D. Halliday · <a href="https://snfagora.jhu.edu/our-work/labs/center-for-economy-society/">Center for Economy and Society</a> · <a href="https://snfagora.jhu.edu/">SNF Agora Institute</a> · Johns Hopkins University</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+<p>Home</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../assignments.html">
+<p>Assignments</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../baltimore.html">
+<p>Baltimore</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://canvas.jhu.edu">
+<p>Canvas</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://simondhalliday.com">
+<p>simondhalliday.com</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

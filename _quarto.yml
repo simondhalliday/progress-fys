@@ -41,7 +41,7 @@ website:
 
 format:
   html:
-    theme: none
+    theme: default
     css:
       - progress.css
       - quarto-nav.css
