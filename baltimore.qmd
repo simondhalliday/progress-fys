@@ -3,6 +3,7 @@ title: "Baltimore"
 description: "Baltimore — FYS: Progress"
 ---
 
+```{=html}
 <!-- ── Page Header ────────────────────────────────────────────── -->
 <header style="padding-block: var(--sp-2xl); border-bottom: 1px solid var(--rule);">
   <div class="container--text">
@@ -234,3 +235,4 @@ description: "Baltimore — FYS: Progress"
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────────── -->
+```

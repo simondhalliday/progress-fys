@@ -3,6 +3,7 @@ title: "Assignments"
 description: "Assignments — FYS: Progress"
 ---
 
+```{=html}
 <!-- ── Page Header ────────────────────────────────────────────── -->
 <header style="padding-block: var(--sp-2xl); border-bottom: 1px solid var(--rule);">
   <div class="container--text">
@@ -326,3 +327,4 @@ description: "Assignments — FYS: Progress"
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────────── -->
+```

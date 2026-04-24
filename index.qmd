@@ -3,6 +3,7 @@ title: "Home"
 description: "FYS: Progress — Why Now Is the Best Time to Be Alive"
 ---
 
+```{=html}
 <!-- ── Hero ───────────────────────────────────────────────────── -->
 <header class="hero container--text">
   <p class="hero__eyebrow">AS.001.219 · Fall 2026 · Johns Hopkins University</p>
@@ -216,3 +217,4 @@ description: "FYS: Progress — Why Now Is the Best Time to Be Alive"
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────────── -->
+```

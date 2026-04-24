@@ -3,6 +3,7 @@ title: "Syllabus"
 description: "Syllabus — FYS: Progress"
 ---
 
+```{=html}
 <!-- ── Page Header ────────────────────────────────────────────── -->
 <header style="padding-block: var(--sp-2xl); border-bottom: 1px solid var(--rule);">
   <div class="container--text">
@@ -592,3 +593,4 @@ description: "Syllabus — FYS: Progress"
 </section>
 
 <!-- ── Footer ─────────────────────────────────────────────────── -->
+```
