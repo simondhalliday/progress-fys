@@ -42,6 +42,31 @@ After writing, ask 3–4 students to share in one sentence what problem they nam
 Close with a single framing question: "By the end of this course, I hope some of you will have changed your answer — not because you were wrong, but because you understand the question differently."
 :::
 
+## What students around the world say
+
+You will write your own answer to this question in class today. Before you do, it is worth knowing what students at other universities say when asked the same question.
+
+Since 2021, CORE Econ has posed the same question — *What is the most pressing problem that economists should address?* — to students on the first day of introductory economics courses at universities in the United States, Italy, the UK, and beyond.
+
+```{=html}
+<figure style="margin-block: var(--sp-xl);">
+  <img src="https://core-understanding-our-economy-media.netlify.app//uoe-101/images/web/preface-word-cloud.svg"
+       alt="Word cloud of student responses to 'What is the most pressing problem economists should address?' from universities in the USA, Italy, and UK, 2024–25. Largest words include inequality, climate change, poverty, and housing."
+       style="width: 100%; border: 1px solid var(--rule); border-radius: 4px;" />
+  <figcaption style="font-family: var(--font-sans); font-size: 0.78rem; color: var(--ink-light); margin-top: var(--sp-sm);">
+    Student responses to "What is the most pressing problem that economists should address?" at universities in the USA, Italy, and UK, 2024–25. Word size reflects frequency of mention. Source: CORE Econ / <em>Understanding Our Economy</em>.
+  </figcaption>
+</figure>
+```
+
+Inequality, climate change, poverty, housing, and inflation appear consistently. Notice what students across very different countries share — and where their concerns diverge. After you write your own answer today, come back to this word cloud and see where yours fits.
+
+::: {.instructor}
+Show the word cloud after students have written their answers, not before — you want their unprimed instincts first. The word cloud is useful for two purposes: (1) it shows students they are part of a larger community of people asking the same questions; (2) it previews the course arc — most of the words that appear prominently will be addressed directly in the course.
+
+Point out that these are *students'* answers, not economists' answers. One goal of the course is to equip students to think about these problems more rigorously — which sometimes means changing the question, not just improving the answer.
+:::
+
 ## Connections
 
 **Sets up:** Everything. The opening reflection establishes a baseline that the course will complicate. Session 2 begins the empirical work: are our instincts about the world's biggest problems accurate?

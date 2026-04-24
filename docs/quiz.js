@@ -89,16 +89,24 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   /* ── 3. Orbit fallback ─────────────────────────────────────
-     After 2 seconds, check if orbit-reviewarea has rendered any visible
-     content. If not (CDN changed, login required, etc.), replace with
-     simple flip-cards so students always see something. */
-  setTimeout(function () {
+     Poll every 500ms for up to 10 seconds. If Orbit renders successfully
+     (clientHeight > 20), stop. Only fall back if it never renders.
+     This avoids firing the fallback before Orbit has had a chance to load. */
+  var orbitCheckCount = 0;
+  var orbitInterval = setInterval(function () {
+    orbitCheckCount++;
     var orbitAreas = document.querySelectorAll('orbit-reviewarea');
-    if (!orbitAreas.length) return;
+    if (!orbitAreas.length) { clearInterval(orbitInterval); return; }
+
     var anyVisible = Array.prototype.some.call(orbitAreas, function (el) {
       return el.clientHeight > 20;
     });
-    if (anyVisible) return;
+    if (anyVisible) { clearInterval(orbitInterval); return; } /* Orbit loaded — done */
+    if (orbitCheckCount < 20) return;                         /* keep waiting */
+
+    /* 10 seconds elapsed and nothing rendered — run the fallback */
+    clearInterval(orbitInterval);
+    (function () {
 
     document.querySelectorAll('orbit-reviewarea').forEach(function (area) {
       var prompts = area.querySelectorAll('orbit-prompt');
@@ -149,6 +157,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       area.replaceWith(wrapper);
     });
-  }, 2000);
+    }()); /* end fallback IIFE */
+
+  }, 500); /* poll interval */
 
 });

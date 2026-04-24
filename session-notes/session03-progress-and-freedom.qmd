@@ -101,14 +101,26 @@ The Rosling/Sen pairing is productive precisely because they can look like they 
 The five instrumental freedoms Sen identifies (political freedoms, economic facilities, social opportunities, transparency guarantees, protective security) are worth listing briefly in class — they reappear later in discussions of [**institutions**]{.term} and policy.
 :::
 
-## How does the picture look?
+## Measuring development the Sen way
 
-<iframe src="https://ourworldindata.org/grapher/life-expectancy" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+If Sen is right that development means expanding freedom — not just raising income — then we need a measure that captures more than GDP per capita. The chart below shows the **Augmented Human Development Index (AHDI)**, one attempt to do exactly that.
 
-*Source: Our World in Data. Note: this shows period life expectancy at birth — the average number of years a newborn would live if current mortality rates remained constant. The dramatic increase since 1800 reflects improvements in sanitation, vaccination, nutrition, and medicine.*
+The standard HDI already goes beyond income: it combines GDP per capita with life expectancy and years of education. The *Augmented* HDI takes a further step. It adds measures of political freedoms and civil liberties — the right to vote, freedom of speech, freedom from arbitrary detention. These are precisely the freedoms Sen calls "constitutive": valuable in themselves, not just as instruments of economic growth.
+
+<iframe src="https://ourworldindata.org/grapher/augmented-human-development-index?country=Sub+Saharan+Africa+%28AHDI%29~Western+offshoots+%28AHDI%29~Western+Europe+%28AHDI%29~Eastern+Europe+%28AHDI%29" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+*Source: Our World in Data. The AHDI incorporates GDP per capita, life expectancy, education, and measures of political freedom and civil liberties. Higher values indicate greater overall human development across all these dimensions.*
+
+Notice two things. First, Western Europe and its offshoots pulled dramatically ahead from the mid-nineteenth century — not just in income but in the full bundle of freedoms the index captures. Second, Eastern Europe and Sub-Saharan Africa show meaningful divergence: by income alone the gap looks one way; by freedom-augmented measures it looks different. The index makes visible what GDP hides.
+
+This is what Sen means in practice. A country whose income grows while political freedoms contract is not developing by his definition — and the AHDI, imperfect as it is, tries to capture that.
 
 ::: {.instructor}
-Life expectancy is a good bridge between the two readings: it is one of Rosling's key indicators of improvement (and a question on his test where most people think the world average is about 60 when it is actually 70+), and it also illustrates Sen's point — longer life is valuable partly because it expands what people can do and be, not just because it is "more" life. Ask students: is longer life expectancy a measure of income, of freedom, or of both?
+The AHDI is a useful empirical bridge between Rosling and Sen. Rosling's optimism is largely about income-related measures (poverty, health, education). Sen's framework asks: do we also count political freedom, civil liberties, and the ability to participate in public life? The AHDI says yes, and shows a somewhat different picture.
+
+Useful discussion question: Does adding political freedom measures change the ranking of countries you would have expected? What does that tell us about what standard income or HDI measures hide?
+
+Note: the life expectancy chart is on the course homepage, so using a different measure here avoids repetition and reinforces the concept of multiple dimensions of development.
 :::
 
 ## Connections

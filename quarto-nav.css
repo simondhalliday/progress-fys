@@ -445,6 +445,25 @@ blockquote,
   .section-nav__next { text-align: left; margin-left: 0; }
 }
 
+/* ── Orbit loading placeholder ───────────────────────────────── */
+/* :not(:defined) targets the element before its web component JS upgrades it */
+orbit-reviewarea:not(:defined) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  background: var(--bg-alt);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  margin-block: var(--sp-xl);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--ink-light);
+}
+orbit-reviewarea:not(:defined)::before {
+  content: "Loading review cards…";
+}
+
 /* ── Orbit fallback (shown when CDN unavailable) ─────────────── */
 .orbit-fallback {
   border: 1px solid var(--rule);
