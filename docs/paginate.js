@@ -149,16 +149,26 @@ document.addEventListener('DOMContentLoaded', function () {
      quarto.js (element bubble). Event delegation via closest() means we
      don't need to pre-query elements and are immune to TOC replacement.
 
-     NOTE: We match ANY a[href^="#"] (not just links inside #TOC). Quarto
-     can convert the margin sidebar into a dropdown toggle at medium viewport
-     widths, cloning the TOC links outside the #TOC element. The section-id
-     match below is the real guard — we only intercept links whose href maps
-     to one of our paginated sections. Unrelated anchor links fall through. */
-  document.addEventListener('click', function (e) {
-    var a = e.target.closest('a[href^="#"]');
-    if (!a) return;
+     WHY we use a.hash instead of a.getAttribute('href'):
+     quarto-nav.js (loaded before paginate.js) loops over every <a> on the
+     page and does `links[i].href = links[i].href` — assigning the IDL
+     property (absolute URL) back to the attribute. This rewrites every
+     relative href="#section-id" to the full absolute URL, so
+     a[href^="#"] never matches after DOMContentLoaded. Using a.hash is
+     immune: it always returns just the fragment (e.g. "#session-structure")
+     regardless of whether the href attribute is relative or absolute.
 
-    var targetId = a.getAttribute('href').slice(1);
+     We guard with a.pathname === location.pathname so we never swallow
+     links that navigate to a different page (which may happen to have a
+     hash). The section-id match is the final guard — unrelated same-page
+     anchor links (e.g. footnotes) fall through if their id isn't a level2
+     section. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a');
+    if (!a || !a.hash) return;
+    if (a.pathname !== location.pathname) return;
+
+    var targetId = a.hash.slice(1);   /* strip leading '#' */
 
     /* Direct match: this link points to a level-2 section */
     var idx = sections.findIndex(function (s) { return s.id === targetId; });
