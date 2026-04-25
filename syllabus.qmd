@@ -137,7 +137,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Sep 1</div>
         <div class="session-row__body">
-          <div class="session-row__title">Introduction: Why Progress?</div>
+          <div class="session-row__title"><a href="session-notes/session01-introduction.html">Session 1 · Introduction: Why Progress?</a></div>
           <div class="session-row__meta">Course overview. Opening reflection: "What do you think the world's biggest unsolved problem is, and why?" No assigned reading for today. Baltimore Video groups assigned; sites chosen by Thursday.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Opening reflection due</span><span class="tag tag--accent">Video groups assigned</span></div>
         </div>
@@ -146,7 +146,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Sep 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">How Much Has the World Improved? Data and Instincts</div>
+          <div class="session-row__title"><a href="session-notes/session02-chimpanzee-test.html">Session 2 · How Much Has the World Improved? Data and Instincts</a></div>
           <div class="session-row__meta">Baltimore Video sites confirmed by end of this week; filming begins.
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Hans Rosling, <em>Factfulness</em>, Introduction + Chapter 1 ("The Gap Instinct") — why experts score worse than chimpanzees on basic facts about the world, and why the developing/developed binary is an outdated map of reality.</li>
@@ -159,7 +159,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Sep 8</div>
         <div class="session-row__body">
-          <div class="session-row__title">Progress Getting Better — And What That Means</div>
+          <div class="session-row__title"><a href="session-notes/session03-progress-and-freedom.html">Session 3 · Progress Getting Better — And What That Means</a></div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Hans Rosling, <em>Factfulness</em>, Chapter 2 ("The Negativity Instinct") — why we think the world is getting worse when the data says otherwise; the secret silent miracle of human progress.</li>
@@ -173,7 +173,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Sep 10</div>
         <div class="session-row__body">
-          <div class="session-row__title">The Great Enrichment: Capitalism and Transformation</div>
+          <div class="session-row__title"><a href="session-notes/session04-great-enrichment.html">Session 4 · The Great Enrichment: Capitalism and Transformation</a></div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Luz Marina Arias, <em>Understanding Our Economy</em>, Chapter 3: "Our world transformed" (selections) — how capitalism's institutions produced extraordinary growth, and at what cost.</li>
@@ -204,7 +204,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Sep 15</div>
         <div class="session-row__body">
-          <div class="session-row__title">Science as a Public Good</div>
+          <div class="session-row__title"><a href="session-notes/session05-science-public-good.html">Session 5 · Science as a Public Good</a></div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Richard R. Nelson, &#x201C;The Simple Economics of Basic Scientific Research,&#x201D; <em>Journal of Political Economy</em> 67, no. 3 (1959): 297&#x2013;306 &#x2014; the foundational public-goods-of-science argument: why markets underinvest in basic research, and what institutions fill the gap.</li>
@@ -213,6 +213,7 @@ description: "Syllabus — FYS: Progress"
               <li><span class="tag tag--recommended">Recommended</span> Paul M. Romer, &#x201C;The Origins of Endogenous Growth,&#x201D; <em>Journal of Economic Perspectives</em> 8, no. 1 (1994): 3&#x2013;22 &#x2014; accessible account of why non-rival ideas drive long-run growth; connects Nelson to growth theory.</li>
               <li><span class="tag tag--recommended">Recommended</span> Michael Polanyi, &#x201C;The Republic of Science,&#x201D; <em>Minerva</em> 1, no. 1 (1962): 54&#x2013;73 &#x2014; science as spontaneous order, analogous to a market. The philosophical complement to Nelson. <span style="color:var(--ink-light);">[PDF via library]</span></li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review" target="_blank" rel="noopener">Adam Mastroianni, &#x201C;The Rise and Fall of Peer Review,&#x201D; <em>Experimental History</em> (2022)</a> &#x2014; does scientific self-governance actually work? A short, provocative read for students who want a contemporary angle.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Daniel Gross &amp; Bhaven Sampat, &#x201C;America, Jump-Started: World War II R&amp;D and the Takeoff of the U.S. Innovation System,&#x201D; <em>American Economic Review</em> 113, no. 7 (2023): 1737&#x2013;1781 &#x2014; how the wartime science mobilisation of 1940&#x2013;45 permanently shifted the US innovation system toward basic research and university-industry linkages. Context for why Bush&#x2019;s 1945 report landed when it did. <span style="color:var(--ink-light);">[via library]</span></li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -222,7 +223,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Sep 17</div>
         <div class="session-row__body">
-          <div class="session-row__title">Innovation, Incentives, and Technology</div>
+          <div class="session-row__title">Session 6 · Innovation, Incentives, and Technology</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Eric Bottorff, <em>Understanding Our Economy</em>, Chapter 4: "Innovation, incentives, and technology" (selections) — how do incentives shape the direction and pace of innovation?</li>
@@ -235,7 +236,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Sep 22</div>
         <div class="session-row__body">
-          <div class="session-row__title">Cities 1: Renaissance Florence and the Geography of Ideas</div>
+          <div class="session-row__title">Session 7 · Cities 1: Renaissance Florence and the Geography of Ideas</div>
           <div class="session-row__meta"><span style="color: var(--accent);">Field visit: Walters Art Museum, Mount Vernon — Renaissance collection.</span>
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Ada Palmer, excerpts from <em>Inventing the Renaissance</em> (2025) — what made Florence a crucible of innovation?</li>
@@ -249,7 +250,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Sep 24</div>
         <div class="session-row__body">
-          <div class="session-row__title">Cities 2: Silicon Valley and Economies of Agglomeration</div>
+          <div class="session-row__title">Session 8 · Cities 2: Silicon Valley and Economies of Agglomeration</div>
           <div class="session-row__meta">Reading TBD — options:
             <ul class="reading-list">
               <li>AnnaLee Saxenian, <em>Regional Advantage</em> (excerpt) — Silicon Valley vs. Route 128; why do innovators cluster?</li>
@@ -263,7 +264,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Sep 29</div>
         <div class="session-row__body">
-          <div class="session-row__title">Cities 3: Baltimore — Progress, Decline, and Reinvention</div>
+          <div class="session-row__title">Session 9 · Cities 3: Baltimore — Progress, Decline, and Reinvention</div>
           <div class="session-row__meta">Reading TBD — on Baltimore's industrial history, deindustrialization, and contemporary reinvention as a knowledge-economy city. What does this city's arc tell us about how progress works at the local level?</div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
@@ -272,7 +273,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 1</div>
         <div class="session-row__body">
-          <div class="session-row__title">Baltimore Video Screening</div>
+          <div class="session-row__title">Session 10 · Baltimore Video Screening</div>
           <div class="session-row__meta">Group screenings: 5-minute live introduction by each group, then screening of their 5–7 minute video. Class discussion follows each screening.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Video screening day</span></div>
         </div>
@@ -281,7 +282,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Oct 6</div>
         <div class="session-row__body">
-          <div class="session-row__title">Escaping the Poverty Trap</div>
+          <div class="session-row__title">Session 11 · Escaping the Poverty Trap</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Yuen Yuen Ang, <em>How China Escaped the Poverty Trap</em>, Chapter 2 — how do poor societies bootstrap growth, and what does this mean for the role of the state?</li>
@@ -311,7 +312,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 8</div>
         <div class="session-row__body">
-          <div class="session-row__title">Inequality and the Distribution of Progress</div>
+          <div class="session-row__title">Session 12 · Inequality and the Distribution of Progress</div>
           <div class="session-row__meta">Reading TBD — options:
             <ul class="reading-list">
               <li>Thomas Piketty, excerpt on wealth inequality — can growth coexist with rising inequality?</li>
@@ -325,7 +326,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Oct 13</div>
         <div class="session-row__body">
-          <div class="session-row__title">Race and Progress in America</div>
+          <div class="session-row__title">Session 13 · Race and Progress in America</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Isabel Wilkerson, <em>The Warmth of Other Suns</em>, Prologue (~10 pp.) — three Black Americans who joined the Great Migration, told as an act of economic agency and hope.</li>
@@ -340,7 +341,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 15</div>
         <div class="session-row__body">
-          <div class="session-row__title">Baltimore: Industrial History and the Limits of Progress</div>
+          <div class="session-row__title">Session 14 · Baltimore: Industrial History and the Limits of Progress</div>
           <div class="session-row__meta">
             <strong>Field visit — Baltimore Museum of Industry (BMI).</strong>
             Reading TBD — background on Baltimore's industrial and labor history.
@@ -352,7 +353,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Oct 20</div>
         <div class="session-row__body">
-          <div class="session-row__title">Neighborhoods and Opportunity: Housing, Segregation, and Who Gets Ahead</div>
+          <div class="session-row__title">Session 15 · Neighborhoods and Opportunity: Housing, Segregation, and Who Gets Ahead</div>
           <div class="session-row__meta">Reading TBD — options:
             <ul class="reading-list">
               <li>Raj Chetty &amp; Nathaniel Hendren, "The Impacts of Neighborhoods on Intergenerational Mobility" (summary) — the evidence that where you grow up shapes where you end up.</li>
@@ -366,7 +367,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 22</div>
         <div class="session-row__body">
-          <div class="session-row__title">Progress and the Labor Market: Work, Wages, and What Has Changed</div>
+          <div class="session-row__title">Session 16 · Progress and the Labor Market: Work, Wages, and What Has Changed</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.econlib.org/library/Smith/smWN1.html" target="_blank" rel="noopener">Adam Smith, "Pin Factory," <em>Wealth of Nations</em> Bk I Ch. 1–3</a> (extract) — the classical vision of industrial work as productivity gain.</li>
@@ -397,11 +398,12 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Oct 27</div>
         <div class="session-row__body">
-          <div class="session-row__title">Great Men, Great Women, and Inevitable Inventions</div>
+          <div class="session-row__title">Session 17 · Great Men, Great Women, and Inevitable Inventions</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Thomas Carlyle, <a href="https://www.gutenberg.org/ebooks/1091" target="_blank" rel="noopener">"The Hero as Man of Letters" (extract from <em>On Heroes, Hero-Worship, and the Heroic in History</em>, 1841)</a> — the philosophical case for exceptional individuals as the engine of history.</li>
               <li><span class="tag tag--required">Required</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 8: "Britain's Industrial Revolution" (selections, ~15 pp.) — why did sustained technological change first occur in Britain when it did, and not in the Dutch Republic, which shared so many of the same features?</li>
+              <li><span class="tag tag--recommended">Recommended</span> Benjamin F. Jones, &#x201C;The Burden of Knowledge and the &#x2018;Death of the Renaissance Man&#x2019;: Is Innovation Getting Harder?&#x201D; <em>Review of Economic Studies</em> 76, no. 1 (2009): 283&#x2013;317 &#x2014; innovators today must absorb far more prior knowledge before reaching the frontier; the result is longer training, narrower specialisation, and more teamwork. A structural argument that the age of the lone genius is ending &#x2014; not because people are less ambitious, but because knowledge has compounded. <span style="color:var(--ink-light);">[PDF via library]</span></li>
             </ul>
             <p class="reading-note">Together: was Watt inevitable?</p>
           </div>
@@ -412,8 +414,12 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 29</div>
         <div class="session-row__body">
-          <div class="session-row__title">Ambition</div>
-          <div class="session-row__meta">Reading TBD — on the psychology and sociology of ambition. What drives people to make things? What stops them? Guest: TBD.</div>
+          <div class="session-row__title">Session 18 · Ambition</div>
+          <div class="session-row__meta"><ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> William J. Baumol, &#x201C;Entrepreneurship: Productive, Unproductive, and Destructive,&#x201D; <em>Journal of Political Economy</em> 98, no. 5 (1990): 893&#x2013;921 &#x2014; the total supply of entrepreneurs may be roughly constant across societies; what varies &#x2014; enormously &#x2014; is how the rules of the game channel them toward innovation versus rent-seeking. A framework that explains why Rome produced lawyers and generals instead of engineers. <span style="color:var(--ink-light);">[PDF via library]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://hbr.org/2017/06/is-america-encouraging-the-wrong-kind-of-entrepreneurship" target="_blank" rel="noopener">Robert E. Litan &amp; Ian Hathaway, &#x201C;Is America Encouraging the Wrong Kind of Entrepreneurship?&#x201D; <em>Harvard Business Review</em> (June 2017)</a> &#x2014; written as a tribute to Baumol shortly after his death, this short piece asks whether current US incentives are steering entrepreneurs toward extractive activities (rent-seeking, financial engineering) rather than productive ones. A direct application of the Baumol framework to contemporary America.</li>
+            </ul>
+            <p class="reading-note">Together: what kind of entrepreneurship does this society actually reward &#x2014; and is that the kind that produces progress?</p></div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
       </div>
@@ -421,7 +427,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Guest: Political Economy of Reform</div>
+          <div class="session-row__title">Session 19 · Guest: Political Economy of Reform</div>
           <div class="session-row__meta">Guest speaker: Professor Steve Teles (Hopkins). Reading TBD — Teles's work on the political economy of institutional change and policy reform.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Guest speaker</span><span class="tag">In-class response</span></div>
         </div>
@@ -430,7 +436,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 5</div>
         <div class="session-row__body">
-          <div class="session-row__title">Top-Down Innovation: The State, the Market, and Who Decides</div>
+          <div class="session-row__title">Session 20 · Top-Down Innovation: The State, the Market, and Who Decides</div>
           <div class="session-row__meta">Reading TBD — options:
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~4 pp.)</a> — the manifesto that launched the Progress Studies movement.</li>
@@ -445,7 +451,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 10</div>
         <div class="session-row__body">
-          <div class="session-row__title">Guest: Contemporary Science Policy</div>
+          <div class="session-row__title">Session 21 · Guest: Contemporary Science Policy</div>
           <div class="session-row__meta">Guest speaker from the Institute for Progress (Washington DC). Reading TBD — context on science funding, metascience, and innovation policy.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Guest speaker</span></div>
         </div>
@@ -470,7 +476,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 12</div>
         <div class="session-row__body">
-          <div class="session-row__title">Environmental Progress: Can We Fix What We Broke?</div>
+          <div class="session-row__title">Session 22 · Environmental Progress: Can We Fix What We Broke?</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Hannah Ritchie, <em>Not the End of the World</em> (2024), Chapter 1: "Air Pollution" (~35 pp.) — the evidence for environmental progress, and where it falls short.</li>
@@ -483,7 +489,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 17</div>
         <div class="session-row__body">
-          <div class="session-row__title">When Progress Ends — and What We Must Maintain</div>
+          <div class="session-row__title">Session 23 · When Progress Ends — and What We Must Maintain</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/magazine/archive/2023/01/science-technology-vaccine-invention-history/672227/" target="_blank" rel="noopener">Derek Thompson, "Why the Age of American Progress Ended," <em>The Atlantic</em> (Jan/Feb 2023)</a> — the case that innovation has slowed and what might explain it. <span style="color:var(--ink-light);">[free, may ask you to create an account]</span></li>
@@ -499,7 +505,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 19</div>
         <div class="session-row__body">
-          <div class="session-row__title">Catastrophic Risk: Pandemic, AI, and Existential Threats</div>
+          <div class="session-row__title">Session 24 · Catastrophic Risk: Pandemic, AI, and Existential Threats</div>
           <div class="session-row__meta">Reading TBD — options: Nick Bostrom excerpt; post-pandemic review article; AI safety short reading. Discussion: what obligations does anticipated risk create?</div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
@@ -539,7 +545,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Dec 1</div>
         <div class="session-row__body">
-          <div class="session-row__title">Synthesis: What Have We Learned?</div>
+          <div class="session-row__title">Session 25 · Synthesis: What Have We Learned?</div>
           <div class="session-row__meta">A rounding-up session before presentations. We revisit the course's core question — why here, why now, and what could go wrong — and take stock of the ideas, data, and arguments that have shifted your thinking. No new reading assigned; bring your notes from the semester.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project written report due</span></div>
         </div>
@@ -548,7 +554,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Dec 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Data Project Presentations (Part 1)</div>
+          <div class="session-row__title">Session 26 · Data Project Presentations (Part 1)</div>
           <div class="session-row__meta">Six presentations, ~10 minutes each + Q&amp;A. No advance reading assigned.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project presentations</span></div>
         </div>
@@ -557,7 +563,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Dec 8</div>
         <div class="session-row__body">
-          <div class="session-row__title">Data Project Presentations (Part 2)</div>
+          <div class="session-row__title">Session 27 · Data Project Presentations (Part 2)</div>
           <div class="session-row__meta">Six presentations, ~10 minutes each + Q&amp;A. No advance reading assigned.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project presentations</span></div>
         </div>
@@ -566,7 +572,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Dec 10</div>
         <div class="session-row__body">
-          <div class="session-row__title">Closing: Celebration and Final Questions</div>
+          <div class="session-row__title">Session 28 · Closing: Celebration and Final Questions</div>
           <div class="session-row__meta">Students share closing reflections (revisiting Week 1's opening prompt). The seminar ends with open questions students have brought from across the semester — the things they still want to know. Cookies may be involved.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Closing reflection due</span></div>
         </div>
