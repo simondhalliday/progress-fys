@@ -147,9 +147,15 @@ document.addEventListener('DOMContentLoaded', function () {
   /* Document-level capture fires before the event reaches any descendant,
      guaranteeing interception ahead of zenscroll (window bubble) and
      quarto.js (element bubble). Event delegation via closest() means we
-     don't need to pre-query elements and are immune to TOC replacement. */
+     don't need to pre-query elements and are immune to TOC replacement.
+
+     NOTE: We match ANY a[href^="#"] (not just links inside #TOC). Quarto
+     can convert the margin sidebar into a dropdown toggle at medium viewport
+     widths, cloning the TOC links outside the #TOC element. The section-id
+     match below is the real guard — we only intercept links whose href maps
+     to one of our paginated sections. Unrelated anchor links fall through. */
   document.addEventListener('click', function (e) {
-    var a = e.target.closest('#TOC a[href^="#"]');
+    var a = e.target.closest('a[href^="#"]');
     if (!a) return;
 
     var targetId = a.getAttribute('href').slice(1);

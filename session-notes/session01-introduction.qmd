@@ -46,15 +46,15 @@ Close with a single framing question: "By the end of this course, I hope some of
 
 You will write your own answer to this question in class today. Before you do, it is worth knowing what students at other universities say when asked the same question.
 
-Since 2021, CORE Econ has posed the same question — *What is the most pressing problem that economists should address?* — to students on the first day of introductory economics courses at universities in the United States, Italy, the UK, and beyond.
+Since 2021, CORE Econ has posed the same question — *What is the most pressing problem that economists should address?* — to students on the first day of introductory economics courses at universities in the United States, Brazil, the UK, and beyond.
 
 ```{=html}
 <figure style="margin-block: var(--sp-xl);">
   <img src="https://core-understanding-our-economy-media.netlify.app//uoe-101/images/web/preface-word-cloud.svg"
-       alt="Word cloud of student responses to 'What is the most pressing problem economists should address?' from universities in the USA, Italy, and UK, 2024–25. Largest words include inequality, climate change, poverty, and housing."
+       alt="Word cloud of student responses to 'What is the most pressing problem economists should address?' from universities in the USA, Brazil, and UK, 2024–25. Largest words include inequality, climate change, poverty, and housing."
        style="width: 100%; border: 1px solid var(--rule); border-radius: 4px;" />
   <figcaption style="font-family: var(--font-sans); font-size: 0.78rem; color: var(--ink-light); margin-top: var(--sp-sm);">
-    Student responses to "What is the most pressing problem that economists should address?" at universities in the USA, Italy, and UK, 2024–25. Word size reflects frequency of mention. Source: CORE Econ / <em>Understanding Our Economy</em>.
+    Student responses to "What is the most pressing problem that economists should address?" at universities in the USA, Brazil, and UK, 2024–25. Word size reflects frequency of mention. Source: CORE Econ / <em>Understanding Our Economy</em>.
   </figcaption>
 </figure>
 ```
