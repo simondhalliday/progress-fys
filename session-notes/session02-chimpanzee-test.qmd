@@ -111,9 +111,9 @@ This chart pairs well with asking students: "When do you think the biggest drop 
 
 ## Connections
 
-**Builds on:** Session 1 introduced the course's central question — why does progress happen? Rosling provides the empirical baseline: progress has happened, more than most people realize, and our failure to see it is systematic and cognitively rooted.
+**Builds on:** [Session 1](session01-introduction.html) introduced the course's central question — why does progress happen? Rosling provides the empirical baseline: progress has happened, more than most people realize, and our failure to see it is systematic and cognitively rooted.
 
-**Sets up:** Session 3 extends the question — if the world is getting better by standard metrics, what counts as "better"? Sen's *Development as Freedom* asks us to interrogate the metrics themselves.
+**Sets up:** [Session 3](session03-progress-and-freedom.html) extends the question — if the world is getting better by standard metrics, what counts as "better"? Sen's *Development as Freedom* asks us to interrogate the metrics themselves.
 
 ::: {.instructor}
 **Arc note:** Rosling's sessions (2 and 3) serve as the empirical and methodological foundation for everything that follows. Students who leave these two sessions with a fact-based worldview will engage with the rest of the course differently — they'll be able to distinguish "things are bad" from "things are getting worse," and "things are improving" from "things are fine." These are crucial distinctions for the Module 5 sessions on limits and risks.

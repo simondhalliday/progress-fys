@@ -69,7 +69,7 @@ Point out that these are *students'* answers, not economists' answers. One goal 
 
 ## Connections
 
-**Sets up:** Everything. The opening reflection establishes a baseline that the course will complicate. Session 2 begins the empirical work: are our instincts about the world's biggest problems accurate?
+**Sets up:** Everything. The opening reflection establishes a baseline that the course will complicate. [Session 2](session02-chimpanzee-test.html) begins the empirical work: are our instincts about the world's biggest problems accurate?
 
 ::: {.instructor}
 **Arc note:** The opening reflection → closing reflection arc is the backbone of the course's personal dimension. Students who engage honestly with both will have a tangible record of intellectual change. Remind them at the start of each module that their opening answer is waiting for them in December.
@@ -77,4 +77,4 @@ Point out that these are *students'* answers, not economists' answers. One goal 
 
 ## Reading guide
 
-No reading assigned for Session 1. The first reading (Rosling, *Factfulness*, Introduction + Chapter 1) is assigned for Session 2 (Thu Sep 3).
+No reading assigned for Session 1. The first reading (Rosling, *Factfulness*, Introduction + Chapter 1) is assigned for [Session 2](session02-chimpanzee-test.html) (Thu Sep 3).

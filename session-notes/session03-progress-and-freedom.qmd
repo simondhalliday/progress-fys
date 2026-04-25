@@ -125,9 +125,9 @@ Note: the life expectancy chart is on the course homepage, so using a different 
 
 ## Connections
 
-**Builds on:** Session 2 showed that most people believe the world is getting worse — Rosling's chimpanzee test. Session 3 completes the picture: the world has been getting dramatically better by standard measures, and we systematically fail to notice this; but the metrics themselves need scrutiny.
+**Builds on:** [Session 2](session02-chimpanzee-test.html) showed that most people believe the world is getting worse — Rosling's chimpanzee test. Session 3 completes the picture: the world has been getting dramatically better by standard measures, and we systematically fail to notice this; but the metrics themselves need scrutiny.
 
-**Sets up:** Session 4 (The Great Enrichment) asks where this improvement came from: what institutions and forces produced the transformation? Module 3 (Who Benefits?) asks the question Sen implicitly raises: who is included in the progress we are measuring, and who is left out?
+**Sets up:** [Session 4](session04-great-enrichment.html) (The Great Enrichment) asks where this improvement came from: what institutions and forces produced the transformation? Module 3 (Who Benefits?) asks the question Sen implicitly raises: who is included in the progress we are measuring, and who is left out?
 
 ::: {.instructor}
 **Arc note:** After Sessions 2 and 3, students should have two things: (1) a genuinely fact-based picture of global development that is more optimistic than their starting point; and (2) a more demanding definition of what development is for. These two things are in productive tension, and that tension runs through the rest of the course.
