@@ -15,6 +15,11 @@ order: [N]
      ║  □ Write one .discuss block per major section               ║
      ║  □ Complete reading guide prompts                           ║
      ║  □ Fill in Connections (builds on / sets up)                ║
+     ║  □ Cross-link every session name in Connections and         ║
+     ║    Reading guide to its HTML file, e.g.:                    ║
+     ║    [Session 2](session02-chimpanzee-test.html)              ║
+     ║    Check other sessions' Connections sections too —         ║
+     ║    add a back-link if this session is mentioned there.      ║
      ║  □ Validate citation links                                  ║
      ╚══════════════════════════════════════════════════════════════╝ -->
 
@@ -86,6 +91,12 @@ in past classes.]
 ---
 
 ## Connections
+
+<!-- CROSS-LINK REMINDER: every session name here and in Reading guide
+     below should be a markdown link to its HTML file. Pattern:
+       [Session N](sessionNN-slug.html)
+     Also check adjacent sessions' Connections sections and add a
+     back-link there if this session is mentioned. -->
 
 **Builds on:** [Previous session or reading — one sentence on the link.]
 
