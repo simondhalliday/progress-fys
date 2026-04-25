@@ -99,6 +99,89 @@ const glossary = {
     '[UOE] A measure of the total loss of surplus (potential gains from trade) ' +
     'relative to the maximum available in the market.',
 
+  /* ── Cognitive instincts & global development [SNG] ─────────────────── */
+
+  'heuristic thinking':
+    '[SNG] Fast, intuitive rules of thumb that guide decision-making without ' +
+    'exhaustive deliberation. Evolved as mental shortcuts for navigating complex ' +
+    'environments. Useful in many contexts, but can produce systematic errors when ' +
+    'applied to a modern world very different from the one our ancestors faced.',
+
+  'negativity instinct':
+    '[SNG] The human tendency to notice negative events and information more readily ' +
+    'than positive ones — an evolved cognitive bias that made sense when threats demanded ' +
+    'immediate attention. Combined with media bias toward dramatic events and misremembering ' +
+    'of the past, it produces a worldview significantly darker than the data warrants. ' +
+    'Identified by Hans Rosling in Factfulness (2018).',
+
+  'gap instinct':
+    '[SNG] The tendency to divide people, countries, or situations into two distinct groups ' +
+    'with a gap between them — "developed" vs. "developing," "us" vs. "them." Identified by ' +
+    'Hans Rosling as one of the most pervasive and misleading cognitive biases in global ' +
+    'development: in reality, the majority of humanity lives in the middle, between the two ' +
+    'old categories.',
+
+  'four income levels':
+    '[SNG] Hans Rosling\'s replacement for the "developed/developing" binary. Level 1: ' +
+    '~$1–2/day (extreme poverty, ~1 billion people). Level 2: ~$2–8/day (basic needs met ' +
+    'with effort, ~3 billion). Level 3: ~$8–32/day (relative comfort, ~2 billion). Level 4: ' +
+    '$32+/day (affluence, ~1 billion). Most of humanity lives on Levels 2 and 3.',
+
+  /* ── Development & freedom [SNG / Sen] ──────────────────────────────── */
+
+  'development as freedom':
+    '[SNG] Amartya Sen\'s framework, developed in Development as Freedom (1999): economic ' +
+    'development is the expansion of substantive freedoms — the real capabilities people have ' +
+    'to live lives they have reason to value. Income growth matters insofar as it expands ' +
+    'freedom, but is not the end in itself.',
+
+  'constitutive role':
+    '[SNG] In Amartya Sen\'s framework, the role of freedom as part of what development ' +
+    'actually is, not merely a means to it. A person who cannot vote, cannot choose their ' +
+    'occupation, or cannot access healthcare is unfree in ways that matter regardless of ' +
+    'their income level.',
+
+  'instrumental role':
+    '[SNG] In Amartya Sen\'s framework, the role of freedom as the means by which development ' +
+    'happens: political freedoms produce accountable governments that address famines; ' +
+    'educational opportunities produce human capital; social opportunities enable economic ' +
+    'participation. Freedom drives development as well as constituting it.',
+
+  'human development index':
+    '[SNG] A composite measure of development that goes beyond income to include life ' +
+    'expectancy and years of education. Produced annually by the UNDP. Captures more of ' +
+    'Sen\'s "development as freedom" than GDP per capita alone. Also: HDI.',
+
+  'hdi':
+    '[SNG] Human Development Index. A composite measure combining GDP per capita, life ' +
+    'expectancy, and education. Produced annually by the UNDP. See also: Augmented Human ' +
+    'Development Index (AHDI).',
+
+  'augmented human development index':
+    '[SNG] An extension of the HDI that adds measures of political freedoms and civil ' +
+    'liberties to the standard income, life expectancy, and education components. Developed ' +
+    'by Prados de la Escosura (2015). Makes visible what standard income or HDI measures ' +
+    'hide about the quality of political life. Also: AHDI.',
+
+  'ahdi':
+    '[SNG] Augmented Human Development Index. Extends the standard HDI by incorporating ' +
+    'political freedoms and civil liberties. See also: Human Development Index (HDI).',
+
+  /* ── Capitalism & creative destruction [SNG / UOE] ───────────────────── */
+
+  'capitalism':
+    '[UOE] An economic system combining private property, markets, wage labor, and profit ' +
+    'driven innovation. Capitalist institutions created for the first time at scale a sustained ' +
+    'incentive for producers to search for and implement better ways of doing things — the ' +
+    'engine of the Great Enrichment after 1800.',
+
+  'creative destruction':
+    '[UOE] The process by which new products, firms, and technologies continuously displace ' +
+    'old ones as part of capitalist growth. "Creative" because it generates better products ' +
+    'and more efficient production; "destruction" because it eliminates existing businesses ' +
+    'and jobs. Central to capitalism because profit-seeking innovation continuously renders ' +
+    'older methods obsolete.',
+
   /* ── Research & innovation [SNG / UOE] ───────────────────────────────── */
 
   'basic research':

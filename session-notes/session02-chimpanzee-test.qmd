@@ -33,9 +33,9 @@ Correct answers: C, A, C. Most students will get most of these wrong.
 
 The first temptation is to blame the media, or education, or politics. Rosling rejects all of these as the *primary* explanation. He reaches a more unsettling conclusion: the problem is in how our brains are wired.
 
-We evolved in small hunter-gatherer groups. We needed fast, heuristic thinking: rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
+We evolved in small hunter-gatherer groups. We needed fast, [heuristic thinking]{.term}: rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
 
-This is the **negativity instinct** at work: we notice threats, disasters, and deterioration far more readily than we notice gradual improvement. If a thousand things get 1% better and one thing gets dramatically worse, we notice the one dramatic thing. The news reinforces this, biased toward bad events (which are sudden and visible) over good ones (which are slow and diffuse).
+This is the [**negativity instinct**]{.term} at work: we notice threats, disasters, and deterioration far more readily than we notice gradual improvement. If a thousand things get 1% better and one thing gets dramatically worse, we notice the one dramatic thing. The news reinforces this, biased toward bad events (which are sudden and visible) over good ones (which are slow and diffuse).
 
 There is also a second problem: we misremember the past. We romanticize older times. The result is that progress is invisible twice over: we don't see it happening, and we've forgotten how bad things used to be.
 
@@ -63,7 +63,7 @@ Common confusion: students sometimes say "well, that just shows media bias." Pus
 
 ## The Gap Instinct: the world is not divided into two
 
-The deepest misconception Rosling identifies is also the most fundamental: the belief that the world is divided into two groups, "us" (the rich, developed West) and "them" (the poor, developing rest). This is what he calls the **Gap Instinct**: the irresistible urge to split things into two groups with a gap between them.
+The deepest misconception Rosling identifies is also the most fundamental: the belief that the world is divided into two groups, "us" (the rich, developed West) and "them" (the poor, developing rest). This is what he calls the [**Gap Instinct**]{.term}: the irresistible urge to split things into two groups with a gap between them.
 
 It is a powerful and intuitive mental model. It also no longer describes the world.
 

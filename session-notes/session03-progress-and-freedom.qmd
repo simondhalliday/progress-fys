@@ -29,7 +29,7 @@ Rosling's personal story of his grandmother is in Chapter 2 and is among his mos
 
 If the data shows dramatic improvements in poverty, life expectancy, literacy, child mortality, and violence, why do surveys consistently show that most people believe the world is getting worse?
 
-Rosling identifies the **Negativity Instinct** as the primary explanation: our tendency to notice the bad more readily than the good. This is not a character flaw or a sign of ignorance. It is a feature of how human brains evolved.
+Rosling identifies the [**Negativity Instinct**]{.term} as the primary explanation: our tendency to notice the bad more readily than the good. This is not a character flaw or a sign of ignorance. It is a feature of how human brains evolved.
 
 Three mechanisms reinforce the negativity instinct:
 

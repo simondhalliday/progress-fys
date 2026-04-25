@@ -41,13 +41,13 @@ Ask: if a person from 1700 were transported to any point between 1000 and 1700, 
 
 ## What capitalism is, and what it did
 
-The transformation after 1800 was not an accident. It required specific institutional conditions: what economists call **capitalism**, the combination of private property, [**markets**]{.term}, wage labor, and the pursuit of profit through innovation.
+The transformation after 1800 was not an accident. It required specific institutional conditions: what economists call [**capitalism**]{.term}, the combination of private property, [**markets**]{.term}, wage labor, and the pursuit of profit through innovation.
 
 UOE Chapter 3 makes three key arguments:
 
 First, capitalism created incentives for innovation that had never existed before at scale. When entrepreneurs could capture the returns from new products and processes, they had powerful reasons to invest in finding them. This is the **[**innovation rent**]{.term}** mechanism: the temporary profits from being first to market with something new drive the search for new things.
 
-Second, capitalism is a system of continuous creative destruction. Old products are displaced by better ones. Old firms fail and are replaced by more productive ones. The process is inherently disruptive: very good for aggregate output growth, but producing winners and losers at every stage.
+Second, capitalism is a system of continuous [creative destruction]{.term}. Old products are displaced by better ones. Old firms fail and are replaced by more productive ones. The process is inherently disruptive: very good for aggregate output growth, but producing winners and losers at every stage.
 
 Third, capitalist growth is historically contingent. It required specific institutional features that were not inevitable: secure property rights, rule of law, contract enforcement, access to credit. These conditions developed in particular places at particular times. Britain had them first; others followed; some are still developing them.
 
