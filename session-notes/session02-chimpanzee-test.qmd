@@ -7,17 +7,17 @@ order: 2
 
 ## A quiz that embarrassed the world's leaders
 
-In January 2015, Hans Rosling stepped onto the stage at the World Economic Forum in Davos. In the audience sat heads of state, CEOs of major multinationals, central bank governors, senior UN officials — roughly a thousand of the most powerful and informed people on the planet. He asked them three simple questions about global development.
+In January 2015, Hans Rosling stepped onto the stage at the World Economic Forum in Davos. In the audience sat heads of state, CEOs of major multinationals, central bank governors, senior UN officials, roughly a thousand of the most powerful and informed people on the planet. He asked them three simple questions about global development.
 
 Almost all of them got the answers wrong.
 
-Not just wrong. Wrong in a systematic direction — believing the world was far poorer, far more dangerous, and far more divided than the data showed. Rosling had been running versions of this test for decades, across thousands of respondents in dozens of countries. The pattern was always the same: students, professors, Nobel laureates, investment bankers, politicians — they all got it wrong, and they all got it wrong in the same direction.
+Not just wrong. Wrong in a systematic direction: believing the world was far poorer, far more dangerous, and far more divided than the data showed. Rosling had been running versions of this test for decades, across thousands of respondents in dozens of countries. The pattern was always the same: students, professors, Nobel laureates, investment bankers, politicians, all getting it wrong, and all getting it wrong in the same direction.
 
 The punchline that Rosling kept returning to: chimpanzees would do better.
 
-If you gave a chimp three bananas labelled A, B, and C and read out one of Rosling's questions, the chimp would pick randomly and score 33% right by chance. The average human taking Rosling's 13-question test in 2017 — across nearly 12,000 respondents in 14 countries — scored just 2 out of 12. That is not ignorance. Random ignorance produces 4 correct answers. Scoring 2 out of 12 requires *actively wrong* beliefs, a worldview so systematically distorted that it pushes you away from the truth.
+If you gave a chimp three bananas labelled A, B, and C and read out one of Rosling's questions, the chimp would pick randomly and score 33% right by chance. The average human taking Rosling's 13-question test in 2017, across nearly 12,000 respondents in 14 countries, scored just 2 out of 12. That is not ignorance. Random ignorance produces 4 correct answers. Scoring 2 out of 12 requires *actively wrong* beliefs, a worldview so systematically distorted that it pushes you away from the truth.
 
-**The question this session is about: why do highly educated, globally aware people believe things about the world that are demonstrably, measurably false — and worse than random?**
+**The question this session is about: why do highly educated, globally aware people believe things about the world that are demonstrably, measurably false, and worse than random chance?**
 
 ::: {.instructor}
 Start class with a version of Rosling's quiz — even 3–4 questions is enough. Have students answer before any discussion. The experience of getting things wrong (and discovering you did worse than chance) is the lesson. You can use the Gapminder quiz at gapminder.org/ignorance or just ask verbally:
@@ -33,11 +33,11 @@ Correct answers: C, A, C. Most students will get most of these wrong.
 
 The first temptation is to blame the media, or education, or politics. Rosling rejects all of these as the *primary* explanation. He reaches a more unsettling conclusion: the problem is in how our brains are wired.
 
-We evolved in small hunter-gatherer groups. We needed fast, heuristic thinking — rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
+We evolved in small hunter-gatherer groups. We needed fast, heuristic thinking: rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
 
-This is the **negativity instinct** at work: we notice threats, disasters, and deterioration far more readily than we notice gradual improvement. If a thousand things get 1% better and one thing gets dramatically worse, we notice the one dramatic thing. The news reinforces this — it is structurally biased toward bad events (which are sudden and visible) over good ones (which are slow and diffuse).
+This is the **negativity instinct** at work: we notice threats, disasters, and deterioration far more readily than we notice gradual improvement. If a thousand things get 1% better and one thing gets dramatically worse, we notice the one dramatic thing. The news reinforces this, biased toward bad events (which are sudden and visible) over good ones (which are slow and diffuse).
 
-There is also a second problem: we misremember the past. We romanticize older times. The result is that progress is invisible twice over — we don't see it happening, and we've forgotten how bad things used to be.
+There is also a second problem: we misremember the past. We romanticize older times. The result is that progress is invisible twice over: we don't see it happening, and we've forgotten how bad things used to be.
 
 > Most people think the world is getting worse. The data says they are wrong.
 
@@ -63,22 +63,22 @@ Common confusion: students sometimes say "well, that just shows media bias." Pus
 
 ## The Gap Instinct: the world is not divided into two
 
-The deepest misconception Rosling identifies is also the most fundamental: the belief that the world is divided into "us" — the rich, developed West — and "them" — the poor, developing rest. This is what he calls the **Gap Instinct**: the irresistible urge to split things into two groups with a gap between them.
+The deepest misconception Rosling identifies is also the most fundamental: the belief that the world is divided into two groups, "us" (the rich, developed West) and "them" (the poor, developing rest). This is what he calls the **Gap Instinct**: the irresistible urge to split things into two groups with a gap between them.
 
 It is a powerful and intuitive mental model. It also no longer describes the world.
 
 In 1965, when the developed/developing binary was invented, the data supported it. There were genuinely two clusters: rich countries with small families and low child mortality, and poor countries with large families and high child mortality. The gap was real.
 
-Today, that picture is 60 years out of date. Eighty-five percent of humanity now lives in what used to be called the "developed world" — in terms of family size and child survival rates. The remaining 15% are mostly in between the two old boxes. Only 13 countries, containing 6% of the world's population, still fit the old "developing" category.
+Today, that picture is 60 years out of date. Eighty-five percent of humanity now lives in what used to be called the "developed world," measured by family size and child survival rates. The remaining 15% are mostly in between the two old boxes. Only 13 countries, containing 6% of the world's population, still fit the old "developing" category.
 
 The world has moved, but most people's mental maps have not.
 
 > The majority of humanity lives in the middle — in countries and conditions that fit neither "developed" nor "developing."
 
-Rosling replaces the binary with four income levels — a spectrum from extreme poverty ($1–2/day) to affluence ($32+/day). Most of humanity lives on Levels 2 and 3, not Level 1. Understanding this matters practically: if you're a humanitarian, you need to find the poorest people efficiently; if you're a business, you're missing 5 billion potential consumers if you assume they're all "poor."
+Rosling replaces the binary with four income levels, ranging from extreme poverty ($1–2/day) to affluence ($32+/day). Most of humanity lives on Levels 2 and 3, not Level 1. Understanding this matters practically: if you're a humanitarian, you need to find the poorest people efficiently; if you're a business, you're missing 5 billion potential consumers if you assume they're all "poor."
 
 ::: {.discuss}
-The labels "developed" and "developing" are still widely used in journalism, policy, and international [**institutions**]{.term}. If Rosling is right that these labels create a false picture, why do you think they persist? What would it take to replace them — and would replacing them change anything?
+The labels "developed" and "developing" are still widely used in journalism, policy, and international [**institutions**]{.term}. If Rosling is right that these labels create a false picture, why do you think they persist? What would it take to replace them, and would replacing them actually change anything?
 :::
 
 ```{=html}
@@ -99,7 +99,7 @@ The Four Levels framework is worth spending time on because it comes back throug
 
 ## How much has the world improved?
 
-The data on global progress is one of the most important and underappreciated stories of the past two centuries. The chart below shows the decline in extreme poverty — perhaps the most fundamental measure of human deprivation.
+The data on global progress is one of the most important and underappreciated stories of the past two centuries. The chart below shows the decline in extreme poverty, perhaps the most fundamental measure of human deprivation.
 
 <iframe src="https://ourworldindata.org/grapher/share-of-population-in-extreme-poverty" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 

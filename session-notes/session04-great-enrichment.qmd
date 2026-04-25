@@ -17,9 +17,9 @@ The storm gave millions of New Yorkers a direct experience of something they had
 
 Think about what the residents of New York in 1800 actually had: no electric light (candles and oil lamps), no indoor plumbing (wells and outhouses), no central heating (wood fires), no refrigeration (root cellars and iceboxes in winter), no telephone, no subway, no mass-produced clothing, no anesthesia. Life expectancy at birth in the United States was about 35 years, largely because infant and child mortality was enormous. The typical American spent most of their time and energy simply securing food, warmth, and water.
 
-In two centuries — roughly the lifespan of the United States — all of that changed beyond recognition.
+In two centuries (roughly the lifespan of the United States) all of that changed beyond recognition.
 
-**The question this session is about: how did this happen? Why 1800? Why Britain first? And what does Jason Crawford mean when he says industrial civilization has become invisible to us — and why does that matter?**
+**The question this session is about: how did this happen? Why 1800? Why Britain first? And what does Jason Crawford mean when he says industrial civilization has become invisible to us, and why does that matter?**
 
 ::: {.instructor}
 The Hurricane Sandy hook is from UOE Chapter 3. It works particularly well because it makes the infrastructure of modernity viscerally real — students can imagine losing it. The follow-up question to ask: "When did you last think about how your food got to the supermarket? How your water gets clean? Who keeps the lights on?" Crawford's "Fish in Water" is the deeper reflection on this — we've been so thoroughly insulated from the problems that the solutions have become invisible.
@@ -27,7 +27,7 @@ The Hurricane Sandy hook is from UOE Chapter 3. It works particularly well becau
 
 ## Two centuries of transformation
 
-The chart below shows what economic historians call the "hockey stick" — the most dramatic fact in the history of human welfare. For most of recorded history, GDP per capita changed slowly or not at all. Living standards in England in 1700 were not dramatically higher than in ancient Rome. Then, around 1800, something changed. Growth accelerated, compounded, and produced a world that would be unrecognizable to any previous generation.
+The chart below shows what economic historians call the "hockey stick," the most dramatic fact in the history of human welfare. For most of recorded history, GDP per capita changed slowly or not at all. Living standards in England in 1700 were not dramatically higher than in ancient Rome. Then, around 1800, something changed. Growth accelerated, compounded, and produced a world that would be unrecognizable to any previous generation.
 
 <iframe src="https://ourworldindata.org/grapher/gdp-per-capita-maddison" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 
@@ -41,20 +41,20 @@ Ask: if a person from 1700 were transported to any point between 1000 and 1700, 
 
 ## What capitalism is, and what it did
 
-The transformation after 1800 was not an accident. It required specific institutional conditions — what economists call **capitalism**: the combination of private property, [**markets**]{.term}, wage labor, and the pursuit of profit through innovation.
+The transformation after 1800 was not an accident. It required specific institutional conditions: what economists call **capitalism**, the combination of private property, [**markets**]{.term}, wage labor, and the pursuit of profit through innovation.
 
 UOE Chapter 3 makes three key arguments:
 
 First, capitalism created incentives for innovation that had never existed before at scale. When entrepreneurs could capture the returns from new products and processes, they had powerful reasons to invest in finding them. This is the **[**innovation rent**]{.term}** mechanism: the temporary profits from being first to market with something new drive the search for new things.
 
-Second, capitalism is a system of continuous creative destruction. Old products are displaced by better ones. Old firms fail and are replaced by more productive ones. The process is inherently disruptive — it is very good for aggregate output growth, but it produces winners and losers at every stage.
+Second, capitalism is a system of continuous creative destruction. Old products are displaced by better ones. Old firms fail and are replaced by more productive ones. The process is inherently disruptive: very good for aggregate output growth, but producing winners and losers at every stage.
 
 Third, capitalist growth is historically contingent. It required specific institutional features that were not inevitable: secure property rights, rule of law, contract enforcement, access to credit. These conditions developed in particular places at particular times. Britain had them first; others followed; some are still developing them.
 
 > Capitalism transformed the world because it created for the first time in history a system in which the search for profit was channeled into the search for innovation.
 
 ::: {.discuss}
-Capitalism produced unprecedented prosperity — but it also produced [**inequality**]{.term}, environmental degradation, and significant human costs in the transition. Is it possible to get the benefits of capitalist growth without the harms? Or are the harms intrinsic to the system? Think about what trade-offs you would be willing to accept.
+Capitalism produced unprecedented prosperity, but it also produced [**inequality**]{.term}, environmental degradation, and significant human costs in the transition. Is it possible to get the benefits of capitalist growth without the harms? Or are the harms intrinsic to the system? Think about what trade-offs you would be willing to accept.
 :::
 
 ```{=html}
@@ -75,11 +75,11 @@ Students often confuse the *conditions* for growth ([**institutions**]{.term}, p
 
 ## Fish in water
 
-Jason Crawford's "Fish in Water" makes a different kind of argument. Not about how capitalism worked, but about how we see it — or rather, how we fail to.
+Jason Crawford's "Fish in Water" makes a different kind of argument. Not about how capitalism worked, but about how we see it, or rather how we fail to.
 
-Crawford's central observation: industrial civilization has become a victim of its own success. It has solved the problems of daily existence so thoroughly that the solutions — and the problems — have faded from our collective memory. We live inside a vast system of productive cooperation, technology, and accumulated knowledge, and we do not see it at all.
+Crawford's central observation: industrial civilization has become a victim of its own success. It has solved the problems of daily existence so thoroughly that the solutions, and the original problems, have faded from our collective memory. We live inside a vast system of productive cooperation, technology, and accumulated knowledge, and we do not see it at all.
 
-Consider the mundane objects around you right now. The chair you are sitting on required lumber, steel, foam, fabric, paint, and dozens of other inputs — each produced by specialized workers using specialized equipment, assembled in a factory, transported across thousands of miles, inventoried by a retailer, purchased through a payment system. You have never thought about any of this. You have never had to.
+Consider the mundane objects around you right now. The chair you are sitting on required lumber, steel, foam, fabric, paint, and dozens of other inputs, each produced by specialized workers using specialized equipment, assembled in a factory, transported across thousands of miles, inventoried by a retailer, purchased through a payment system. You have never thought about any of this. You have never had to.
 
 Crawford writes:
 
@@ -90,7 +90,7 @@ This invisibility has consequences. We take for granted things that required eno
 More directly: we forget that progress is not automatic. Everything had to be invented, built, and sustained. The light switch that works every time is not a fact of nature. It is the product of a million decisions made by engineers, workers, regulators, and investors across more than a century.
 
 ::: {.discuss}
-Crawford says the invisibility of prosperity makes it harder to value and harder to protect. Can you think of something that was once a remarkable achievement but is now so normalized that its loss would be catastrophic — and yet we give it almost no thought? What would it take to make these things visible again?
+Crawford says the invisibility of prosperity makes it harder to value and harder to protect. Can you think of something that was once a remarkable achievement but is now so normalized that its loss would be catastrophic, and yet we give it almost no thought? What would it take to make these things visible again?
 :::
 
 ```{=html}
