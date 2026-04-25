@@ -47,5 +47,5 @@ format:
       - quarto-nav.css
     include-after-body: _glossary-init.html
     toc: false
-    smooth-scroll: true
+    smooth-scroll: false
     email-obfuscation: javascript

@@ -92,8 +92,42 @@ main.content {
   max-width: 100%;
 }
 
-/* Remove Quarto's default title block (we have our own headers) */
+/* Remove Quarto's default title block (we use custom headers on most pages) */
 #title-block-header { display: none; }
+
+/* ── Session title block (paginated pages only) ───────────────── */
+/* paginate.js adds .is-paginated to <body> on session-note pages. */
+body.is-paginated #title-block-header {
+  display: block;
+  padding-bottom: var(--sp-lg);
+  margin-bottom: var(--sp-xl);
+  border-bottom: 1px solid var(--rule);
+}
+
+body.is-paginated #title-block-header h1.title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0 0 0.25rem;
+}
+
+body.is-paginated #title-block-header .subtitle.lead {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin: 0;
+}
+
+/* Hide empty metadata div and description (session notes don't need it) */
+body.is-paginated #title-block-header .quarto-title-meta,
+body.is-paginated #title-block-header .description {
+  display: none;
+}
 
 /* ── Footer ──────────────────────────────────────────────────── */
 .nav-footer {

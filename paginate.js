@@ -43,6 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
   );
   if (sections.length < 2) return;   /* single-section pages: do nothing */
 
+  /* Mark the body so CSS can style paginated pages differently
+     (e.g. showing the title-block-header that is hidden site-wide) */
+  document.body.classList.add('is-paginated');
+
   var current = 0;
 
   /* Determine initial section from URL hash */
