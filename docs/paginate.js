@@ -4,12 +4,34 @@
    prev/next navigation at the bottom, CORE-econ style.
    URL hash tracks position; TOC links navigate between sections.
 
-   NOTE: Quarto's built-in scroll-spy (quarto.js) recalculates the
-   active TOC entry on every scroll event using offsetTop. When
-   paginate.js hides sections with display:none their offsetTop
-   collapses to 0, which fools the scroll-spy into always marking
-   the last section as active. We suppress this with a
-   requestAnimationFrame re-highlight after each scroll. */
+   INTERCEPTION STRATEGY
+   ---------------------
+   Two scripts compete with our TOC click handlers:
+
+   1. zenscroll-min.js (injected by Quarto's smooth-scroll:true setting).
+      Registered as a bubble-phase listener on *window*. It calls
+      preventDefault + history.pushState for any <a href="#..."> click,
+      which changes the URL hash without triggering paginate.js.
+
+   2. quarto.js scroll-spy. Registered as bubble-phase listeners directly
+      on the TOC <a> elements (in document order, before paginate.js runs).
+
+   A capture-phase listener on the <a> element itself would normally fire
+   before both of these. However, because quarto.js registers its own
+   capture-equivalent early during module execution, the at-target phase
+   fires all listeners in registration order regardless of capture flag,
+   allowing quarto.js to interfere before our handler runs.
+
+   THE FIX: attach our click handler to *document* in capture phase.
+   document-capture fires before the event travels to any descendant,
+   guaranteeing we intercept before zenscroll, quarto.js, or the browser's
+   own hash-navigation logic. Event delegation (closest) lets us still
+   target only TOC links without pre-querying elements.
+
+   NOTE: Quarto's scroll-spy recalculates active TOC entry on scroll using
+   offsetTop. Hidden sections have offsetTop=0, confusing the spy. We
+   suppress this with a requestAnimationFrame re-highlight after each
+   scroll. */
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -118,20 +140,37 @@ document.addEventListener('DOMContentLoaded', function () {
   }, { passive: true });
 
   /* ── Wire up TOC links ───────────────────────────────────── */
-  /* Use capture phase so this fires before quarto.js's bubble-phase
-     handlers. stopImmediatePropagation prevents them from running at all,
-     so quarto.js does not try to scroll to a hidden section. */
-  document.querySelectorAll('#TOC a[href^="#"]').forEach(function (a) {
-    a.addEventListener('click', function (e) {
-      var targetId = a.getAttribute('href').slice(1);
-      var idx = sections.findIndex(function (s) { return s.id === targetId; });
-      if (idx !== -1) {
-        e.preventDefault();
-        e.stopImmediatePropagation();
-        showSection(idx);
+  /* Document-level capture fires before the event reaches any descendant,
+     guaranteeing interception ahead of zenscroll (window bubble) and
+     quarto.js (element bubble). Event delegation via closest() means we
+     don't need to pre-query elements and are immune to TOC replacement. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('#TOC a[href^="#"]');
+    if (!a) return;
+
+    var targetId = a.getAttribute('href').slice(1);
+
+    /* Direct match: this link points to a level-2 section */
+    var idx = sections.findIndex(function (s) { return s.id === targetId; });
+
+    /* Indirect match: link points to a sub-heading inside a level-2 section.
+       Walk up the DOM to find which section owns the target element. */
+    if (idx === -1) {
+      var target = document.getElementById(targetId);
+      if (target) {
+        var parent = target.closest('section.level2');
+        if (parent) {
+          idx = sections.findIndex(function (s) { return s === parent; });
+        }
       }
-    }, true);   /* capture = true */
-  });
+    }
+
+    if (idx !== -1) {
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      showSection(idx);
+    }
+  }, true);   /* capture = true — document-level, fires before everything */
 
   /* ── Keyboard navigation ─────────────────────────────────── */
   document.addEventListener('keydown', function (e) {
