@@ -446,8 +446,11 @@ description: "Syllabus — FYS: Progress"
           <div class="session-row__title">Session 19 · Guest: Political Economy of Reform</div>
           <div class="session-row__meta">Guest speaker: Professor Steve Teles (Hopkins).
             <ul class="reading-list">
-              <li><span class="tag tag--recommended">Recommended</span> William J. Baumol &amp; William G. Bowen, &#x201C;On the Performing Arts: The Anatomy of Their Economic Problems,&#x201D; <em>American Economic Review</em> 55, no. 1/2 (1965): 495&#x2013;502 &#x2014; the original "cost disease" paper. Live performance (theatre, music, dance) cannot substitute capital for labor the way manufacturing can, so its costs rise relentlessly relative to the rest of the economy. A short and elegant argument with wide implications for education, healthcare, and government services.</li>
-            </ul></div>
+              <li><span class="tag tag--required">Required</span> <a href="https://www.nationalaffairs.com/publications/detail/kludgeocracy-in-america" target="_blank" rel="noopener">Steven Teles, &#x201C;Kludgeocracy in America,&#x201D; <em>National Affairs</em> (Fall 2013)</a> &#x2014; America&#x2019;s patchwork of overlapping programmes and indirect policy instruments is not an accident but a structural feature of its political system. Teles coins &#x201C;kludgeocracy&#x201D; to name a governing style that is simultaneously complex, inefficient, and redistributive &#x2014; upward. Essential background for understanding why reform is so hard.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.niskanencenter.org/the-rise-of-the-abundance-faction/" target="_blank" rel="noopener">Robert Saldin &amp; Steven Teles, &#x201C;The Rise of the Abundance Faction,&#x201D; Niskanen Center (June 2024)</a> &#x2014; argues that a cross-cutting &#x201C;Abundance Faction&#x201D; &#x2014; YIMBY activists, climate builders, healthcare reformers &#x2014; is emerging as a new political force in American politics, modelled on the Progressive Era coalition. The political complement to Kludgeocracy&#x2019;s diagnosis.</li>
+              <li><span class="tag tag--recommended">Recommended</span> William J. Baumol &amp; William G. Bowen, &#x201C;On the Performing Arts: The Anatomy of Their Economic Problems,&#x201D; <em>American Economic Review</em> 55, no. 1/2 (1965): 495&#x2013;502 &#x2014; the original &#x201C;cost disease&#x201D; paper. Live performance cannot substitute capital for labor the way manufacturing can, so its costs rise relentlessly relative to the rest of the economy. Wide implications for education, healthcare, and government services.</li>
+            </ul>
+            <p class="reading-note">Kludgeocracy names the disease; the Abundance Faction proposes the cure. Come ready to push on both: is the diagnosis right? Is the proposed coalition realistic?</p></div>
           <div class="session-row__tags"><span class="tag tag--accent">Guest speaker</span><span class="tag">In-class response</span></div>
         </div>
       </div>
@@ -456,12 +459,12 @@ description: "Syllabus — FYS: Progress"
         <div class="session-row__date">Thu Nov 5</div>
         <div class="session-row__body">
           <div class="session-row__title">Session 20 · Top-Down Innovation: The State, the Market, and Who Decides</div>
-          <div class="session-row__meta">Reading TBD — options:
+          <div class="session-row__meta">
             <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~4 pp.)</a> — the manifesto that launched the Progress Studies movement.</li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://blog.benjaminreinhardt.com/wddw" target="_blank" rel="noopener">Ben Reinhardt, "Why Does DARPA Work?" (~20 pp.)</a> — a deep dive into government-directed innovation and what makes it succeed.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://blog.benjaminreinhardt.com/wddw" target="_blank" rel="noopener">Ben Reinhardt, &#x201C;Why Does DARPA Work?&#x201D; (~20 pp.)</a> &#x2014; a careful structural analysis of what makes DARPA, uniquely among government agencies, a reliable producer of breakthrough innovation: programme managers with autonomy, short time horizons, and no bureaucratic overhead. The template against which all government innovation is measured.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.aeaweb.org/articles?id=10.1257/jep.31.1.67" target="_blank" rel="noopener">Heidi Williams, &#x201C;How Do Patents Affect Research Investments?&#x201D; <em>Journal of Economic Perspectives</em> 31, no. 1 (2017): 67&#x2013;92</a> &#x2014; a survey of the empirical evidence on whether and when intellectual property rights increase or decrease downstream innovation. Williams&#x2019;s own work on the human genome showed that private IP rights over mapped gene sequences reduced subsequent research on those genes by ~30% &#x2014; a striking finding about how the design of property rights, not just their existence, shapes what gets discovered.</li>
             </ul>
-            <p class="reading-note">Case studies: Operation Warp Speed, Bell Labs, the internet. What makes government-directed innovation succeed or fail — and when is it a good idea at all?</p>
+            <p class="reading-note">Case studies: DARPA, Operation Warp Speed, Bell Labs, the internet. What makes government-directed innovation succeed or fail &#x2014; and how does it interact with the patent system that governs what the private sector investigates?</p>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
@@ -471,8 +474,14 @@ description: "Syllabus — FYS: Progress"
         <div class="session-row__date">Tue Nov 10</div>
         <div class="session-row__body">
           <div class="session-row__title">Session 21 · Guest: Contemporary Science Policy</div>
-          <div class="session-row__meta">Guest speaker from the Institute for Progress (Washington DC). Reading TBD — context on science funding, metascience, and innovation policy.</div>
-          <div class="session-row__tags"><span class="tag tag--accent">Guest speaker</span></div>
+          <div class="session-row__meta">Guest speaker from the Institute for Progress (IFP) &#x2014; Heidi Williams (Director of Science Policy, IFP; Professor of Economics, Dartmouth) or Santi Ruiz (IFP Senior Editor, <em>Statecraft</em>), subject to availability.
+            <ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> <a href="https://ifp.org/to-speed-scientific-progress-do-away-with-funding-delays/" target="_blank" rel="noopener">Heidi Williams, &#x201C;Funding Delays Are Slowing Scientific Progress,&#x201D; Institute for Progress (August 2023, ~1,500 words)</a> &#x2014; scientists wait on average 20 months between submitting a grant and receiving funding. Williams argues this delay is not an administrative inevitability but a policy choice with measurable costs to research output &#x2014; and that fixing it is low-hanging fruit.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://ifp.org/to-speed-up-scientific-progress-we-need-to-understand-science-policy/" target="_blank" rel="noopener">Matt Clancy, Dan Correa, Jordan Dworkin, Paul Niehaus, Caleb Watney &amp; Heidi Williams, &#x201C;To Speed Up Scientific Progress, We Need to Understand Science Policy,&#x201D; Institute for Progress (September 2023)</a> &#x2014; a short manifesto arguing that the gap between science policy research and actual policy-making is itself a barrier to progress, and proposing three bridges to close it.</li>
+            </ul>
+            <p class="reading-note">IFP works at the intersection of academic research and policy practice. Come with a specific claim from the Williams reading you want to push back on &#x2014; or a funding delay story of your own.</p>
+          </div>
+          <div class="session-row__tags"><span class="tag tag--accent">Guest speaker</span><span class="tag">In-class response</span></div>
         </div>
       </div>
     </div>
