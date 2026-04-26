@@ -33,7 +33,7 @@ Correct answers: C, A, C. Most students will get most of these wrong.
 
 The first temptation is to blame the media, or education, or politics. Rosling rejects all of these as the *primary* explanation. He reaches a more unsettling conclusion: the problem is in how our brains are wired.
 
-We evolved in small hunter-gatherer groups. We needed fast, [heuristic thinking]{.term}: rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
+We evolved in small hunter-gatherer groups. We needed fast, [**heuristic thinking**]{.term}: rules of thumb that worked well enough in the specific environment our ancestors faced. One of those rules was: danger and bad news are more urgent than safety and good news. We are neurologically tuned to notice the bad.
 
 This is the [**negativity instinct**]{.term} at work: we notice threats, disasters, and deterioration far more readily than we notice gradual improvement. If a thousand things get 1% better and one thing gets dramatically worse, we notice the one dramatic thing. The news reinforces this, biased toward bad events (which are sudden and visible) over good ones (which are slow and diffuse).
 

@@ -259,6 +259,12 @@ section + section { border-top: 1px solid var(--rule); }
   gap: var(--sp-lg);
 }
 
+a.module-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .module-card {
   background: var(--bg-alt);
   border: 1px solid var(--rule);
