@@ -256,11 +256,14 @@ description: "Syllabus — FYS: Progress"
         <div class="session-row__date">Thu Sep 24</div>
         <div class="session-row__body">
           <div class="session-row__title">Session 8 · Cities 2: Silicon Valley and Economies of Agglomeration</div>
-          <div class="session-row__meta">Reading TBD — options:
+          <div class="session-row__meta">
             <ul class="reading-list">
-              <li>AnnaLee Saxenian, <em>Regional Advantage</em> (excerpt) — Silicon Valley vs. Route 128; why do innovators cluster?</li>
-              <li>Enrico Moretti, <em>The New Geography of Jobs</em> (excerpt) — what does geographic concentration mean for everywhere else?</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://geekway.substack.com/p/a-visualization-of-europes-non-bubbly" target="_blank" rel="noopener">Andrew McAfee, &#x201C;A Visualization of Europe&#x2019;s Non-Bubbly Economy,&#x201D; <em>The Geek Way</em> (December 2024, ~1,200 words)</a> &#x2014; two bubble charts that make the US&#x2013;Europe innovation gap visceral: Europe has produced 14 from-scratch public companies worth over $10B in the past fifty years; the US has produced hundreds, collectively worth almost $30 trillion. McAfee draws on the Draghi report to diagnose why &#x2014; fragmented markets, restrictive regulation, and a VC ecosystem that lags the US by a factor of five at every funding stage. The sharpest short answer to &#x201C;why Silicon Valley?&#x201D; and &#x201C;why not Europe?&#x201D; <span style="color:var(--ink-light);">[free, Substack]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> AnnaLee Saxenian, <em>Regional Advantage</em> (excerpt) &#x2014; Silicon Valley vs. Route 128; why do innovators cluster? <span style="color:var(--ink-light);">[PDF via library]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> Enrico Moretti, <em>The New Geography of Jobs</em> (excerpt) &#x2014; what does geographic concentration mean for everywhere else? <span style="color:var(--ink-light);">[PDF via library]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> Mario Draghi, <em>The Future of European Competitiveness</em> (European Commission, September 2024), pp. 1&#x2013;15 (Part A executive summary) &#x2014; the report McAfee is reacting to. Draghi argues Europe faces an &#x201C;existential crisis&#x201D; driven by falling productivity growth, underinvestment in deep tech, and regulatory fragmentation. The headline statistics &#x2014; no from-scratch EU company worth over &#x20AC;100B in fifty years; VC funding lagging the US at every stage by roughly 5&#xD7; &#x2014; are all here in primary form. Read pp. 1&#x2013;15 for the diagnosis; the rest is policy prescription. <a href="https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en?filename=The%20future%20of%20European%20competitiveness%20_%20A%20competitiveness%20strategy%20for%20Europe.pdf" target="_blank" rel="noopener">[PDF, free]</a></li>
             </ul>
+            <p class="reading-note">Silicon Valley exists for reasons &#x2014; and so does the gap between it and everywhere else. McAfee makes the US&#x2013;Europe comparison impossible to dismiss; Saxenian and Moretti explain the agglomeration economics underneath it.</p>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">Baltimore Video due</span></div>
         </div>
