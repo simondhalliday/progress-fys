@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 
   <style>
     /* === THEME: SLATE & GOLD ============================================ */
@@ -22,17 +23,17 @@
       --text-dim:     #3a4d62;
       --ease:         cubic-bezier(0.16, 1, 0.3, 1);
 
-      /* Typography — all clamp() */
-      --title-size:   clamp(2rem, 5.5vw, 4.5rem);
-      --h2-size:      clamp(1.5rem, 3vw, 2.6rem);
-      --body-size:    clamp(0.82rem, 1.35vw, 1.05rem);
-      --small-size:   clamp(0.65rem, 0.95vw, 0.8rem);
-      --label-size:   clamp(0.58rem, 0.85vw, 0.7rem);
-      --stat-size:    clamp(1.2rem, 2.8vw, 2.2rem);
+      /* Typography — projection-first: sized for a 40-person room at 1280-1920px */
+      --title-size:   clamp(2.8rem, 6.5vw, 6.5rem);
+      --h2-size:      clamp(2.2rem, 4.5vw, 4.5rem);
+      --body-size:    clamp(1.5rem, 2.4vw, 2.4rem);
+      --small-size:   clamp(1.2rem, 1.9vw, 1.9rem);
+      --label-size:   clamp(1.1rem, 1.6vw, 1.6rem);
+      --stat-size:    clamp(1.8rem, 3.5vw, 3.5rem);
 
       /* Spacing */
-      --pad:          clamp(2rem, 5vw, 5rem);
-      --gap:          clamp(0.55rem, 1.3vw, 1.1rem);
+      --pad:          clamp(1.8rem, 4.5vw, 4.5rem);
+      --gap:          clamp(0.45rem, 0.9vw, 0.8rem);
     }
 
     /* === RESET ========================================================= */
@@ -66,27 +67,25 @@
       padding: var(--pad);
     }
 
-    /* Responsive height breakpoints */
+    /* Responsive height breakpoints — only affect spacing, not font sizes.
+       Projection legibility must not be sacrificed for fit at 700 px.
+       Font overrides only kick in below 500 px (tiny windows / tablet landscape). */
     @media (max-height: 700px) {
       :root {
-        --pad:       clamp(1.2rem, 3vw, 2.5rem);
-        --h2-size:   clamp(1.2rem, 2.5vw, 1.9rem);
-        --body-size: clamp(0.75rem, 1.2vw, 0.92rem);
-        --gap:       clamp(0.4rem, 1vw, 0.8rem);
+        --pad: clamp(1.2rem, 3vw, 2.5rem);
+        --gap: clamp(0.4rem, 0.9vw, 0.75rem);
       }
     }
     @media (max-height: 600px) {
-      :root {
-        --pad:       clamp(0.8rem, 2vw, 1.5rem);
-        --body-size: clamp(0.68rem, 1.1vw, 0.82rem);
-      }
+      :root { --pad: clamp(0.8rem, 2vw, 1.5rem); }
       .nav-dots, .slide-num { display: none; }
     }
     @media (max-height: 500px) {
       :root {
         --pad:        clamp(0.5rem, 1.5vw, 1rem);
-        --title-size: clamp(1.5rem, 4vw, 2.5rem);
-        --h2-size:    clamp(1rem, 2vw, 1.5rem);
+        --title-size: clamp(1.8rem, 4.5vw, 2.8rem);
+        --h2-size:    clamp(1.6rem, 3vw, 2.2rem);
+        --body-size:  clamp(1.1rem, 1.8vw, 1.4rem);
       }
     }
     @media (prefers-reduced-motion: reduce) {
@@ -186,7 +185,7 @@
     }
     .subtitle {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(1rem, 2vw, 1.55rem); font-style: italic; font-weight: 400;
+      font-size: clamp(1.2rem, 2.2vw, 2.1rem); font-style: italic; font-weight: 400;
       color: var(--gold); line-height: 1.3;
       margin-top: clamp(0.4rem, 0.9vw, 0.7rem); flex-shrink: 0;
     }
@@ -429,6 +428,177 @@
     .q-item:nth-child(2) { transition-delay: 0.22s; }
     .q-item:nth-child(3) { transition-delay: 0.34s; }
     .q-item:nth-child(4) { transition-delay: 0.46s; }
+
+    /* === IFRAME SLIDES ================================================= */
+    .iframe-slide .slide-content {
+      justify-content: flex-start;
+      padding: clamp(1rem, 2vw, 2rem);
+    }
+    .iframe-slide iframe {
+      flex: 1;
+      width: 100%;
+      min-height: 0;
+      border: none;
+      border-radius: 3px;
+      margin-top: clamp(0.4rem, 0.8vw, 0.7rem);
+    }
+    .iframe-slide h2 { margin-bottom: 0; }
+
+    /* === THREE STATEMENTS ============================================== */
+    .three-cols {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(0.5rem, 1.1vw, 0.9rem);
+      flex: 1; min-height: 0; overflow: hidden;
+      margin-top: clamp(0.5rem, 1vw, 0.8rem);
+    }
+    .three-col {
+      padding: clamp(0.5rem, 1.1vw, 0.9rem);
+      border-radius: 3px;
+      display: flex; flex-direction: column; gap: clamp(0.3rem, 0.6vw, 0.5rem);
+      overflow: hidden;
+    }
+    .three-col--awful    { background: rgba(160,40,40,0.13);  border: 1px solid rgba(180,70,70,0.35); }
+    .three-col--better   { background: rgba(50,70,150,0.13);  border: 1px solid rgba(90,115,200,0.3); }
+    .three-col--possible { background: rgba(25,100,65,0.13);  border: 1px solid rgba(40,150,90,0.3);  }
+
+    .three-col__head {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.4rem, 2.3vw, 2.5rem);
+      font-weight: 700; line-height: 1.2;
+    }
+    .three-col--awful    .three-col__head { color: #d97070; }
+    .three-col--better   .three-col__head { color: #8098d8; }
+    .three-col--possible .three-col__head { color: #52b87e; }
+
+    .three-col__body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--small-size); font-weight: 300;
+      color: var(--text-muted); line-height: 1.45;
+    }
+
+    /* Bar chart (panels 2 & 3) — fills remaining vertical space */
+    .three-col__bars {
+      display: flex; align-items: flex-end;
+      gap: clamp(1.2rem, 3vw, 2.5rem);
+      flex: 1; min-height: 0;
+      justify-content: center;
+      padding: 0.5rem 1rem 0;
+    }
+    /* bar-wrap only holds the bar — no label inside */
+    .bar-wrap {
+      flex: 1; max-width: 90px;
+      display: flex; align-items: flex-end;
+      height: 100%;
+    }
+    .bar { width: 100%; border-radius: 4px 4px 0 0; }
+    /* Use vh so bars are proportional on any viewport height */
+    .bar--past  { background: rgba(90,110,200,0.9);  height: 26vh; max-height: 100%; }
+    .bar--today { background: rgba(90,110,200,0.55); height: 2.3vh; min-height: 6px; }
+    .bar--world { background: rgba(40,160,95,0.9);   height: 20vh; max-height: 100%; }
+    .bar--eu    { background: rgba(40,160,95,0.55);  height: 2.1vh; min-height: 5px; }
+    /* Separate label row — lives outside bars container so it's never clipped */
+    .three-col__bar-labels {
+      display: flex;
+      justify-content: center;
+      gap: clamp(1.2rem, 3vw, 2.5rem);
+      flex-shrink: 0;
+      padding: 0.3rem 1rem 0;
+    }
+    .three-col__bar-labels .bar-label { flex: 1; max-width: 90px; }
+    .bar-label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: clamp(1.1rem, 1.7vw, 1.7rem);
+      color: var(--text-muted); text-align: center; line-height: 1.3;
+    }
+
+    /* Waffle-style grid for "awful" panel — explicit 20 rows fills container exactly */
+    .awful-grid {
+      display: grid;
+      grid-template-columns: repeat(20, 1fr);
+      grid-template-rows: repeat(20, 1fr);
+      gap: clamp(1px, 0.15vw, 2px);
+      flex: 1; min-height: 0;
+    }
+    .awful-dot {
+      background: #c0392b;   /* solid red — dying children */
+      border-radius: 1px;
+    }
+    .awful-dot.alive { background: rgba(200, 80, 80, 0.42); } /* muted pink-red — alive but clearly lighter */
+
+    .three-attribution {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: calc(var(--label-size) * 0.9);
+      color: var(--text-dim); flex-shrink: 0;
+      margin-top: clamp(0.3rem, 0.6vw, 0.5rem);
+    }
+
+    /* === LEAFLET MAP — SLATE/GOLD THEME ================================ */
+    #balt-map { background: #0f1624; }
+
+    .leaflet-container {
+      font-family: 'IBM Plex Sans', sans-serif;
+      background: #0f1624;
+    }
+
+    /* Popups */
+    .leaflet-popup-content-wrapper {
+      background: #131c2e;
+      color: #f5f0e8;
+      border: 1px solid rgba(232,165,32,0.45);
+      border-radius: 5px;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.55);
+    }
+    .leaflet-popup-tip-container { display: none; }
+    .leaflet-popup-close-button { color: #7a8fa8 !important; top: 6px !important; right: 8px !important; }
+    .leaflet-popup-close-button:hover { color: #e8a520 !important; }
+    .leaflet-popup-content {
+      font-size: clamp(0.8rem, 1.1vw, 0.9rem);
+      line-height: 1.55;
+      margin: 0.75rem 0.9rem;
+    }
+    .leaflet-popup-content strong {
+      color: #e8a520;
+      display: block;
+      font-size: clamp(0.9rem, 1.2vw, 1rem);
+      font-weight: 500;
+      margin-bottom: 4px;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+    }
+
+    /* Permanent tooltips (short labels) */
+    .leaflet-tooltip {
+      background: rgba(15,22,36,0.88);
+      color: #f5f0e8;
+      border: 1px solid rgba(232,165,32,0.3);
+      border-radius: 3px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: clamp(0.65rem, 0.9vw, 0.78rem);
+      font-weight: 400;
+      letter-spacing: 0.04em;
+      padding: 2px 7px;
+      box-shadow: none;
+      white-space: nowrap;
+    }
+    .leaflet-tooltip-left::before,
+    .leaflet-tooltip-right::before { display: none; }
+
+    /* Attribution */
+    .leaflet-control-attribution {
+      background: rgba(15,22,36,0.7) !important;
+      color: #3a4d62 !important;
+      font-size: 9px !important;
+    }
+    .leaflet-control-attribution a { color: #7a8fa8 !important; }
+
+    /* Zoom controls */
+    .leaflet-control-zoom a {
+      background: #131c2e !important;
+      color: #7a8fa8 !important;
+      border-color: rgba(232,165,32,0.2) !important;
+    }
+    .leaflet-control-zoom a:hover { color: #e8a520 !important; }
   </style>
 </head>
 <body>
@@ -444,7 +614,7 @@
        SLIDE 1 — TITLE
        ================================================================ -->
   <section class="slide bracket-br bracket-tl" id="slide-1">
-    <div class="slide-num">01 / 12</div>
+    <div class="slide-num">01 / 15</div>
     <div class="slide-content">
       <div class="label reveal">Johns Hopkins University · FYS · Fall 2026</div>
       <h1 class="reveal">
@@ -464,23 +634,20 @@
        SLIDE 2 — THE FYS FORMAT
        ================================================================ -->
   <section class="slide bracket-br" id="slide-2">
-    <div class="slide-num">02 / 12</div>
+    <div class="slide-num">02 / 15</div>
     <div class="slide-content">
       <div class="label reveal">The Course Format</div>
       <h2 class="reveal">A First-Year Seminar at Hopkins</h2>
       <div class="gold-rule-full reveal"></div>
       <ul class="points">
         <li class="reveal">
-          <strong>Small group, high stakes discussion</strong> — roughly 12 students meeting weekly for two hours; designed for genuine intellectual encounter, not content delivery
+          <strong>12 students, two hours weekly</strong> — genuine intellectual encounter, not content delivery
         </li>
         <li class="reveal">
-          <strong>Faculty as interlocutor</strong>, not lecturer — the seminar model asks students to have read before we meet, so that class time is entirely discussion
+          <strong>Faculty as interlocutor, not lecturer</strong> — students read before we meet; class time is entirely discussion
         </li>
         <li class="reveal">
-          <strong>Interdisciplinary by design</strong> — economics, history, public health, philosophy, and literature all have a seat at the table; no single discipline owns the question
-        </li>
-        <li class="reveal">
-          <strong>A research-university version of liberal arts</strong> — Hopkins does not have a college; the FYS is how we give first-year students something close to the seminar experience anyway
+          <strong>Interdisciplinary by design</strong> — economics, history, public health, philosophy, and literature; no single discipline owns the question
         </li>
       </ul>
     </div>
@@ -491,148 +658,192 @@
        SLIDE 3 — PEDAGOGY: LIGHT READING, RICH DISCUSSION
        ================================================================ -->
   <section class="slide bracket-br" id="slide-3">
-    <div class="slide-num">03 / 12</div>
+    <div class="slide-num">03 / 15</div>
     <div class="slide-content">
       <div class="label reveal">Pedagogical Choices</div>
       <h2 class="reveal">Light Reading, Rich Discussion</h2>
       <div class="gold-rule-full reveal"></div>
       <ul class="points">
         <li class="reveal">
-          <strong>De-prioritize coverage</strong> — no textbook, no chapter-per-week march through a field; instead: shorter, curated readings that reward careful attention
+          <strong>Short, curated readings</strong> — no textbook; texts chosen to reward careful attention and generate discussion, not to cover a field
         </li>
         <li class="reveal">
-          <strong>Preparation for shared inquiry</strong> — students submit a reading question before each session; they arrive with something to argue, not just notes to copy
+          <strong>Handwritten in-class response to open each session</strong> — 5–8 minutes, then think-pair-share; discussion builds from there
         </li>
         <li class="reveal">
-          <strong>Participation and writing</strong> as the central assessments — seminar essays, reflection pieces, a final argument; the grade follows the discussion, not the exam
-        </li>
-        <li class="reveal">
-          <strong>Broad range of text types</strong> — data visualisations and charts alongside history, alongside philosophy; students practice reading across modes, not just genres
+          <strong>Two major assessed projects</strong> — <em>Baltimore Progress Video</em> (group, 30%) and <em>Progress Data Project</em> (individual, 30%)
         </li>
       </ul>
-      <div class="note reveal">
-        <p>The Hopkins FYS framework explicitly frames this as "reading for shared inquiry" — preparation that generates discussion rather than summarisation</p>
-      </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       SLIDE 4 — THE CASE FOR PROGRESS (DATA)
+       SLIDE 4 — THE PROGRESS PROJECT
        ================================================================ -->
-  <section class="slide bracket-br bracket-tl" id="slide-4">
-    <div class="slide-num">04 / 12</div>
+  <section class="slide bracket-br" id="slide-4">
+    <div class="slide-num">04 / 15</div>
     <div class="slide-content">
-      <div class="label reveal">The Intellectual Core</div>
-      <h2 class="reveal">What the Data Shows</h2>
-      <div class="stat-grid">
-        <div class="stat-card">
-          <div class="stat-number">
-            <span class="from">~29 yrs</span>
-            <span class="arr">→</span>
-            <span class="to">73 yrs</span>
-          </div>
-          <div class="stat-label">Life expectancy at birth</div>
-          <div class="stat-period">1800 → 2023 (global average)</div>
-          <div class="stat-source">Our World in Data</div>
+      <div class="label reveal">Major Assessment</div>
+      <h2 class="reveal">The Progress Project</h2>
+      <div class="gold-rule-full reveal"></div>
+      <div class="exp-grid">
+        <div class="exp-card reveal">
+          <div class="exp-name">Track 1 — Gather New Data</div>
+          <div class="exp-desc">Go find something the world doesn't have yet. Talk to people. Digitize an undigitized archive. Take measurements nobody has taken. The contribution is the data itself — something that did not exist before you produced it.</div>
         </div>
-        <div class="stat-card">
-          <div class="stat-number">
-            <span class="from">43%</span>
-            <span class="arr">→</span>
-            <span class="to">3.7%</span>
-          </div>
-          <div class="stat-label">Child mortality (under 5)</div>
-          <div class="stat-period">1800 → 2022 (share dying before age 5)</div>
-          <div class="stat-source">Our World in Data</div>
+        <div class="exp-card reveal">
+          <div class="exp-name">Track 2 — Make Something</div>
+          <div class="exp-desc">Create progress on something you care about — in your community, for a cause, or personally. AI use is encouraged. You must convince me of relevance and document a trajectory of progress across the semester. The thing has to actually exist at the end.</div>
         </div>
-        <div class="stat-card">
-          <div class="stat-number">
-            <span class="from">36%</span>
-            <span class="arr">→</span>
-            <span class="to">8.5%</span>
-          </div>
-          <div class="stat-label">Extreme poverty (&lt;$2.15/day)</div>
-          <div class="stat-period">1990 → 2019 (global share)</div>
-          <div class="stat-source">World Bank</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-number">
-            <span class="from">385</span>
-            <span class="arr">→</span>
-            <span class="to">223</span>
-          </div>
-          <div class="stat-label">Maternal deaths per 100,000 births</div>
-          <div class="stat-period">1990 → 2020 (global)</div>
-          <div class="stat-source">WHO</div>
-        </div>
+      </div>
+      <div class="note reveal">
+        <p>Why "AI-proof": you either gathered the data or you didn't. The thing either exists at the end of the semester or it doesn't. Neither track can be faked by a language model.</p>
       </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       SLIDE 5 — DISTRIBUTION: THE PARENTHETICAL
+       SLIDE 5 — THREE STATEMENTS FRAMING (OWID / MAX ROSER)
        ================================================================ -->
-  <section class="slide bracket-br" id="slide-5">
-    <div class="slide-num">05 / 12</div>
+  <section class="slide bracket-br bracket-tl" id="slide-5">
+    <div class="slide-num">05 / 16</div>
+    <div class="slide-content" style="justify-content: flex-start; padding-top: clamp(1.5rem, 3vw, 2.5rem);">
+      <div class="label reveal">The Intellectual Frame</div>
+      <div class="reveal" style="font-family: 'Cormorant Garamond', serif; font-size: clamp(1.3rem, 1.9vw, 2rem); color: var(--text-muted); font-style: italic;">All three statements are true at the same time</div>
+      <div class="three-cols reveal">
+        <!-- Panel 1: The world is awful -->
+        <div class="three-col three-col--awful">
+          <div class="three-col__head">The world is awful</div>
+          <p class="three-col__body">4.4% of all children die before age 15 — that is 16,000 children every single day.</p>
+          <div class="awful-grid" id="awfulGrid" aria-hidden="true"></div>
+        </div>
+        <!-- Panel 2: The world is much better -->
+        <div class="three-col three-col--better">
+          <div class="three-col__head">The world is much better</div>
+          <div class="three-col__bars">
+            <div class="bar-wrap"><div class="bar bar--past"></div></div>
+            <div class="bar-wrap"><div class="bar bar--today"></div></div>
+          </div>
+          <div class="three-col__bar-labels">
+            <div class="bar-label">Past<br>~50%</div>
+            <div class="bar-label">Today<br>4.4%</div>
+          </div>
+        </div>
+        <!-- Panel 3: The world can be much better -->
+        <div class="three-col three-col--possible">
+          <div class="three-col__head">The world can be much better</div>
+          <div class="three-col__bars">
+            <div class="bar-wrap"><div class="bar bar--world"></div></div>
+            <div class="bar-wrap"><div class="bar bar--eu"></div></div>
+          </div>
+          <div class="three-col__bar-labels">
+            <div class="bar-label">World<br>4.4%</div>
+            <div class="bar-label">EU<br>0.47%</div>
+          </div>
+        </div>
+      </div>
+      <div class="three-attribution reveal">Max Roser / Our World in Data · CC-BY · Data: UN IGME &amp; Volk and Atkinson (2013)</div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 5 — OWID: LIFE EXPECTANCY (INTERACTIVE)
+       ================================================================ -->
+  <section class="slide iframe-slide bracket-br" id="slide-6">
+    <div class="slide-num">05 / 15</div>
+    <div class="slide-content">
+      <div class="label reveal">Our World in Data</div>
+      <h2 class="reveal">Life Expectancy Since 1770</h2>
+      <iframe
+        src="https://ourworldindata.org/grapher/life-expectancy?tab=chart&time=1770..latest&country=OWID_WRL~USA~GBR~IND~ZAF~CHN"
+        loading="lazy"
+        allow="fullscreen"
+        title="Life expectancy 1770 to present — Our World in Data">
+      </iframe>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 6 — OWID: GDP PER CAPITA (THE HOCKEY STICK)
+       ================================================================ -->
+  <section class="slide iframe-slide bracket-br" id="slide-7">
+    <div class="slide-num">06 / 15</div>
+    <div class="slide-content">
+      <div class="label reveal">Our World in Data</div>
+      <h2 class="reveal">GDP per Capita Since 1820 — the Hockey Stick</h2>
+      <iframe
+        src="https://ourworldindata.org/grapher/gdp-per-capita-maddison?tab=chart&time=1820..latest&country=OWID_WRL~USA~GBR~IND~ZAF~CHN"
+        loading="lazy"
+        allow="fullscreen"
+        title="GDP per capita 1820 to present — Maddison Project via Our World in Data">
+      </iframe>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 7 — COMMUNITY HDI: US INEQUALITY
+       ================================================================ -->
+  <section class="slide iframe-slide bracket-br" id="slide-8">
+    <div class="slide-num">07 / 15</div>
+    <div class="slide-content">
+      <div class="label reveal">Who Benefits?</div>
+      <h2 class="reveal">Progress, Distributed by Community</h2>
+      <iframe
+        src="https://communityhdi.org/"
+        loading="lazy"
+        title="Community HDI — human development index by US neighborhood">
+      </iframe>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 8 — DISTRIBUTION: THE PARENTHETICAL
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-9">
+    <div class="slide-num">08 / 15</div>
     <div class="slide-content">
       <div class="label reveal">The Other Half of the Title</div>
       <h2 class="reveal">(And How We Could Lose It)</h2>
       <div class="gold-rule-full reveal"></div>
       <ul class="points">
         <li class="reveal">
-          The course title's parenthetical is <strong>not rhetorical decoration</strong> — it is the intellectual problem: progress is real, and unevenly shared, and reversible
+          The parenthetical is <strong>the intellectual problem</strong> — progress is real, unevenly shared, and reversible
         </li>
         <li class="reveal">
-          <strong>Between-country inequality has fallen sharply</strong> since 1990 — so some progress is genuinely widespread; this matters for how we teach the data
+          <strong>Between-country inequality has fallen</strong> since 1990; <strong>within-country inequality has risen</strong> — race, class, and place determine who captures the gains
         </li>
         <li class="reveal">
-          <strong>Within-country inequality has risen</strong> in many wealthy nations; race, class, and place determine who captures the gains from growth
-        </li>
-        <li class="reveal">
-          Progress can <strong>reverse</strong> — democratic backsliding, pandemic disruption, climate risk, opioid crises; the course takes these seriously rather than treating them as footnotes
+          Progress <strong>reverses</strong> — democratic backsliding, opioid crises, climate risk, pandemic setbacks; not footnotes
         </li>
       </ul>
-      <div class="note reveal">
-        <p>Students who arrive skeptical that progress is "on balance a good thing" are not wrong to be skeptical — they are asking the right question one level deeper</p>
-      </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       SLIDE 6 — PLACE: WHY BALTIMORE
+       SLIDE 9 — PLACE: BALTIMORE MAP
        ================================================================ -->
-  <section class="slide bracket-br" id="slide-6">
-    <div class="slide-num">06 / 12</div>
-    <div class="slide-content">
+  <section class="slide bracket-br" id="slide-10">
+    <div class="slide-num">09 / 15</div>
+    <div class="slide-content" style="padding: clamp(1rem, 2.2vw, 2rem) var(--pad) clamp(0.8rem, 1.5vw, 1.5rem); gap: 0;">
       <div class="label reveal">Place as Pedagogy</div>
-      <h2 class="reveal">Why Baltimore Matters</h2>
-      <div class="gold-rule-full reveal"></div>
-      <ul class="points">
-        <li class="reveal">
-          <strong>Students arrive in Baltimore</strong> before they attend any class — the city is their first empirical encounter with the course's central question
-        </li>
-        <li class="reveal">
-          Abstract aggregate data stays abstract without a place to <strong>anchor it</strong>; Baltimore forces concreteness: whose life expectancy? which neighbourhood's child mortality?
-        </li>
-        <li class="reveal">
-          <strong>Hopkins cannot be separated from Baltimore's story</strong> — the university's wealth and the city's disinvestment share a history; teaching progress here requires acknowledging that
-        </li>
-        <li class="reveal">
-          The <strong>distribution question is not theoretical</strong> in Baltimore; within a few miles, median household incomes differ by a factor of seven or eight
-        </li>
-      </ul>
+      <h2 class="reveal" style="margin-bottom: clamp(0.5rem, 0.9vw, 0.8rem);">Baltimore — The Course's Living Classroom</h2>
+      <div id="balt-map" style="flex: 1; min-height: 300px; border-radius: 5px; border: 1px solid var(--gold-dim);"></div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       SLIDE 7 — BALTIMORE'S ARC: PROGRESS, REGRESS, CYCLES
+       SLIDE 10 — BALTIMORE'S ARC: PROGRESS, REGRESS, CYCLES
        ================================================================ -->
-  <section class="slide bracket-br bracket-tl" id="slide-7">
-    <div class="slide-num">07 / 12</div>
+  <section class="slide bracket-br bracket-tl" id="slide-11">
+    <div class="slide-num">10 / 15</div>
     <div class="slide-content">
       <div class="label reveal">The Parenthetical, Made Concrete</div>
       <h2 class="reveal">Progress, Regress, Cycles</h2>
@@ -663,10 +874,10 @@
 
 
   <!-- ================================================================
-       SLIDE 8 — EXPERIENTIAL LEARNING
+       SLIDE 11 — EXPERIENTIAL LEARNING
        ================================================================ -->
-  <section class="slide bracket-br" id="slide-8">
-    <div class="slide-num">08 / 12</div>
+  <section class="slide bracket-br" id="slide-12">
+    <div class="slide-num">11 / 15</div>
     <div class="slide-content">
       <div class="label reveal">Beyond the Seminar Room</div>
       <h2 class="reveal">Learning by Going</h2>
@@ -694,10 +905,10 @@
 
 
   <!-- ================================================================
-       SLIDE 9 — THE COURSE WEBSITE
+       SLIDE 12 — THE COURSE WEBSITE
        ================================================================ -->
-  <section class="slide bracket-br" id="slide-9">
-    <div class="slide-num">09 / 12</div>
+  <section class="slide bracket-br" id="slide-13">
+    <div class="slide-num">12 / 15</div>
     <div class="slide-content">
       <div class="label reveal">A Public Pedagogical Resource</div>
       <h2 class="reveal">The Course as an Open Site</h2>
@@ -725,26 +936,23 @@
 
 
   <!-- ================================================================
-       SLIDE 10 — THE HARD QUESTIONS
+       SLIDE 13 — THE HARD QUESTIONS
        ================================================================ -->
-  <section class="slide bracket-br" id="slide-10">
-    <div class="slide-num">10 / 12</div>
+  <section class="slide bracket-br" id="slide-14">
+    <div class="slide-num">13 / 15</div>
     <div class="slide-content">
       <div class="label reveal">What the Course Doesn't Resolve</div>
       <h2 class="reveal">The Hardest Things to Teach</h2>
       <div class="gold-rule-full reveal"></div>
       <ul class="points">
         <li class="reveal">
-          <strong>Students who arrive skeptical</strong> — often for historically well-grounded reasons — and the risk of either dismissing that scepticism or letting it collapse the course's argument entirely
+          <strong>Students who arrive skeptical</strong> — often for well-grounded historical reasons; that scepticism deserves a serious answer, not dismissal
         </li>
         <li class="reveal">
-          <strong>"Isn't Baltimore proof that progress fails?"</strong> — this is a good-faith question that deserves a good-faith answer, not a pivot to the global aggregate; the city is in the room
+          <strong>"Isn't Baltimore proof that progress fails?"</strong> — a good-faith question that deserves a good-faith answer; not a pivot to the global aggregate
         </li>
         <li class="reveal">
-          <strong>Teaching regress without abandoning the frame</strong> — the opioid crisis, democratic backsliding, and climate risk are not footnotes; how do you hold them and the hockey sticks at the same time?
-        </li>
-        <li class="reveal">
-          <strong>What a twelve-student seminar can and cannot do</strong> — the discussion gets deep; the coverage does not; the course is a bet that depth matters more than breadth for first-year students
+          <strong>Holding regress without abandoning the frame</strong> — opioids, backsliding, climate are not footnotes; how do you teach them alongside the hockey sticks?
         </li>
       </ul>
     </div>
@@ -752,41 +960,43 @@
 
 
   <!-- ================================================================
-       SLIDE 11 — OPEN TO THE ROOM
+       SLIDE 14 — OPEN TO THE ROOM
        ================================================================ -->
-  <section class="slide bracket-br bracket-tl" id="slide-11">
-    <div class="slide-num">11 / 12</div>
+  <section class="slide bracket-br bracket-tl" id="slide-15">
+    <div class="slide-num">14 / 15</div>
     <div class="slide-content">
       <div class="label reveal">Discussion</div>
       <h2 class="reveal">What I'd Welcome From You</h2>
       <div class="gold-rule-full reveal"></div>
       <div class="question-list">
-        <div class="q-item">How do you hold distributional critique alongside genuine aggregate progress — without the critique swallowing the frame, or the frame dismissing the critique?</div>
-        <div class="q-item">Which texts, across disciplines, do you find actually bridge the optimism and the honest accounting of who gets left behind?</div>
-        <div class="q-item">What experiential or place-based learning worked, or didn't — and why?</div>
-        <div class="q-item">What can a twelve-person seminar do that a three-hundred-person lecture course genuinely cannot?</div>
+        <div class="q-item">How do you hold distributional critique alongside genuine aggregate progress — without one swallowing the other?</div>
+        <div class="q-item">Which texts actually bridge optimism and honest accounting of who gets left behind?</div>
+        <div class="q-item">What place-based or experiential learning worked — and what didn't?</div>
       </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       SLIDE 12 — CLOSING
+       SLIDE 15 — CLOSING
        ================================================================ -->
-  <section class="slide bracket-tl bracket-br" id="slide-12">
-    <div class="slide-num">12 / 12</div>
+  <section class="slide bracket-tl bracket-br" id="slide-16">
+    <div class="slide-num">15 / 15</div>
     <div class="slide-content" style="align-items: flex-start;">
       <div class="gold-rule reveal"></div>
       <h1 class="reveal" style="font-style: normal; font-weight: 600;">Thank you</h1>
       <div class="big-url reveal">progress.simondhalliday.com</div>
       <div class="contact-block reveal">
         <div class="contact-line">Simon D. Halliday · Johns Hopkins University</div>
-        <div class="contact-line">shallid1@jh.edu</div>
+        <div class="contact-line">simon.halliday@jhu.edu</div>
       </div>
       <div id="qrcode" style="margin-top: clamp(1rem, 2.5vw, 2rem); flex-shrink: 0;"></div>
     </div>
   </section>
 
+
+  <!-- === LEAFLET MAP === -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 
   <!-- === QR CODE LIBRARY === -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -800,17 +1010,125 @@
         this.current      = 0;
         this.isScrolling  = false;
         this.touchStartY  = 0;
+        this.baltMap      = null;
 
         this.progressBar  = document.getElementById('progressBar');
         this.navDotsEl    = document.getElementById('navDots');
 
         this.buildNavDots();
+        this.updateSlideNumbers();
+        this.buildAwfulGrid();
         this.setupIntersectionObserver();
         this.setupKeyboard();
         this.setupTouch();
         this.setupWheel();
         this.generateQR();
         this.updateProgress(0);
+        /* Map is initialised lazily on first intersection (see observer) */
+      }
+
+      /* Interactive Baltimore map --------------------------------------- */
+      initBaltimoreMap() {
+        const el = document.getElementById('balt-map');
+        if (!el || typeof L === 'undefined' || this.baltMap) return;
+
+        this.baltMap = L.map('balt-map', {
+          zoomControl: true,
+          scrollWheelZoom: false,   /* don't hijack slide-scroll wheel */
+          attributionControl: true
+        });
+
+        /* CartoDB Dark Matter tiles */
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> © <a href="https://carto.com">CARTO</a>',
+          subdomains: 'abcd',
+          maxZoom: 19
+        }).addTo(this.baltMap);
+
+        /* Marker styles by type */
+        const mk = (type) => ({
+          radius:      type === 'class'  ? 11 : type === 'anchor' ? 10 : 8,
+          fillColor:   type === 'class'  ? '#e8a520' : type === 'anchor' ? '#b0c0d8' : '#e8a520',
+          color:       '#0f1624',
+          weight:      type === 'class'  ? 3 : 2,
+          opacity:     1,
+          fillOpacity: type === 'anchor' ? 0.55 : 0.85
+        });
+
+        /* All 14 course sites + JHU Homewood + Sparrows Point */
+        const points = [
+          /* — anchors — */
+          { ll: [39.3299, -76.6203], type: 'anchor', label: 'Homewood Campus',
+            desc: '<strong>JHU Homewood Campus</strong>Where students arrive — and encounter the course\'s question before the first class meets.' },
+          { ll: [39.2302, -76.4712], type: 'anchor', label: 'Sparrows Point',
+            desc: '<strong>Sparrows Point — Bethlehem Steel</strong>Peak industrial Baltimore: one of the world\'s largest steel plants, 30,000 workers at its height. Closed 2012. Now a logistics hub. A one-slide history of deindustrialisation.' },
+
+          /* — class visits — */
+          { ll: [39.2724, -76.6228], type: 'class', label: 'Museum of Industry ★',
+            desc: '<strong>Baltimore Museum of Industry</strong> · Class visit<br>Inner Harbor. Baltimore\'s industrial revolution — canning, garment manufacture, printing. How ordinary workers built the modern economy.' },
+          { ll: [39.2983, -76.6157], type: 'class', label: 'Walters Art Museum ★',
+            desc: '<strong>Walters Art Museum</strong> · Class visit<br>Mount Vernon. One of the great encyclopedic art museums in the US. Art, patronage, and the question of who gets to define cultural progress.' },
+
+          /* — video sites — */
+          { ll: [39.3269, -76.6241], type: 'video', label: 'Baltimore Museum of Art',
+            desc: '<strong>Baltimore Museum of Art</strong> · Video site<br>North Charles St (near Homewood). A civic art institution built on patronage and endowment. How do cities invest in cultural progress — and who defines it?' },
+          { ll: [39.3122, -76.6220], type: 'video', label: 'MICA',
+            desc: '<strong>Maryland Institute College of Art (MICA)</strong> · Video site<br>Mount Royal Ave. Creative economy and design innovation. How do arts institutions shape what counts as progress?' },
+          { ll: [39.3070, -76.6148], type: 'video', label: 'Penn Station / Station North',
+            desc: '<strong>Penn Station / Station North</strong> · Video site<br>The 1911 Penn Station — recently renovated — anchors Baltimore\'s arts and entertainment district. Transit infrastructure, arts-led revitalization, and the question of who benefits from a city\'s reinvention.' },
+          { ll: [39.2975, -76.6198], type: 'video', label: 'Enoch Pratt Library',
+            desc: '<strong>Enoch Pratt Free Library</strong> · Video site<br>Cathedral Street. One of America\'s first free public library systems. The politics of who gets access to knowledge — and how that has changed.' },
+          { ll: [39.2940, -76.6270], type: 'video', label: 'Lexington Market',
+            desc: '<strong>Lexington Market</strong> · Video site<br>West Baltimore. One of America\'s oldest continuously operating public markets — nearly 250 years of urban history, food systems, and neighborhood change.' },
+          { ll: [39.2858, -76.6132], type: 'video', label: 'Inner Harbor / Harborplace',
+            desc: '<strong>Inner Harbor / Harborplace</strong> · Video site<br>From industrial waterfront to tourist destination — and now in flux again. A case study in urban renewal, deindustrialization, and who a city is rebuilt for.' },
+          { ll: [39.2618, -76.6182], type: 'video', label: 'Port Covington',
+            desc: '<strong>Port Covington / Sagamore Development</strong> · Video site<br>South Baltimore. One of the largest private urban development projects in American history. What does 21st-century urban progress look like — and who decides?' },
+          { ll: [39.2828, -76.5930], type: 'video', label: 'Frederick Douglass Maritime Park',
+            desc: '<strong>Frederick Douglass–Isaac Myers Maritime Park</strong> · Video site<br>Fells Point. Abolition, Black entrepreneurship, and the history of labor rights. What progress has looked like for Black Americans in Baltimore.' },
+          { ll: [39.2965, -76.5924], type: 'video', label: 'Johns Hopkins Hospital',
+            desc: '<strong>Johns Hopkins Hospital &amp; Medical Campus</strong> · Video site<br>East Baltimore. Medical science as an engine of progress — and the complicated history of how the campus was built, who it displaced, and who it serves.' },
+          { ll: [39.2988, -76.5862], type: 'video', label: 'S+T Park at Hopkins',
+            desc: '<strong>Science + Technology Park at Hopkins</strong> · Video site<br>East Baltimore. A biotech knowledge cluster built in one of Baltimore\'s most disadvantaged neighborhoods. Urban renewal, the knowledge economy, and who gains from a city\'s reinvention.' },
+          { ll: [39.2955, -76.5840], type: 'video', label: 'Baltimore Biotech Corridor',
+            desc: '<strong>Baltimore Biotech Corridor</strong> · Video site<br>East Baltimore, including Emergent BioSolutions. Pharmaceutical and biotech manufacturing, vaccine production, and public health infrastructure. What does it mean for a city to anchor a life-sciences industry?' },
+          { ll: [39.2570, -76.5130], type: 'video', label: 'Port of Baltimore',
+            desc: '<strong>Port of Baltimore / Seagirt Marine Terminal</strong> · Video site<br>Dundalk. Global trade and logistics — the material infrastructure of progress. A story of deindustrialization, automation, and what happens to workers when the economy moves on.' }
+        ];
+
+        /* Add all markers and collect into a feature group for fitBounds */
+        const markers = points.map(pt =>
+          L.circleMarker(pt.ll, mk(pt.type))
+            .bindPopup(pt.desc, { maxWidth: 300 })
+            .bindTooltip(pt.label, { permanent: true, direction: 'auto', offset: [10, 0] })
+            .addTo(this.baltMap)
+        );
+
+        /* Fit the map to show every marker, with 10% padding */
+        const group = L.featureGroup(markers);
+        this.baltMap.fitBounds(group.getBounds().pad(0.12));
+        this.baltMap.invalidateSize();
+      }
+
+      /* Auto-update slide number labels from actual position ----------- */
+      updateSlideNumbers() {
+        this.slides.forEach((slide, i) => {
+          const el = slide.querySelector('.slide-num');
+          if (el) el.textContent = `${String(i + 1).padStart(2, '0')} / ${this.total}`;
+        });
+      }
+
+      /* Populate the waffle grid in the "world is awful" panel --------- */
+      buildAwfulGrid() {
+        const grid = document.getElementById('awfulGrid');
+        if (!grid) return;
+        const total  = 400;                         // 20×20 grid
+        const dying  = Math.round(total * 0.044);   // ~17 dots — 4.4% child mortality
+        for (let i = 0; i < total; i++) {
+          const dot = document.createElement('div');
+          dot.className = i < dying ? 'awful-dot' : 'awful-dot alive';
+          grid.appendChild(dot);
+        }
       }
 
       /* Build navigation dots ----------------------------------------- */
@@ -837,6 +1155,14 @@
                 this.current = idx;
                 this.updateProgress(idx);
                 this.updateDots(idx);
+                /* Init (first visit) or refresh map when slide-10 scrolls into view */
+                if (entry.target.id === 'slide-10') {
+                  if (!this.baltMap) {
+                    setTimeout(() => this.initBaltimoreMap(), 80);
+                  } else {
+                    setTimeout(() => this.baltMap.invalidateSize(), 80);
+                  }
+                }
               }
             }
           });
