@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress: Why Now Is the Best Time to Be Alive (And How We Could Lose It)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <style>
+    /* === THEME: SLATE & GOLD ============================================ */
+    :root {
+      --bg:           #0f1624;
+      --bg-alt:       #131c2e;
+      --gold:         #e8a520;
+      --gold-dim:     rgba(232, 165, 32, 0.35);
+      --gold-faint:   rgba(232, 165, 32, 0.07);
+      --text:         #f5f0e8;
+      --text-muted:   #7a8fa8;
+      --text-dim:     #3a4d62;
+      --ease:         cubic-bezier(0.16, 1, 0.3, 1);
+
+      /* Typography — all clamp() */
+      --title-size:   clamp(2rem, 5.5vw, 4.5rem);
+      --h2-size:      clamp(1.5rem, 3vw, 2.6rem);
+      --body-size:    clamp(0.82rem, 1.35vw, 1.05rem);
+      --small-size:   clamp(0.65rem, 0.95vw, 0.8rem);
+      --label-size:   clamp(0.58rem, 0.85vw, 0.7rem);
+      --stat-size:    clamp(1.2rem, 2.8vw, 2.2rem);
+
+      /* Spacing */
+      --pad:          clamp(2rem, 5vw, 5rem);
+      --gap:          clamp(0.55rem, 1.3vw, 1.1rem);
+    }
+
+    /* === RESET ========================================================= */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    ul { list-style: none; }
+
+    /* === VIEWPORT BASE (mandatory) ===================================== */
+    html, body { height: 100%; overflow-x: hidden; }
+    html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+    body { font-family: 'IBM Plex Sans', sans-serif; background: var(--bg); color: var(--text); }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden;
+      scroll-snap-align: start;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      background: var(--bg);
+    }
+
+    .slide-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      max-height: 100%;
+      overflow: hidden;
+      padding: var(--pad);
+    }
+
+    /* Responsive height breakpoints */
+    @media (max-height: 700px) {
+      :root {
+        --pad:       clamp(1.2rem, 3vw, 2.5rem);
+        --h2-size:   clamp(1.2rem, 2.5vw, 1.9rem);
+        --body-size: clamp(0.75rem, 1.2vw, 0.92rem);
+        --gap:       clamp(0.4rem, 1vw, 0.8rem);
+      }
+    }
+    @media (max-height: 600px) {
+      :root {
+        --pad:       clamp(0.8rem, 2vw, 1.5rem);
+        --body-size: clamp(0.68rem, 1.1vw, 0.82rem);
+      }
+      .nav-dots, .slide-num { display: none; }
+    }
+    @media (max-height: 500px) {
+      :root {
+        --pad:        clamp(0.5rem, 1.5vw, 1rem);
+        --title-size: clamp(1.5rem, 4vw, 2.5rem);
+        --h2-size:    clamp(1rem, 2vw, 1.5rem);
+      }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.2s !important;
+      }
+      html { scroll-behavior: auto; }
+    }
+
+    /* === PROGRESS BAR ================================================== */
+    #progressBar {
+      position: fixed; top: 0; left: 0; height: 2px;
+      background: var(--gold); width: 0%;
+      z-index: 1000; transition: width 0.25s ease;
+    }
+
+    /* === NAV DOTS ====================================================== */
+    .nav-dots {
+      position: fixed; right: clamp(0.75rem, 1.5vw, 1.25rem); top: 50%;
+      transform: translateY(-50%); z-index: 100;
+      display: flex; flex-direction: column; gap: clamp(6px, 1vh, 9px);
+    }
+    .nav-dot {
+      width: 5px; height: 5px; border-radius: 50%;
+      background: var(--text-dim); cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+      border: none; padding: 0;
+    }
+    .nav-dot.active { background: var(--gold); transform: scale(1.5); }
+    .nav-dot:hover { background: var(--text-muted); }
+
+    /* === SLIDE NUMBER ================================================== */
+    .slide-num {
+      position: absolute;
+      top: clamp(1rem, 2.5vw, 1.75rem);
+      right: clamp(1rem, 2.5vw, 1.75rem);
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--label-size); letter-spacing: 0.15em;
+      color: var(--text-dim); font-weight: 300;
+    }
+
+    /* === CORNER BRACKETS (signature) =================================== */
+    .bracket-br::after {
+      content: ''; position: absolute;
+      bottom: clamp(1rem, 2vw, 1.6rem);
+      right: clamp(1rem, 2vw, 1.6rem);
+      width: clamp(14px, 2.2vw, 26px);
+      height: clamp(14px, 2.2vw, 26px);
+      border-right: 1px solid var(--gold);
+      border-bottom: 1px solid var(--gold);
+      opacity: 0.35;
+    }
+    .bracket-tl::before {
+      content: ''; position: absolute;
+      top: clamp(1rem, 2vw, 1.6rem);
+      left: clamp(1rem, 2vw, 1.6rem);
+      width: clamp(14px, 2.2vw, 26px);
+      height: clamp(14px, 2.2vw, 26px);
+      border-left: 1px solid var(--gold);
+      border-top: 1px solid var(--gold);
+      opacity: 0.35;
+    }
+
+    /* === GOLD RULES ==================================================== */
+    .gold-rule {
+      width: clamp(20px, 3vw, 34px); height: 2px;
+      background: var(--gold);
+      margin-bottom: clamp(0.7rem, 1.5vw, 1.2rem);
+      flex-shrink: 0;
+    }
+    .gold-rule-full {
+      height: 1px; background: var(--gold-dim);
+      margin: clamp(0.5rem, 1.2vw, 1rem) 0;
+      flex-shrink: 0;
+    }
+
+    /* === LABEL / EYEBROW =============================================== */
+    .label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--label-size); letter-spacing: 0.22em;
+      color: var(--gold); text-transform: uppercase; font-weight: 500;
+      margin-bottom: clamp(0.35rem, 0.8vw, 0.65rem); flex-shrink: 0;
+    }
+
+    /* === HEADINGS ====================================================== */
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: var(--title-size); font-weight: 400; font-style: italic;
+      color: var(--text); line-height: 1.08; flex-shrink: 0;
+    }
+    h1 strong { font-style: normal; font-weight: 700; }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: var(--h2-size); font-weight: 600;
+      color: var(--text); line-height: 1.15; flex-shrink: 0;
+    }
+    .subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1rem, 2vw, 1.55rem); font-style: italic; font-weight: 400;
+      color: var(--gold); line-height: 1.3;
+      margin-top: clamp(0.4rem, 0.9vw, 0.7rem); flex-shrink: 0;
+    }
+    .byline {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--small-size); letter-spacing: 0.16em;
+      color: var(--text-muted); text-transform: uppercase; font-weight: 300;
+      margin-top: clamp(1.2rem, 2.5vw, 2rem); flex-shrink: 0;
+      line-height: 1.9;
+    }
+    .byline span { color: var(--text-dim); display: block; }
+
+    /* === BULLET LISTS ================================================== */
+    ul.points {
+      display: flex; flex-direction: column; gap: var(--gap);
+      margin-top: clamp(0.6rem, 1.2vw, 1rem); overflow: hidden;
+    }
+    ul.points li {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--body-size); font-weight: 300;
+      color: var(--text); line-height: 1.55;
+      padding-left: clamp(0.8rem, 1.4vw, 1.15rem);
+      position: relative;
+    }
+    ul.points li::before {
+      content: ''; position: absolute; left: 0;
+      top: 0.62em; width: 5px; height: 1px; background: var(--gold);
+    }
+    ul.points li strong { color: var(--gold); font-weight: 500; }
+    ul.points li em { color: var(--text-muted); font-style: italic; }
+
+    /* === STAT GRID ===================================================== */
+    .stat-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: var(--gap);
+      margin-top: clamp(0.75rem, 1.5vw, 1.2rem);
+      overflow: hidden;
+    }
+    .stat-card {
+      background: var(--gold-faint);
+      border: 1px solid var(--gold-dim);
+      border-radius: 3px;
+      padding: clamp(0.6rem, 1.4vw, 1.1rem);
+      display: flex; flex-direction: column; gap: 0.2rem;
+    }
+    .stat-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: var(--stat-size); font-weight: 600;
+      color: var(--text); line-height: 1;
+    }
+    .stat-number .from { color: var(--text-muted); font-size: 0.68em; font-weight: 400; }
+    .stat-number .arr  { color: var(--gold); margin: 0 0.1em; font-size: 0.7em; font-style: normal; }
+    .stat-number .to   { color: var(--gold); }
+    .stat-label {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--small-size); font-weight: 400; color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+    .stat-period {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: calc(var(--small-size) * 0.85);
+      color: var(--text-dim); font-style: italic;
+    }
+    .stat-source {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: calc(var(--small-size) * 0.8);
+      color: var(--text-dim);
+    }
+
+    /* === EXPERIENTIAL GRID ============================================= */
+    .exp-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: var(--gap);
+      margin-top: clamp(0.75rem, 1.5vw, 1.2rem);
+      overflow: hidden;
+    }
+    .exp-card {
+      border-left: 2px solid var(--gold);
+      background: var(--gold-faint);
+      padding: clamp(0.5rem, 1.1vw, 0.9rem) clamp(0.5rem, 1.1vw, 0.9rem) clamp(0.5rem, 1.1vw, 0.9rem) clamp(0.65rem, 1.2vw, 1rem);
+      border-radius: 0 3px 3px 0;
+    }
+    .exp-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(0.9rem, 1.7vw, 1.25rem); font-weight: 600;
+      color: var(--text); margin-bottom: 0.25em; line-height: 1.2;
+    }
+    .exp-name em { font-style: italic; font-weight: 400; color: var(--text-muted); }
+    .exp-desc {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--small-size); font-weight: 300;
+      color: var(--text-muted); line-height: 1.45;
+    }
+
+    /* === TIMELINE ====================================================== */
+    .timeline {
+      display: flex; flex-direction: column; gap: var(--gap);
+      margin-top: clamp(0.75rem, 1.5vw, 1.2rem);
+      overflow: hidden;
+    }
+    .tl-item {
+      display: grid;
+      grid-template-columns: clamp(3.5rem, 5.5vw, 5rem) 1fr;
+      gap: clamp(0.6rem, 1.5vw, 1.1rem);
+      align-items: start;
+    }
+    .tl-era {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(0.82rem, 1.4vw, 1.05rem);
+      color: var(--gold); font-style: italic; font-weight: 600;
+      line-height: 1.25; padding-top: 0.05em;
+    }
+    .tl-text {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--body-size); font-weight: 300;
+      color: var(--text); line-height: 1.45;
+      border-left: 1px solid var(--gold-dim);
+      padding-left: clamp(0.6rem, 1.2vw, 1rem);
+    }
+
+    /* === BIG URL ======================================================= */
+    .big-url {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: clamp(1rem, 2.5vw, 2rem); font-weight: 400;
+      color: var(--gold); letter-spacing: 0.02em;
+      margin-top: clamp(0.6rem, 1.5vw, 1.25rem);
+      display: inline-block; flex-shrink: 0;
+      border-bottom: 1px solid var(--gold-dim);
+      padding-bottom: 0.2em;
+    }
+
+    /* === SITE TAGS ===================================================== */
+    .tag-row {
+      display: flex; flex-wrap: wrap;
+      gap: clamp(0.3rem, 0.7vw, 0.55rem);
+      margin-top: clamp(0.6rem, 1.2vw, 1rem);
+      overflow: hidden; flex-shrink: 0;
+    }
+    .tag {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: calc(var(--small-size) * 0.92);
+      background: var(--gold-faint); border: 1px solid var(--gold-dim);
+      color: var(--gold); padding: 0.18em 0.6em;
+      border-radius: 2px; font-weight: 400; letter-spacing: 0.05em;
+    }
+
+    /* === OPEN QUESTIONS ================================================ */
+    .question-list {
+      display: flex; flex-direction: column; gap: var(--gap);
+      margin-top: clamp(0.75rem, 1.5vw, 1.2rem); overflow: hidden;
+    }
+    .q-item {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(0.95rem, 1.8vw, 1.3rem);
+      font-style: italic; font-weight: 400;
+      color: var(--text); line-height: 1.4;
+      padding-left: clamp(0.7rem, 1.4vw, 1.1rem);
+      border-left: 1px solid var(--gold-dim);
+    }
+
+    /* === CLOSING CONTACT =============================================== */
+    .contact-block {
+      margin-top: clamp(1rem, 2vw, 1.75rem); flex-shrink: 0;
+    }
+    .contact-line {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--small-size); font-weight: 300;
+      color: var(--text-muted); letter-spacing: 0.1em; line-height: 2;
+    }
+
+    /* === NOTE BOX ====================================================== */
+    .note {
+      border-left: 2px solid var(--gold-dim);
+      padding: clamp(0.4rem, 0.8vw, 0.7rem) clamp(0.6rem, 1.2vw, 1rem);
+      margin-top: clamp(0.6rem, 1.2vw, 1rem);
+      background: var(--gold-faint);
+      border-radius: 0 3px 3px 0; flex-shrink: 0;
+    }
+    .note p {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: var(--small-size); font-weight: 300;
+      font-style: italic; color: var(--text-muted); line-height: 1.5;
+    }
+
+    /* === ANIMATIONS ==================================================== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+    }
+    .slide.visible .reveal { opacity: 1; transform: translateY(0); }
+    .reveal:nth-child(1) { transition-delay: 0.05s; }
+    .reveal:nth-child(2) { transition-delay: 0.15s; }
+    .reveal:nth-child(3) { transition-delay: 0.25s; }
+    .reveal:nth-child(4) { transition-delay: 0.35s; }
+    .reveal:nth-child(5) { transition-delay: 0.45s; }
+    .reveal:nth-child(6) { transition-delay: 0.55s; }
+    .reveal:nth-child(7) { transition-delay: 0.65s; }
+
+    .reveal-blur {
+      opacity: 0; filter: blur(8px);
+      transition: opacity 0.9s var(--ease), filter 0.9s var(--ease);
+    }
+    .slide.visible .reveal-blur { opacity: 1; filter: blur(0); }
+
+    /* Stagger inside grids */
+    .stat-grid .stat-card:nth-child(1) .reveal,
+    .exp-grid  .exp-card:nth-child(1)  { transition-delay: 0.15s; }
+    .stat-grid .stat-card:nth-child(2) .reveal,
+    .exp-grid  .exp-card:nth-child(2)  { transition-delay: 0.25s; }
+    .stat-grid .stat-card:nth-child(3) .reveal,
+    .exp-grid  .exp-card:nth-child(3)  { transition-delay: 0.35s; }
+    .stat-grid .stat-card:nth-child(4) .reveal,
+    .exp-grid  .exp-card:nth-child(4)  { transition-delay: 0.45s; }
+
+    .stat-card, .exp-card {
+      opacity: 0; transform: translateY(16px);
+      transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+    }
+    .slide.visible .stat-card,
+    .slide.visible .exp-card { opacity: 1; transform: translateY(0); }
+
+    .tl-item {
+      opacity: 0; transform: translateX(calc(-1 * 12px));
+      transition: opacity 0.55s var(--ease), transform 0.55s var(--ease);
+    }
+    .slide.visible .tl-item { opacity: 1; transform: translateX(0); }
+    .tl-item:nth-child(1) { transition-delay: 0.1s; }
+    .tl-item:nth-child(2) { transition-delay: 0.2s; }
+    .tl-item:nth-child(3) { transition-delay: 0.3s; }
+    .tl-item:nth-child(4) { transition-delay: 0.4s; }
+    .tl-item:nth-child(5) { transition-delay: 0.5s; }
+
+    .q-item {
+      opacity: 0; transform: translateY(14px);
+      transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+    }
+    .slide.visible .q-item { opacity: 1; transform: translateY(0); }
+    .q-item:nth-child(1) { transition-delay: 0.1s; }
+    .q-item:nth-child(2) { transition-delay: 0.22s; }
+    .q-item:nth-child(3) { transition-delay: 0.34s; }
+    .q-item:nth-child(4) { transition-delay: 0.46s; }
+  </style>
+</head>
+<body>
+
+  <!-- === PROGRESS BAR === -->
+  <div id="progressBar"></div>
+
+  <!-- === NAV DOTS === -->
+  <nav class="nav-dots" id="navDots" aria-label="Slide navigation"></nav>
+
+
+  <!-- ================================================================
+       SLIDE 1 — TITLE
+       ================================================================ -->
+  <section class="slide bracket-br bracket-tl" id="slide-1">
+    <div class="slide-num">01 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">Johns Hopkins University · FYS · Fall 2026</div>
+      <h1 class="reveal">
+        <strong>Progress:</strong> Why Now Is the<br>Best Time to Be Alive
+      </h1>
+      <div class="subtitle reveal">(And How We Could Lose It)</div>
+      <div class="gold-rule-full reveal" style="margin-top: clamp(1.2rem, 2.5vw, 2rem);"></div>
+      <div class="byline reveal">
+        Simon D. Halliday
+        <span>Teaching Progress Workshop · May 22, 2026</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 2 — THE FYS FORMAT
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-2">
+    <div class="slide-num">02 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">The Course Format</div>
+      <h2 class="reveal">A First-Year Seminar at Hopkins</h2>
+      <div class="gold-rule-full reveal"></div>
+      <ul class="points">
+        <li class="reveal">
+          <strong>Small group, high stakes discussion</strong> — roughly 12 students meeting weekly for two hours; designed for genuine intellectual encounter, not content delivery
+        </li>
+        <li class="reveal">
+          <strong>Faculty as interlocutor</strong>, not lecturer — the seminar model asks students to have read before we meet, so that class time is entirely discussion
+        </li>
+        <li class="reveal">
+          <strong>Interdisciplinary by design</strong> — economics, history, public health, philosophy, and literature all have a seat at the table; no single discipline owns the question
+        </li>
+        <li class="reveal">
+          <strong>A research-university version of liberal arts</strong> — Hopkins does not have a college; the FYS is how we give first-year students something close to the seminar experience anyway
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 3 — PEDAGOGY: LIGHT READING, RICH DISCUSSION
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-3">
+    <div class="slide-num">03 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">Pedagogical Choices</div>
+      <h2 class="reveal">Light Reading, Rich Discussion</h2>
+      <div class="gold-rule-full reveal"></div>
+      <ul class="points">
+        <li class="reveal">
+          <strong>De-prioritize coverage</strong> — no textbook, no chapter-per-week march through a field; instead: shorter, curated readings that reward careful attention
+        </li>
+        <li class="reveal">
+          <strong>Preparation for shared inquiry</strong> — students submit a reading question before each session; they arrive with something to argue, not just notes to copy
+        </li>
+        <li class="reveal">
+          <strong>Participation and writing</strong> as the central assessments — seminar essays, reflection pieces, a final argument; the grade follows the discussion, not the exam
+        </li>
+        <li class="reveal">
+          <strong>Broad range of text types</strong> — data visualisations and charts alongside history, alongside philosophy; students practice reading across modes, not just genres
+        </li>
+      </ul>
+      <div class="note reveal">
+        <p>The Hopkins FYS framework explicitly frames this as "reading for shared inquiry" — preparation that generates discussion rather than summarisation</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 4 — THE CASE FOR PROGRESS (DATA)
+       ================================================================ -->
+  <section class="slide bracket-br bracket-tl" id="slide-4">
+    <div class="slide-num">04 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">The Intellectual Core</div>
+      <h2 class="reveal">What the Data Shows</h2>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <div class="stat-number">
+            <span class="from">~29 yrs</span>
+            <span class="arr">→</span>
+            <span class="to">73 yrs</span>
+          </div>
+          <div class="stat-label">Life expectancy at birth</div>
+          <div class="stat-period">1800 → 2023 (global average)</div>
+          <div class="stat-source">Our World in Data</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">
+            <span class="from">43%</span>
+            <span class="arr">→</span>
+            <span class="to">3.7%</span>
+          </div>
+          <div class="stat-label">Child mortality (under 5)</div>
+          <div class="stat-period">1800 → 2022 (share dying before age 5)</div>
+          <div class="stat-source">Our World in Data</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">
+            <span class="from">36%</span>
+            <span class="arr">→</span>
+            <span class="to">8.5%</span>
+          </div>
+          <div class="stat-label">Extreme poverty (&lt;$2.15/day)</div>
+          <div class="stat-period">1990 → 2019 (global share)</div>
+          <div class="stat-source">World Bank</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">
+            <span class="from">385</span>
+            <span class="arr">→</span>
+            <span class="to">223</span>
+          </div>
+          <div class="stat-label">Maternal deaths per 100,000 births</div>
+          <div class="stat-period">1990 → 2020 (global)</div>
+          <div class="stat-source">WHO</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 5 — DISTRIBUTION: THE PARENTHETICAL
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-5">
+    <div class="slide-num">05 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">The Other Half of the Title</div>
+      <h2 class="reveal">(And How We Could Lose It)</h2>
+      <div class="gold-rule-full reveal"></div>
+      <ul class="points">
+        <li class="reveal">
+          The course title's parenthetical is <strong>not rhetorical decoration</strong> — it is the intellectual problem: progress is real, and unevenly shared, and reversible
+        </li>
+        <li class="reveal">
+          <strong>Between-country inequality has fallen sharply</strong> since 1990 — so some progress is genuinely widespread; this matters for how we teach the data
+        </li>
+        <li class="reveal">
+          <strong>Within-country inequality has risen</strong> in many wealthy nations; race, class, and place determine who captures the gains from growth
+        </li>
+        <li class="reveal">
+          Progress can <strong>reverse</strong> — democratic backsliding, pandemic disruption, climate risk, opioid crises; the course takes these seriously rather than treating them as footnotes
+        </li>
+      </ul>
+      <div class="note reveal">
+        <p>Students who arrive skeptical that progress is "on balance a good thing" are not wrong to be skeptical — they are asking the right question one level deeper</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 6 — PLACE: WHY BALTIMORE
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-6">
+    <div class="slide-num">06 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">Place as Pedagogy</div>
+      <h2 class="reveal">Why Baltimore Matters</h2>
+      <div class="gold-rule-full reveal"></div>
+      <ul class="points">
+        <li class="reveal">
+          <strong>Students arrive in Baltimore</strong> before they attend any class — the city is their first empirical encounter with the course's central question
+        </li>
+        <li class="reveal">
+          Abstract aggregate data stays abstract without a place to <strong>anchor it</strong>; Baltimore forces concreteness: whose life expectancy? which neighbourhood's child mortality?
+        </li>
+        <li class="reveal">
+          <strong>Hopkins cannot be separated from Baltimore's story</strong> — the university's wealth and the city's disinvestment share a history; teaching progress here requires acknowledging that
+        </li>
+        <li class="reveal">
+          The <strong>distribution question is not theoretical</strong> in Baltimore; within a few miles, median household incomes differ by a factor of seven or eight
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 7 — BALTIMORE'S ARC: PROGRESS, REGRESS, CYCLES
+       ================================================================ -->
+  <section class="slide bracket-br bracket-tl" id="slide-7">
+    <div class="slide-num">07 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">The Parenthetical, Made Concrete</div>
+      <h2 class="reveal">Progress, Regress, Cycles</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-era">1800s–<br>1940s</div>
+          <div class="tl-text">Industrial peak: major Atlantic port, Bethlehem Steel at Sparrows Point, one of the largest steel plants in the world; manufacturing and shipbuilding capital</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-era">1950s–<br>1970s</div>
+          <div class="tl-text">Deindustrialisation, white flight, suburban disinvestment; federal highway policy that bisected Black neighbourhoods; population decline from ~950,000 to ~790,000</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-era">1980s–<br>1990s</div>
+          <div class="tl-text">Crack epidemic, homicide rates among the highest in the US; disinvestment in public housing and schools; the story of "The Wire," however stylised</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-era">2000s–<br>present</div>
+          <div class="tl-text">Inner Harbour renewal, Station North arts district, biotech corridor; alongside persistent poverty, the 2015 uprising, and homicide rates that remain high</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-era">The<br>question</div>
+          <div class="tl-text"><em>Is this a story of progress interrupted, or a story of whose progress counted?</em> The course asks students to hold both possibilities.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 8 — EXPERIENTIAL LEARNING
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-8">
+    <div class="slide-num">08 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">Beyond the Seminar Room</div>
+      <h2 class="reveal">Learning by Going</h2>
+      <div class="gold-rule-full reveal"></div>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <div class="exp-name">Walters Art Museum</div>
+          <div class="exp-desc">Material culture and human achievement across the ages — what objects tell us about how people understood beauty, craft, and value in earlier centuries</div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-name">Baltimore Museum of Industry</div>
+          <div class="exp-desc">Baltimore's industrial heritage — labour, manufacturing, and the human cost and gain of the city's industrial century; the textbook data made tangible</div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-name">Factory Visit <em>(in coordination)</em></div>
+          <div class="exp-desc">A modern production site — to close the loop between historical industrialisation and contemporary manufacturing; what progress actually builds and who builds it</div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-name">Practitioner / Guest Speaker</div>
+          <div class="exp-desc">An innovator, entrepreneur, or policy practitioner — bringing the question of how progress happens today into the seminar, live and answerable</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 9 — THE COURSE WEBSITE
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-9">
+    <div class="slide-num">09 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">A Public Pedagogical Resource</div>
+      <h2 class="reveal">The Course as an Open Site</h2>
+      <div class="big-url reveal">progress.simondhalliday.com</div>
+      <div class="tag-row reveal">
+        <span class="tag">Session notes</span>
+        <span class="tag">Hover glossary</span>
+        <span class="tag">In-session quizzes</span>
+        <span class="tag">Data links</span>
+        <span class="tag">Reading resources</span>
+      </div>
+      <ul class="points" style="margin-top: clamp(0.7rem, 1.4vw, 1.1rem);">
+        <li class="reveal">
+          All session notes are <strong>public and annotated</strong> — key terms open hover-tooltip definitions; students and readers outside the class can follow along
+        </li>
+        <li class="reveal">
+          <strong>Discussion questions and quizzes</strong> embedded in each session page; the site is a teaching tool, not just a syllabus host
+        </li>
+        <li class="reveal">
+          Built in Quarto and hosted on GitHub Pages — <strong>free, reproducible, and forkable</strong>; anyone teaching a similar course is welcome to adapt it
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 10 — THE HARD QUESTIONS
+       ================================================================ -->
+  <section class="slide bracket-br" id="slide-10">
+    <div class="slide-num">10 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">What the Course Doesn't Resolve</div>
+      <h2 class="reveal">The Hardest Things to Teach</h2>
+      <div class="gold-rule-full reveal"></div>
+      <ul class="points">
+        <li class="reveal">
+          <strong>Students who arrive skeptical</strong> — often for historically well-grounded reasons — and the risk of either dismissing that scepticism or letting it collapse the course's argument entirely
+        </li>
+        <li class="reveal">
+          <strong>"Isn't Baltimore proof that progress fails?"</strong> — this is a good-faith question that deserves a good-faith answer, not a pivot to the global aggregate; the city is in the room
+        </li>
+        <li class="reveal">
+          <strong>Teaching regress without abandoning the frame</strong> — the opioid crisis, democratic backsliding, and climate risk are not footnotes; how do you hold them and the hockey sticks at the same time?
+        </li>
+        <li class="reveal">
+          <strong>What a twelve-student seminar can and cannot do</strong> — the discussion gets deep; the coverage does not; the course is a bet that depth matters more than breadth for first-year students
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 11 — OPEN TO THE ROOM
+       ================================================================ -->
+  <section class="slide bracket-br bracket-tl" id="slide-11">
+    <div class="slide-num">11 / 12</div>
+    <div class="slide-content">
+      <div class="label reveal">Discussion</div>
+      <h2 class="reveal">What I'd Welcome From You</h2>
+      <div class="gold-rule-full reveal"></div>
+      <div class="question-list">
+        <div class="q-item">How do you hold distributional critique alongside genuine aggregate progress — without the critique swallowing the frame, or the frame dismissing the critique?</div>
+        <div class="q-item">Which texts, across disciplines, do you find actually bridge the optimism and the honest accounting of who gets left behind?</div>
+        <div class="q-item">What experiential or place-based learning worked, or didn't — and why?</div>
+        <div class="q-item">What can a twelve-person seminar do that a three-hundred-person lecture course genuinely cannot?</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SLIDE 12 — CLOSING
+       ================================================================ -->
+  <section class="slide bracket-tl bracket-br" id="slide-12">
+    <div class="slide-num">12 / 12</div>
+    <div class="slide-content" style="align-items: flex-start;">
+      <div class="gold-rule reveal"></div>
+      <h1 class="reveal" style="font-style: normal; font-weight: 600;">Thank you</h1>
+      <div class="big-url reveal">progress.simondhalliday.com</div>
+      <div class="contact-block reveal">
+        <div class="contact-line">Simon D. Halliday · Johns Hopkins University</div>
+        <div class="contact-line">shallid1@jh.edu</div>
+      </div>
+      <div id="qrcode" style="margin-top: clamp(1rem, 2.5vw, 2rem); flex-shrink: 0;"></div>
+    </div>
+  </section>
+
+
+  <!-- === QR CODE LIBRARY === -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+  <script>
+    /* === SLIDE PRESENTATION CONTROLLER ================================ */
+    class SlidePresentation {
+      constructor() {
+        this.slides       = Array.from(document.querySelectorAll('.slide'));
+        this.total        = this.slides.length;
+        this.current      = 0;
+        this.isScrolling  = false;
+        this.touchStartY  = 0;
+
+        this.progressBar  = document.getElementById('progressBar');
+        this.navDotsEl    = document.getElementById('navDots');
+
+        this.buildNavDots();
+        this.setupIntersectionObserver();
+        this.setupKeyboard();
+        this.setupTouch();
+        this.setupWheel();
+        this.generateQR();
+        this.updateProgress(0);
+      }
+
+      /* Build navigation dots ----------------------------------------- */
+      buildNavDots() {
+        this.navDotsEl.innerHTML = '';
+        this.slides.forEach((_, i) => {
+          const btn = document.createElement('button');
+          btn.className = 'nav-dot' + (i === 0 ? ' active' : '');
+          btn.setAttribute('aria-label', `Go to slide ${i + 1}`);
+          btn.addEventListener('click', () => this.goTo(i));
+          this.navDotsEl.appendChild(btn);
+        });
+        this.dots = Array.from(this.navDotsEl.querySelectorAll('.nav-dot'));
+      }
+
+      /* Intersection observer — add .visible to trigger animations ----- */
+      setupIntersectionObserver() {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              const idx = this.slides.indexOf(entry.target);
+              if (idx !== -1) {
+                this.current = idx;
+                this.updateProgress(idx);
+                this.updateDots(idx);
+              }
+            }
+          });
+        }, { threshold: 0.55 });
+
+        this.slides.forEach(slide => observer.observe(slide));
+      }
+
+      /* Keyboard navigation ------------------------------------------- */
+      setupKeyboard() {
+        document.addEventListener('keydown', e => {
+          switch (e.key) {
+            case 'ArrowDown':
+            case 'ArrowRight':
+            case ' ':
+            case 'PageDown':
+              e.preventDefault();
+              this.goTo(this.current + 1);
+              break;
+            case 'ArrowUp':
+            case 'ArrowLeft':
+            case 'PageUp':
+              e.preventDefault();
+              this.goTo(this.current - 1);
+              break;
+            case 'Home':
+              e.preventDefault(); this.goTo(0); break;
+            case 'End':
+              e.preventDefault(); this.goTo(this.total - 1); break;
+          }
+        });
+      }
+
+      /* Touch / swipe navigation -------------------------------------- */
+      setupTouch() {
+        document.addEventListener('touchstart', e => {
+          this.touchStartY = e.changedTouches[0].screenY;
+        }, { passive: true });
+
+        document.addEventListener('touchend', e => {
+          const dy = this.touchStartY - e.changedTouches[0].screenY;
+          if (Math.abs(dy) > 40) this.goTo(dy > 0 ? this.current + 1 : this.current - 1);
+        }, { passive: true });
+      }
+
+      /* Mouse wheel navigation ---------------------------------------- */
+      setupWheel() {
+        let wheelTimeout;
+        document.addEventListener('wheel', e => {
+          e.preventDefault();
+          clearTimeout(wheelTimeout);
+          wheelTimeout = setTimeout(() => {
+            this.goTo(e.deltaY > 0 ? this.current + 1 : this.current - 1);
+          }, 50);
+        }, { passive: false });
+      }
+
+      /* Navigate to slide index --------------------------------------- */
+      goTo(idx) {
+        if (idx < 0 || idx >= this.total) return;
+        this.current = idx;
+        this.slides[idx].scrollIntoView({ behavior: 'smooth' });
+      }
+
+      /* Update progress bar ------------------------------------------ */
+      updateProgress(idx) {
+        const pct = this.total > 1 ? (idx / (this.total - 1)) * 100 : 100;
+        this.progressBar.style.width = pct + '%';
+      }
+
+      /* Update active nav dot ---------------------------------------- */
+      updateDots(idx) {
+        this.dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+      }
+
+      /* Generate QR code on closing slide ----------------------------- */
+      generateQR() {
+        const el = document.getElementById('qrcode');
+        if (!el || typeof QRCode === 'undefined') return;
+        new QRCode(el, {
+          text:           'https://progress.simondhalliday.com',
+          width:          96,
+          height:         96,
+          colorDark:      '#e8a520',
+          colorLight:     '#0f1624',
+          correctLevel:   QRCode.CorrectLevel.M
+        });
+      }
+    }
+
+    /* Boot when DOM is ready */
+    document.addEventListener('DOMContentLoaded', () => new SlidePresentation());
+  </script>
+
+</body>
+</html>
