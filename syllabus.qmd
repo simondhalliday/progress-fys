@@ -11,8 +11,9 @@ description: "Syllabus — FYS: Progress"
     <h1>Syllabus</h1>
     <p style="font-family: var(--font-sans); font-size: 1rem; color: var(--ink-mid); font-style: italic; margin: calc(var(--sp-sm) * -1) 0 var(--sp-lg);">FYS: <em>Progress</em> — Why now is the best time to be alive (and how we could lose it)</p>
     <p class="lead">
-      Twenty-six sessions across six modules. Tuesdays and Thursdays, 10:30–11:45 AM.
-      First class: September 1. Last class: December 10.
+      Twenty-seven class meetings across six modules. Tuesdays and Thursdays, 10:30–11:45 AM
+      in Shriver Hall 001. SIS lists the class from August 31 to December 11;
+      the first Tuesday/Thursday meeting is September 1 and the last is December 10.
     </p>
   </div>
 </header>
@@ -40,7 +41,7 @@ description: "Syllabus — FYS: Progress"
       </div>
       <div class="info-block">
         <div class="info-block__label">Location</div>
-        <div class="info-block__value">TBD — Homewood Campus</div>
+        <div class="info-block__value">Shriver Hall 001, Homewood Campus</div>
       </div>
       <div class="info-block">
         <div class="info-block__label">Canvas</div>
@@ -100,23 +101,27 @@ description: "Syllabus — FYS: Progress"
     <div class="info-grid mt-lg" style="grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));">
       <div class="info-block">
         <div class="info-block__label">First class</div>
-        <div class="info-block__value">Tuesday, Sep 1</div>
+        <div class="info-block__value">Tuesday, Sep 1, 2026</div>
       </div>
       <div class="info-block">
         <div class="info-block__label">Add/drop deadline</div>
-        <div class="info-block__value">Monday, Sep 11 (noon)</div>
+        <div class="info-block__value">Friday, Sep 11, 2026 (noon)</div>
       </div>
       <div class="info-block">
         <div class="info-block__label">Last day to drop</div>
-        <div class="info-block__value">Monday, Oct 12</div>
+        <div class="info-block__value">Monday, Oct 12, 2026 (4:30 PM)</div>
       </div>
       <div class="info-block">
-        <div class="info-block__label">Thanksgiving week</div>
-        <div class="info-block__value">Nov 24 &amp; Nov 26 — no classes</div>
+        <div class="info-block__label">KSAS Fall Break</div>
+        <div class="info-block__value">Oct 22–23, 2026 — no Thu class</div>
+      </div>
+      <div class="info-block">
+        <div class="info-block__label">Fall Recess</div>
+        <div class="info-block__value">Nov 23–27, 2026 — no classes</div>
       </div>
       <div class="info-block">
         <div class="info-block__label">Last class</div>
-        <div class="info-block__value">Thursday, Dec 10</div>
+        <div class="info-block__value">Thursday, Dec 10, 2026</div>
       </div>
     </div>
   </div>
@@ -381,6 +386,7 @@ description: "Syllabus — FYS: Progress"
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~1,500 words)</a> — the short manifesto that launched Progress Studies as a field. Why has no academic discipline made the causes of progress its central object of inquiry?</li>
               <li><span class="tag tag--required">Required</span> Ezra Klein &amp; Derek Thompson, <em>Abundance</em>, Chapter 1: "The Politics of More" (2025, ~25 pp.) — the political economy of why America has stopped building: housing, clean energy, infrastructure. The argument that progressive politics has become entangled with a politics of restriction.</li>
               <li><span class="tag tag--recommended">Recommended</span> Brian Potter, <em>The Origins of Efficiency</em> (Stripe Press, 2025) — selections from the chapters on housing and construction (~20 pp.). Potter analyses why the production process in construction has not seen the efficiency gains of steel or semiconductors. A complementary, production-side analysis of the same barriers Klein &amp; Thompson identify from the political side.</li>
+              <li><span class="tag tag--recommended">Optional extension</span> Eric Bottorff &amp; Simon D. Halliday, <em>Understanding Our Economy</em>, Chapter 10: "Work, Pay, and Power" (selections), paired with David H. Autor, "Why Are There Still So Many Jobs?" <em>Journal of Economic Perspectives</em> 29, no. 3 (2015): 3–30 — labor markets, automation, and how progress changes work.</li>
             </ul>
             <p class="reading-note">The course has asked why progress happened. This session asks why, in some domains and in some countries, it seems to have slowed — and what structural, political, and behavioural obstacles have replaced the old material ones.</p>
           </div>
@@ -388,20 +394,11 @@ description: "Syllabus — FYS: Progress"
         </div>
       </div>
 
-      <div class="session-row">
+      <div class="session-row" style="opacity: 0.7;">
         <div class="session-row__date">Thu Oct 22</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 16 · Progress and the Labor Market: Work, Wages, and What Has Changed</div>
-          <div class="session-row__meta">
-            <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> Eric Bottorff &amp; Simon D. Halliday, <em>Understanding Our Economy</em>, Chapter 10: "Work, Pay, and Power" (selections) — how labor markets determine wages, what has changed in the structure of work since 1980, and why some workers gained while others did not.</li>
-              <li><span class="tag tag--required">Required</span> <a href="https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3" target="_blank" rel="noopener">David H. Autor, "Why Are There Still So Many Jobs? The History and Future of Workplace Automation," <em>Journal of Economic Perspectives</em> 29, no. 3 (2015): 3–30</a> — automation substitutes for routine tasks but complements human judgment, adaptability, and problem-solving. The wage story is polarization, not elimination. The most-assigned piece in undergraduate labor economics for exactly this reason. <span style="color:var(--ink-light);">[free download from AEA]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://doi.org/10.1162/daed_a_01915" target="_blank" rel="noopener">Erik Brynjolfsson, "The Turing Trap: The Promise &amp; Peril of Human-Like Artificial Intelligence," <em>Daedalus</em> 151, no. 2 (2022): 272–287</a> — the question isn't whether AI will transform work: it's that we're choosing to build AI that replaces humans rather than augments them, and that choice is driven by incentives and politics, not technical necessity. The deeper intuition-disruptor for students who've already absorbed the Autor framing. <span style="color:var(--ink-light);">[JHU Daedalus access via library]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://doi.org/10.1126/science.abl4476" target="_blank" rel="noopener">Kuan-hao Park et al., "A Causal Test of the Strength of Weak Ties," <em>Science</em> 377, no. 6612 (2022): 1304–1310</a> — a large-scale natural experiment on LinkedIn showing that weak ties (acquaintances rather than close friends) are causally responsible for job mobility and wage gains. The classic Granovetter hypothesis, tested at scale.</li>
-            </ul>
-            <p class="reading-note">How do workers find jobs, and what determines wages? From the structure of labor markets to the networks that shape opportunity.</p>
-          </div>
-          <div class="session-row__tags"><span class="tag">In-class response</span></div>
+          <div class="session-row__title" style="color: var(--ink-light); font-style: italic;">No class — KSAS Fall Break</div>
+          <div class="session-row__meta" style="color: var(--ink-light);">No class during Krieger School of Arts and Sciences Fall Break.</div>
         </div>
       </div>
     </div>
@@ -424,7 +421,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Oct 27</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 17 · Great Men, Great Women, and Inevitable Inventions</div>
+          <div class="session-row__title">Session 16 · Great Men, Great Women, and Inevitable Inventions</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Thomas Carlyle, <a href="https://www.gutenberg.org/ebooks/1091" target="_blank" rel="noopener">"The Hero as Man of Letters" (extract from <em>On Heroes, Hero-Worship, and the Heroic in History</em>, 1841)</a> — the philosophical case for exceptional individuals as the engine of history.</li>
@@ -440,7 +437,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 29</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 18 · Ambition</div>
+          <div class="session-row__title">Session 17 · Ambition</div>
           <div class="session-row__meta"><ul class="reading-list">
               <li><span class="tag tag--required">Required</span> William J. Baumol, &#x201C;Entrepreneurship: Productive, Unproductive, and Destructive,&#x201D; <em>Journal of Political Economy</em> 98, no. 5 (1990): 893&#x2013;921 &#x2014; the total supply of entrepreneurs may be roughly constant across societies; what varies &#x2014; enormously &#x2014; is how the rules of the game channel them toward innovation versus rent-seeking. A framework that explains why Rome produced lawyers and generals instead of engineers. <span style="color:var(--ink-light);">[PDF via library]</span></li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://hbr.org/2017/06/is-america-encouraging-the-wrong-kind-of-entrepreneurship" target="_blank" rel="noopener">Robert E. Litan &amp; Ian Hathaway, &#x201C;Is America Encouraging the Wrong Kind of Entrepreneurship?&#x201D; <em>Harvard Business Review</em> (June 2017)</a> &#x2014; written as a tribute to Baumol shortly after his death, this short piece asks whether current US incentives are steering entrepreneurs toward extractive activities (rent-seeking, financial engineering) rather than productive ones. A direct application of the Baumol framework to contemporary America.</li>
@@ -455,7 +452,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 19 · Guest: Political Economy of Reform</div>
+          <div class="session-row__title">Session 18 · Guest: Political Economy of Reform</div>
           <div class="session-row__meta">Guest speaker: Professor Steve Teles (Hopkins).
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.nationalaffairs.com/publications/detail/kludgeocracy-in-america" target="_blank" rel="noopener">Steven Teles, &#x201C;Kludgeocracy in America,&#x201D; <em>National Affairs</em> (Fall 2013)</a> &#x2014; America&#x2019;s patchwork of overlapping programmes and indirect policy instruments is not an accident but a structural feature of its political system. Teles coins &#x201C;kludgeocracy&#x201D; to name a governing style that is simultaneously complex, inefficient, and redistributive &#x2014; upward. Essential background for understanding why reform is so hard.</li>
@@ -470,7 +467,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 5</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 20 · Top-Down Innovation: The State, the Market, and Who Decides</div>
+          <div class="session-row__title">Session 19 · Top-Down Innovation: The State, the Market, and Who Decides</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://blog.benjaminreinhardt.com/wddw" target="_blank" rel="noopener">Ben Reinhardt, &#x201C;Why Does DARPA Work?&#x201D; (~20 pp.)</a> &#x2014; a careful structural analysis of what makes DARPA, uniquely among government agencies, a reliable producer of breakthrough innovation: programme managers with autonomy, short time horizons, and no bureaucratic overhead. The template against which all government innovation is measured.</li>
@@ -486,7 +483,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 10</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 21 · Guest: Contemporary Science Policy</div>
+          <div class="session-row__title">Session 20 · Guest: Contemporary Science Policy</div>
           <div class="session-row__meta">Guest speaker from the Institute for Progress (IFP) &#x2014; Heidi Williams (Director of Science Policy, IFP; Professor of Economics, Dartmouth) or Santi Ruiz (IFP Senior Editor, <em>Statecraft</em>), subject to availability.
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://ifp.org/to-speed-scientific-progress-do-away-with-funding-delays/" target="_blank" rel="noopener">Heidi Williams, &#x201C;Funding Delays Are Slowing Scientific Progress,&#x201D; Institute for Progress (August 2023, ~1,500 words)</a> &#x2014; scientists wait on average 20 months between submitting a grant and receiving funding. Williams argues this delay is not an administrative inevitability but a policy choice with measurable costs to research output &#x2014; and that fixing it is low-hanging fruit.</li>
@@ -517,7 +514,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 12</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 22 · Environmental Progress: Can We Fix What We Broke?</div>
+          <div class="session-row__title">Session 21 · Environmental Progress: Can We Fix What We Broke?</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Hannah Ritchie, <em>Not the End of the World</em> (2024), Chapter 1: "Air Pollution" (~35 pp.) — the evidence for environmental progress, and where it falls short.</li>
@@ -530,7 +527,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 17</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 23 · When Progress Ends — and What We Must Maintain</div>
+          <div class="session-row__title">Session 22 · When Progress Ends — and What We Must Maintain</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/magazine/archive/2023/01/science-technology-vaccine-invention-history/672227/" target="_blank" rel="noopener">Derek Thompson, "Why the Age of American Progress Ended," <em>The Atlantic</em> (Jan/Feb 2023)</a> — the case that innovation has slowed and what might explain it. <span style="color:var(--ink-light);">[free, may ask you to create an account]</span></li>
@@ -546,7 +543,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 19</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 24 · Catastrophic Risk: Pandemic, AI, and Existential Threats</div>
+          <div class="session-row__title">Session 23 · Catastrophic Risk: Pandemic, AI, and Existential Threats</div>
           <div class="session-row__meta">Reading TBD — options: Nick Bostrom excerpt; post-pandemic review article; AI safety short reading. Discussion: what obligations does anticipated risk create?</div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
@@ -586,7 +583,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Dec 1</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 25 · The Future of Progress</div>
+          <div class="session-row__title">Session 24 · The Future of Progress</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Ted Chiang, "Exhalation" (2019, ~6,000 words) — a meditation on entropy, memory, and what it means to understand. Read slowly. Bring one sentence that you think is about progress, even though the story never uses that word.</li>
@@ -602,7 +599,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Dec 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 26 · Data Project Presentations (Part 1)</div>
+          <div class="session-row__title">Session 25 · Data Project Presentations (Part 1)</div>
           <div class="session-row__meta">Six presentations, ~10 minutes each + Q&amp;A. No advance reading assigned.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project presentations</span></div>
         </div>
@@ -611,7 +608,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Dec 8</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 27 · Data Project Presentations (Part 2)</div>
+          <div class="session-row__title">Session 26 · Data Project Presentations (Part 2)</div>
           <div class="session-row__meta">Six presentations, ~10 minutes each + Q&amp;A. No advance reading assigned.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project presentations</span></div>
         </div>
@@ -620,7 +617,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Dec 10</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 28 · Closing: Celebration and Final Questions</div>
+          <div class="session-row__title">Session 27 · Closing: Celebration and Final Questions</div>
           <div class="session-row__meta">Students share closing reflections (revisiting Week 1's opening prompt). The seminar ends with open questions students have brought from across the semester — the things they still want to know. Cookies may be involved.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Closing reflection due</span></div>
         </div>
