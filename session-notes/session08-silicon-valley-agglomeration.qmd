@@ -1,0 +1,229 @@
+---
+title: "Silicon Valley and Economies of Agglomeration"
+subtitle: "Session 8 · Thu Sep 24"
+description: "Why did Silicon Valley adapt when Route 128 stalled, and what does that tell us about the geography of innovation?"
+order: 8
+---
+
+## Two regions, one shock
+
+In the late 1970s, two American regions looked like the future of high technology.
+
+One was Silicon Valley in northern California. The other was Route 128 outside Boston. Both had elite universities nearby. Both benefited from Cold War military spending. Both had deep pools of engineers, suppliers, and firms. Both were celebrated by policymakers who wanted to copy them.
+
+Then the crisis came. Japanese firms challenged American semiconductor producers. Minicomputers lost ground to workstations and personal computers. Analysts began to ask whether the great American high-technology regions would follow Detroit and Pittsburgh into decline.
+
+The two regions did not respond the same way. Silicon Valley generated a new wave of semiconductor and computer start-ups. Route 128's famous minicomputer firms - Digital Equipment Corporation, Data General, Prime, Wang - struggled to adapt. By 1990, Saxenian argues, the center of American computing had shifted decisively west.
+
+**The question this session is about: why did two regions with similar ingredients produce such different innovation systems?**
+
+The answer is not simply "talent" or "universities." Saxenian's claim is sharper: places have [**institutions**]{.term data-example="Stanford, MIT, trade associations, venture-capital partnerships, suppliers, and informal engineering communities all shaped how the two regions learned."}, cultures, and networks that shape how quickly ideas move and how easily people recombine them.
+
+::: {.instructor}
+Open by asking students what they think "Silicon Valley" means: a place, an industry, a culture, a financial system, a labor market, a mythology? Put answers on the board. Then introduce Route 128 as the comparison case. The point is to make students see that the question is not "why tech?" but "why this organization of tech?"
+:::
+
+## What proximity can and cannot explain
+
+Saxenian gives us a clean empirical puzzle. The regions had similar origins but diverged sharply after the 1980s crisis.
+
+| Indicator from Saxenian's introduction | Silicon Valley | Route 128 |
+|---|---:|---:|
+| Net new technology-related jobs, 1975-1990 | about 150,000 | about one-third as many |
+| Electronics exports in 1990 | more than $11 billion | about $4.6 billion |
+| Fastest-growing US electronics corporations | 39 of top 100 | 4 of top 100 |
+
+*Source: AnnaLee Saxenian, Regional Advantage, Introduction. The numbers are used here as orientation, not as a complete regional-growth accounting exercise.*
+
+The tempting explanation is agglomeration. Silicon Valley had dense clusters of engineers, suppliers, venture capitalists, lawyers, universities, and customers. Those clusters created [**spillover**]{.term data-example="An engineer leaving one chip start-up for another carried knowledge about manufacturing problems, suppliers, and design practices across firm boundaries."} effects: people learned from one another simply by being nearby.
+
+But Saxenian says proximity is not enough. Route 128 also had skilled workers, universities, suppliers, and technology firms. If agglomeration alone explained innovation, both regions should have adapted in similar ways. They did not.
+
+> Clusters matter, but clusters are not all the same. The internal organization of firms and the social organization of a region determine whether proximity turns into learning.
+
+::: {.discuss}
+Think of a campus, city, or online community you know. When does proximity produce real learning, and when does it merely put people near one another?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why is Route 128 important for Saxenian's argument?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Route 128 was also a major high-technology region, which is why it makes the comparison useful.">It had no universities, engineers, or technology firms.</li>
+    <li data-correct="true" data-fb="Correct. Route 128 had many similar ingredients, so its divergence from Silicon Valley shows that proximity and talent alone are not enough.">It shows that similar ingredients can produce different regional innovation systems.</li>
+    <li data-correct="false" data-fb="Saxenian does not argue that Boston lacked capital entirely. Her focus is on industrial systems and firm organization.">It proves that venture capital is the only thing that matters.</li>
+    <li data-correct="false" data-fb="The lesson is not that universities are irrelevant. It is that universities operate within broader regional systems.">It shows that universities do not affect innovation.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+Students may default to "Stanford good, MIT bad" or "California culture good, Boston culture bad." Keep them off caricature. MIT was enormously important; Route 128 was successful for decades. The issue is adaptation under changing technological conditions.
+:::
+
+## Networks versus independent firms
+
+Saxenian contrasts two industrial systems.
+
+Silicon Valley was a regional network system. Engineers moved between firms. Suppliers worked with multiple customers. Start-ups formed, failed, recombined, and spun out new teams. Informal communication carried technical knowledge across organizational boundaries. People changed jobs without necessarily leaving the region. Loyalty attached not only to a firm, but to a professional community.
+
+Route 128 was dominated by more vertically integrated, independent firms. Large companies internalized many functions, guarded information, valued corporate loyalty, and moved knowledge through hierarchies. That structure worked well in stable [**markets**]{.term data-example="Route 128's minicomputer firms performed well when customers and technologies changed slowly enough for large integrated firms to plan and control production."} where scale and control mattered. It worked less well when technologies changed quickly.
+
+The difference was not that one region had firms and the other had networks. Both had both. The difference was where the boundaries were drawn: inside firms, between firms, between firms and universities, between workers and employers.
+
+> Silicon Valley's advantage was not just that people were close together. It was that the boundaries between firms, workers, suppliers, and local institutions were porous enough for knowledge to move.
+
+::: {.discuss}
+Porous boundaries help ideas move, but they can also make firms fragile: workers leave, secrets leak, competitors copy. When would a more closed organization be better than an open network?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What does Saxenian mean by a regional network system?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="A network system is not a monopoly. It contains many firms linked by labor mobility, suppliers, customers, and local institutions.">A single dominant company controls all important suppliers.</li>
+    <li data-correct="true" data-fb="Correct. The key features are porous boundaries, frequent movement of people, informal communication, specialization, and repeated collaboration among firms and institutions.">A local economy where firms, workers, suppliers, and institutions exchange knowledge through dense, repeated relationships.</li>
+    <li data-correct="false" data-fb="Physical proximity matters, but Saxenian's network system is social and institutional, not just geographic.">Any set of companies located in the same city.</li>
+    <li data-correct="false" data-fb="Government funding helped both regions. It does not by itself define the network system.">A region where the government directly plans which firms should collaborate.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+This is the place to introduce "embeddedness" in plain language. Firms are not floating atoms. They sit inside local labor markets, social norms, universities, suppliers, investors, and public institutions. Those relationships shape what firms can learn and how quickly they can change.
+:::
+
+## Why cities make recombination easier
+
+Cities and regions matter because innovation often comes from recombination: taking ideas, skills, tools, and people from different places and putting them together in a new way.
+
+A dense region lowers the cost of recombination. You can hire someone who knows a manufacturing process. You can meet an investor who has seen ten related companies. You can switch jobs without moving your family. You can learn at dinner what a supplier cannot quite put in a formal report. You can start a firm, fail, and still remain in the same ecosystem.
+
+This is one reason Silicon Valley is difficult to copy. Policymakers can build a science park, but they cannot instantly create a labor market with deep trust, repeated mobility, tacit knowledge, specialized suppliers, experienced founders, and investors comfortable with failure. The visible pieces are not the whole system.
+
+> Innovation clusters work when they make recombination cheap: people, ideas, skills, and capital can find new combinations faster than they could elsewhere.
+
+::: {.discuss}
+If you were trying to build an innovation district in Baltimore, what would you copy from Silicon Valley, and what would you refuse to copy?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why are innovation clusters hard to copy by building a science park?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Buildings matter, but Saxenian's argument is that the social and institutional system matters more than the real estate.">Science parks never contain laboratories or start-ups.</li>
+    <li data-correct="false" data-fb="Universities matter a great deal, but both Silicon Valley and Route 128 had major universities nearby.">Only universities matter, so buildings are irrelevant.</li>
+    <li data-correct="true" data-fb="Correct. The hard-to-copy parts are the relationships, norms, labor mobility, supplier networks, and institutional habits that let knowledge move quickly.">The most important parts are social and institutional: labor markets, trust, networks, suppliers, and norms of open exchange.</li>
+    <li data-correct="false" data-fb="Saxenian is not arguing that government is helpless. She is warning that copying visible infrastructure without the underlying system is insufficient.">Government policy can never affect regional innovation.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+Tie this back to the Baltimore project. Students are already studying places in Baltimore. Ask them to look for networks, not just buildings: who meets whom, who funds whom, who hires whom, who knows whom, and what happens when a project fails?
+:::
+
+## Connections
+
+**Builds on:** [Session 6](session06-innovation-incentives-technology.html) argued that ideas are getting harder to find and that innovation depends on institutions. Session 8 shows one institutional form in action: a regional system that helps people recombine knowledge.
+
+**Sets up:** [Session 10](session10-liberty-property-rights.html) moves from regional institutions to national ones: prices, property rights, and political rules that make decentralized coordination possible.
+
+::: {.instructor}
+**Arc note:** This session gives students a concrete middle level between individual inventors and national institutions. Progress happens in places. But places matter because they organize information, trust, labor mobility, and capital in different ways.
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Which statement best captures Saxenian's explanation for Silicon Valley's advantage over Route 128?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Both regions benefited from universities and defense spending. That common origin makes the divergence puzzling.">Silicon Valley had universities and Route 128 did not.</li>
+    <li data-correct="false" data-fb="Route 128 was not low-skill. It had deep technical talent and major firms.">Route 128 lacked skilled engineers.</li>
+    <li data-correct="true" data-fb="Correct. Silicon Valley's more open, networked industrial system adapted faster to changing technologies than Route 128's more closed, hierarchical firm system.">Silicon Valley's porous networks moved knowledge and people more quickly across firms and institutions.</li>
+    <li data-correct="false" data-fb="Weather is not the causal argument. The comparison is about industrial organization and regional institutions.">California had better weather, which attracted entrepreneurs.</li>
+  </ol>
+</div>
+```
+
+## Review cards
+
+Work through these cards now, then Orbit will schedule them for review over the coming weeks.
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="What is the central puzzle in Saxenian's comparison of Silicon Valley and Route 128?"
+    answer="Both regions had universities, skilled labor, military-funded technology, and high-tech firms, but after the 1980s crisis Silicon Valley adapted and Route 128 stalled. The puzzle is why similar ingredients produced different regional trajectories.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is an agglomeration economy?"
+    answer="An agglomeration economy is a benefit that comes from firms and workers locating near one another, such as shared suppliers, thick labor markets, faster information flow, and knowledge spillovers.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why does Saxenian think agglomeration alone cannot explain Silicon Valley's success?"
+    answer="Route 128 also had many agglomeration ingredients: universities, skilled workers, suppliers, and technology firms. The difference was how the regional system organized firms, labor mobility, and knowledge exchange.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is the difference between Silicon Valley's network system and Route 128's independent-firm system?"
+    answer="Silicon Valley had porous firm boundaries, mobile workers, specialized suppliers, and informal knowledge exchange. Route 128 relied more on vertically integrated firms, hierarchy, secrecy, and corporate loyalty.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why do porous boundaries help innovation?"
+    answer="They let knowledge, people, and skills move across firms and institutions. That makes recombination easier: new teams can form, suppliers can learn from multiple customers, and failed projects can feed future successes.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why is an innovation cluster hard to copy?"
+    answer="The visible infrastructure can be copied, but the deeper system - trust, norms, labor mobility, experienced founders, specialized suppliers, and investors comfortable with failure - takes time to build.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="How does the Silicon Valley session connect to the Baltimore project?"
+    answer="It asks students to look at places as systems of relationships, not just locations. In Baltimore, they should ask who exchanges knowledge, who funds whom, who hires whom, and what institutions help or block recombination.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Reading guide
+
+### Required
+
+**McAfee, Andrew.** "A Visualization of Europe's Non-Bubbly Economy." *The Geek Way* (December 2024).
+
+> **What to look for:** McAfee gives the quick visual version of the innovation-geography puzzle: why do some regions and countries produce many more high-growth companies than others? Treat it as a provocation before Saxenian's deeper comparison.
+>
+> **Key argument:** The US-Europe innovation gap is not just about talent; it reflects market scale, financing, regulation, and institutional systems that make high-growth firms easier or harder to build.
+>
+> **Bring to class:** One number or visual comparison from the piece that surprised you, and one possible explanation for it.
+
+**Saxenian, AnnaLee.** *Regional Advantage: Culture and Competition in Silicon Valley and Route 128.* Cambridge, MA: Harvard University Press, 1996. Introduction.
+
+> **What to look for:** Read for the comparison. What did Silicon Valley and Route 128 have in common? Where did their institutions, cultures, and firm structures differ? Why did those differences matter only when markets and technologies changed?
+>
+> **Key argument:** Silicon Valley adapted because it was organized as an open regional network; Route 128 stalled because its leading firms were more closed, hierarchical, and self-contained.
+>
+> **Bring to class:** One feature of Silicon Valley's network system that seems valuable, and one feature that might have costs.
+
+**Mallaby, Sebastian.** *The Power Law: Venture Capital and the Making of the New Future.* New York: Penguin Press, 2022. Prologue.
+
+> **What to look for:** Mallaby adds the finance layer. How does venture capital make risky recombination possible? Why might a region with many good ideas still fail if the financing system rewards the wrong kind of project?
+>
+> **Key argument:** Venture capital is not just money; it is an institutional form for funding extreme uncertainty, scaling successful experiments, and tolerating failure.
+>
+> **Bring to class:** A question about whether venture capital produces the kind of innovation society most needs, or only the kind that can scale quickly.
+
+### Recommended
+
+**Blanding, Michael.** "The Past and Future of Kendall Square." *MIT Technology Review* (August 18, 2015).
+
+> A useful Cambridge/Boston counterpoint: Kendall Square shows that Route 128 was not the final word on Massachusetts innovation, and that regional systems can change over time.
+
+::: {.instructor}
+**Teaching note on readings:** If time is short, prioritize Saxenian. McAfee supplies the hook and Mallaby supplies the financing extension, but Saxenian is the analytical backbone. Keep returning students to the comparison: same country, similar starting ingredients, different organizational systems.
+:::

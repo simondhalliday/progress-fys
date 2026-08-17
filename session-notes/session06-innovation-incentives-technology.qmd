@@ -1,0 +1,217 @@
+---
+title: "Innovation, Incentives, and Technology"
+subtitle: "Session 6 · Thu Sep 17"
+description: "Why does steady technological progress require more researchers over time, and what does that mean for institutions that support innovation?"
+order: 6
+---
+
+## The law that became harder to obey
+
+In April 1965, Gordon Moore was director of research at Fairchild Semiconductor, one of the young firms making the Santa Clara Valley into a center of electronics. Asked to predict the future of integrated circuits, Moore noticed a striking pattern: the number of components that could be packed onto a chip had roughly doubled each year. He expected the trend to continue.
+
+The prediction became famous as Moore's Law. For decades, chip density kept doubling on a regular schedule. Computers became smaller, cheaper, and more powerful. The compounding was astonishing: the laptop on a desk and the phone in a pocket descend from a manufacturing process that learned to place billions of transistors where earlier engineers placed thousands.
+
+But the law did not obey itself. Each doubling required fabs, clean rooms, precision machines, materials science, design software, and teams of engineers. Bloom, Jones, Van Reenen, and Webb estimate that maintaining Moore's Law today requires more than 18 times as many researchers as it did in the early 1970s.
+
+The surface story is one of effortless exponential progress. The underlying story is stranger: the same rate of improvement took more and more effort to sustain.
+
+**The question this session is about: why do ideas seem to get harder to find, even in sectors where progress looks steady from the outside?**
+
+To answer that, we need to connect two readings. UOE Chapter 4 explains why [**technological innovation**]{.term data-example="The semiconductor industry reduced the labor, materials, and time needed to produce computing power, so each generation of chips could do more with less."} is central to rising living standards. Bloom et al. ask what happens when the search for new technologies itself becomes more difficult.
+
+::: {.instructor}
+Use Moore's Law as the bridge from Session 5 to Session 6. Session 5 asks why basic knowledge is underprovided; Session 6 asks what happens after societies build innovation systems and discover that sustaining progress requires increasing effort. Write the Bloom equation on the board before showing any graph: growth = research productivity x researchers.
+:::
+
+## The Red Queen problem of research
+
+Bloom et al. start with a simple accounting identity from growth theory:
+
+> [**Economic growth**]{.term data-example="In Bloom et al.'s framework, growth in living standards depends on how many researchers are searching for ideas and how productive they are at finding them."} depends on both the number of researchers and the productivity of those researchers at finding useful new ideas.
+
+That identity helps explain the puzzle. If research productivity were constant, a constant number of researchers could keep generating constant [**economic growth**]{.term data-example="If the same number of chip researchers could keep producing the same percentage improvement every year, Moore's Law would not require ever-larger research teams."}. But if research productivity falls, then society has to add more researchers just to keep the growth rate from slowing.
+
+This is sometimes called a Red Queen dynamic, after the character in *Through the Looking-Glass* who has to run as fast as she can just to stay in the same place. The economy may be doing the same thing: adding scientists, engineers, labs, and R&D budgets in order to preserve growth rates that look stable from the outside.
+
+The chart below shows how R&D spending has become a larger part of many advanced economies. It does not prove Bloom et al.'s argument by itself, but it makes the scale of the effort visible: modern growth depends on an increasingly large research enterprise.
+
+<iframe src="https://ourworldindata.org/grapher/research-spending-gdp" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+*Source: UNESCO UIS / World Bank via Our World in Data. Note: the chart shows total R&D spending as a share of GDP; Bloom et al.'s claim is about research productivity, not spending alone.*
+
+::: {.discuss}
+If ideas are getting harder to find, should that make us more pessimistic about progress or more serious about funding and organizing research? What would be the wrong conclusion to draw from Bloom et al.?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Bloom et al. decompose long-run growth into which two parts?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Capital investment matters for growth, but this is not the decomposition Bloom et al. use for idea production.">Capital accumulation and population growth.</li>
+    <li data-correct="true" data-fb="Correct. Their simple frame is: growth equals research productivity multiplied by the effective number of researchers.">Research productivity and the effective number of researchers.</li>
+    <li data-correct="false" data-fb="Patents are one possible output measure, but the paper is not a patent-count argument. It asks how much idea output researchers generate.">Patent counts and venture-capital investment.</li>
+    <li data-correct="false" data-fb="This is closer to Session 10 on Hayek and institutions. Bloom et al. are focused on the production of new ideas.">Prices and property rights.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+Students may hear "ideas are getting harder to find" as "innovation is over." Push the opposite reading: if research productivity is falling, then [**institutions**]{.term data-example="Patent rules, public grants, university labs, venture capital, and prize systems all shape which ideas researchers and firms search for."}, funding, research organization, and talent allocation matter more, not less. The paper is an argument for taking the innovation system seriously.
+:::
+
+## Incentives change what gets invented
+
+UOE Chapter 4 adds a second piece: invention is not just a technical process. It is shaped by incentives.
+
+If a firm expects to earn an [**innovation rent**]{.term data-example="A chipmaker that reaches a smaller node first can temporarily earn profits above its next-best alternative before competitors catch up."}, it has a reason to search for a better product or process. If a scientist expects credit for being first, she has a reason to publish. If a government offers a prize, grant, procurement contract, or patent, it changes what people work on.
+
+That means the direction of technological change is not automatic. Societies do not simply receive "technology" as a neutral force. They build rules that steer talent toward some problems and away from others. A patent system may reward drug discovery, but not necessarily clean water infrastructure. Venture capital may reward software with fast scaling, but not slow, capital-intensive technologies. Public science funding may support [**basic research**]{.term data-example="A university lab may study chip materials or protein folding before anyone knows which commercial products will eventually use that knowledge."}, but not the messy work of turning a discovery into a usable product.
+
+> Innovation is not only a matter of having clever people. It is a matter of what society rewards clever people for doing.
+
+::: {.discuss}
+Imagine two problems: a better social media recommendation algorithm and a cheaper way to retrofit old apartment buildings for heat pumps. Which one is more likely to attract private investment quickly? What does your answer reveal about incentives?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why does the concept of innovation rent matter for understanding technological progress?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Innovation rents are temporary profits, not permanent monopolies. Competition and imitation usually erode them over time.">It guarantees that successful innovators keep monopoly profits forever.</li>
+    <li data-correct="false" data-fb="This is backwards. Innovation rents are one reason firms invest in research and development despite uncertainty.">It explains why firms have no reason to invest in research.</li>
+    <li data-correct="true" data-fb="Correct. Temporary extra profits from being first can make the search for better technologies worthwhile.">It gives firms a reason to search for new products and processes before competitors do.</li>
+    <li data-correct="false" data-fb="Innovation rents can arise from private markets, patents, prizes, procurement, or other institutional designs. They are not limited to government labs.">It only applies when governments directly fund invention.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+This is a useful moment to connect back to Nelson without repeating him. Nelson's problem was that basic research creates spillovers. UOE's point is that incentives can still power innovation when benefits are appropriable enough, or when institutions make them appropriable. The hard policy question is choosing the right incentive for the type of knowledge being produced.
+:::
+
+## Harder ideas, bigger teams
+
+Bloom et al.'s paper is especially useful because it makes an abstract worry concrete. In semiconductors, agriculture, medical research, and firm-level data, they find a repeated pattern: more research effort is needed to generate the same rate of improvement. Their aggregate estimate implies that research productivity in the United States has been falling sharply over time.
+
+Why might this happen? One possibility is that the easiest discoveries are made first. Another is that frontier work requires deeper [**specialization**]{.term data-example="Modern chip design separates materials science, lithography, circuit architecture, manufacturing, and software into expert roles that no single inventor can master alone."}, longer training, more expensive equipment, and larger teams. A student in 1900 could reach the frontier of some scientific fields with a few years of study and modest equipment. A student in 2026 may need a PhD, access to a specialized lab, massive datasets, or a production facility worth billions of dollars.
+
+That does not make progress impossible. It changes its institutional requirements. If ideas are harder to find, then growth depends on how well we organize teams, fund public goods, share knowledge, train researchers, and connect science to production.
+
+> The harder ideas are to find, the more progress depends on institutions that help many people search together.
+
+::: {.discuss}
+Do bigger teams and more specialized knowledge make innovation more democratic, because more people are involved, or less democratic, because only large organizations can reach the frontier?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What is the best interpretation of Bloom et al.'s Moore's Law example?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Moore's Law continued for decades. The point is not that it failed, but that maintaining it required rising effort.">Moore's Law stopped working in the 1970s.</li>
+    <li data-correct="true" data-fb="Correct. The same visible rate of improvement required a much larger research effort over time.">A stable rate of chip improvement can hide a large decline in research productivity.</li>
+    <li data-correct="false" data-fb="Bloom et al. emphasize that semiconductors are only one example. They find similar patterns in agriculture, medicine, and firm-level data.">Semiconductors are uniquely immune to diminishing returns.</li>
+    <li data-correct="false" data-fb="The example is not mainly about consumer demand. It is about the input effort required to produce new ideas.">Consumers stopped wanting faster computers.</li>
+  </ol>
+</div>
+```
+
+::: {.instructor}
+The "bigger teams" point sets up Session 8 on Silicon Valley. Students should begin to see that innovation systems solve coordination problems: who knows what, who works with whom, who funds whom, and how quickly ideas move across boundaries.
+:::
+
+## Connections
+
+**Builds on:** [Session 5](session05-science-public-good.html) explained why basic research has public-good properties. Session 6 asks what happens when the innovation frontier advances and the search for useful ideas becomes increasingly resource-intensive.
+
+**Sets up:** [Session 8](session08-silicon-valley-agglomeration.html) moves from incentives in general to the geography of innovation: why some places, like Silicon Valley, organize the search for new ideas better than others.
+
+::: {.instructor}
+**Arc note:** This session is the hinge between science policy and innovation geography. Students should leave with the idea that progress is neither automatic nor exhausted. It is produced by institutions that shape incentives, coordinate teams, and sustain the search when each additional idea is harder to find than the last.
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">If research productivity is falling, what follows most directly?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="This is too strong. Bloom et al. show that growth can continue, but only if research effort rises enough to offset lower productivity.">Economic growth must immediately stop.</li>
+    <li data-correct="true" data-fb="Correct. A society may need more researchers, better institutions, or better research organization to sustain a given growth rate.">Sustaining growth may require more effort or better institutions for producing ideas.</li>
+    <li data-correct="false" data-fb="The paper does not claim that patents are irrelevant. It asks whether the idea production function is becoming less productive.">Patents have no effect on innovation.</li>
+    <li data-correct="false" data-fb="Competition can matter, but falling research productivity can occur even when firms compete intensely.">Competition alone will automatically solve the problem.</li>
+  </ol>
+</div>
+```
+
+## Review cards
+
+Work through these cards now, then Orbit will schedule them for review over the coming weeks.
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="What is Bloom et al.'s simple accounting equation for idea-driven growth?"
+    answer="Economic growth equals research productivity multiplied by the effective number of researchers. Growth can stay constant even if research productivity falls, but only if research effort rises enough to offset the decline.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What does it mean to say research productivity is falling?"
+    answer="Each researcher, or unit of research effort, produces fewer useful new ideas than before. The economy may still innovate, but it takes more researchers, more funding, or larger teams to generate the same rate of improvement.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why is Moore's Law a good example of ideas getting harder to find?"
+    answer="Chip density kept improving at a steady exponential rate, but Bloom et al. estimate that sustaining that rate required more than 18 times as many researchers as in the early 1970s. The visible progress was stable; the hidden effort rose sharply.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is an innovation rent?"
+    answer="An innovation rent is the temporary profit above the next-best alternative that an innovator earns by introducing a new technology, product, organization, or process before others catch up. It creates an incentive to search for improvements.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why do incentives affect the direction of innovation?"
+    answer="People and firms work on problems that are rewarded. Patents, prizes, grants, procurement contracts, publication credit, and venture capital all steer attention toward some problems and away from others.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="How does Session 6 extend Nelson's public-goods argument from Session 5?"
+    answer="Nelson explains why markets underprovide basic research because knowledge spills over. Session 6 adds that even when incentives exist, maintaining progress may require rising research effort and institutions that coordinate larger teams.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why can steady growth hide increasing difficulty?"
+    answer="If the number of researchers rises at the same time that research productivity falls, the growth rate can look stable. The economy is running faster just to keep the same pace.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Reading guide
+
+### Required
+
+**Halliday, Simon D., and Eric Bottorff.** *Understanding Our Economy*, Chapter 4: "Innovation, incentives, and technology" (selections). Available at [core-understanding-our-economy.netlify.app](https://core-understanding-our-economy.netlify.app/uoe-101/04-01.html).
+
+> **What to look for:** Track the incentive mechanism. What makes someone search for a new technology rather than keep using the old one? Pay attention to the difference between invention itself and the institutional conditions that make invention worthwhile.
+>
+> **Key argument:** Technological progress is shaped by incentives: the possibility of innovation rents, and the institutions that allocate rewards, help determine both the pace and direction of innovation.
+>
+> **Bring to class:** One example of a socially valuable technology that [**markets**]{.term data-example="Venture-backed software may be rewarded quickly when customers can pay and adoption scales fast, while clean-water infrastructure may create benefits that are harder for a firm to capture."} seem to reward strongly, and one that markets seem to under-reward.
+
+**Bloom, Nicholas, Charles I. Jones, John Van Reenen, and Michael Webb.** "Are Ideas Getting Harder to Find?" *American Economic Review* 110, no. 4 (2020): 1104-1144. Read the introduction and conclusion only.
+
+> **What to look for:** Focus on the simple equation in the introduction and the Moore's Law example. You do not need the technical sections to understand the central claim. Ask yourself: if the number of researchers has to rise just to keep growth constant, what does that imply about the future of progress?
+>
+> **Key argument:** Research effort is rising while research productivity is falling; ideas are getting harder to find, so sustained growth requires increasing effort or better institutions for producing ideas.
+>
+> **Bring to class:** The Moore's Law statistic: maintaining the doubling of chip density now requires more than 18 times as many researchers as in the early 1970s. What does that change about how you see technological progress?
+
+### Recommended
+
+**Jones, Benjamin F.** "The Burden of Knowledge and the Death of the Renaissance Man: Is Innovation Getting Harder?" *Review of Economic Studies* 76, no. 1 (2009): 283-317.
+
+> The best companion for students interested in the human side of Bloom et al.: as knowledge accumulates, innovators need longer training, narrower specialization, and larger teams.
+
+::: {.instructor}
+**Teaching note on readings:** UOE gives the intuitive incentive story; Bloom et al. gives the empirical pressure point. If students are overwhelmed by the AER paper, tell them to master three things only: the equation, Moore's Law, and the Red Queen implication.
+:::

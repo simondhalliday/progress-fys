@@ -61,12 +61,21 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 2 — Institutions &amp; Innovation</td></tr>
 
     <tr style="border-bottom:1px solid var(--rule);">
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">5–6</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">5</td>
       <td style="padding:10px 16px 10px 0;">
-        <a href="week03-science-public-good.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Science as a Public Good</a>
+        <a href="session05-science-public-good.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Science as a Public Good</a>
         <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Nelson + Bush — why markets underprovide basic research and what institutions fill the gap</div>
       </td>
-      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Sep 15–17</td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 15</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">6</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session06-innovation-incentives-technology.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Innovation, Incentives, and Technology</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">UOE Ch 4 + Bloom et al. — why steady progress can require ever-larger research effort</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 17</td>
     </tr>
 
     <tr style="border-bottom:1px solid var(--rule);">
@@ -80,20 +89,38 @@ Each note summarises the key concepts for the week, frames the readings, and inc
 
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">8</td>
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Cities 2: Silicon Valley</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Economies of agglomeration — why do innovators cluster?</div>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session08-silicon-valley-agglomeration.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Cities 2: Silicon Valley</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Saxenian + McAfee + Mallaby — why do innovators cluster, and why are some clusters more adaptive?</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 24</td>
     </tr>
 
     <tr style="border-bottom:1px solid var(--rule);">
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">9–11</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">9</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Baltimore + Escaping the Poverty Trap</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Baltimore as classroom; Ang — how poor societies bootstrap growth</div>
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Baltimore: Progress, Decline, and Video Screenings</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Reading TBD — notes forthcoming once the Baltimore source is chosen</div>
       </td>
-      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Sep 29 – Oct 6</td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 29</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">10</td>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session10-liberty-property-rights.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Liberty, Property Rights, and the Conditions for Progress</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Hayek + Acemoglu/Robinson — prices, property rights, and institutions</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Oct 1</td>
+    </tr>
+
+    <tr style="border-bottom:1px solid var(--rule);">
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">11</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Escaping the Poverty Trap</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Ang selection unresolved — notes forthcoming once the reading is final</div>
+      </td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Oct 6</td>
     </tr>
 
     <!-- Module 3 -->

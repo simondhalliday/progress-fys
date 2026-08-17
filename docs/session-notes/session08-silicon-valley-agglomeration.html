@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Why did Silicon Valley adapt when Route 128 stalled, and what does that tell us about the geography of innovation?">
+
+<title>Silicon Valley and Economies of Agglomeration – FYS: Progress</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-45431c2918bd31147ddb3fa7038bb99f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<!-- Orbit spaced-repetition web component — must be in <head> for custom elements to upgrade correctly -->
+<script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+<!-- Default Orbit colour for all review areas on session-notes pages -->
+<meta property="orbit:color" content="orange">
+<!-- Section pagination script -->
+<script src="../paginate.js" defer=""></script>
+
+
+<link rel="stylesheet" href="../progress.css">
+<link rel="stylesheet" href="../quarto-nav.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS: Progress</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assignments.html"> 
+<span class="menu-text">Assignments</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../baltimore.html"> 
+<span class="menu-text">Baltimore</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../session-notes/index.html"> 
+<span class="menu-text">Session Notes</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#two-regions-one-shock" id="toc-two-regions-one-shock" class="nav-link active" data-scroll-target="#two-regions-one-shock">Two regions, one shock</a></li>
+  <li><a href="#what-proximity-can-and-cannot-explain" id="toc-what-proximity-can-and-cannot-explain" class="nav-link" data-scroll-target="#what-proximity-can-and-cannot-explain">What proximity can and cannot explain</a></li>
+  <li><a href="#networks-versus-independent-firms" id="toc-networks-versus-independent-firms" class="nav-link" data-scroll-target="#networks-versus-independent-firms">Networks versus independent firms</a></li>
+  <li><a href="#why-cities-make-recombination-easier" id="toc-why-cities-make-recombination-easier" class="nav-link" data-scroll-target="#why-cities-make-recombination-easier">Why cities make recombination easier</a></li>
+  <li><a href="#connections" id="toc-connections" class="nav-link" data-scroll-target="#connections">Connections</a></li>
+  <li><a href="#review-cards" id="toc-review-cards" class="nav-link" data-scroll-target="#review-cards">Review cards</a></li>
+  <li><a href="#reading-guide" id="toc-reading-guide" class="nav-link" data-scroll-target="#reading-guide">Reading guide</a>
+  <ul class="collapse">
+  <li><a href="#required" id="toc-required" class="nav-link" data-scroll-target="#required">Required</a></li>
+  <li><a href="#recommended" id="toc-recommended" class="nav-link" data-scroll-target="#recommended">Recommended</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Silicon Valley and Economies of Agglomeration</h1>
+<p class="subtitle lead">Session 8 · Thu Sep 24</p>
+</div>
+
+<div>
+  <div class="description">
+    Why did Silicon Valley adapt when Route 128 stalled, and what does that tell us about the geography of innovation?
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="two-regions-one-shock" class="level2">
+<h2 class="anchored" data-anchor-id="two-regions-one-shock">Two regions, one shock</h2>
+<p>In the late 1970s, two American regions looked like the future of high technology.</p>
+<p>One was Silicon Valley in northern California. The other was Route 128 outside Boston. Both had elite universities nearby. Both benefited from Cold War military spending. Both had deep pools of engineers, suppliers, and firms. Both were celebrated by policymakers who wanted to copy them.</p>
+<p>Then the crisis came. Japanese firms challenged American semiconductor producers. Minicomputers lost ground to workstations and personal computers. Analysts began to ask whether the great American high-technology regions would follow Detroit and Pittsburgh into decline.</p>
+<p>The two regions did not respond the same way. Silicon Valley generated a new wave of semiconductor and computer start-ups. Route 128’s famous minicomputer firms - Digital Equipment Corporation, Data General, Prime, Wang - struggled to adapt. By 1990, Saxenian argues, the center of American computing had shifted decisively west.</p>
+<p><strong>The question this session is about: why did two regions with similar ingredients produce such different innovation systems?</strong></p>
+<p>The answer is not simply “talent” or “universities.” Saxenian’s claim is sharper: places have <span class="term" data-example="Stanford, MIT, trade associations, venture-capital partnerships, suppliers, and informal engineering communities all shaped how the two regions learned."><strong>institutions</strong></span>, cultures, and networks that shape how quickly ideas move and how easily people recombine them.</p>
+<div class="instructor">
+<p>Open by asking students what they think “Silicon Valley” means: a place, an industry, a culture, a financial system, a labor market, a mythology? Put answers on the board. Then introduce Route 128 as the comparison case. The point is to make students see that the question is not “why tech?” but “why this organization of tech?”</p>
+</div>
+</section>
+<section id="what-proximity-can-and-cannot-explain" class="level2">
+<h2 class="anchored" data-anchor-id="what-proximity-can-and-cannot-explain">What proximity can and cannot explain</h2>
+<p>Saxenian gives us a clean empirical puzzle. The regions had similar origins but diverged sharply after the 1980s crisis.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 36%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicator from Saxenian’s introduction</th>
+<th style="text-align: right;">Silicon Valley</th>
+<th style="text-align: right;">Route 128</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Net new technology-related jobs, 1975-1990</td>
+<td style="text-align: right;">about 150,000</td>
+<td style="text-align: right;">about one-third as many</td>
+</tr>
+<tr class="even">
+<td>Electronics exports in 1990</td>
+<td style="text-align: right;">more than $11 billion</td>
+<td style="text-align: right;">about $4.6 billion</td>
+</tr>
+<tr class="odd">
+<td>Fastest-growing US electronics corporations</td>
+<td style="text-align: right;">39 of top 100</td>
+<td style="text-align: right;">4 of top 100</td>
+</tr>
+</tbody>
+</table>
+<p><em>Source: AnnaLee Saxenian, Regional Advantage, Introduction. The numbers are used here as orientation, not as a complete regional-growth accounting exercise.</em></p>
+<p>The tempting explanation is agglomeration. Silicon Valley had dense clusters of engineers, suppliers, venture capitalists, lawyers, universities, and customers. Those clusters created <span class="term" data-example="An engineer leaving one chip start-up for another carried knowledge about manufacturing problems, suppliers, and design practices across firm boundaries."><strong>spillover</strong></span> effects: people learned from one another simply by being nearby.</p>
+<p>But Saxenian says proximity is not enough. Route 128 also had skilled workers, universities, suppliers, and technology firms. If agglomeration alone explained innovation, both regions should have adapted in similar ways. They did not.</p>
+<blockquote class="blockquote">
+<p>Clusters matter, but clusters are not all the same. The internal organization of firms and the social organization of a region determine whether proximity turns into learning.</p>
+</blockquote>
+<div class="discuss">
+<p>Think of a campus, city, or online community you know. When does proximity produce real learning, and when does it merely put people near one another?</p>
+</div>
+<div class="quiz">
+  <p class="quiz-q">Why is Route 128 important for Saxenian's argument?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Route 128 was also a major high-technology region, which is why it makes the comparison useful.">It had no universities, engineers, or technology firms.</li>
+    <li data-correct="true" data-fb="Correct. Route 128 had many similar ingredients, so its divergence from Silicon Valley shows that proximity and talent alone are not enough.">It shows that similar ingredients can produce different regional innovation systems.</li>
+    <li data-correct="false" data-fb="Saxenian does not argue that Boston lacked capital entirely. Her focus is on industrial systems and firm organization.">It proves that venture capital is the only thing that matters.</li>
+    <li data-correct="false" data-fb="The lesson is not that universities are irrelevant. It is that universities operate within broader regional systems.">It shows that universities do not affect innovation.</li>
+  </ol>
+</div>
+<div class="instructor">
+<p>Students may default to “Stanford good, MIT bad” or “California culture good, Boston culture bad.” Keep them off caricature. MIT was enormously important; Route 128 was successful for decades. The issue is adaptation under changing technological conditions.</p>
+</div>
+</section>
+<section id="networks-versus-independent-firms" class="level2">
+<h2 class="anchored" data-anchor-id="networks-versus-independent-firms">Networks versus independent firms</h2>
+<p>Saxenian contrasts two industrial systems.</p>
+<p>Silicon Valley was a regional network system. Engineers moved between firms. Suppliers worked with multiple customers. Start-ups formed, failed, recombined, and spun out new teams. Informal communication carried technical knowledge across organizational boundaries. People changed jobs without necessarily leaving the region. Loyalty attached not only to a firm, but to a professional community.</p>
+<p>Route 128 was dominated by more vertically integrated, independent firms. Large companies internalized many functions, guarded information, valued corporate loyalty, and moved knowledge through hierarchies. That structure worked well in stable <span class="term" data-example="Route 128's minicomputer firms performed well when customers and technologies changed slowly enough for large integrated firms to plan and control production."><strong>markets</strong></span> where scale and control mattered. It worked less well when technologies changed quickly.</p>
+<p>The difference was not that one region had firms and the other had networks. Both had both. The difference was where the boundaries were drawn: inside firms, between firms, between firms and universities, between workers and employers.</p>
+<blockquote class="blockquote">
+<p>Silicon Valley’s advantage was not just that people were close together. It was that the boundaries between firms, workers, suppliers, and local institutions were porous enough for knowledge to move.</p>
+</blockquote>
+<div class="discuss">
+<p>Porous boundaries help ideas move, but they can also make firms fragile: workers leave, secrets leak, competitors copy. When would a more closed organization be better than an open network?</p>
+</div>
+<div class="quiz">
+  <p class="quiz-q">What does Saxenian mean by a regional network system?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="A network system is not a monopoly. It contains many firms linked by labor mobility, suppliers, customers, and local institutions.">A single dominant company controls all important suppliers.</li>
+    <li data-correct="true" data-fb="Correct. The key features are porous boundaries, frequent movement of people, informal communication, specialization, and repeated collaboration among firms and institutions.">A local economy where firms, workers, suppliers, and institutions exchange knowledge through dense, repeated relationships.</li>
+    <li data-correct="false" data-fb="Physical proximity matters, but Saxenian's network system is social and institutional, not just geographic.">Any set of companies located in the same city.</li>
+    <li data-correct="false" data-fb="Government funding helped both regions. It does not by itself define the network system.">A region where the government directly plans which firms should collaborate.</li>
+  </ol>
+</div>
+<div class="instructor">
+<p>This is the place to introduce “embeddedness” in plain language. Firms are not floating atoms. They sit inside local labor markets, social norms, universities, suppliers, investors, and public institutions. Those relationships shape what firms can learn and how quickly they can change.</p>
+</div>
+</section>
+<section id="why-cities-make-recombination-easier" class="level2">
+<h2 class="anchored" data-anchor-id="why-cities-make-recombination-easier">Why cities make recombination easier</h2>
+<p>Cities and regions matter because innovation often comes from recombination: taking ideas, skills, tools, and people from different places and putting them together in a new way.</p>
+<p>A dense region lowers the cost of recombination. You can hire someone who knows a manufacturing process. You can meet an investor who has seen ten related companies. You can switch jobs without moving your family. You can learn at dinner what a supplier cannot quite put in a formal report. You can start a firm, fail, and still remain in the same ecosystem.</p>
+<p>This is one reason Silicon Valley is difficult to copy. Policymakers can build a science park, but they cannot instantly create a labor market with deep trust, repeated mobility, tacit knowledge, specialized suppliers, experienced founders, and investors comfortable with failure. The visible pieces are not the whole system.</p>
+<blockquote class="blockquote">
+<p>Innovation clusters work when they make recombination cheap: people, ideas, skills, and capital can find new combinations faster than they could elsewhere.</p>
+</blockquote>
+<div class="discuss">
+<p>If you were trying to build an innovation district in Baltimore, what would you copy from Silicon Valley, and what would you refuse to copy?</p>
+</div>
+<div class="quiz">
+  <p class="quiz-q">Why are innovation clusters hard to copy by building a science park?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Buildings matter, but Saxenian's argument is that the social and institutional system matters more than the real estate.">Science parks never contain laboratories or start-ups.</li>
+    <li data-correct="false" data-fb="Universities matter a great deal, but both Silicon Valley and Route 128 had major universities nearby.">Only universities matter, so buildings are irrelevant.</li>
+    <li data-correct="true" data-fb="Correct. The hard-to-copy parts are the relationships, norms, labor mobility, supplier networks, and institutional habits that let knowledge move quickly.">The most important parts are social and institutional: labor markets, trust, networks, suppliers, and norms of open exchange.</li>
+    <li data-correct="false" data-fb="Saxenian is not arguing that government is helpless. She is warning that copying visible infrastructure without the underlying system is insufficient.">Government policy can never affect regional innovation.</li>
+  </ol>
+</div>
+<div class="instructor">
+<p>Tie this back to the Baltimore project. Students are already studying places in Baltimore. Ask them to look for networks, not just buildings: who meets whom, who funds whom, who hires whom, who knows whom, and what happens when a project fails?</p>
+</div>
+</section>
+<section id="connections" class="level2">
+<h2 class="anchored" data-anchor-id="connections">Connections</h2>
+<p><strong>Builds on:</strong> <a href="session06-innovation-incentives-technology.html">Session 6</a> argued that ideas are getting harder to find and that innovation depends on institutions. Session 8 shows one institutional form in action: a regional system that helps people recombine knowledge.</p>
+<p><strong>Sets up:</strong> <a href="session10-liberty-property-rights.html">Session 10</a> moves from regional institutions to national ones: prices, property rights, and political rules that make decentralized coordination possible.</p>
+<div class="instructor">
+<p><strong>Arc note:</strong> This session gives students a concrete middle level between individual inventors and national institutions. Progress happens in places. But places matter because they organize information, trust, labor mobility, and capital in different ways.</p>
+</div>
+<div class="quiz">
+  <p class="quiz-q">Which statement best captures Saxenian's explanation for Silicon Valley's advantage over Route 128?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Both regions benefited from universities and defense spending. That common origin makes the divergence puzzling.">Silicon Valley had universities and Route 128 did not.</li>
+    <li data-correct="false" data-fb="Route 128 was not low-skill. It had deep technical talent and major firms.">Route 128 lacked skilled engineers.</li>
+    <li data-correct="true" data-fb="Correct. Silicon Valley's more open, networked industrial system adapted faster to changing technologies than Route 128's more closed, hierarchical firm system.">Silicon Valley's porous networks moved knowledge and people more quickly across firms and institutions.</li>
+    <li data-correct="false" data-fb="Weather is not the causal argument. The comparison is about industrial organization and regional institutions.">California had better weather, which attracted entrepreneurs.</li>
+  </ol>
+</div>
+</section>
+<section id="review-cards" class="level2">
+<h2 class="anchored" data-anchor-id="review-cards">Review cards</h2>
+<p>Work through these cards now, then Orbit will schedule them for review over the coming weeks.</p>
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt question="What is the central puzzle in Saxenian's comparison of Silicon Valley and Route 128?" answer="Both regions had universities, skilled labor, military-funded technology, and high-tech firms, but after the 1980s crisis Silicon Valley adapted and Route 128 stalled. The puzzle is why similar ingredients produced different regional trajectories.">
+  </orbit-prompt>
+
+  <orbit-prompt question="What is an agglomeration economy?" answer="An agglomeration economy is a benefit that comes from firms and workers locating near one another, such as shared suppliers, thick labor markets, faster information flow, and knowledge spillovers.">
+  </orbit-prompt>
+
+  <orbit-prompt question="Why does Saxenian think agglomeration alone cannot explain Silicon Valley's success?" answer="Route 128 also had many agglomeration ingredients: universities, skilled workers, suppliers, and technology firms. The difference was how the regional system organized firms, labor mobility, and knowledge exchange.">
+  </orbit-prompt>
+
+  <orbit-prompt question="What is the difference between Silicon Valley's network system and Route 128's independent-firm system?" answer="Silicon Valley had porous firm boundaries, mobile workers, specialized suppliers, and informal knowledge exchange. Route 128 relied more on vertically integrated firms, hierarchy, secrecy, and corporate loyalty.">
+  </orbit-prompt>
+
+  <orbit-prompt question="Why do porous boundaries help innovation?" answer="They let knowledge, people, and skills move across firms and institutions. That makes recombination easier: new teams can form, suppliers can learn from multiple customers, and failed projects can feed future successes.">
+  </orbit-prompt>
+
+  <orbit-prompt question="Why is an innovation cluster hard to copy?" answer="The visible infrastructure can be copied, but the deeper system - trust, norms, labor mobility, experienced founders, specialized suppliers, and investors comfortable with failure - takes time to build.">
+  </orbit-prompt>
+
+  <orbit-prompt question="How does the Silicon Valley session connect to the Baltimore project?" answer="It asks students to look at places as systems of relationships, not just locations. In Baltimore, they should ask who exchanges knowledge, who funds whom, who hires whom, and what institutions help or block recombination.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+</section>
+<section id="reading-guide" class="level2">
+<h2 class="anchored" data-anchor-id="reading-guide">Reading guide</h2>
+<section id="required" class="level3">
+<h3 class="anchored" data-anchor-id="required">Required</h3>
+<p><strong>McAfee, Andrew.</strong> “A Visualization of Europe’s Non-Bubbly Economy.” <em>The Geek Way</em> (December 2024).</p>
+<blockquote class="blockquote">
+<p><strong>What to look for:</strong> McAfee gives the quick visual version of the innovation-geography puzzle: why do some regions and countries produce many more high-growth companies than others? Treat it as a provocation before Saxenian’s deeper comparison.</p>
+<p><strong>Key argument:</strong> The US-Europe innovation gap is not just about talent; it reflects market scale, financing, regulation, and institutional systems that make high-growth firms easier or harder to build.</p>
+<p><strong>Bring to class:</strong> One number or visual comparison from the piece that surprised you, and one possible explanation for it.</p>
+</blockquote>
+<p><strong>Saxenian, AnnaLee.</strong> <em>Regional Advantage: Culture and Competition in Silicon Valley and Route 128.</em> Cambridge, MA: Harvard University Press, 1996. Introduction.</p>
+<blockquote class="blockquote">
+<p><strong>What to look for:</strong> Read for the comparison. What did Silicon Valley and Route 128 have in common? Where did their institutions, cultures, and firm structures differ? Why did those differences matter only when markets and technologies changed?</p>
+<p><strong>Key argument:</strong> Silicon Valley adapted because it was organized as an open regional network; Route 128 stalled because its leading firms were more closed, hierarchical, and self-contained.</p>
+<p><strong>Bring to class:</strong> One feature of Silicon Valley’s network system that seems valuable, and one feature that might have costs.</p>
+</blockquote>
+<p><strong>Mallaby, Sebastian.</strong> <em>The Power Law: Venture Capital and the Making of the New Future.</em> New York: Penguin Press, 2022. Prologue.</p>
+<blockquote class="blockquote">
+<p><strong>What to look for:</strong> Mallaby adds the finance layer. How does venture capital make risky recombination possible? Why might a region with many good ideas still fail if the financing system rewards the wrong kind of project?</p>
+<p><strong>Key argument:</strong> Venture capital is not just money; it is an institutional form for funding extreme uncertainty, scaling successful experiments, and tolerating failure.</p>
+<p><strong>Bring to class:</strong> A question about whether venture capital produces the kind of innovation society most needs, or only the kind that can scale quickly.</p>
+</blockquote>
+</section>
+<section id="recommended" class="level3">
+<h3 class="anchored" data-anchor-id="recommended">Recommended</h3>
+<p><strong>Blanding, Michael.</strong> “The Past and Future of Kendall Square.” <em>MIT Technology Review</em> (August 18, 2015).</p>
+<blockquote class="blockquote">
+<p>A useful Cambridge/Boston counterpoint: Kendall Square shows that Route 128 was not the final word on Massachusetts innovation, and that regional systems can change over time.</p>
+</blockquote>
+<div class="instructor">
+<p><strong>Teaching note on readings:</strong> If time is short, prioritize Saxenian. McAfee supplies the hook and Mallaby supplies the financing extension, but Saxenian is the analytical backbone. Keep returning students to the comparison: same country, similar starting ingredients, different organizational systems.</p>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script src="../glossary.js"></script>
+<script src="../quiz.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><strong>FYS: Progress</strong> · AS.001.219<br> Simon D. Halliday · <a href="https://snfagora.jhu.edu/our-work/labs/center-for-economy-society/">Center for Economy and Society</a> · <a href="https://snfagora.jhu.edu/">SNF Agora Institute</a> · Johns Hopkins University</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+<p>Home</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../assignments.html">
+<p>Assignments</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../baltimore.html">
+<p>Baltimore</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://canvas.jhu.edu">
+<p>Canvas</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://simondhalliday.com">
+<p>simondhalliday.com</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

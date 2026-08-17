@@ -1,7 +1,7 @@
 ---
 title: "Science as a Public Good"
-subtitle: "Sessions 5 & 6 · Tue Sep 15 & Thu Sep 17"
-description: "Why markets underprovide basic research, how scientific norms solve part of the problem, and the institutions that emerged from Vannevar Bush's 1945 report."
+subtitle: "Session 5 · Tue Sep 15"
+description: "Why markets underprovide basic research, how scientific norms solve part of the problem, and why public funding became central to modern science."
 order: 5
 ---
 
@@ -103,7 +103,7 @@ Two things to draw out from the chart: (1) the cross-country variation — South
 
 **Builds on:** The public goods framework introduced here runs directly from the discussion of externalities and market failures that students encounter in the UOE readings (Week 1–2). Knowledge spillovers are the clearest example of a positive [**externality**]{.term data-example="When Haber published his nitrogen fixation findings, the benefits flowed to every chemist, fertilizer firm, and farmer worldwide — none of whom paid for the research. That uncompensated benefit to others is the externality."} that markets undersupply.
 
-**Sets up:** The DARPA session in Module 4 takes the Bush linear model and asks whether mission-driven science does better. The Solutionism reading (Module 5) picks up the Crookes story directly and shows what happened next.
+**Sets up:** [Session 6](session06-innovation-incentives-technology.html) asks what happens once societies build research systems and still discover that each new idea may be harder to find. The DARPA session in Module 4 later asks whether mission-driven science does better than the Bush model.
 
 ::: {.instructor}
 **Arc note:** This session is the economic foundation for two later arguments the course makes. First, that science policy choices have large, long-run consequences (Module 4). Second, that the right response to a resource constraint or [**market failure**]{.term data-example="Decades without private investment in nitrogen fixation, despite enormous potential returns — private firms couldn't capture enough of the social benefit to justify the cost. That gap is the market failure Bush's report was designed to fix."} is institutional design, not despair (Module 5 — Crawford's solutionism is exactly the attitude Vannevar Bush embodied). Students who leave without grasping the public goods argument will struggle to engage with both those later discussions.
