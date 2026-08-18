@@ -339,7 +339,39 @@ a.module-card-link {
   line-height: 1.5;
 }
 
-/* ── 9. Pull Quote ───────────────────────────────────────────── */
+/* ── 9. Notices ──────────────────────────────────────────────── */
+.notice {
+  border-left: 4px solid var(--accent);
+  background: var(--accent-pale);
+  padding: var(--sp-md) var(--sp-lg);
+  margin-block: var(--sp-lg);
+}
+
+.notice--quiet {
+  border-left-color: var(--bg-quote-border);
+  background: var(--bg-quote);
+}
+
+.notice h2,
+.notice h3 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin-bottom: var(--sp-xs);
+}
+
+.notice p,
+.notice li {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--ink-mid);
+}
+
+.notice ul {
+  margin-top: var(--sp-sm);
+}
+
+/* ── 10. Pull Quote ──────────────────────────────────────────── */
 .pull-quote {
   border-left: 4px solid var(--bg-quote-border);
   padding: var(--sp-md) var(--sp-lg);
@@ -364,7 +396,7 @@ a.module-card-link {
   letter-spacing: 0.02em;
 }
 
-/* ── 10. Syllabus Session Rows ───────────────────────────────── */
+/* ── 11. Syllabus Session Rows ───────────────────────────────── */
 .syllabus-module {
   margin-bottom: var(--sp-2xl);
 }
@@ -487,7 +519,7 @@ a.module-card-link {
   line-height: 1.6;
 }
 
-/* ── 11. Assignment Cards ────────────────────────────────────── */
+/* ── 12. Assignment Cards ────────────────────────────────────── */
 .assignment-list {
   display: grid;
   gap: var(--sp-md);
@@ -540,7 +572,7 @@ a.module-card-link {
   margin-bottom: 0;
 }
 
-/* ── 12. Buttons ─────────────────────────────────────────────── */
+/* ── 13. Buttons ─────────────────────────────────────────────── */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -580,7 +612,7 @@ a.module-card-link {
   text-decoration: none;
 }
 
-/* ── 13. Site Footer ─────────────────────────────────────────── */
+/* ── 14. Site Footer ─────────────────────────────────────────── */
 .site-footer {
   background: var(--bg-alt);
   border-top: 1px solid var(--rule);

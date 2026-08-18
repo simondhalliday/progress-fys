@@ -19,7 +19,7 @@ description: "Syllabus — FYS: Progress"
 </header>
 
 <!-- ── Course Information ─────────────────────────────────────── -->
-<section>
+<section id="reading-packets">
   <div class="container">
     <h2 class="mb-lg">Course information</h2>
     <div class="info-grid">
@@ -47,6 +47,52 @@ description: "Syllabus — FYS: Progress"
         <div class="info-block__label">Canvas</div>
         <div class="info-block__value"><a href="https://canvas.jhu.edu">canvas.jhu.edu</a></div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Reading Logistics ─────────────────────────────────────── -->
+<section>
+  <div class="container--text">
+    <h2>Readings and course packets</h2>
+    <p>
+      The syllabus links to public web readings whenever possible. Readings that are not freely
+      available online will be provided through Canvas, library reserve, or course reading packets.
+      I will provide packets for the early weeks so that you can read and annotate on paper before
+      class; the first packet covers Weeks 1-3, with later packets added as the semester reading
+      list is finalized.
+    </p>
+    <p>
+      For Session 1, read Jason Crawford's
+      <a href="https://blog.rootsofprogress.org/thm-introduction-the-present-crisis" target="_blank" rel="noopener">"The Present Crisis"</a>
+      and
+      <a href="https://blog.rootsofprogress.org/thm-ch1-fish-in-water" target="_blank" rel="noopener">"Fish in Water"</a>,
+      and spend time with Jordan Dworkin's
+      <a href="https://ordinaryabundance.com/" target="_blank" rel="noopener"><em>Ordinary Abundance</em></a>.
+      The Crawford pieces will also appear in compact packet form, with web footnotes and endnotes
+      omitted to keep printing manageable.
+    </p>
+  </div>
+</section>
+
+<!-- ── Device Policy ─────────────────────────────────────────── -->
+<section id="device-policy" style="background: var(--bg-alt);">
+  <div class="container--text">
+    <div class="notice">
+      <h2>Device policy</h2>
+      <p>
+        This is a device-free seminar by default. Phones, tablets, laptops, smart watches,
+        and headphones should be put away during class unless I explicitly ask you to use a
+        device for a particular activity. The point is not nostalgia or punishment; it is that
+        seminar conversation, close reading, and the first minutes of handwritten reflection work
+        better when everyone is fully present.
+      </p>
+      <p>
+        Bring the printed packet or paper copies of the readings and something to write with.
+        When a session requires web exploration, data work, or another digital task, I will say so.
+        Students with accommodations, accessibility needs, or urgent circumstances should talk with
+        me so we can make an appropriate plan.
+      </p>
     </div>
   </div>
 </section>
@@ -144,9 +190,11 @@ description: "Syllabus — FYS: Progress"
         <div class="session-row__date">Tue Sep 1</div>
         <div class="session-row__body">
           <div class="session-row__title"><a href="session-notes/session01-introduction.html">Session 1 · Introduction: Why Progress?</a></div>
-          <div class="session-row__meta">Course overview. Opening reflection: "What do you think the world's biggest unsolved problem is, and why?" No assigned reading for today. Baltimore Video groups assigned; sites chosen by Thursday.
+          <div class="session-row__meta">Course overview. Opening reflection: "What do you think the world's biggest unsolved problem is, and why?" Baltimore Video groups assigned; sites chosen by Thursday.
             <ul class="reading-list">
-              <li><span class="tag tag--recommended">Recommended</span> Steven Pinker, <em>Enlightenment Now</em>, Chapter 4: "Progressophobia" (2018) — why do intellectuals and the media systematically resist evidence that the world is getting better? Pinker traces the cultural and psychological roots of progress-denial. Pairs well with Rosling.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://blog.rootsofprogress.org/thm-introduction-the-present-crisis" target="_blank" rel="noopener">Jason Crawford, "The Present Crisis," Introduction to <em>The Techno-Humanist Manifesto</em></a> — why does progress need a defense now, and what is lost when a society becomes unable to imagine a better future?</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://blog.rootsofprogress.org/thm-ch1-fish-in-water" target="_blank" rel="noopener">Jason Crawford, "Fish in Water," Chapter 1 of <em>The Techno-Humanist Manifesto</em></a> — industrial civilization has become easy to ignore precisely because it has solved so many ordinary problems.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://ordinaryabundance.com/" target="_blank" rel="noopener">Jordan Dworkin, <em>Ordinary Abundance</em></a> — an interactive web exhibit on the once-astonishing technologies embedded in an ordinary apartment. Choose one object or service and trace the hidden systems that make it ordinary.</li>
             </ul></div>
           <div class="session-row__tags"><span class="tag tag--accent">Opening reflection due</span><span class="tag tag--accent">Video groups assigned</span></div>
         </div>
@@ -187,7 +235,6 @@ description: "Syllabus — FYS: Progress"
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Luz Marina Arias, <em>Understanding Our Economy</em>, Chapter 3: "Our world transformed" (selections) — how capitalism's institutions produced extraordinary growth, and at what cost.</li>
               <li><span class="tag tag--recommended">Recommended</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 1: "Why, When, and How Did the World Become Rich?" (~10 pp.) — why did sustained growth only begin in the last two centuries, and why did the Malthusian trap persist for so long before that?</li>
-              <li><span class="tag tag--required">Required</span> <a href="https://newsletter.rootsofprogress.org/p/fish-in-water" target="_blank" rel="noopener">Jason Crawford, "Fish in Water," Chapter 1 of <em>The Techno-Humanist Manifesto</em> (2024, ~2,500 words)</a> — industrial civilization has become invisible to us precisely because it has solved so many problems. A short provocation on why we take prosperity for granted, and why that matters.</li>
               <li><span class="tag tag--recommended">Recommended</span> Joseph A. Schumpeter, <em>Capitalism, Socialism and Democracy</em>, Chapter 7: "The Process of Creative Destruction" (1942, ~10 pp.) — the canonical source. Capitalism, Schumpeter argues, is not primarily about price competition but about the "gale of creative destruction" — new goods, methods, and organizational forms that ceaselessly displace the old. The chapter that gave the concept its name.</li>
             </ul>
           </div>
@@ -223,6 +270,7 @@ description: "Syllabus — FYS: Progress"
               <li><span class="tag tag--recommended">Recommended</span> Paul M. Romer, &#x201C;The Origins of Endogenous Growth,&#x201D; <em>Journal of Economic Perspectives</em> 8, no. 1 (1994): 3&#x2013;22 &#x2014; accessible account of why non-rival ideas drive long-run growth; connects Nelson to growth theory.</li>
               <li><span class="tag tag--recommended">Recommended</span> Michael Polanyi, &#x201C;The Republic of Science,&#x201D; <em>Minerva</em> 1, no. 1 (1962): 54&#x2013;73 &#x2014; science as spontaneous order, analogous to a market. The philosophical complement to Nelson. <span style="color:var(--ink-light);">[PDF via library]</span></li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review" target="_blank" rel="noopener">Adam Mastroianni, &#x201C;The Rise and Fall of Peer Review,&#x201D; <em>Experimental History</em> (2022)</a> &#x2014; does scientific self-governance actually work? A short, provocative read for students who want a contemporary angle.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://worksinprogress.co/issue/innovation-is-not-linear/" target="_blank" rel="noopener">Jason Crawford, &#x201C;Innovation is not linear,&#x201D; <em>Works in Progress</em></a> &#x2014; a clear corrective to the simple pipeline model in which basic science mechanically becomes applied technology. Useful for seeing science and invention as reciprocal, iterative, and institutionally entangled.</li>
               <li><span class="tag tag--recommended">Recommended</span> Daniel Gross &amp; Bhaven Sampat, &#x201C;America, Jump-Started: World War II R&amp;D and the Takeoff of the U.S. Innovation System,&#x201D; <em>American Economic Review</em> 113, no. 7 (2023): 1737&#x2013;1781 &#x2014; how the wartime science mobilisation of 1940&#x2013;45 permanently shifted the US innovation system toward basic research and university-industry linkages. Context for why Bush&#x2019;s 1945 report landed when it did. <span style="color:var(--ink-light);">[via library]</span></li>
             </ul>
           </div>
@@ -268,7 +316,9 @@ description: "Syllabus — FYS: Progress"
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://geekway.substack.com/p/a-visualization-of-europes-non-bubbly" target="_blank" rel="noopener">Andrew McAfee, &#x201C;A Visualization of Europe&#x2019;s Non-Bubbly Economy,&#x201D; <em>The Geek Way</em> (December 2024, ~1,200 words)</a> &#x2014; two bubble charts that make the US&#x2013;Europe innovation gap visceral: Europe has produced 14 from-scratch public companies worth over $10B in the past fifty years; the US has produced hundreds, collectively worth almost $30 trillion. McAfee draws on the Draghi report to diagnose why &#x2014; fragmented markets, restrictive regulation, and a VC ecosystem that lags the US by a factor of five at every funding stage. The sharpest short answer to &#x201C;why Silicon Valley?&#x201D; and &#x201C;why not Europe?&#x201D; <span style="color:var(--ink-light);">[free, Substack]</span></li>
               <li><span class="tag tag--required">Required</span> AnnaLee Saxenian, <em>Regional Advantage: Culture and Competition in Silicon Valley and Route 128</em>, Introduction (8 pp., 1996) &#x2014; explains why Silicon Valley recovered from the crises of the early 1980s while Route 128 did not. Saxenian's answer is institutional: Silicon Valley had open networks and fluid labor markets; Route 128 had hierarchical, self-contained firms. The Introduction is enough to grasp both the empirical puzzle and the core thesis. <span style="color:var(--ink-light);">[PDF on Canvas]</span></li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/clusters-rule-everything-around-me/" target="_blank" rel="noopener">Caleb Watney, &#x201C;Clusters rule everything around me,&#x201D; <em>Works in Progress</em></a> &#x2014; why high-growth technology clusters form, why they are hard to copy, and what policy can do to make them more likely. A contemporary bridge from Saxenian's regional comparison to live policy debates about agglomeration.</li>
               <li><span class="tag tag--required">Required</span> Sebastian Mallaby, <em>The Power Law: Venture Capital and the Making of the New Future</em>, Prologue (~15 pp., 2022) &#x2014; how did venture capital as a financing form emerge in California, and why has it proved so hard to replicate elsewhere? Mallaby traces the origins to a small group of investors who chose equity over fees &#x2014; a structural choice that, compounded over decades, produced the funding ecosystem McAfee&#x2019;s charts make visible. <span style="color:var(--ink-light);">[PDF via library]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://worksinprogress.co/issue/the-housing-theory-of-everything/" target="_blank" rel="noopener">John Myers, Sam Bowman &amp; Ben Southwood, &#x201C;The housing theory of everything,&#x201D; <em>Works in Progress</em></a> &#x2014; a broader argument that housing scarcity blocks mobility, productivity, fertility, and innovation. Best read in selected sections as an extension of the cities-and-clusters argument.</li>
               <li><span class="tag tag--recommended">Recommended</span> Mario Draghi, <em>The Future of European Competitiveness</em> (European Commission, September 2024), pp. 1&#x2013;15 (Part A executive summary) &#x2014; the report McAfee is reacting to. Draghi argues Europe faces an &#x201C;existential crisis&#x201D; driven by falling productivity growth, underinvestment in deep tech, and regulatory fragmentation. The headline statistics &#x2014; no from-scratch EU company worth over &#x20AC;100B in fifty years; VC funding lagging the US at every stage by roughly 5&#xD7; &#x2014; are all here in primary form. Read pp. 1&#x2013;15 for the diagnosis; the rest is policy prescription. <a href="https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en?filename=The%20future%20of%20European%20competitiveness%20_%20A%20competitiveness%20strategy%20for%20Europe.pdf" target="_blank" rel="noopener">[PDF, free]</a></li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.technologyreview.com/2015/08/18/10816/the-past-and-future-of-kendall-square/" target="_blank" rel="noopener">Michael Blanding, &#x201C;The Past and Future of Kendall Square,&#x201D; <em>MIT Technology Review</em> (August 18, 2015)</a> &#x2014; a five-act history of how an abandoned industrial wasteland became what the Boston Consulting Group called &#x201C;the most innovative square mile on Earth.&#x201D; Covers the role of MIT lab spinouts (Biogen, Genzyme), the arrival of Big Pharma, and the deliberate curation of co-location as an innovation strategy. A Cambridge counterpart to the Silicon Valley story &#x2014; and a vivid illustration of what Saxenian&#x2019;s network-based model looks like in life sciences. <span style="color:var(--ink-light);">[free]</span></li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.bostonglobe.com/2020/02/24/business/engine-mit-is-revving-up-potential-tough-tech/" target="_blank" rel="noopener">Scott Kirsner, &#x201C;The Engine at MIT is revving up the potential of &#x2018;tough tech,&#x2019;&#x201D; <em>Boston Globe</em> (February 24, 2020)</a> &#x2014; profiles MIT&#x2019;s tough-tech accelerator, which funds companies whose science is too capital-intensive and slow-moving for standard VC &#x2014; fusion energy, green steel, grid-scale batteries. Companies like Commonwealth Fusion Systems were born here. Connects Mallaby&#x2019;s VC origin story to the question of what happens to breakthroughs that don&#x2019;t fit the standard venture model. <span style="color:var(--ink-light);">[may require Globe subscription or library access]</span></li>
@@ -311,8 +361,13 @@ description: "Syllabus — FYS: Progress"
           <div class="session-row__title">Session 11 · Escaping the Poverty Trap</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> Yuen Yuen Ang, <em>How China Escaped the Poverty Trap</em>, Chapter 2 — how do poor societies bootstrap growth, and what does this mean for the role of the state?</li>
+              <li><span class="tag tag--required">Required</span> Yuen Yuen Ang, <em>How China Escaped the Poverty Trap</em>, Introduction — how do poor societies bootstrap growth, and what does this mean for the role of the state? Ang's central idea is "directed improvisation": central goals paired with local experimentation, adaptation, and problem-solving. <span style="color:var(--ink-light);">[open access via Cornell/JSTOR/Project MUSE]</span></li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/how-mexico-built-a-state/" target="_blank" rel="noopener">Robin Grier, &#x201C;How Mexico built a state,&#x201D; <em>Works in Progress</em></a> &#x2014; a non-China comparison showing state-building as a hard process of bargaining, compromise, coercion, and institutional adaptation rather than the simple adoption of best-practice rules.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Yuen Yuen Ang, <em>How China Escaped the Poverty Trap</em>, Chapter 2 — the deeper theoretical version of the argument. Read this if you want the full mechanism behind the introduction.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Dan Wang, <em>Breakneck: China's Quest to Engineer the Future</em>, Introduction (2025) — a vivid contemporary complement on China as an "engineering state" and the United States as a "lawyerly society." <span style="color:var(--ink-light);">[course-reserve scan or library copy needed]</span></li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://worksinprogress.co/issue/build-state-capacity-by-building-charter-cities/" target="_blank" rel="noopener">Mark Lutter &amp; Jeffrey Mason, &#x201C;Build state capacity by building charter cities,&#x201D; <em>Works in Progress</em></a> &#x2014; a more speculative application of the state-capacity question. Useful for thinking about whether new jurisdictions can create institutional room for growth.</li>
             </ul>
+            <p class="reading-note">Ang gives us the development mechanism: how weak institutions can become adaptive enough to generate growth. Wang supplies the contemporary provocation: what happens when a state becomes very good at building, and what costs come with that capacity?</p>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
@@ -426,6 +481,7 @@ description: "Syllabus — FYS: Progress"
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Thomas Carlyle, <a href="https://www.gutenberg.org/ebooks/1091" target="_blank" rel="noopener">"The Hero as Man of Letters" (extract from <em>On Heroes, Hero-Worship, and the Heroic in History</em>, 1841)</a> — the philosophical case for exceptional individuals as the engine of history.</li>
               <li><span class="tag tag--required">Required</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 8: "Britain's Industrial Revolution" (selections, ~15 pp.) — why did sustained technological change first occur in Britain when it did, and not in the Dutch Republic, which shared so many of the same features?</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/why-science-needs-outsiders/" target="_blank" rel="noopener">Alvin Djajadikerta &amp; Laura Lungu, &#x201C;Why science needs outsiders,&#x201D; <em>Works in Progress</em></a> &#x2014; a modern argument that breakthroughs often come from people who are not fully captured by a field's standard incentives, training pathways, and assumptions.</li>
               <li><span class="tag tag--recommended">Recommended</span> Benjamin F. Jones, &#x201C;The Burden of Knowledge and the &#x2018;Death of the Renaissance Man&#x2019;: Is Innovation Getting Harder?&#x201D; <em>Review of Economic Studies</em> 76, no. 1 (2009): 283&#x2013;317 &#x2014; innovators today must absorb far more prior knowledge before reaching the frontier; the result is longer training, narrower specialisation, and more teamwork. A structural argument that the age of the lone genius is ending &#x2014; not because people are less ambitious, but because knowledge has compounded. <span style="color:var(--ink-light);">[PDF via library]</span></li>
             </ul>
             <p class="reading-note">Together: was Watt inevitable?</p>
@@ -471,6 +527,8 @@ description: "Syllabus — FYS: Progress"
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://blog.benjaminreinhardt.com/wddw" target="_blank" rel="noopener">Ben Reinhardt, &#x201C;Why Does DARPA Work?&#x201D; (~20 pp.)</a> &#x2014; a careful structural analysis of what makes DARPA, uniquely among government agencies, a reliable producer of breakthrough innovation: programme managers with autonomy, short time horizons, and no bureaucratic overhead. The template against which all government innovation is measured.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/buyers-of-first-resort/" target="_blank" rel="noopener">Neil Hacker, &#x201C;Buyers of first resort,&#x201D; <em>Works in Progress</em></a> &#x2014; why breakthrough technologies often need early buyers, not just inventors or investors. A demand-side complement to DARPA, procurement, and Operation Warp Speed.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/why-innovation-prizes-fail/" target="_blank" rel="noopener">Anton Howes, &#x201C;Why innovation prizes fail,&#x201D; <em>Works in Progress</em></a> &#x2014; a historical warning that prizes are often better at incremental improvements than transformative invention, complicating the standard policy toolkit.</li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.aeaweb.org/articles?id=10.1257/jep.31.1.67" target="_blank" rel="noopener">Heidi Williams, &#x201C;How Do Patents Affect Research Investments?&#x201D; <em>Journal of Economic Perspectives</em> 31, no. 1 (2017): 67&#x2013;92</a> &#x2014; a survey of the empirical evidence on whether and when intellectual property rights increase or decrease downstream innovation. Williams&#x2019;s own work on the human genome showed that private IP rights over mapped gene sequences reduced subsequent research on those genes by ~30% &#x2014; a striking finding about how the design of property rights, not just their existence, shapes what gets discovered.</li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.statecraft.pub/p/how-to-replicate-operation-warp-speed" target="_blank" rel="noopener">Santi Ruiz, &#x201C;How to Replicate Operation Warp Speed,&#x201D; <em>Statecraft</em> (January 2024)</a> &#x2014; a Q&amp;A with former HHS Secretary Alex Azar on what actually made OWS work: unlimited crisis funding, the right people, an unprecedented DOD partnership, and brute-force execution of a problem that was already solved scientifically. Azar is candid about why it can&#x2019;t be easily replicated &#x2014; &#x201C;It had to be a miracle. We got a miracle&#x201D; &#x2014; and what that implies for how we design government innovation programs going forward.</li>
             </ul>
@@ -487,6 +545,7 @@ description: "Syllabus — FYS: Progress"
           <div class="session-row__meta">Guest speaker from the Institute for Progress (IFP) &#x2014; Heidi Williams (Director of Science Policy, IFP; Professor of Economics, Dartmouth) or Santi Ruiz (IFP Senior Editor, <em>Statecraft</em>), subject to availability.
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://ifp.org/to-speed-scientific-progress-do-away-with-funding-delays/" target="_blank" rel="noopener">Heidi Williams, &#x201C;Funding Delays Are Slowing Scientific Progress,&#x201D; Institute for Progress (August 2023, ~1,500 words)</a> &#x2014; scientists wait on average 20 months between submitting a grant and receiving funding. Williams argues this delay is not an administrative inevitability but a policy choice with measurable costs to research output &#x2014; and that fixing it is low-hanging fruit.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/developing-the-science-of-science/" target="_blank" rel="noopener">Heidi Williams &amp; Paul Niehaus, &#x201C;Developing the science of science,&#x201D; <em>Works in Progress</em></a> &#x2014; argues that science policy should learn from development economics by testing which institutions, funding systems, and evaluation methods actually accelerate discovery.</li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://ifp.org/to-speed-up-scientific-progress-we-need-to-understand-science-policy/" target="_blank" rel="noopener">Matt Clancy, Dan Correa, Jordan Dworkin, Paul Niehaus, Caleb Watney &amp; Heidi Williams, &#x201C;To Speed Up Scientific Progress, We Need to Understand Science Policy,&#x201D; Institute for Progress (September 2023)</a> &#x2014; a short manifesto arguing that the gap between science policy research and actual policy-making is itself a barrier to progress, and proposing three bridges to close it.</li>
             </ul>
             <p class="reading-note">IFP works at the intersection of academic research and policy practice. Come with a specific claim from the Williams reading you want to push back on &#x2014; or a funding delay story of your own.</p>
@@ -518,6 +577,7 @@ description: "Syllabus — FYS: Progress"
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Hannah Ritchie, <em>Not the End of the World</em> (2024), Chapter 1: "Air Pollution" (~35 pp.) — the evidence for environmental progress, and where it falls short.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/the-end-of-acid-rain/" target="_blank" rel="noopener">Hannah Ritchie, &#x201C;The end of acid rain,&#x201D; <em>Works in Progress</em></a> &#x2014; a concrete case of environmental progress: scientific diagnosis, policy action, technological adaptation, and measurable improvement.</li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -532,6 +592,7 @@ description: "Syllabus — FYS: Progress"
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/magazine/archive/2023/01/science-technology-vaccine-invention-history/672227/" target="_blank" rel="noopener">Derek Thompson, "Why the Age of American Progress Ended," <em>The Atlantic</em> (Jan/Feb 2023)</a> — the case that innovation has slowed and what might explain it. <span style="color:var(--ink-light);">[free, may ask you to create an account]</span></li>
               <li><span class="tag tag--required">Required</span> <a href="https://aeon.co/essays/innovation-is-overvalued-maintenance-often-matters-more" target="_blank" rel="noopener">Andrew Russell &amp; Lee Vinsel, "Hail the Maintainers," <em>Aeon</em> (2016, ~2,900 words)</a> — the counterargument: we celebrated disruption while neglecting the work of keeping things running.</li>
+              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/the-rise-and-fall-of-the-american-rd-lab/" target="_blank" rel="noopener">Ben Southwood, &#x201C;The rise and fall of the industrial R&amp;D lab,&#x201D; <em>Works in Progress</em></a> &#x2014; how Bell Labs, PARC, and corporate research institutions helped produce twentieth-century breakthroughs, and why that institutional form declined.</li>
               <li><span class="tag tag--recommended">Recommended</span> <a href="https://newsletter.rootsofprogress.org/p/solutionism-part-1" target="_blank" rel="noopener">Jason Crawford, "Solutionism, Part 1," Chapter 5 of <em>The Techno-Humanist Manifesto</em> (2025, ~3,000 words)</a> — from Malthus to the Green Revolution: why the right response to a real crisis is neither complacency nor despair, but active problem-solving. A counterpoint to Thompson.</li>
             </ul>
             <p class="reading-note">Is progress failing because we stopped inventing, or because we stopped maintaining? And when it does seem to stall — what does history say we should do about it?</p>
@@ -544,7 +605,15 @@ description: "Syllabus — FYS: Progress"
         <div class="session-row__date">Thu Nov 19</div>
         <div class="session-row__body">
           <div class="session-row__title">Session 23 · Catastrophic Risk: Pandemic, AI, and Existential Threats</div>
-          <div class="session-row__meta">Reading TBD — options: Nick Bostrom excerpt; post-pandemic review article; AI safety short reading. Discussion: what obligations does anticipated risk create?</div>
+          <div class="session-row__meta">
+            <ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> Charles I. Jones, "AI and Our Economic Future," <em>Journal of Economic Perspectives</em> (2026) — AI as both a possible accelerator of economic growth and a source of catastrophic risk. Read the introduction and conclusion if time is tight.</li>
+              <li><span class="tag tag--required">Required</span> Ezra Karger et al., "Forecasting the Economic Effects of AI," NBER Working Paper 35046 (2026) — expert forecasts about AI's economic consequences. Focus on the main forecast results and skim the technical machinery as needed.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Joshua S. Gans and Avi Goldfarb, "O-Ring Automation," NBER Working Paper 34639 (2026) — a useful complement on automation, complementarities, and bottlenecks.</li>
+              <li><span class="tag tag--recommended">Recommended</span> <a href="https://worksinprogress.co/issue/rivers-are-now-battlefields/" target="_blank" rel="noopener">Connor Tabarrok, &#x201C;Rivers are now battlefields,&#x201D; <em>Works in Progress</em></a> &#x2014; China, dams, energy, infrastructure, and geopolitical risk. A useful reminder that engineering capacity creates strategic externalities as well as prosperity.</li>
+            </ul>
+            <p class="reading-note">What obligations does anticipated risk create? This session asks whether the same forces that accelerate progress can also generate risks large enough to require new institutions.</p>
+          </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
       </div>
