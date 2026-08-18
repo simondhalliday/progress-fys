@@ -129,7 +129,8 @@ em, i { font-style: italic; }
   padding-inline: var(--sp-lg);
 }
 
-section { padding-block: var(--sp-2xl); }
+section { padding-block: var(--sp-xl); }
+.section--compact { padding-block: var(--sp-lg); }
 section + section { border-top: 1px solid var(--rule); }
 
 /* ── 5. Site Navigation ──────────────────────────────────────── */
@@ -192,7 +193,7 @@ section + section { border-top: 1px solid var(--rule); }
 
 /* ── 6. Hero ─────────────────────────────────────────────────── */
 .hero {
-  padding-block: var(--sp-2xl) calc(var(--sp-2xl) * 1.2);
+  padding-block: var(--sp-xl);
   border-bottom: 1px solid var(--rule);
 }
 
@@ -221,7 +222,7 @@ section + section { border-top: 1px solid var(--rule); }
   font-size: 1.1rem;
   color: var(--ink-mid);
   max-width: 600px;
-  margin-bottom: var(--sp-xl);
+  margin-bottom: var(--sp-lg);
   font-family: var(--font-sans);
   font-weight: 300;
   line-height: 1.7;
@@ -344,7 +345,7 @@ a.module-card-link {
   border-left: 4px solid var(--accent);
   background: var(--accent-pale);
   padding: var(--sp-md) var(--sp-lg);
-  margin-block: var(--sp-lg);
+  margin-block: var(--sp-md);
 }
 
 .notice--quiet {

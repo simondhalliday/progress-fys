@@ -30,31 +30,6 @@ description: "FYS: Progress — Why Now Is the Best Time to Be Alive"
   </div>
 </header>
 
-<!-- ── Course Notices ────────────────────────────────────────── -->
-<section id="device-policy" style="padding-block: var(--sp-xl);">
-  <div class="container--text">
-    <div class="notice">
-      <h2>Device-free seminar</h2>
-      <p>
-        Class meetings are device-free by default. Phones, tablets, laptops, smart watches,
-        and headphones should be put away unless I explicitly ask you to use a device for a
-        class activity. Bring the printed reading packet or paper copies of the readings,
-        plus a pen or pencil for opening writing and annotation. Students with accommodations,
-        accessibility needs, or urgent circumstances should speak with me so we can make the
-        course work well.
-      </p>
-    </div>
-    <div class="notice notice--quiet">
-      <h2>Readings and packets</h2>
-      <p>
-        Public web readings are linked from the syllabus. Readings that are not freely available
-        will be provided through Canvas, library reserve, or course reading packets. The early
-        packets are organized by week so that students can bring marked-up paper readings to class.
-      </p>
-    </div>
-  </div>
-</section>
-
 <!-- ── About ──────────────────────────────────────────────────── -->
 <section>
   <div class="container--text">
@@ -94,6 +69,32 @@ description: "FYS: Progress — Why Now Is the Best Time to Be Alive"
         The chart is interactive — select countries, zoom the timeline, explore the data.
       </figcaption>
     </figure>
+  </div>
+</section>
+
+<!-- ── Course Notices ────────────────────────────────────────── -->
+<section id="device-policy" class="section--compact">
+  <div class="container--text">
+    <div class="notice">
+      <h2>Device-free seminar</h2>
+      <p>
+        Class meetings are device-free by default. Phones, tablets, and laptops should be
+        put away unless I explicitly ask you to use a device for a class activity. I will
+        provide binders and printed copies of all readings; bring the binder, plus a pen
+        or pencil for opening writing and annotation. Students with accommodations,
+        accessibility needs, or urgent circumstances should speak with me so we can make
+        the course work well.
+      </p>
+    </div>
+    <div class="notice notice--quiet">
+      <h2>Readings and packets</h2>
+      <p>
+        Public web readings are linked from the syllabus. I will provide binders and printed
+        copies of all readings, with readings that are not freely available handled through
+        Canvas, library reserve, or course reading packets. The early packets are organized
+        by week so that students can bring marked-up paper readings to class.
+      </p>
+    </div>
   </div>
 </section>
 
