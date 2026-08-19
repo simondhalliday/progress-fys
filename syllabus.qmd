@@ -63,12 +63,6 @@ description: "Syllabus — FYS: Progress"
         seminar conversation, close reading, and the first minutes of handwritten reflection work
         better when everyone is fully present.
       </p>
-      <p>
-        I will provide binders and printed copies of all readings. Bring your binder and something
-        to write with. When a session requires web exploration, data work, or another digital task,
-        I will say so. Students with accommodations, accessibility needs, or urgent circumstances
-        should talk with me so we can make an appropriate plan.
-      </p>
     </div>
     <div id="reading-packets" class="notice notice--quiet">
       <h2>Readings and course packets</h2>
