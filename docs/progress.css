@@ -27,7 +27,7 @@
   /* Quote/callout backgrounds */
   --bg-quote:        #E3EBE0;  /* soft sage — key claims, blockquotes   */
   --bg-quote-border: #7A9E72;  /* sage border                           */
-  --bg-discuss:      #DDE6F2;  /* dusty slate blue — discussion prompts */
+  --bg-discuss:      #DDE6F2;  /* dusty slate blue — discussion prompts and secondary notices */
   --bg-discuss-border: #6A8FAF; /* slate border                         */
 
   /* Structural */
@@ -349,8 +349,8 @@ a.module-card-link {
 }
 
 .notice--quiet {
-  border-left-color: var(--bg-quote-border);
-  background: var(--bg-quote);
+  border-left-color: var(--bg-discuss-border);
+  background: var(--bg-discuss);
 }
 
 .notice h2,

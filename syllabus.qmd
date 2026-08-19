@@ -51,34 +51,10 @@ description: "Syllabus — FYS: Progress"
   </div>
 </section>
 
-<!-- ── Reading Logistics ─────────────────────────────────────── -->
-<section id="reading-packets">
+<!-- ── Course Practices ─────────────────────────────────────── -->
+<section class="section--compact" style="background: var(--bg-alt);">
   <div class="container--text">
-    <h2>Readings and course packets</h2>
-    <p>
-      The syllabus links to public web readings whenever possible. I will provide binders and
-      printed copies of all readings so that you can read, annotate, and bring the texts to class
-      without relying on a device. Readings that are not freely available online will be provided
-      through Canvas, library reserve, or course reading packets. The first packet covers Weeks 1-3,
-      with later packets added as the semester reading list is finalized.
-    </p>
-    <p>
-      For Session 1, read Jason Crawford's
-      <a href="https://blog.rootsofprogress.org/thm-introduction-the-present-crisis" target="_blank" rel="noopener">"The Present Crisis"</a>
-      and
-      <a href="https://blog.rootsofprogress.org/thm-ch1-fish-in-water" target="_blank" rel="noopener">"Fish in Water"</a>,
-      and spend time with Jordan Dworkin's
-      <a href="https://ordinaryabundance.com/" target="_blank" rel="noopener"><em>Ordinary Abundance</em></a>.
-      The Crawford pieces will also appear in compact packet form, with web footnotes and endnotes
-      omitted to keep printing manageable.
-    </p>
-  </div>
-</section>
-
-<!-- ── Device Policy ─────────────────────────────────────────── -->
-<section id="device-policy" style="background: var(--bg-alt);">
-  <div class="container--text">
-    <div class="notice">
+    <div id="device-policy" class="notice">
       <h2>Device policy</h2>
       <p>
         This is a device-free seminar by default. Phones, tablets, and laptops should be put
@@ -92,6 +68,26 @@ description: "Syllabus — FYS: Progress"
         to write with. When a session requires web exploration, data work, or another digital task,
         I will say so. Students with accommodations, accessibility needs, or urgent circumstances
         should talk with me so we can make an appropriate plan.
+      </p>
+    </div>
+    <div id="reading-packets" class="notice notice--quiet">
+      <h2>Readings and course packets</h2>
+      <p>
+        The syllabus links to public web readings whenever possible. I will provide binders and
+        printed copies of all readings so that you can read, annotate, and bring the texts to class
+        without relying on a device. Readings that are not freely available online will be provided
+        through Canvas, library reserve, or course reading packets. The first packet covers Weeks 1-3,
+        with later packets added as the semester reading list is finalized.
+      </p>
+      <p>
+        For Session 1, read Jason Crawford's
+        <a href="https://blog.rootsofprogress.org/thm-introduction-the-present-crisis" target="_blank" rel="noopener">"The Present Crisis"</a>
+        and
+        <a href="https://blog.rootsofprogress.org/thm-ch1-fish-in-water" target="_blank" rel="noopener">"Fish in Water"</a>,
+        and spend time with Jordan Dworkin's
+        <a href="https://ordinaryabundance.com/" target="_blank" rel="noopener"><em>Ordinary Abundance</em></a>.
+        The Crawford pieces will also appear in compact packet form, with web footnotes and endnotes
+        omitted to keep printing manageable.
       </p>
     </div>
   </div>
