@@ -1,0 +1,203 @@
+---
+title: "Renaissance Florence and the Geography of Ideas"
+subtitle: "Session 7 · Tue Sep 22"
+description: "Why do some places become engines of creativity, and why can the same places preserve inequality for centuries?"
+order: 7
+---
+
+## A city that made new things and kept old advantages
+
+Picture Florence in the fifteenth century.
+
+Artists, bankers, wool merchants, notaries, builders, humanists, guilds, and political families are crowded into a small city. People copy manuscripts, argue about ancient Rome, commission churches, finance trade, compete for office, marry into alliances, and build reputations that can last for generations. The city is not a laboratory in the modern sense, but it is full of experiments: artistic, financial, political, and intellectual.
+
+Now jump forward nearly six hundred years. Economists match surnames from Florence's 1427 tax records to modern tax data and find striking persistence. The city that helped produce the Renaissance also appears to have preserved elite advantage across centuries.
+
+That combination should make us uneasy in a productive way. Florence is a place of creativity and hierarchy, innovation and inheritance, recombination and persistence. It asks us to separate two questions we often run together: why do some places generate new ideas, and who gets to benefit from them?
+
+**The question this session is about: how can a place be unusually creative and unusually unequal at the same time?**
+
+::: {.instructor}
+This session is the bridge from technology and incentives to cities and institutions. Keep two ideas on the board throughout: "creative recombination" and "durable advantage." Florence is not just a pretty Renaissance backdrop; it is a case for thinking about urban systems.
+:::
+
+## Why Florence?
+
+The first temptation is to explain Florence by listing geniuses. That list matters, but it is not enough. A city becomes a creative center when people, money, skills, institutions, and status competition are close enough to interact repeatedly.
+
+Florence had dense networks of patronage, craft, finance, family, church, guild, and political life. Those networks could reward originality, but they could also discipline it. They could bring artists and patrons together, but they could also decide who counted as respectable, fundable, trainable, or worthy of protection.
+
+This is the beginning of the geography-of-ideas question. Ideas do not float above place. They move through workshops, schools, households, courts, libraries, markets, and friendships. They need people who can recognize them, adapt them, fund them, copy them, teach them, and argue about them.
+
+> Creative places are not just places with talented individuals; they are systems that help ideas circulate, combine, and become valuable.
+
+::: {.discuss}
+If you were trying to explain Florence without using the word "genius," what institutions or relationships would you start with?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why is a list of famous individuals not enough to explain Renaissance Florence?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Individual talent matters, but the session asks why so many people and projects were concentrated in one place.">Because individual talent never matters.</li>
+    <li data-correct="true" data-fb="Correct. A place-based explanation asks how institutions, patrons, workshops, finance, status, and learning systems helped talent become productive.">Because we also need to explain the local system that found, trained, funded, and rewarded creative work.</li>
+    <li data-correct="false" data-fb="The point is not that Florence was isolated; it was connected to wider trade, politics, and intellectual exchange.">Because Florence had no contact with the rest of Europe.</li>
+    <li data-correct="false" data-fb="Banking and patronage matter, but they are part of a broader urban system.">Because only banking mattered.</li>
+  </ol>
+</div>
+```
+
+## Recombination
+
+Ada Palmer's account pushes against the easy story that the Renaissance was a sudden light turning on after darkness. A more useful way to think about it is recombination. People encountered old texts, new techniques, political crises, commercial tools, religious conflicts, and civic ambitions, then mixed them into new forms.
+
+Recombination is not random. It depends on access. Who can read the old texts? Who knows the craft techniques? Who can afford materials? Who has a patron? Who is permitted to study, travel, publish, or build? Who can fail without being ruined?
+
+This is why the Renaissance belongs in a course on progress. Innovation is not just invention. It is the social process that lets old and new elements meet in productive ways.
+
+> New ideas often emerge when old materials, new problems, and connected people are brought into contact.
+
+::: {.discuss}
+Give an example of recombination in a modern setting: a technology, institution, art form, or policy that combined older ingredients in a new way. What had to be in place for that combination to happen?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What does "recombination" mean in this session?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Recombination is not simple copying. It is combining older and newer elements into something changed.">Copying the past exactly.</li>
+    <li data-correct="true" data-fb="Correct. Recombination helps explain how old texts, craft skills, money, politics, and new problems could produce new forms.">Combining existing ideas, skills, materials, and problems in ways that create something new.</li>
+    <li data-correct="false" data-fb="It is not only an individual mental process; institutions shape who can recombine what.">A private thought that institutions cannot affect.</li>
+    <li data-correct="false" data-fb="Recombination can involve markets, but it is broader than trade.">A synonym for buying and selling.</li>
+  </ol>
+</div>
+```
+
+## Persistence
+
+The Barone and Mocetti finding is startling because it puts the Renaissance romance next to long-run social persistence. If surnames associated with high status in 1427 are still associated with higher earnings, wealth, or elite professions centuries later, then progress has not automatically meant mobility.
+
+There are many reasons advantages might persist. Wealth can be inherited. Education and professional access can be inherited. Social networks can be inherited. Status can be protected by marriage, guilds, property, neighborhoods, names, and expectations. Even when formal rules change, families may retain positional advantages.
+
+This does not mean nothing changes. Florence in 2011 is not Florence in 1427. But it does mean that creative dynamism and social mobility are different outcomes. A place can produce remarkable cultural progress while leaving old hierarchies surprisingly intact.
+
+> Progress in ideas does not guarantee progress in mobility.
+
+::: {.discuss}
+Should we be surprised that elite advantage could persist for six centuries? What mechanisms would make persistence more likely, and what mechanisms would break it?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What does the Florence mobility evidence add to the Renaissance story?</p>
+  <ol class="quiz-opts">
+    <li data-correct="true" data-fb="Correct. It complicates the story by showing that cultural and economic creativity can coexist with durable elite advantage.">It shows that creativity and long-run inequality can coexist in the same city.</li>
+    <li data-correct="false" data-fb="The evidence is about persistence, not complete equality.">It proves Renaissance Florence produced perfect social mobility.</li>
+    <li data-correct="false" data-fb="The finding does not make Renaissance creativity fake; it asks who benefited and how advantage persisted.">It proves the Renaissance did not matter.</li>
+    <li data-correct="false" data-fb="The evidence does not say surnames mechanically determine fate for every individual. It shows statistical persistence.">It means each modern Florentine has exactly the same status as their ancestor.</li>
+  </ol>
+</div>
+```
+
+## From Florence To Other Cities
+
+Florence prepares us for Silicon Valley and Baltimore.
+
+Silicon Valley asks why a region became unusually good at creating and scaling new firms. Baltimore asks why some forms of reinvention do not automatically spread across a city. Florence lets us see both questions at once. It was a dense creative system, and it was also a place where family, status, and institutions could preserve advantage.
+
+The general lesson is that place matters. But "place matters" is not one explanation. Sometimes place matters because it brings together people and ideas. Sometimes it matters because it protects incumbents. Sometimes it does both.
+
+> Cities are engines of progress when they help people recombine ideas; they are engines of inequality when they lock opportunity inside inherited networks.
+
+::: {.discuss}
+What would make a city more like an engine of recombination and less like an engine of inherited advantage?
+:::
+
+## Review Cards
+
+Work through these cards now, then Orbit will schedule them for review over the coming weeks.
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="What is the geography-of-ideas question?"
+    answer="It asks why new ideas, technologies, institutions, and creative work often cluster in particular places rather than appearing evenly everywhere.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why is Florence a useful case for studying progress?"
+    answer="Florence combines creative dynamism with hierarchy, patronage, inherited advantage, and durable inequality. It makes progress look uneven rather than simple.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is recombination?"
+    answer="Recombination is the process of combining existing ideas, skills, materials, institutions, or problems in ways that create something new.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Give one institution that could support recombination in Renaissance Florence."
+    answer="Examples include workshops, guilds, patronage networks, banks, libraries, churches, schools, courts, or civic offices. Each could connect people, resources, and problems.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why can creative places also preserve inequality?"
+    answer="The same networks that fund and circulate ideas can also restrict access through family status, wealth, credentials, guilds, property, or social ties.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What does the Barone and Mocetti Florence evidence show?"
+    answer="It shows striking persistence in socioeconomic status across surnames from 1427 to 2011, suggesting that elite advantage can last far longer than standard mobility models predict.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="How does Florence set up the Silicon Valley session?"
+    answer="It introduces the idea that innovation is place-based: people, skills, money, institutions, and status systems cluster in ways that shape what gets created.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Connections
+
+**Builds on:** [Session 6](session06-innovation-incentives-technology.html) asked how incentives shape innovation. Florence adds the role of place, patronage, networks, and inherited status.
+
+**Sets up:** [Session 8](session08-silicon-valley-agglomeration.html) turns the same question toward modern technology clusters: why did Silicon Valley adapt while Route 128 struggled?
+
+::: {.instructor}
+**Arc note:** This note should give students a vocabulary for cities before the Silicon Valley and Baltimore sessions: cluster, recombination, persistence, institutions, and access.
+:::
+
+## Reading Guide
+
+### Required
+
+**Palmer, Ada.** *Inventing the Renaissance* selections, 2025.
+
+> **What to look for:** Read against the myth of a simple "rebirth." What ingredients had to come together for the Renaissance to happen? Which parts of the story are about ideas, and which are about institutions, conflict, status, and access?
+>
+> **Key argument:** The Renaissance is better understood as a constructed and contested transformation than as a sudden awakening of genius.
+>
+> **Bring to class:** One example of recombination: an old idea, practice, or institution being used in a new way.
+
+**Vox.** "Florence's wealthiest families in 1427 are still the wealthiest today." May 18, 2016.
+
+> **What to look for:** Focus on the mechanism, not just the surprising headline. How could family advantage persist through wars, regime changes, industrialization, democracy, and modern education?
+>
+> **Key argument:** Long-run mobility may be much lower than we expect when status, wealth, professions, and networks persist through family lines.
+>
+> **Bring to class:** One reason the finding surprised you, or one reason it did not.
+
+### Recommended
+
+**Barone, Guglielmo, and Sauro Mocetti.** "Intergenerational Mobility in the Very Long Run: Florence 1427-2011." *Review of Economic Studies* 88, no. 4 (2021): 1863-1891.
+
+> The research article behind the Vox piece. Read the abstract, introduction, and conclusion if you want the empirical design: tax records, surnames, pseudo-descendants, and persistence in earnings, wealth, and elite professions.
+
+**Chiasson, Dan.** "The Man Who Built the Bauhaus." *The New Yorker*, April 22, 2019.
+
+> A design-school counterpoint: another case of place, institution, craft, and creative networks shaping what counts as modern.
+
+::: {.instructor}
+**Teaching note on readings:** Keep Palmer as the creative-system reading and the Florence mobility piece as the inequality reading. The productive tension is that Florence was an engine of new ideas and a machine for preserving old advantages.
+:::

@@ -25,7 +25,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">1</td>
       <td style="padding:10px 16px 10px 0;">
         <a href="session01-introduction.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Introduction: Why Progress?</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Opening reflection: what is the world's biggest unsolved problem?</div>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Crawford + Ordinary Abundance — why progress needs defending and why ordinary life is hard to see</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 1</td>
     </tr>
@@ -52,7 +52,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">4</td>
       <td style="padding:10px 16px 10px 0;">
         <a href="session04-great-enrichment.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">The Great Enrichment</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">UOE Ch 3 + Crawford — capitalism, the hockey stick, and why prosperity is invisible</div>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">UOE Ch 3 — capitalism, the hockey stick, and the institutions behind sustained growth</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 10</td>
     </tr>
@@ -64,7 +64,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">5</td>
       <td style="padding:10px 16px 10px 0;">
         <a href="session05-science-public-good.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Science as a Public Good</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Nelson + Bush — why markets underprovide basic research and what institutions fill the gap</div>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Nelson + Bush + Crawford — why markets underprovide basic research and why innovation is not linear</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 15</td>
     </tr>
@@ -80,9 +80,9 @@ Each note summarises the key concepts for the week, frames the readings, and inc
 
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">7</td>
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Cities 1: Renaissance Florence</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Ada Palmer + Chiasson — what makes certain places engines of innovation?</div>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session07-renaissance-florence.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Cities 1: Renaissance Florence</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Palmer + Florence mobility — recombination, place, and durable advantage</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 22</td>
     </tr>
@@ -91,16 +91,16 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">8</td>
       <td style="padding:10px 16px 10px 0;">
         <a href="session08-silicon-valley-agglomeration.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Cities 2: Silicon Valley</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Saxenian + McAfee + Mallaby — why do innovators cluster, and why are some clusters more adaptive?</div>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Saxenian + McAfee + Watney — why do innovators cluster, and why are some clusters more adaptive?</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 24</td>
     </tr>
 
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">9</td>
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Baltimore: Progress, Decline, and Video Screenings</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Reading TBD — notes forthcoming once the Baltimore source is chosen</div>
+      <td style="padding:10px 16px 10px 0;">
+        <a href="session09-baltimore-progress-decline.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Baltimore: Progress, Decline, and Reinvention</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Szanton + Hiss + NYT — forecast, reinvention, public safety, and uneven urban progress</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 29</td>
     </tr>
@@ -109,7 +109,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">10</td>
       <td style="padding:10px 16px 10px 0;">
         <a href="session10-liberty-property-rights.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Liberty, Property Rights, and the Conditions for Progress</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Hayek + Acemoglu/Robinson — prices, property rights, and institutions</div>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Hayek + UOE Chs 1–2 — prices, property rights, power, bargaining, and institutions</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Oct 1</td>
     </tr>
@@ -118,7 +118,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">11</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
         <span style="font-family:var(--font-serif); font-size:0.95rem;">Escaping the Poverty Trap</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Ang selection unresolved — notes forthcoming once the reading is final</div>
+        <div style="font-size:0.78rem; margin-top:2px;">Ang + Grier + Wang optional — adaptive governance, state capacity, and China as an engineering state</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Oct 6</td>
     </tr>
@@ -142,7 +142,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">17–21</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
         <span style="font-family:var(--font-serif); font-size:0.95rem;">Great Inventors, Guest Speakers, Top-Down Innovation</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Carlyle + Koyama; Teles; Collison &amp; Cowen + Reinhardt</div>
+        <div style="font-size:0.78rem; margin-top:2px;">Carlyle + Koyama + outsiders; Teles; Reinhardt + buyers/prizes; Williams/Niehaus</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 27 – Nov 10</td>
     </tr>
@@ -154,7 +154,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">22–24</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
         <span style="font-family:var(--font-serif); font-size:0.95rem;">Environment, Slowdown, Catastrophic Risk</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Ritchie; Thompson + Crawford Solutionism; existential risks</div>
+        <div style="font-size:0.78rem; margin-top:2px;">Ritchie + acid rain; Thompson/Russell/Vinsel + R&amp;D labs; AI and infrastructure risks</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Nov 12–19</td>
     </tr>

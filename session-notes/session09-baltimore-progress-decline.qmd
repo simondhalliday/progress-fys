@@ -1,0 +1,237 @@
+---
+title: "Baltimore: Progress, Decline, and Reinvention"
+subtitle: "Session 9 · Tue Sep 29"
+description: "How can one city be a model of reinvention, a warning about decline, and a possible comeback story at the same time?"
+order: 9
+---
+
+## The city that looked better and worse
+
+Imagine returning to Baltimore after twenty years away.
+
+The Inner Harbor is suddenly famous. Visitors arrive to see the aquarium, waterfront restaurants, offices, hotels, and walkways that other cities are trying to copy. Downtown looks cleaner, brighter, and more confident than it did when the city was losing people and jobs at frightening speed.
+
+But the neighborhoods tell a more complicated story. The tax base is smaller. The city is poorer. Industrial jobs have disappeared. Segregation still shapes where opportunity accumulates and where abandonment spreads. A city can become a national model of urban reinvention while many of its residents experience the same period as decline.
+
+That is why Baltimore is so useful for this course. It refuses to let us treat progress as a single line moving upward. Progress can be real and uneven. Decline can be real and selective. Reinvention can solve one problem while leaving deeper structures intact.
+
+**The question this session is about: how should we judge progress in a city when the evidence points in different directions at the same time?**
+
+::: {.instructor}
+Use the opening to slow students down before the video showcase. The point is not "Baltimore good" or "Baltimore bad." The point is measurement, distribution, and institutional capacity: what changed, for whom, by what mechanism, and what remained structurally hard to change?
+:::
+
+## A Forecast From The Middle Of The Story
+
+Peter Szanton's *Baltimore 2000: A Choice of Futures* was written in 1986, after the first wave of downtown reinvention but before the 1991 *New Yorker* essay and long before the current debate about public safety, vacant housing, and municipal capacity.
+
+That timing matters. The report asks Baltimore to look at itself while the outcome is still uncertain. It treats the city as having choices, not as being doomed by deindustrialization or saved by downtown development. Chapter I gives the backward-looking diagnosis: population change, economic restructuring, municipal finance, and social and political life from 1960 to 1985. The useful question is not whether every forecast came true. It is what a serious civic diagnosis notices when a city is trying to imagine its future.
+
+> A city forecast is not just a prediction; it is a way of deciding which problems count as central.
+
+::: {.discuss}
+If you were writing a "Baltimore 2050" report today, what would have to be in Chapter I? What would count as the city's "story so far"?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why is the 1986 <em>Baltimore 2000</em> report useful for this session?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="The report was written before many later developments. Its value is not perfect prediction.">It perfectly predicts what happened to Baltimore after 2000.</li>
+    <li data-correct="true" data-fb="Correct. It captures Baltimore in the middle of reinvention and asks what futures were possible from that point.">It shows how civic leaders diagnosed Baltimore's choices after industrial decline and early downtown reinvention.</li>
+    <li data-correct="false" data-fb="The report is not a celebration of one project; it frames a broader civic agenda.">It argues that the Inner Harbor solved Baltimore's main problems.</li>
+    <li data-correct="false" data-fb="The report is not mainly about rejecting public action. It asks what goals and institutions would be needed.">It says city government should stop trying to shape Baltimore's future.</li>
+  </ol>
+</div>
+```
+
+## Pretty, Poorer, And Uneven
+
+Anthony Hiss's 1991 *New Yorker* essay gives the city a human and political texture that a planning report cannot. It follows people trying to build "the next Baltimore": Mayor Kurt Schmoke, political strategist Larry Gibson, planners, neighborhood leaders, and institutions that hoped the city could move beyond the Inner Harbor model.
+
+The central tension is that Baltimore had become a symbol of urban comeback while still losing population, wealth, and trust. Downtown revitalization showed that a city could build, coordinate, and attract attention. But the benefits did not automatically reach neighborhoods marked by segregation, school failure, poor health, violence, and weak opportunity.
+
+That tension is not unique to Baltimore. It is a general problem in urban progress: the easiest places to improve are often the places already connected to capital, visitors, and political attention. The hardest places to improve are where institutions have to rebuild trust, safety, schools, housing, and local economic life at the same time.
+
+> Urban progress is not only a question of whether a city builds something impressive; it is a question of whether improvement spreads across neighborhoods and groups.
+
+::: {.discuss}
+What is the strongest case for treating the Inner Harbor as progress? What is the strongest case for treating it as an incomplete or misleading measure of progress?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What is the main tension in Hiss's portrait of Baltimore?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Hiss is not describing a city with no accomplishments. The downtown comeback is part of the story.">Baltimore had made no visible progress by 1991.</li>
+    <li data-correct="false" data-fb="The essay is much more complicated than a simple celebration of redevelopment.">Downtown redevelopment had solved the city's social and economic problems.</li>
+    <li data-correct="true" data-fb="Correct. The city could be a reinvention model and still face deep neighborhood decline, segregation, and poverty.">Baltimore looked like a comeback city while many residents still faced worsening or unchanged conditions.</li>
+    <li data-correct="false" data-fb="The essay is about institutions, politics, neighborhoods, and social divisions, not only crime.">Crime was the only serious problem facing Baltimore.</li>
+  </ol>
+</div>
+```
+
+## The Geography Of Opportunity
+
+The Urban Institute's "Black Butterfly" feature is recommended rather than required, but it gives us a useful map for reading the required pieces. Baltimore's inequality is spatial. Opportunity, investment, vacancy, violence, health, and wealth do not spread randomly across the city. They follow historical patterns of segregation, redlining, public investment, private disinvestment, and political power.
+
+That matters for how we interpret both old decline and new progress. A citywide statistic can hide neighborhood-level divergence. A falling homicide rate can be real and important, while some neighborhoods still experience concentrated harm. A lower vacancy count can mark real improvement, while the production of new vacancy continues elsewhere. A rising downtown can coexist with abandonment a short distance away.
+
+> In a segregated city, averages can be true and still be incomplete.
+
+::: {.discuss}
+Think about your Baltimore video site. What would you need to know to judge whether that place is connected to the city's progress story, its decline story, both, or neither?
+:::
+
+## Public Safety And Governing Capacity
+
+The recent *New York Times* piece brings the story into the present: Baltimore has experienced a historically large decline in homicide and violent crime. The key question for us is not only whether the decline happened. It is what kind of explanation would count as convincing.
+
+Some explanations are national: many cities saw violence fall after the pandemic-era spike. Some are local: Baltimore's leadership, violence-prevention strategy, police practices, data systems, vacancy work, and community organizations may have changed the city's capacity to respond. The Santi Ruiz interview with James Anderson and the *Odd Lots* conversation with Mayor Brandon Scott both push us toward the capacity question: can city hall learn, coordinate, set goals, use data, and execute repeatedly on hard problems?
+
+This is where Session 9 connects to the rest of the course. We have already asked why some regions generate innovation and why institutions shape progress. Baltimore asks the same question at city scale. The scarce resource may not be ideas alone. It may be the ability to turn goals into working systems.
+
+> A city makes progress when it can convert diagnosis into coordinated action, and when that action reaches the places where the problem is concentrated.
+
+::: {.discuss}
+What evidence would persuade you that Baltimore's homicide decline reflects improved local governing capacity rather than luck or a national trend? What evidence would make you skeptical?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Why should we be careful when interpreting a citywide improvement such as a falling homicide rate?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Citywide improvement can be real. The point is to ask what explains it and how it is distributed.">Because citywide data is always fake.</li>
+    <li data-correct="true" data-fb="Correct. We need to ask whether the change is local or national, temporary or durable, and evenly or unevenly distributed.">Because the statistic may be real while its causes, durability, and neighborhood distribution remain uncertain.</li>
+    <li data-correct="false" data-fb="This ignores the central problem of interpretation. Numbers need explanation.">Because any improvement proves the policy worked.</li>
+    <li data-correct="false" data-fb="The readings ask us to compare levels and changes across time.">Because the past is irrelevant once current numbers improve.</li>
+  </ol>
+</div>
+```
+
+## Video Showcase
+
+As you watch the Baltimore videos, treat each site as evidence about a larger system.
+
+Ask four questions:
+
+1. What kind of progress is visible here?
+2. What kind of decline or constraint is visible here?
+3. What institutions shaped this place?
+4. Who would have to act for this place to change?
+
+The strongest videos will not simply say "this place is good" or "this place is bad." They will show how a place carries history, incentives, rules, public investment, private choices, and lived experience at the same time.
+
+::: {.instructor}
+Possible board structure for the showcase: create four columns - visible progress, visible constraint, key institution, unanswered question. Add one row per group. End by asking whether the class's map of Baltimore looks more like a comeback story, a decline story, or a capacity story.
+:::
+
+## Review Cards
+
+Work through these cards now, then Orbit will schedule them for review over the coming weeks.
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="Why can a city become more attractive downtown while still becoming poorer overall?"
+    answer="Downtown redevelopment can concentrate investment in visible, visitor-facing places while population loss, job loss, segregation, and fiscal stress continue in neighborhoods.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is a civic diagnosis?"
+    answer="A civic diagnosis is an account of a city's central problems, their causes, and the choices available for addressing them. It shapes what leaders and residents treat as urgent.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why does spatial inequality matter for measuring urban progress?"
+    answer="Because citywide averages can hide large differences across neighborhoods. Progress may be real in one part of a city while decline or exclusion persists elsewhere.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What does the Inner Harbor illustrate about urban reinvention?"
+    answer="It shows that cities can coordinate major redevelopment and change their public image, but also that visible redevelopment does not automatically solve deeper neighborhood problems.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is governing capacity in a city?"
+    answer="Governing capacity is the ability of public institutions to set priorities, use information, coordinate across departments and partners, execute policies, and learn from results.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why is a falling homicide rate not self-explanatory?"
+    answer="It needs an explanation: the decline could reflect national trends, local policies, community work, policing changes, data systems, demographic shifts, or some combination of these.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="How does Baltimore connect to the Silicon Valley session?"
+    answer="Both sessions ask why places differ. Silicon Valley focuses on innovation clusters; Baltimore asks how urban institutions, segregation, investment, and governing capacity shape local progress.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What question should you bring to the Baltimore video showcase?"
+    answer="Bring a question that connects a specific place to a larger mechanism: history, institutions, investment, segregation, public capacity, or incentives.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
+
+## Connections
+
+**Builds on:** [Session 8](session08-silicon-valley-agglomeration.html) treated regions as systems of knowledge, finance, labor, and institutions. Baltimore asks how those systems work in a city shaped by industrial decline, segregation, and uneven public capacity.
+
+**Sets up:** [Session 10](session10-liberty-property-rights.html) turns from city evidence to institutions more generally: rules, property rights, outside options, and the conditions under which freedom and progress reinforce each other.
+
+::: {.instructor}
+**Arc note:** This is the pivot from "where does progress happen?" to "who benefits, and through what institutions?" It also gives the Baltimore video project intellectual footing before the later BMI visit and inequality/race sessions.
+:::
+
+## Reading Guide
+
+### Required
+
+**Szanton, Peter L.** *Baltimore 2000: A Choice of Futures.* Morris Goldseker Foundation, 1986. Introduction, Preface, and Chapter I. [PDF](https://goldsekerfoundation.org/wp-content/uploads/2026/01/Baltimore-2000-Report.pdf).
+
+> **What to look for:** Read this as a civic diagnosis written before the future was known. What did the report treat as the key trends from 1960 to 1985? Which problems looked structural, and which looked open to choice?
+>
+> **Key argument:** Baltimore's future was not fixed, but its choices were constrained by demographic change, economic restructuring, fiscal pressure, and social division.
+>
+> **Bring to class:** One diagnosis from Chapter I that still seems relevant, and one that feels historically distant.
+
+**Hiss, Anthony.** "Reinventing Baltimore." *The New Yorker*, April 29, 1991. [JHU Library link](http://proxy.library.jhu.edu/login?url=https://www.newyorker.com/magazine/1991/04/29/reinventing-baltimore).
+
+> **What to look for:** Notice the contrast between the city as a national model of reinvention and the city as a place still struggling with poverty, segregation, population loss, drugs, crime, schools, and neighborhood decline.
+>
+> **Key argument:** Baltimore's comeback was real but incomplete; the deeper test was whether reinvention could move beyond downtown and create realistic hope across the city.
+>
+> **Bring to class:** One passage or example that captures the difference between visible progress and shared progress.
+
+**The New York Times.** "Baltimore's Historic Decline in Murders." August 17, 2026. [JHU Library link](http://proxy.library.jhu.edu/login?url=https://www.nytimes.com/2026/08/17/us/baltimore-historic-decline-murder-homicide.html).
+
+> **What to look for:** Treat this as a contemporary claim about change. What evidence is offered for the decline? What explanations are suggested? What remains uncertain?
+>
+> **Key argument:** Baltimore's recent public-safety improvement may mark a major shift, but students should ask how much reflects local strategy, national trends, and durable governing capacity.
+>
+> **Bring to class:** One explanation for the homicide decline that you find plausible, and one alternative explanation you would want to test.
+
+### Recommended
+
+**Ruiz, Santi.** "How to Rewire City Hall." *Statecraft*, February 13, 2026.
+
+> Adds the municipal-capacity lens: mayors, data systems, learning routines, innovation teams, and the challenge of making city hall a problem-solving organization.
+
+**Odd Lots.** "How Baltimore's Mayor Is Fighting the City's Vacant Housing Crisis." Bloomberg, May 4, 2026.
+
+> Adds the vacancy and housing lens, with Mayor Brandon Scott discussing redlining, deindustrialization, violence, and block-by-block strategy.
+
+**Urban Institute.** "The Black Butterfly": Racial Segregation and Investment Patterns in Baltimore, 2019.
+
+> Adds the visual geography of unequal investment: the White L / Black Butterfly pattern that helps explain why citywide progress can be uneven.
+
+**Cassie, Ron.** "The Last Autoworker in Baltimore." *Baltimore Magazine*, 2018.
+
+> Adds the worker-level deindustrialization story: what industrial decline feels like when a manufacturing job, workplace, and way of life disappear.
+
+::: {.instructor}
+**Teaching note on readings:** If time is short, prioritize Hiss plus the NYT piece in class discussion. Use Szanton to frame the older civic diagnosis, then ask whether the NYT piece describes a different kind of public capacity or another partial comeback story. The recommended pieces each add one lens: management, vacancy, spatial inequality, and deindustrialization.
+:::
