@@ -11,7 +11,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
 <table style="width:100%; border-collapse:collapse; font-family:var(--font-sans); font-size:0.85rem;">
   <thead>
     <tr style="border-bottom:2px solid var(--accent);">
-      <th style="text-align:left; padding:8px 16px 8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; white-space:nowrap;">#</th>
+      <th style="text-align:left; padding:8px 16px 8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; white-space:nowrap;">Session number</th>
       <th style="text-align:left; padding:8px 16px 8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase;">Session title</th>
       <th style="text-align:left; padding:8px 0; color:var(--ink-mid); font-size:0.72rem; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; white-space:nowrap;">Date</th>
     </tr>
