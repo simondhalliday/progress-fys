@@ -1,7 +1,7 @@
 ---
 title: "Science as a Public Good"
 subtitle: "Session 5 · Tue Sep 15"
-description: "Why markets underprovide basic research, how scientific norms solve part of the problem, and why public funding became central to modern science."
+description: "Why do markets tend to underprovide basic research, and which institutions help societies capture its wider benefits?"
 order: 5
 ---
 
@@ -13,36 +13,36 @@ The problem was nitrogen. Crops need it to grow. Until the late nineteenth centu
 
 Then he said something unexpected. He did not call for population controls or rationing. He called for chemistry. Nitrogen makes up 78 percent of the atmosphere, he pointed out. If someone could find a way to fix atmospheric nitrogen into a form that plants could use, the crisis would be averted. He was describing, without knowing it, a problem that would define the next half-century of industrial chemistry.
 
-Fourteen years later, the German chemist Fritz Haber and industrialist Carl Bosch had done it. Their process for synthesizing ammonia from nitrogen and hydrogen, the Haber-Bosch process, is now one of the most important industrial processes in the world. It consumes roughly 1 percent of global energy. Without it, roughly half the people alive today could not be fed. Haber won the Nobel Prize in Chemistry in 1918. Bosch won it in 1931.
+Over the next fifteen years, scientists and firms pursued several routes to nitrogen fixation. Fritz Haber developed a workable laboratory-scale ammonia process at the Technical University of Karlsruhe. Carl Bosch and a large BASF team then solved the different problems of catalysts, high-pressure equipment, materials, and factory-scale production. BASF's first ammonia plant began operating in 1913. The result became one of the most important industrial processes in the world.
 
-Here is the question this session is about: **Why didn't a private company solve this problem before Haber?**
+**Here is the question this session is about: why did solving the nitrogen problem require both scientific knowledge and industrial capability—and what does that combination reveal about science as a public good?**
 
-The nitrogen crisis was well-known by the 1870s. The financial returns to solving it would have been enormous. Private firms had every incentive to invest in the research. And yet, for decades, nothing happened. It took a publicly funded chemist working at a German university, supported by government research infrastructure, to crack it.
+The Haber–Bosch story is not a simple victory of government over markets, or markets over government. It is a story about different stages of innovation. University research helped establish knowledge that others could build on; a private firm supplied the capital, engineering, and production knowledge needed to turn a laboratory result into fertilizer at scale. The combination matters because basic knowledge and commercial application create different benefits and different incentives.
 
 To understand why, we need to look more carefully at what kind of thing scientific knowledge is.
 
 ::: {.instructor}
-Spend 5 minutes on the Crookes story before revealing that Haber solved it. Let students sit with the question "why didn't a private company do this?" — write it on the board and come back to it after the public goods framework. This story sets up the entire session.
+Spend five minutes on the Crookes story before revealing the division of labor between Haber and Bosch. Put two columns on the board—"knowledge" and "scale"—and ask what kind of institution is well placed to supply each. Return to the columns after the public-goods framework.
 
 Connection to Crawford's "Solutionism" (Module 5 reading): Crookes is the archetype of what Crawford calls a solutionist — pessimistic about the problem, optimistic about the solution. Worth flagging briefly.
 :::
 
 ## What kind of thing is knowledge?
 
-Consider two objects. The first is a bag of nitrogen fertilizer. If you spread it on your field, your neighbor cannot spread that same fertilizer on theirs. Economists say fertilizer is **[rival]{.term data-example="A bag of fertilizer: if you use it, it is gone. One person's use reduces what is available for others."}**: one person's use reduces what is available for others.
+Consider two objects. The first is a bag of nitrogen fertilizer. If you spread it on your field, your neighbor cannot spread that same fertilizer on theirs. Economists say fertilizer is [**rival**]{.term data-example="A bag of fertilizer: if you use it, it is gone. One person's use reduces what is available for others."}: one person's use reduces what is available for others.
 
-Now consider the knowledge of *how to make* nitrogen fertilizer — the Haber-Bosch process. Once Haber published his results, every chemist in the world could study them. Carl Bosch's industrial scale-up at BASF drew on Haber's published findings. Every fertilizer plant built since has drawn on the same knowledge. Haber's use of the idea did not reduce Bosch's, or anyone else's. Knowledge is [**nonrival**]{.term data-example="The Haber-Bosch process: Haber's discovery could be studied and used by every chemist simultaneously. His use of the idea did not reduce anyone else's access to it."}.
+Now consider the chemical knowledge behind ammonia synthesis. Haber's use of that knowledge did not leave less for Bosch or for later chemists. Knowledge is [**nonrival**]{.term data-example="A chemical principle can be studied and used by many researchers at the same time. One person's use does not deplete it, unlike a bag of fertilizer."}.
 
-Knowledge is also often [**nonexcludable**]{.term data-example="Once Haber published his findings, it was very hard for BASF to prevent other firms from learning and adapting the chemistry. Publication makes exclusion nearly impossible."}. Once a discovery is published (and the norms of science strongly push toward publication), it is very hard to stop others from building on it. You cannot un-read a paper.
+Knowledge is also often [**nonexcludable**]{.term data-example="Once a scientific result is openly published, it is difficult to prevent other researchers from learning and building on it."}. Once a discovery is published—and the norms of science strongly encourage publication—it is difficult to stop others from building on it. Patents and secrecy can make some applied knowledge excludable, but fundamental results are usually harder to contain.
 
 Together, these features make scientific knowledge a [**public good**]{.term data-example="Basic scientific knowledge: nonrival (your understanding of nitrogen chemistry doesn't reduce mine) and largely nonexcludable (once published, very hard to restrict access). This is exactly why [**markets**]{.term} tend to underprovide it."}: nonrival and nonexcludable. And this creates a fundamental economic problem.
 
 > If you cannot capture the full benefits of producing something, you will tend to produce too little of it.
 
-This is why private firms underinvested in nitrogen chemistry for decades. The expected return to any single firm was far less than the social value of the discovery, because most of that value would immediately spill over to competitors, farmers, consumers, and governments worldwide. [**Basic research**]{.term data-example="Haber's chemistry was basic research — theoretical work on nitrogen fixation with no guaranteed commercial application. Its value only became clear years later, and far exceeded what any single funder could capture."} is especially prone to this problem: the gap between the private return and the social return is widest precisely because the knowledge is most fundamental and most freely shared.
+This is Nelson's central mechanism. [**Basic research**]{.term data-example="Research into fundamental chemical relationships can create value for many later users even when no single funder can foresee or capture all of the applications."} is especially prone to underinvestment because the gap between its private return and its social return can be large. Firms may still fund research when patents, secrecy, complementary assets, or first-mover advantages let them capture enough of the benefit. The theory predicts underprovision, not zero private research.
 
 ::: {.discuss}
-Haber-Bosch was eventually developed by a private company (BASF), not directly by government. Does that contradict the public goods argument? What conditions allowed a private firm to succeed where others hadn't, and what does that tell us about *when* markets can and cannot solve the problem?
+Haber–Bosch joined university chemistry to private industrial engineering. Which parts of the process created benefits BASF could capture, and which parts created spillovers for other researchers, firms, farmers, and consumers?
 :::
 
 ```{=html}
@@ -58,7 +58,7 @@ Haber-Bosch was eventually developed by a private company (BASF), not directly b
 ```
 
 ::: {.instructor}
-Common confusion here: students often think "BASF did it, so markets work." The nuance is that BASF benefited from Haber's publicly-funded university research, from government-funded infrastructure, and from the wartime industrial mobilization context. The public goods problem explains underinvestment in early-stage research, not in commercial scale-up ([**applied research**]{.term data-example="BASF's scale-up of Haber's chemistry into industrial ammonia production — taking existing basic knowledge and engineering it into a manufacturable product."}). Nelson (1959) is precise on this distinction.
+Avoid presenting Haber–Bosch as a clean public-versus-private test. Its teaching value is the division of labor: scientific findings can spill over widely, while [**applied research**]{.term data-example="BASF's scale-up of Haber's chemistry into industrial ammonia production—turning a laboratory method into a manufacturable product."}, specialized equipment, and production know-how may be easier for a firm to appropriate. Nelson's prediction is underinvestment in basic research relative to its social value, not the absence of industrial research.
 :::
 
 ## What [**institutions**]{.term data-example="The NSF and NIH are institutions — formal rules and organizations created specifically because markets failed to fund basic research. Bush's 1945 report was an argument for building them."} filled the gap?
@@ -67,7 +67,7 @@ If markets underprovide [**basic research**]{.term}, two kinds of institutions h
 
 The public funding story in the United States traces directly to Vannevar Bush's 1945 report, *Science, The Endless Frontier*. Bush had overseen American wartime science (radar, the Manhattan Project, penicillin production) and had seen what organized scientific effort could do. Writing to President Truman in July 1945, he made a simple argument: the same logic that justified wartime investment in science applied in peacetime. The benefits of basic research, in health, security, and [**economic growth**]{.term data-example="Haber-Bosch fertilizer enabled agricultural yields that now feed roughly half the world's population — a transformation in living standards driven by a single breakthrough in basic chemistry."}, were so large and so diffuse that private actors could never capture enough of them to justify the investment. Government had to step in.
 
-Bush's report led, eventually, to the creation of the **National Science Foundation** in 1950 and the major expansion of the **National Institutes of Health**. The pattern it established, government funding of investigator-led basic research carried out mainly at universities, shaped American science for the next seventy-five years.
+Bush's report became a central blueprint for the **National Science Foundation**, created in 1950 after five years of political debate. During the same postwar period, the federal research system also expanded through agencies including the **National Institutes of Health**. Government funding of investigator-led research carried out mainly at universities became a defining feature of American science.
 
 But public funding alone doesn't explain how science works. Scientific research is not centrally planned. No government agency decides what questions chemists or physicists should ask. So how does a decentralized system of researchers, scattered across thousands of institutions, manage to produce cumulative, reliable knowledge?
 
@@ -87,26 +87,26 @@ Key institutional timeline for class:
 - DARPA (as ARPA): February 1958, response to Sputnik — a fundamentally different model
 :::
 
-## How much do governments actually spend?
+## How much do societies spend on research?
 
-The chart below shows government and private R&D expenditure as a share of GDP across major economies since the mid-1990s. Notice how the United States, Japan, South Korea, and Germany cluster around 2–3 percent, while the post-Sputnik surge in US spending — which peaked around 1964 at nearly 2 percent of GDP from federal sources alone — is not captured in data this recent.
+The chart below shows total research and development expenditure as a share of GDP. It combines public and private spending on basic research, applied research, and experimental development. That makes it useful for comparing the overall scale of national research systems, but it cannot by itself tell us whether a country is solving Nelson's public-goods problem.
 
 <iframe src="https://ourworldindata.org/grapher/research-spending-gdp" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
 
-*Source: UNESCO UIS / World Bank via Our World in Data (2026). Requires an internet connection to render. Note: this chart shows total R&D (public + private). The public-private split varies significantly — the US federal share has declined from ~65% of total R&D in 1960 to around 20% today.*
+*Source: UNESCO UIS, via the World Bank and Our World in Data. Spending includes public and private current and capital expenditures on basic research, applied research, and experimental development. Requires an internet connection to render.*
 
 ::: {.instructor}
-Two things to draw out from the chart: (1) the cross-country variation — South Korea and China have increased rapidly, while US federal R&D as a share of GDP has actually fallen since the 1960s; (2) the public/private mix matters as much as the total — a country could have high total R&D but most of it in commercial development rather than basic research. The Nelson public goods argument applies specifically to basic research, not to the total.
+Draw out two things: (1) countries devote very different shares of national output to research; (2) the public/private mix and the basic/applied mix matter as much as the total. A country can report high R&D spending while directing little of it toward basic research. The chart is context, not a direct test of Nelson's argument.
 :::
 
 ## Connections
 
-**Builds on:** The public goods framework introduced here runs directly from the discussion of externalities and market failures that students encounter in the UOE readings (Week 1–2). Knowledge spillovers are the clearest example of a positive [**externality**]{.term data-example="When Haber published his nitrogen fixation findings, the benefits flowed to every chemist, fertilizer firm, and farmer worldwide — none of whom paid for the research. That uncompensated benefit to others is the externality."} that markets undersupply.
+**Builds on:** [Session 4](session04-great-enrichment.html) showed how innovation rents can motivate firms to search for better products and processes. Session 5 examines the limit of that mechanism: when knowledge spills over, the social return can exceed the return any one firm can capture.
 
 **Sets up:** [Session 6](session06-innovation-incentives-technology.html) asks what happens once societies build research systems and still discover that each new idea may be harder to find. The DARPA session in Module 4 later asks whether mission-driven science does better than the Bush model.
 
 ::: {.instructor}
-**Arc note:** This session is the economic foundation for two later arguments the course makes. First, that science policy choices have large, long-run consequences (Module 4). Second, that the right response to a resource constraint or [**market failure**]{.term data-example="Decades without private investment in nitrogen fixation, despite enormous potential returns — private firms couldn't capture enough of the social benefit to justify the cost. That gap is the market failure Bush's report was designed to fix."} is institutional design, not despair (Module 5 — Crawford's solutionism is exactly the attitude Vannevar Bush embodied). Students who leave without grasping the public goods argument will struggle to engage with both those later discussions.
+**Arc note:** This session is the economic foundation for two later arguments: science-policy choices have large, long-run consequences, and a [**market failure**]{.term data-example="When research creates benefits that its funder cannot capture, private investment can fall below the socially desirable level."} is a problem of institutional design rather than a reason for despair. Students should leave able to distinguish the case for public support of basic knowledge from the role firms play in applied research and scale-up.
 :::
 
 ```{=html}
@@ -154,8 +154,8 @@ Work through these cards now, then Orbit will schedule them for review over the 
   </orbit-prompt>
 
   <orbit-prompt
-    question="Why did private firms underinvest in nitrogen fixation research before Haber, even though the financial returns would have been enormous?"
-    answer="Because the knowledge of how to fix nitrogen, once discovered, would immediately spill over to competitors, farmers, consumers, and governments worldwide. The private return to any single firm was far less than the social return — the classic market failure from positive externalities.">
+    question="What division of labor does the Haber–Bosch case illustrate?"
+    answer="Haber established a laboratory-scale scientific method; Bosch and BASF supplied the engineering, capital, materials, and production knowledge needed to make it work at industrial scale.">
   </orbit-prompt>
 
   <orbit-prompt
@@ -185,7 +185,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 ### Required
 
-**Nelson, Richard R.** "The Simple Economics of Basic Scientific Research." *Journal of Political Economy* 67, no. 3 (1959): 297–306.
+**Nelson, Richard R.** ["The Simple Economics of Basic Scientific Research."](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1086/258177) *Journal of Political Economy* 67, no. 3 (1959): 297–306.
 
 > **What to look for:** Nelson makes a tight economic argument in ten pages. Track the logical structure: (1) basic research produces knowledge; (2) knowledge has public good properties; (3) therefore markets underprovide it; (4) therefore universities and government fill the gap. Does each step hold?
 >
@@ -193,7 +193,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Bring to class:** Nelson was writing in 1959, a year after Sputnik and during the height of Cold War science funding. Does his argument depend on that context — or is it timeless?
 
-**Bush, Vannevar.** *Science, The Endless Frontier* (1945). Transmittal letter + Chapter 3, "The Importance of Basic Research" (~8 pp.). [Free at nsf.gov](https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm)
+**Bush, Vannevar.** *Science, The Endless Frontier* (1945). Transmittal letter + Chapter 3, "Science and the Public Welfare" (9 pp.). [Free at nsf.gov](https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm)
 
 > **What to look for:** Bush is making a policy argument to a president, not a theoretical argument to economists. Notice how he grounds the case for public funding in concrete wartime examples before pivoting to peacetime. What does he assume about how science works?
 >
@@ -203,22 +203,30 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 ### Recommended
 
-**Dasgupta, Partha, and Paul A. David.** "Toward a New Economics of Science." *Research Policy* 23, no. 5 (1994): 487–521.
+**Dasgupta, Partha, and Paul A. David.** ["Toward a New Economics of Science."](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1016/0048-7333(94)01002-1) *Research Policy* 23, no. 5 (1994): 487–521.
 
 > Pages 487–497 give the fullest economic account of why open science norms (publish, don't hoard) are themselves a collective solution to the public goods problem. Goes deeper than Nelson on the incentive structure of the scientific community.
 
-**Romer, Paul M.** "The Origins of Endogenous Growth." *Journal of Economic Perspectives* 8, no. 1 (1994): 3–22.
+**Romer, Paul M.** ["The Origins of Endogenous Growth."](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/jep.8.1.3) *Journal of Economic Perspectives* 8, no. 1 (1994): 3–22.
 
 > Connects the public goods argument in Nelson to the broader growth theory literature. Explains why non-rival ideas are at the heart of long-run economic growth. No technical prerequisites — written for a general economics audience.
 
-**Polanyi, Michael.** "The Republic of Science: Its Political and Economic Theory." *Minerva* 1, no. 1 (1962): 54–73. [PDF via library]
+**Polanyi, Michael.** ["The Republic of Science: Its Political and Economic Theory."](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1007/BF01101453) *Minerva* 1, no. 1 (1962): 54–73.
 
 > The philosophical complement to Nelson. Polanyi argues science is a spontaneous order — analogous to a market — governed by mutual adjustment rather than central direction. Read alongside Nelson to see how the economic and sociological accounts of science connect.
 
-**Mastroianni, Adam.** "The Rise and Fall of Peer Review." *Experimental History* (2022). [experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review](https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review)
+**Mastroianni, Adam.** ["The Rise and Fall of Peer Review"](https://www.experimental-history.com/p/the-rise-and-fall-of-peer-review). *Experimental History* (2022).
 
-> A brisk, provocative read asking whether peer review — the mechanism Polanyi calls scientific self-governance — actually works. Good for students who engage quickly with the required readings and want a contemporary provocation. [Verify URL before semester.]
+> A brisk, provocative read asking whether peer review—the mechanism Polanyi calls scientific self-governance—actually works. Good for students who want a contemporary challenge to the standard account.
+
+**Crawford, Jason.** ["Innovation is not linear"](https://worksinprogress.co/issue/innovation-is-not-linear/). *Works in Progress* (2020).
+
+> A useful corrective to the simple pipeline story in which basic science automatically becomes applied technology. Crawford helps students see innovation as reciprocal: practical problems can generate scientific questions, tools can reshape theory, and invention often moves back and forth between use and understanding.
+
+**Gross, Daniel P., and Bhaven N. Sampat.** ["America, Jump-Started: World War II R&D and the Takeoff of the U.S. Innovation System."](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/aer.20221365) *American Economic Review* 113, no. 12 (2023): 3323–3356.
+
+> Historical evidence that wartime R&D changed the geography and organization of American innovation. It adds an empirical institutional case to Bush's policy argument.
 
 ::: {.instructor}
-**Teaching note on readings:** Nelson and Bush are doing different things — Nelson builds the theoretical case, Bush makes the policy argument. Use the first session (Tue Sep 15) for Nelson and the public goods framework, and the second session (Thu Sep 17) for Bush and the institutional history. The contrast between them is productive: Nelson says *why* markets fail; Bush says *what we should do about it*. The Dasgupta & David recommended reading bridges them.
+**Teaching note on readings:** Nelson and Bush are doing different things — Nelson builds the theoretical case, Bush makes the policy argument. Use the first session (Tue Sep 15) for Nelson and the public goods framework, and the second session (Thu Sep 17) for Bush and the institutional history. The contrast between them is productive: Nelson says *why* markets fail; Bush says *what we should do about it*. Crawford is the best recommended reading if you want to complicate Bush's linear model without adding another academic article; Dasgupta & David bridges the economic and sociological accounts of science.
 :::

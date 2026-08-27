@@ -1,80 +1,201 @@
 ---
 title: "Introduction: Why Progress?"
 subtitle: "Session 1 · Tue Sep 1"
-description: "Course overview, introductions, and the opening reflection: what do you think the world's biggest unsolved problem is, and why?"
+description: "How can we see and defend human progress without overlooking its costs, risks, and unfinished work?"
 order: 1
 ---
 
-## What this course is about
+## An ordinary morning
 
-This is a course about one of the most important questions in economics and social science: why do extraordinary improvements in human welfare happen in some times and places and not others? And what threatens them?
+Imagine the first hour of an ordinary day at Hopkins. You wake in a heated or cooled room. Clean water arrives when you turn a handle. A small device tells you the weather, carries messages across continents, and gives you access to more books and music than any palace once held. Food has crossed farms, factories, warehouses, and roads to reach a nearby dining hall or shop.
 
-We will spend the semester examining the origins of progress — the Industrial Revolution, the institutions that sustain innovation, the cities that concentrate it, the individuals who drive it, and the risks that could reverse it. We draw on economics, history, philosophy, and data.
+You may notice none of this. That is partly because the systems work. Their success lets the old problems—unsafe water, unreliable light, scarce food, isolation, untreated infection—fade from view.
 
-## Session structure
+Jordan Dworkin's [*Ordinary Abundance*](https://ordinaryabundance.com/) turns a modern apartment into a gallery of once-astonishing achievements. Jason Crawford gives the phenomenon a name: we are like fish that do not notice the water in which they swim.
 
-This first session is organized around introductions and a writing exercise, not a lecture. Come prepared to meet your classmates and to think out loud about big questions.
+But noticing progress is not the same as claiming that everything is good, that gains are shared fairly, or that new technologies are harmless. It gives us a harder question.
+
+**Here is the question this session is about: how can we see and defend human progress without overlooking its costs, risks, and unfinished work?**
 
 ::: {.instructor}
-**Logistics for Session 1:**
-- Take attendance and confirm enrollment
-- Brief course overview (10 minutes): what we cover, how it works, what the assignments are
-- Introductions in pairs: name, where you're from, one reason you chose this seminar (5–10 minutes)
-- Opening reflection (25–30 minutes): in-class writing, then small-group share-out
-- Course housekeeping: Baltimore Video groups assigned by Thursday; site choices confirmed by end of first week
-
-The opening reflection is the first graded assignment. Students keep it — they'll revisit it in the closing reflection at the end of the semester.
+Open with a quick inventory: ask students to name everything that had to work for them to arrive in Shriver Hall this morning. Keep tracing answers backward—from phone to grid, breakfast to logistics, tap water to public infrastructure—until the hidden systems become visible.
 :::
 
-## Opening reflection
+## Before class: get on track
 
-In class today you will write a short reflection — about one page, handwritten or typed — in response to this prompt:
+Complete these three steps before Tuesday's meeting:
+
+1. Read Jason Crawford's ["The Present Crisis"](https://blog.rootsofprogress.org/thm-introduction-the-present-crisis) and ["Fish in Water"](https://blog.rootsofprogress.org/thm-ch1-fish-in-water).
+2. Explore Jordan Dworkin's [*Ordinary Abundance*](https://ordinaryabundance.com/). Choose one object or service and trace a three-link chain: **invention → infrastructure → institution**.
+3. Bring two annotations: one Crawford claim you find persuasive or provocative, and one claim you want to question.
+
+Bring the printed readings and something to write with. This is a device-free seminar unless you are asked to use a device for a particular activity.
+
+You do **not** need to prepare a polished answer to the reflection question below. The point of the in-class free-write is to record where your thinking stands at the beginning of the course.
+
+## Progress becomes invisible when it works
+
+In ["Fish in Water"](https://blog.rootsofprogress.org/thm-ch1-fish-in-water), Crawford asks us to notice how industrial civilization has changed the baseline of ordinary life. Clean water, electric light, refrigeration, antibiotics, recorded music, rapid travel, and instant communication are not natural features of the world. Each is the outcome of accumulated knowledge, coordinated labor, physical infrastructure, and institutions that maintain it.
+
+The success of these systems creates a paradox. We tend to notice them most when they fail: during a blackout, a boil-water advisory, an empty shelf, or a Wi-Fi outage. When they work, the solved problem and the solution both recede into the background.
+
+> Progress can become hardest to see precisely when it has made life easiest to take for granted.
+
+::: {.discuss}
+Use your object from *Ordinary Abundance*. What problem did it solve? What hidden system keeps it available? Who might still lack reliable access to it?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">What is Crawford's central point in “Fish in Water”?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Crawford argues that many ordinary technologies are historically extraordinary, not that technology has made daily life more difficult overall.">Modern technology has made ordinary life more difficult than life in the past.</li>
+    <li data-correct="true" data-fb="Correct. When technologies and systems solve everyday problems reliably, both the solutions and the old problems become easy to overlook.">Industrial civilization's success makes its achievements and the problems they solved fade from awareness.</li>
+    <li data-correct="false" data-fb="The essay emphasizes the networks of invention, production, and infrastructure behind ordinary goods, not isolated inventors working alone.">Most useful technologies were created by lone inventors without supporting systems.</li>
+    <li data-correct="false" data-fb="Crawford celebrates past gains but ends by arguing that each generation should extend them rather than stop innovating.">Because modern life is abundant, society has no important problems left to solve.</li>
+  </ol>
+</div>
+```
+
+## Progress needs both defense and criticism
+
+["The Present Crisis"](https://blog.rootsofprogress.org/thm-introduction-the-present-crisis) begins from a second paradox: humanity has extraordinary scientific and technological power, yet many people distrust progress or doubt that a better future is possible. Crawford worries that a society unable to imagine improvement will become less willing to build, experiment, invest, and solve problems.
+
+His argument is not simply “technology is good, so stop worrying.” He rejects complacency about genuine harms and risks. He also rejects the idea that acceleration is valuable for its own sake. His proposed standard is humanistic: judge science, technology, and industry by whether they expand human life, well-being, and agency.
+
+That standard is a starting point for debate, not the course's settled answer. We will ask throughout the semester: progress in what, measured how, produced by which institutions, distributed to whom, and at what cost?
+
+> Defending progress means taking responsibility for extending its benefits and solving the problems it creates—not denying that those problems exist.
+
+::: {.discuss}
+Which is the greater danger: becoming so pessimistic that society stops trying to improve, or becoming so optimistic that it ignores harms and unequal access? What evidence would help you judge?
+:::
+
+```{=html}
+<div class="quiz">
+  <p class="quiz-q">Which statement best captures Crawford's position in “The Present Crisis”?</p>
+  <ol class="quiz-opts">
+    <li data-correct="false" data-fb="Crawford explicitly treats technological risks as real and argues that progress requires solving problems rather than dismissing them.">Any concern about technological risk is irrational pessimism.</li>
+    <li data-correct="false" data-fb="Crawford criticizes accelerationism because it treats an impersonal process as the goal instead of human flourishing and agency.">Technological acceleration is valuable regardless of its effects on people.</li>
+    <li data-correct="true" data-fb="Correct. Crawford defends progress using human life, well-being, and agency as the standard, while acknowledging real costs and risks.">Science, technology, and industry should be judged by whether they advance human flourishing and agency.</li>
+    <li data-correct="false" data-fb="Crawford's argument depends on intentional investment, institution-building, and cultural support; he does not present progress as automatic.">Once a society becomes wealthy, progress continues automatically.</li>
+  </ol>
+</div>
+```
+
+## Main reflection question
+
+At the start of class, you will complete a short, ungraded free-write in response to one question:
 
 > **What do you think the world's biggest unsolved problem is, and why?**
 
-There is no right answer. The goal is to record your current thinking before the course shapes it. You will return to this reflection in our last session (December 10) and write a closing response: how has your thinking changed?
+There is no preferred topic and no “progress studies” answer you are expected to give. Name the problem as precisely as you can. Explain why it matters, whom it affects, and what makes it difficult to solve.
+
+This opening piece is a baseline, not a prediction you must defend all semester. Your instructor will return it to you in the final class. You will then write a 400–600 word closing reflection asking what changed, what did not, and what the course helped you see differently.
 
 ::: {.instructor}
-Give students 20–25 minutes of quiet writing time. Resist the urge to discuss beforehand — you want their unprimed instincts, not their first attempt at the course's answer.
+**Suggested 75-minute sequence**
 
-After writing, ask 3–4 students to share in one sentence what problem they named. Don't evaluate or correct. Just note the range. Common answers: climate change, inequality, political polarization, AI, poverty, mental health. All of these will come up during the semester.
+- Opening reflection, before course overview or seminar discussion (20 minutes)
+- Pair introductions and one-sentence share-out from the reflection (10 minutes)
+- Ordinary-morning systems inventory (10 minutes)
+- Crawford and Dworkin discussion in small groups, then whole class (20 minutes)
+- Course arc, assignments, and device/reading practices (10 minutes)
+- Exit check and Session 2 preparation (5 minutes)
 
-Close with a single framing question: "By the end of this course, I hope some of you will have changed your answer — not because you were wrong, but because you understand the question differently."
+Collect the opening free-writes for return in Session 27. Describe the opening piece as ungraded; the 10% assignment culminates in the graded closing reflection. Do not evaluate students' chosen problems. Use the range of answers to preview the course's questions.
 :::
 
-## What students around the world say
+## A lens for the semester
 
-You will write your own answer to this question in class today. Before you do, it is worth knowing what students at other universities say when asked the same question.
+When the course makes a claim about progress, test it with three questions:
 
-Since 2021, CORE Econ has posed the same question — *What is the most pressing problem that economists should address?* — to students on the first day of introductory economics courses at universities in the United States, Brazil, the UK, and beyond.
+1. **Achievement:** What human problem became easier to solve, and what evidence shows the change?
+2. **System:** Which ideas, people, infrastructure, incentives, and institutions produced and sustain the gain?
+3. **Frontier:** Who has not benefited, what costs or risks remain, and what should improve next?
 
-```{=html}
-<figure style="margin-block: var(--sp-xl);">
-  <img src="https://core-understanding-our-economy-media.netlify.app//uoe-101/images/web/preface-word-cloud.svg"
-       alt="Word cloud of student responses to 'What is the most pressing problem economists should address?' from universities in the USA, Brazil, and UK, 2024–25. Largest words include inequality, climate change, poverty, and housing."
-       style="width: 100%; border: 1px solid var(--rule); border-radius: 4px;" />
-  <figcaption style="font-family: var(--font-sans); font-size: 0.78rem; color: var(--ink-light); margin-top: var(--sp-sm);">
-    Student responses to "What is the most pressing problem that economists should address?" at universities in the USA, Brazil, and UK, 2024–25. Word size reflects frequency of mention. Source: CORE Econ / <em>Understanding Our Economy</em>.
-  </figcaption>
-</figure>
-```
+This lens avoids two easy mistakes. One is to treat every remaining problem as proof that no progress has occurred. The other is to treat past gains as proof that current arrangements are good enough.
 
-Inequality, climate change, poverty, housing, and inflation appear consistently. Notice what students across very different countries share — and where their concerns diverge. After you write your own answer today, come back to this word cloud and see where yours fits.
-
-::: {.instructor}
-Show the word cloud after students have written their answers, not before — you want their unprimed instincts first. The word cloud is useful for two purposes: (1) it shows students they are part of a larger community of people asking the same questions; (2) it previews the course arc — most of the words that appear prominently will be addressed directly in the course.
-
-Point out that these are *students'* answers, not economists' answers. One goal of the course is to equip students to think about these problems more rigorously — which sometimes means changing the question, not just improving the answer.
+::: {.discuss}
+Apply the three questions to clean running water, a smartphone, or vaccination. Does the result make you more optimistic, more critical, or both?
 :::
 
 ## Connections
 
-**Sets up:** Everything. The opening reflection establishes a baseline that the course will complicate. [Session 2](session02-chimpanzee-test.html) begins the empirical work: are our instincts about the world's biggest problems accurate?
+**Sets up:** [Session 2](session02-chimpanzee-test.html) tests whether our instincts about the state of the world match the evidence. [Session 4](session04-great-enrichment.html) returns to ordinary abundance and asks which economic institutions produced it at scale.
 
 ::: {.instructor}
-**Arc note:** The opening reflection → closing reflection arc is the backbone of the course's personal dimension. Students who engage honestly with both will have a tangible record of intellectual change. Remind them at the start of each module that their opening answer is waiting for them in December.
+**Arc note:** The opening and closing reflections provide the personal spine of the course. The object-system exercise supplies the analytical spine: visible benefit, hidden mechanism, and unfinished frontier. Reuse those three questions whenever students drift toward either unqualified optimism or undifferentiated pessimism.
 :::
+
+## Review cards
+
+Work through these cards now, then Orbit will schedule them for review over the coming weeks.
+
+```{=html}
+<orbit-reviewarea color="orange">
+
+  <orbit-prompt
+    question="Why can successful progress become difficult to notice?"
+    answer="Reliable systems let both their solutions and the old problems fade into the background. We often notice infrastructure only when it fails.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What does Crawford's fish-in-water metaphor describe?"
+    answer="People are immersed in and dependent on industrial civilization while remaining largely unaware of the technologies and systems that support ordinary life.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What humanistic standard does Crawford propose for judging progress?"
+    answer="Judge science, technology, and industry by whether they advance human life, well-being, and agency.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="Why is acknowledging technological risk compatible with defending progress?"
+    answer="Progress requires identifying and solving real problems, not denying them. Risks and costs help determine what responsible improvement should look like.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What three questions form this course's starting lens for progress?"
+    answer="Ask about the achievement, the system that produced and sustains it, and the unfinished frontier of excluded people, costs, risks, and next steps.">
+  </orbit-prompt>
+
+  <orbit-prompt
+    question="What is the purpose of the opening reflection?"
+    answer="It records a baseline of your thinking at the start of the course so you can examine honestly what changed and what did not in the closing reflection.">
+  </orbit-prompt>
+
+</orbit-reviewarea>
+```
 
 ## Reading guide
 
-No reading assigned for Session 1. The first reading (Rosling, *Factfulness*, Introduction + Chapter 1) is assigned for [Session 2](session02-chimpanzee-test.html) (Thu Sep 3).
+### Required
+
+**Crawford, Jason.** ["The Present Crisis"](https://blog.rootsofprogress.org/thm-introduction-the-present-crisis), Introduction to *The Techno-Humanist Manifesto*. *The Roots of Progress*, 2024.
+
+> **What to look for:** Track three positions: pessimism about progress, optimism that dismisses risk, and Crawford's proposed alternative. What does he think each position gets right or wrong?
+>
+> **Key argument:** A society needs a humanistic defense of progress—and confidence that it can shape the future—if it is to keep solving problems rather than drift toward stagnation.
+>
+> **Bring to class:** One claim you find persuasive or provocative and one you want to question.
+
+**Crawford, Jason.** ["Fish in Water"](https://blog.rootsofprogress.org/thm-ch1-fish-in-water), Chapter 1 of *The Techno-Humanist Manifesto*. *The Roots of Progress*, 2024.
+
+> **What to look for:** Notice how Crawford moves from large measures of progress to food, clothing, light, medicine, and communication. Which everyday achievement is easiest for you to overlook?
+>
+> **Key argument:** Industrial civilization has solved many daily problems so reliably that the solutions, the systems behind them, and even the original problems have receded from view.
+>
+> **Bring to class:** One ordinary object, service, or system that now seems more remarkable than it did before the reading.
+
+**Dworkin, Jordan.** [*Ordinary Abundance*](https://ordinaryabundance.com/). Interactive web exhibit.
+
+> **What to look for:** Move slowly through the apartment. For one item, identify the old scarcity or danger it addressed and the hidden network that makes it ordinary today.
+>
+> **Key argument:** A modern home is a gallery of earlier generations' difficult, cumulative achievements, even though familiarity makes those achievements seem commonplace.
+>
+> **Bring to class:** A three-link chain connecting one item to an invention, an infrastructure system, and an institution.
+
+### Next session
+
+For [Session 2](session02-chimpanzee-test.html) on Thursday, read the Introduction and Chapter 1 ("The Gap Instinct") of Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund's *Factfulness*.
