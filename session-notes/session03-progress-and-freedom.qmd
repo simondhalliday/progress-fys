@@ -181,7 +181,7 @@ Note: the life expectancy chart is on the course homepage, so using a different 
 >
 > **Key argument:** Progress is real, dramatic, and largely invisible — because it happens slowly and diffusely, because we romanticize the past, and because the news is structurally biased toward sudden bad events.
 >
-> **Bring to class:** One example of something you believed was getting worse that Rosling's data suggests is actually getting better. What would it take to update your worldview on this?
+> **Prepare to discuss:** One example of something you believed was getting worse that Rosling's data suggests is actually getting better. What would it take to update your worldview on this?
 
 **Sen, Amartya.** *Development as Freedom*, Chapter 2: "The Ends and the Means of Development." Oxford: Oxford University Press, 1999.
 
@@ -189,7 +189,7 @@ Note: the life expectancy chart is on the course homepage, so using a different 
 >
 > **Key argument:** Development is fundamentally about expanding the real freedoms people have to live lives they have reason to value. Income growth is a means, not the end.
 >
-> **Bring to class:** One case from anywhere in the world (or Baltimore) where you think Sen's framework gives a different verdict on development than pure income growth would. What freedom is missing that GDP doesn't capture?
+> **Prepare to discuss:** One case from anywhere in the world (or Baltimore) where you think Sen's framework gives a different verdict on development than pure income growth would. What freedom is missing that GDP doesn't capture?
 
 ::: {.instructor}
 **Teaching note:** The two readings reinforce each other but from different angles. Rosling gives students empirical tools to see progress they were missing; Sen gives them conceptual tools to evaluate whether that progress is the right kind. The productive classroom question is: does anything on Rosling's 32-improvements list *fail* to count as progress under Sen's framework? (Students who think carefully about this realize that some improvements in income or life expectancy might not expand freedom — e.g., longer life in an authoritarian state, or income growth that goes entirely to a tiny elite.)

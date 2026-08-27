@@ -196,7 +196,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Key argument:** Technological progress is shaped by incentives: the possibility of innovation rents, and the institutions that allocate rewards, help determine both the pace and direction of innovation.
 >
-> **Bring to class:** One example of a socially valuable technology that [**markets**]{.term data-example="Venture-backed software may be rewarded quickly when customers can pay and adoption scales fast, while clean-water infrastructure may create benefits that are harder for a firm to capture."} seem to reward strongly, and one that markets seem to under-reward.
+> **Prepare to discuss:** One example of a socially valuable technology that [**markets**]{.term data-example="Venture-backed software may be rewarded quickly when customers can pay and adoption scales fast, while clean-water infrastructure may create benefits that are harder for a firm to capture."} seem to reward strongly, and one that markets seem to under-reward.
 
 **Bloom, Nicholas, Charles I. Jones, John Van Reenen, and Michael Webb.** "Are Ideas Getting Harder to Find?" *American Economic Review* 110, no. 4 (2020): 1104-1144. Read the introduction and conclusion only.
 
@@ -204,7 +204,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Key argument:** Research effort is rising while research productivity is falling; ideas are getting harder to find, so sustained growth requires increasing effort or better institutions for producing ideas.
 >
-> **Bring to class:** The Moore's Law statistic: maintaining the doubling of chip density now requires more than 18 times as many researchers as in the early 1970s. What does that change about how you see technological progress?
+> **Prepare to discuss:** The Moore's Law statistic: maintaining the doubling of chip density now requires more than 18 times as many researchers as in the early 1970s. What does that change about how you see technological progress?
 
 ### Recommended
 

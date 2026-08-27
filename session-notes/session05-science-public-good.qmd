@@ -191,7 +191,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Key argument:** The social returns to basic research systematically exceed private returns because knowledge is nonexcludable — competitors benefit whether or not they paid for the research.
 >
-> **Bring to class:** Nelson was writing in 1959, a year after Sputnik and during the height of Cold War science funding. Does his argument depend on that context — or is it timeless?
+> **Prepare to discuss:** Nelson was writing in 1959, a year after Sputnik and during the height of Cold War science funding. Does his argument depend on that context — or is it timeless?
 
 **Bush, Vannevar.** *Science, The Endless Frontier* (1945). Transmittal letter + Chapter 3, "Science and the Public Welfare" (9 pp.). [Free at nsf.gov](https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm)
 
@@ -199,7 +199,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Key argument:** The benefits of basic research are so broad and so unpredictable that no private actor can capture enough of them to justify the investment — government must act as the funder of last resort.
 >
-> **Bring to class:** Bush says the government should fund science but scientists should choose the questions. Is that the right [**division of labor**]{.term data-example="In Bush's model: government funds basic research (scientists choose the questions), private firms develop applications. NSF funds the curiosity; BASF builds the factory."}? Who should decide what gets studied?
+> **Prepare to discuss:** Bush says the government should fund science but scientists should choose the questions. Is that the right [**division of labor**]{.term data-example="In Bush's model: government funds basic research (scientists choose the questions), private firms develop applications. NSF funds the curiosity; BASF builds the factory."}? Who should decide what gets studied?
 
 ### Recommended
 
