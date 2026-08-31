@@ -1,9 +1,15 @@
 ---
-title: "The Great Enrichment: Capitalism and Transformation"
-subtitle: "Session 4 · Thu Sep 10"
+title: "The Great Enrichment in One City"
+subtitle: "Session 4 · Thu Sep 10 · Tentative BMI field visit"
 description: "Why did sustained economic growth begin around 1800, and which institutions made the Great Enrichment possible?"
 order: 4
 ---
+
+::: {.callout-note}
+## Tentative field visit
+
+This session is preliminarily scheduled at the **Baltimore Museum of Industry**. We will keep the assigned UOE Chapter 3 selections and use museum artifacts to identify the technologies, infrastructure, firms, labor, and public institutions behind Baltimore's industrial transformation. Final travel details will be posted on Canvas.
+:::
 
 ## New York City in the dark
 

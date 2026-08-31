@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Session 1 · Why Progress?</title>
+  <style>
+    :root {
+      --cream: #faf7f2;
+      --paper: #fffdf9;
+      --ink: #1c1812;
+      --muted: #665f55;
+      --accent: #a84a2e;
+      --rule: #d9d0c4;
+      --dark: #191713;
+      --gold: #d7a23b;
+      --pad: clamp(2rem, 5vw, 5rem);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-snap-type: y mandatory; scroll-behavior: auto; }
+    body {
+      margin: 0;
+      background: var(--dark);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      scroll-snap-align: start;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: var(--pad);
+      background: var(--cream);
+    }
+
+    .slide.dark { background: var(--dark); color: var(--cream); }
+    .slide.accent { background: var(--accent); color: #fffaf3; }
+    .slide.chart { background: var(--paper); padding-bottom: 2.2rem; }
+
+    .eyebrow {
+      margin: 0 0 1.1rem;
+      color: var(--accent);
+      font-size: clamp(.82rem, 1.2vw, 1.1rem);
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+    }
+    .dark .eyebrow, .accent .eyebrow { color: var(--gold); }
+
+    h1, h2, h3, .serif {
+      font-family: Georgia, 'Times New Roman', serif;
+    }
+    h1 {
+      margin: 0;
+      max-width: 1100px;
+      font-size: clamp(3.4rem, 8vw, 7.8rem);
+      line-height: .98;
+      font-weight: 400;
+      letter-spacing: -.035em;
+    }
+    h1 em { color: var(--gold); }
+    h2 {
+      margin: 0 0 1.4rem;
+      max-width: 1200px;
+      font-size: clamp(2.6rem, 5.4vw, 5.4rem);
+      line-height: 1.03;
+      font-weight: 500;
+      letter-spacing: -.025em;
+    }
+    h3 {
+      margin: 0 0 .45rem;
+      color: var(--accent);
+      font-size: clamp(1.45rem, 2.4vw, 2.25rem);
+    }
+    p, li {
+      font-size: clamp(1.25rem, 2.25vw, 2.15rem);
+      line-height: 1.38;
+    }
+    p { max-width: 1050px; margin: .45rem 0; }
+    ul, ol { margin: .65rem 0 0; padding-left: 1.25em; max-width: 1120px; }
+    li { margin: .42em 0; padding-left: .18em; }
+    strong { color: var(--accent); }
+    .dark strong, .accent strong { color: var(--gold); }
+
+    .subtitle {
+      margin-top: 1.4rem;
+      max-width: 900px;
+      color: #d7cec1;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(1.35rem, 2.6vw, 2.5rem);
+      line-height: 1.35;
+    }
+    .byline {
+      margin-top: 2.5rem;
+      color: #a89f91;
+      font-size: clamp(1rem, 1.5vw, 1.35rem);
+      letter-spacing: .05em;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(2rem, 5vw, 5.5rem);
+      align-items: start;
+      width: 100%;
+    }
+    .three-col {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(1.4rem, 3vw, 3rem);
+      width: 100%;
+    }
+    .column { border-top: 3px solid var(--accent); padding-top: 1rem; }
+    .dark .column { border-color: var(--gold); }
+    .column p, .column li { font-size: clamp(1.05rem, 1.75vw, 1.68rem); }
+
+    .prompt {
+      max-width: 1200px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(2.25rem, 4.6vw, 4.8rem);
+      line-height: 1.17;
+    }
+    .quote {
+      max-width: 1100px;
+      border-left: 7px solid var(--gold);
+      padding-left: clamp(1.5rem, 3vw, 3rem);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: clamp(2rem, 4vw, 4.1rem);
+      line-height: 1.18;
+    }
+
+    .chart-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(290px, .65fr);
+      gap: clamp(1.4rem, 3vw, 3rem);
+      align-items: center;
+      min-height: 0;
+      flex: 1;
+    }
+    .chart-layout img {
+      width: 100%;
+      height: min(66vh, 650px);
+      object-fit: contain;
+      background: white;
+      border: 1px solid var(--rule);
+    }
+    .chart-note {
+      border-top: 4px solid var(--accent);
+      padding-top: 1rem;
+    }
+    .chart-note p { font-size: clamp(1.05rem, 1.7vw, 1.55rem); }
+    .source {
+      position: absolute;
+      left: var(--pad);
+      right: 9rem;
+      bottom: .75rem;
+      color: #746d63;
+      font-size: clamp(.72rem, 1vw, .95rem);
+    }
+    .source a { color: inherit; }
+
+    .timer {
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .clock {
+      min-width: 5.5ch;
+      font-variant-numeric: tabular-nums;
+      font-size: clamp(3rem, 7vw, 7rem);
+      font-weight: 700;
+      letter-spacing: -.04em;
+    }
+    button {
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      padding: .65rem 1rem;
+      background: transparent;
+      color: inherit;
+      font: 700 1rem/1 Arial, sans-serif;
+      cursor: pointer;
+    }
+    button:hover, button:focus-visible { background: rgba(255,255,255,.12); }
+
+    .footer {
+      position: absolute;
+      bottom: 1.1rem;
+      right: 1.4rem;
+      color: color-mix(in srgb, currentColor 45%, transparent);
+      font-size: .82rem;
+      letter-spacing: .08em;
+    }
+    .nav {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 20;
+      display: flex;
+      gap: .4rem;
+      opacity: .28;
+      transition: opacity .2s;
+    }
+    .nav:hover { opacity: 1; }
+    .nav button {
+      width: 2.3rem;
+      height: 2.3rem;
+      padding: 0;
+      background: rgba(25,23,19,.8);
+      color: white;
+      border: 0;
+    }
+
+    @media (max-width: 820px), (max-height: 620px) {
+      :root { --pad: 1.6rem; }
+      .two-col, .three-col, .chart-layout { grid-template-columns: 1fr; gap: 1rem; }
+      .chart-layout img { height: 48vh; }
+      .column p, .column li { font-size: clamp(.9rem, 2.2vw, 1.2rem); }
+      .source { bottom: .35rem; }
+    }
+
+    @media print {
+      html { scroll-snap-type: none; }
+      .slide { break-after: page; }
+      .nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="slide dark" id="slide-1">
+      <p class="eyebrow">AS.001.219 · Session 1 · September 1, 2026</p>
+      <h1><em>Progress</em></h1>
+      <p class="subtitle">Why now is the best time to be alive<br>(and how we could lose it)</p>
+      <p class="byline">Simon D. Halliday · Johns Hopkins University</p>
+      <div class="footer">1 / 18</div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Your instructor</p>
+      <h2>A few things about me</h2>
+      <div class="two-col">
+        <div class="column">
+          <h3>At Hopkins</h3>
+          <p>Associate Research Professor and Associate Director, Center for Economy and Society, SNF Agora Institute.</p>
+          <p>I help build the new major in Moral and Political Economy.</p>
+        </div>
+        <div class="column">
+          <h3>What I work on</h3>
+          <p>Institutions, fairness, behavioral economics, economic education, data literacy, and open textbooks.</p>
+          <p>I trained in both economics and creative writing—and I care about how evidence and stories work together.</p>
+        </div>
+      </div>
+      <div class="footer">2 / 18</div>
+    </section>
+
+    <section class="slide dark">
+      <p class="eyebrow">The seminar</p>
+      <h2>We will treat “progress” as a live question</h2>
+      <div class="three-col">
+        <div class="column"><h3>What changed?</h3><p>How much better—or worse—has human life become?</p></div>
+        <div class="column"><h3>How?</h3><p>Which ideas, institutions, incentives, and people made change possible?</p></div>
+        <div class="column"><h3>For whom?</h3><p>Who benefited, who paid the costs, and what remains unfinished?</p></div>
+      </div>
+      <div class="footer">3 / 18</div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">How we will work</p>
+      <h2>This is a seminar, not a spectator sport</h2>
+      <ul>
+        <li><strong>Read with a pencil:</strong> mark claims, evidence, surprises, and questions.</li>
+        <li><strong>Disagree generously:</strong> criticize ideas without caricaturing people.</li>
+        <li><strong>Use evidence:</strong> “I think” is a beginning, not an ending.</li>
+        <li><strong>Stay revisable:</strong> changing your mind is evidence that learning happened.</li>
+        <li><strong>Devices away by default:</strong> our attention is part of the shared classroom.</li>
+      </ul>
+      <div class="footer">4 / 18</div>
+    </section>
+
+    <section class="slide accent">
+      <p class="eyebrow">Today</p>
+      <h2>Start with your own question. Then test it against a text and the data.</h2>
+      <ol>
+        <li>Write before we discuss.</li>
+        <li>Practice reading Crawford closely.</li>
+        <li>Compare his claims with long-run evidence.</li>
+        <li>End with a lens we will reuse all semester.</li>
+      </ol>
+      <div class="footer">5 / 18</div>
+    </section>
+
+    <section class="slide dark" id="slide-6">
+      <p class="eyebrow">Opening reflection · 20 minutes</p>
+      <div class="prompt">What do you think the world’s biggest unsolved problem is, and why?</div>
+      <p style="margin-top:1.2rem;color:#d7cec1;">Name it precisely. Explain why it matters, whom it affects, and what makes it hard to solve. This is an ungraded baseline.</p>
+      <div class="timer" data-seconds="1200">
+        <div class="clock">20:00</div>
+        <button class="start">Start</button><button class="reset">Reset</button>
+      </div>
+      <div class="footer">6 / 18</div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Meet someone</p>
+      <h2>Introduce yourself through the problem you chose</h2>
+      <ol>
+        <li>Your name and where you are coming from.</li>
+        <li>The problem you wrote about—in one sentence.</li>
+        <li>One reason you might be wrong, or one thing you need to know more about.</li>
+      </ol>
+      <p style="margin-top:1.4rem;color:var(--muted);">Listen for the problem behind the problem. What does your partner value?</p>
+      <div class="footer">7 / 18</div>
+    </section>
+
+    <section class="slide dark" id="slide-8">
+      <p class="eyebrow">Reading is an activity</p>
+      <h2>Do not begin by highlighting everything</h2>
+      <div class="two-col">
+        <div class="column">
+          <h3>First pass</h3>
+          <ul>
+            <li>What question is the author answering?</li>
+            <li>What is the main claim?</li>
+            <li>Where does the argument turn?</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Second pass</h3>
+          <ul>
+            <li>Which evidence does the work?</li>
+            <li>What assumption is doing hidden work?</li>
+            <li>What would change your judgment?</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer">8 / 18</div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">A simple annotation code</p>
+      <h2>Leave a trail your future self can follow</h2>
+      <div class="three-col">
+        <div class="column"><h3>C</h3><p><strong>Claim</strong><br>What does Crawford want you to believe?</p></div>
+        <div class="column"><h3>E</h3><p><strong>Evidence</strong><br>What observation, example, or fact supports it?</p></div>
+        <div class="column"><h3>Q</h3><p><strong>Question</strong><br>What is unclear, contestable, missing, or consequential?</p></div>
+      </div>
+      <p style="margin-top:1.5rem;color:var(--muted);">At the end of each piece, write a one-sentence summary that begins: “Crawford argues that…”</p>
+      <div class="footer">9 / 18</div>
+    </section>
+
+    <section class="slide accent" id="slide-10">
+      <p class="eyebrow">Silent reading · 18 minutes</p>
+      <h2>Read for argument, not completion</h2>
+      <p>Use C / E / Q. Find one passage you want the group to discuss. If you finish one piece, move to the other.</p>
+      <div class="timer" data-seconds="1080">
+        <div class="clock">18:00</div>
+        <button class="start">Start</button><button class="reset">Reset</button>
+      </div>
+      <div class="footer">10 / 18</div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">In groups of three</p>
+      <h2>Reconstruct Crawford before evaluating him</h2>
+      <ol>
+        <li>Each person shares one sentence: “Crawford argues that…”</li>
+        <li>Choose one passage that best supports the argument.</li>
+        <li>Name one assumption or missing perspective.</li>
+        <li>Decide what you would ask Crawford if he were here.</li>
+      </ol>
+      <div class="footer">11 / 18</div>
+    </section>
+
+    <section class="slide dark">
+      <p class="eyebrow">“Fish in Water”</p>
+      <div class="quote">Progress can become hardest to see precisely when it has made life easiest to take for granted.</div>
+      <p style="margin-top:1.7rem;color:#d7cec1;">Choose one ordinary object. Trace it backward: <strong>invention → infrastructure → institution</strong>.</p>
+      <div class="footer">12 / 18</div>
+    </section>
+
+    <section class="slide chart" id="slide-13">
+      <p class="eyebrow">Achievement</p>
+      <div class="chart-layout">
+        <img src="assets/session01/life-expectancy-world.svg" alt="Our World in Data chart of world life expectancy since 1800">
+        <div class="chart-note">
+          <h3>More years of life</h3>
+          <p>Global life expectancy rose from roughly 29 years in 1800 to more than 73 in 2023.</p>
+          <p><strong>Question:</strong> Which hidden systems had to improve together to produce this curve?</p>
+        </div>
+      </div>
+      <div class="source"><a href="https://ourworldindata.org/grapher/life-expectancy?country=~OWID_WRL&time=1800..2023">Our World in Data</a> · Riley; Zijdeman et al.; HMD; UN WPP · CC BY 4.0</div>
+      <div class="footer">13 / 18</div>
+    </section>
+
+    <section class="slide chart" id="slide-14">
+      <p class="eyebrow">System</p>
+      <div class="chart-layout">
+        <img src="assets/session01/child-mortality-world.svg" alt="Our World in Data chart of world child mortality since 1800">
+        <div class="chart-note">
+          <h3>Many things must go right</h3>
+          <p>Child survival reflects nutrition, clean water, sanitation, vaccines, maternal health, medical care, and living standards.</p>
+          <p><strong>Question:</strong> Is the achievement best explained by a technology, a market, a state—or a system?</p>
+        </div>
+      </div>
+      <div class="source"><a href="https://ourworldindata.org/grapher/child-mortality?country=~OWID_WRL&time=1800..2024">Our World in Data</a> · Gapminder and UN IGME · CC BY 4.0</div>
+      <div class="footer">14 / 18</div>
+    </section>
+
+    <section class="slide chart" id="slide-15">
+      <p class="eyebrow">Material capacity</p>
+      <div class="chart-layout">
+        <img src="assets/session01/gdp-per-capita-world.svg" alt="Our World in Data chart of global average GDP per capita since 1820">
+        <div class="chart-note">
+          <h3>The scale of production changed</h3>
+          <p>For most of history, average material living standards changed slowly. Then the curve bent.</p>
+          <p><strong>Question:</strong> What does GDP reveal—and what can it never tell us by itself?</p>
+        </div>
+      </div>
+      <div class="source"><a href="https://ourworldindata.org/grapher/global-average-gdp-per-capita-over-the-long-run?time=1800..2025">Our World in Data</a> · Maddison databases and World Bank · CC BY 4.0</div>
+      <div class="footer">15 / 18</div>
+    </section>
+
+    <section class="slide dark">
+      <p class="eyebrow">“The Present Crisis”</p>
+      <h2>A defense of progress is not a claim that everything is fine</h2>
+      <ul>
+        <li>Past gains were not automatic.</li>
+        <li>Benefits remain unequally shared.</li>
+        <li>Technologies can create harms and risks.</li>
+        <li>Human flourishing and agency—not “more technology” alone—are the standard.</li>
+      </ul>
+      <p style="margin-top:1.2rem;color:#d7cec1;">The argument: we should respond to problems by becoming better at solving them.</p>
+      <div class="footer">16 / 18</div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">A lens for the semester</p>
+      <h2>Test every claim about progress three ways</h2>
+      <div class="three-col">
+        <div class="column"><h3>Achievement</h3><p>What human problem became easier to solve? What evidence shows the change?</p></div>
+        <div class="column"><h3>System</h3><p>Which ideas, people, infrastructure, incentives, and institutions produced and sustain it?</p></div>
+        <div class="column"><h3>Frontier</h3><p>Who has not benefited? What costs remain? What should improve next?</p></div>
+      </div>
+      <div class="footer">17 / 18</div>
+    </section>
+
+    <section class="slide accent" id="slide-18">
+      <p class="eyebrow">Before Thursday</p>
+      <h2>Bring one prediction you are willing to test</h2>
+      <p>Read the Introduction and Chapter 1 (“The Gap Instinct”) of <em>Factfulness</em>.</p>
+      <p style="margin-top:1.2rem;">Mark one claim that surprises you and one place where you remain unconvinced.</p>
+      <p style="margin-top:2rem;font-family:Georgia,serif;font-size:clamp(1.8rem,3vw,3.2rem);">Our question: do our instincts about the world match the evidence?</p>
+      <div class="footer">18 / 18</div>
+    </section>
+  </main>
+
+  <nav class="nav" aria-label="Slide navigation">
+    <button id="prev" aria-label="Previous slide">←</button>
+    <button id="next" aria-label="Next slide">→</button>
+  </nav>
+
+  <script>
+    const slides = [...document.querySelectorAll('.slide')];
+    let index = 0;
+
+    const previewSlide = Number(new URLSearchParams(window.location.search).get('preview'));
+    if (previewSlide >= 1 && previewSlide <= slides.length) {
+      slides.forEach((slide, i) => { slide.style.display = i === previewSlide - 1 ? 'flex' : 'none'; });
+    }
+
+    function currentIndex() {
+      const middle = window.scrollY + window.innerHeight / 2;
+      let best = 0;
+      slides.forEach((slide, i) => {
+        if (slide.offsetTop <= middle) best = i;
+      });
+      return best;
+    }
+
+    function go(delta) {
+      index = Math.max(0, Math.min(slides.length - 1, currentIndex() + delta));
+      slides[index].scrollIntoView({ behavior: 'smooth' });
+    }
+
+    document.getElementById('prev').addEventListener('click', () => go(-1));
+    document.getElementById('next').addEventListener('click', () => go(1));
+    document.addEventListener('keydown', (event) => {
+      if (event.target.closest('button')) return;
+      if (['ArrowRight', 'ArrowDown', 'PageDown', ' '].includes(event.key)) {
+        event.preventDefault(); go(1);
+      }
+      if (['ArrowLeft', 'ArrowUp', 'PageUp'].includes(event.key)) {
+        event.preventDefault(); go(-1);
+      }
+      if (event.key === 'Home') { event.preventDefault(); slides[0].scrollIntoView(); }
+      if (event.key === 'End') { event.preventDefault(); slides.at(-1).scrollIntoView(); }
+    });
+
+    document.querySelectorAll('.timer').forEach((timer) => {
+      const initial = Number(timer.dataset.seconds);
+      const clock = timer.querySelector('.clock');
+      const start = timer.querySelector('.start');
+      const reset = timer.querySelector('.reset');
+      let remaining = initial;
+      let interval = null;
+
+      function render() {
+        const minutes = Math.floor(remaining / 60);
+        const seconds = remaining % 60;
+        clock.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      }
+      function stop() {
+        clearInterval(interval);
+        interval = null;
+        start.textContent = remaining === 0 ? 'Done' : 'Start';
+      }
+      start.addEventListener('click', () => {
+        if (remaining === 0) return;
+        if (interval) { stop(); return; }
+        start.textContent = 'Pause';
+        interval = setInterval(() => {
+          remaining -= 1;
+          render();
+          if (remaining <= 0) stop();
+        }, 1000);
+      });
+      reset.addEventListener('click', () => {
+        stop(); remaining = initial; render();
+      });
+      render();
+    });
+  </script>
+</body>
+</html>

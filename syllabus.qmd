@@ -220,15 +220,17 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Sep 10</div>
         <div class="session-row__body">
-          <div class="session-row__title"><a href="session-notes/session04-great-enrichment.html">Session 4 · The Great Enrichment: Capitalism and Transformation</a></div>
+          <div class="session-row__title"><a href="session-notes/session04-great-enrichment.html">Session 4 · The Great Enrichment in One City</a></div>
           <div class="session-row__meta">
+            <strong>Tentative field visit — Baltimore Museum of Industry (BMI).</strong>
+            We will use Baltimore's industrial history to examine how technologies, firms, infrastructure, labor, and public institutions made the Great Enrichment concrete.
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Luz Marina Arias, <a href="https://books.core-econ.org/understanding-our-economy/uoe-101/03-01.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, Chapter 3: "Our world transformed"</a> (selections) — how capitalism's institutions produced extraordinary growth, and at what cost.</li>
               <li><span class="tag tag--recommended">Recommended</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 1: "Why, When, and How Did the World Become Rich?" (~10 pp.) — why did sustained growth only begin in the last two centuries, and why did the Malthusian trap persist for so long before that?</li>
               <li><span class="tag tag--recommended">Recommended</span> Joseph A. Schumpeter, <em>Capitalism, Socialism and Democracy</em>, Chapter 7: "The Process of Creative Destruction" (1942, ~10 pp.) — the canonical source. Capitalism, Schumpeter argues, is not primarily about price competition but about the "gale of creative destruction" — new goods, methods, and organizational forms that ceaselessly displace the old. The chapter that gave the concept its name.</li>
             </ul>
           </div>
-          <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">UOE Ch. 3</span></div>
+          <div class="session-row__tags"><span class="tag tag--accent">Tentative BMI visit</span><span class="tag tag--accent">UOE Ch. 3</span></div>
         </div>
       </div>
     </div>
@@ -425,12 +427,12 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Oct 15</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 14 · Baltimore: Industrial History and the Limits of Progress</div>
+          <div class="session-row__title">Session 14 · Industrialization, Labor, Race, and the Limits of Progress</div>
           <div class="session-row__meta">
-            <strong>Field visit — Baltimore Museum of Industry (BMI).</strong>
+            Classroom synthesis using evidence from the earlier BMI visit.
             Reading TBD — background on Baltimore's industrial and labor history.
           </div>
-          <div class="session-row__tags"><span class="tag tag--accent">BMI field visit</span></div>
+          <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
       </div>
 

@@ -51,8 +51,8 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">4</td>
       <td style="padding:10px 16px 10px 0;">
-        <a href="session04-great-enrichment.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">The Great Enrichment</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">UOE Ch 3 — capitalism, the hockey stick, and the institutions behind sustained growth</div>
+        <a href="session04-great-enrichment.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">The Great Enrichment in One City</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Tentative BMI visit · UOE Ch 3 · capitalism, industrialization, and Baltimore</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Sep 10</td>
     </tr>
@@ -130,7 +130,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">12–16</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
         <span style="font-family:var(--font-serif); font-size:0.95rem;">Inequality, Race, Baltimore, Labor</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Piketty/Chetty, Wilkerson, BMI visit, Smith + Dickens</div>
+        <div style="font-size:0.78rem; margin-top:2px;">Piketty/Chetty, Wilkerson, industrial labor and race, Smith + Dickens</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 8–22</td>
     </tr>
