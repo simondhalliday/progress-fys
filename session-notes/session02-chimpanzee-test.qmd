@@ -5,6 +5,13 @@ description: "Why experts score worse than random chance on basic facts about th
 order: 2
 ---
 
+::: {.callout-tip appearance="simple"}
+## Class materials
+
+- [Two Countries. One Trend? - child mortality activity (PDF)](../materials/week01/child-mortality-two-country-activity.pdf)
+- [Rosling and Initial Reflections - class slides (PowerPoint)](../materials/week01/rosling-and-initial-reflections-slides.pptx)
+:::
+
 ## A quiz that embarrassed the world's leaders
 
 In January 2015, Hans Rosling stepped onto the stage at the World Economic Forum in Davos. In the audience sat heads of state, CEOs of major multinationals, central bank governors, senior UN officials, roughly a thousand of the most powerful and informed people on the planet. He asked them three simple questions about global development.
