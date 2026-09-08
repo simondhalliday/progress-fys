@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - slides/session03-groups-and-random-lives.html
+    - slides/assets/session03/**
+    - materials/week02/random-lives-curated-history-activity.pdf
 
 website:
   title: "FYS: Progress"

@@ -5,6 +5,14 @@ description: "Why we think the world is getting worse when it isn't — and why 
 order: 3
 ---
 
+::: {.callout-note}
+## Class materials
+
+[Session 3 slides: Baltimore sites and Random Lives](../slides/session03-groups-and-random-lives.html) · [Random Lives, Curated History activity](../materials/week02/random-lives-curated-history-activity.pdf) · [Any Human Ever](https://anyhumanever.com)
+
+Group rosters are posted in Canvas rather than on this public page.
+:::
+
 ## Born in Sweden, 1948
 
 Hans Rosling grew up in Sweden in the 1950s. When he was four years old, he fell headfirst into the sewage ditch in front of his grandmother's house, a trench filled with a mix of last night's rain and wastewater from a nearby factory. His grandmother hauled him out by the ankles, carried him to the kitchen sink, and washed him with the hot water meant for dishes.
