@@ -1,6 +1,6 @@
 ---
 title: "Science as a Public Good"
-subtitle: "Session 5 · Tue Sep 15"
+subtitle: "Session 7 · Tue Sep 22"
 description: "Why do markets tend to underprovide basic research, and which institutions help societies capture its wider benefits?"
 order: 5
 ---
@@ -101,9 +101,9 @@ Draw out two things: (1) countries devote very different shares of national outp
 
 ## Connections
 
-**Builds on:** [Session 4](session04-great-enrichment.html) showed how innovation rents can motivate firms to search for better products and processes. Session 5 examines the limit of that mechanism: when knowledge spills over, the social return can exceed the return any one firm can capture.
+**Builds on:** [Sessions 5–6](session04-great-enrichment.html) showed how institutions and innovation transformed living standards, then made that transformation concrete at the BMI. Session 7 examines a limit of market incentives: when knowledge spills over, the social return can exceed the return any one firm can capture.
 
-**Sets up:** [Session 6](session06-innovation-incentives-technology.html) asks what happens once societies build research systems and still discover that each new idea may be harder to find. The DARPA session in Module 4 later asks whether mission-driven science does better than the Bush model.
+**Sets up:** [Session 8](session06-innovation-incentives-technology.html) asks what happens once societies build research systems and still discover that each new idea may be harder to find. The DARPA session in Module 4 later asks whether mission-driven science does better than the Bush model.
 
 ::: {.instructor}
 **Arc note:** This session is the economic foundation for two later arguments: science-policy choices have large, long-run consequences, and a [**market failure**]{.term data-example="When research creates benefits that its funder cannot capture, private investment can fall below the socially desirable level."} is a problem of institutional design rather than a reason for despair. Students should leave able to distinguish the case for public support of basic knowledge from the role firms play in applied research and scale-up.
@@ -228,5 +228,5 @@ Work through these cards now, then Orbit will schedule them for review over the 
 > Historical evidence that wartime R&D changed the geography and organization of American innovation. It adds an empirical institutional case to Bush's policy argument.
 
 ::: {.instructor}
-**Teaching note on readings:** Nelson and Bush are doing different things — Nelson builds the theoretical case, Bush makes the policy argument. Use the first session (Tue Sep 15) for Nelson and the public goods framework, and the second session (Thu Sep 17) for Bush and the institutional history. The contrast between them is productive: Nelson says *why* markets fail; Bush says *what we should do about it*. Crawford is the best recommended reading if you want to complicate Bush's linear model without adding another academic article; Dasgupta & David bridges the economic and sociological accounts of science.
+**Teaching note on readings:** Nelson and Bush are doing different things — Nelson builds the theoretical case, while Bush makes the policy argument. Use Tuesday, September 22 to put those moves in direct conversation: Nelson says *why* markets fail; Bush says *what we should do about it*. Crawford is the best recommended reading if you want to complicate Bush's linear model without adding another academic article; Dasgupta & David bridges the economic and sociological accounts of science.
 :::

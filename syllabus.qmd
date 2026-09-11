@@ -220,17 +220,11 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Sep 10</div>
         <div class="session-row__body">
-          <div class="session-row__title"><a href="session-notes/session04-great-enrichment.html">Session 4 · The Great Enrichment in One City</a></div>
+          <div class="session-row__title">Session 4 · Reading Workshop: Progress and Freedom</div>
           <div class="session-row__meta">
-            <strong>Tentative field visit — Baltimore Museum of Industry (BMI).</strong>
-            We will use Baltimore's industrial history to examine how technologies, firms, infrastructure, labor, and public institutions made the Great Enrichment concrete.
-            <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Luz Marina Arias, <a href="https://books.core-econ.org/understanding-our-economy/uoe-101/03-01.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, Chapter 3: "Our world transformed"</a> (selections) — how capitalism's institutions produced extraordinary growth, and at what cost.</li>
-              <li><span class="tag tag--recommended">Recommended</span> Mark Koyama &amp; Jared Rubin, <em>How the World Became Rich</em>, Chapter 1: "Why, When, and How Did the World Become Rich?" (~10 pp.) — why did sustained growth only begin in the last two centuries, and why did the Malthusian trap persist for so long before that?</li>
-              <li><span class="tag tag--recommended">Recommended</span> Joseph A. Schumpeter, <em>Capitalism, Socialism and Democracy</em>, Chapter 7: "The Process of Creative Destruction" (1942, ~10 pp.) — the canonical source. Capitalism, Schumpeter argues, is not primarily about price competition but about the "gale of creative destruction" — new goods, methods, and organizational forms that ceaselessly displace the old. The chapter that gave the concept its name.</li>
-            </ul>
+            We slowed down to finish breaking apart the Rosling and Sen readings, practise identifying an argument and its evidence, and build the close-reading habits the rest of the seminar will require.
           </div>
-          <div class="session-row__tags"><span class="tag tag--accent">Tentative BMI visit</span><span class="tag tag--accent">UOE Ch. 3</span></div>
+          <div class="session-row__tags"><span class="tag tag--accent">Reading skills</span></div>
         </div>
       </div>
     </div>
@@ -250,20 +244,42 @@ description: "Syllabus — FYS: Progress"
         that structure economic life — shape who innovates, who benefits, and who is left out.
       </p>
 
+      <div class="notice notice--quiet" style="margin-bottom: var(--sp-lg);">
+        <strong>Schedule revised September 11.</strong> We are moving more slowly than the original syllabus so that we can spend enough time breaking down difficult readings and practising close reading. The former Session 4 is now Session 5 on Tuesday, September 15; the BMI visit is Thursday, September 17; and the science-and-innovation material moves to September 22 and 24. Later dates remain provisional while the rest of the sequence is rebalanced.
+      </div>
+
       <div class="session-row">
         <div class="session-row__date">Tue Sep 15</div>
         <div class="session-row__body">
-          <div class="session-row__title"><a href="session-notes/session05-science-public-good.html">Session 5 · Science as a Public Good</a></div>
+          <div class="session-row__title"><a href="session-notes/session04-great-enrichment.html">Session 5 · The Great Enrichment</a></div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1086/258177" target="_blank" rel="noopener">Richard R. Nelson, &#x201C;The Simple Economics of Basic Scientific Research,&#x201D; <em>Journal of Political Economy</em> 67, no. 3 (1959): 297&#x2013;306</a> &#x2014; the foundational public-goods-of-science argument: why markets underinvest in basic research, and what institutions fill the gap. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
-              <li><span class="tag tag--required">Required</span> Vannevar Bush, <em>Science, The Endless Frontier</em> (1945), transmittal letter + Chapter 3 (~8 pp.) &#x2014; the report that shaped US science policy for a generation. Why should government fund basic research? <a href="https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm" target="_blank" rel="noopener">[free at nsf.gov]</a></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1016/0048-7333(94)01002-1" target="_blank" rel="noopener">Partha Dasgupta and Paul A. David, &#x201C;Toward a New Economics of Science,&#x201D; <em>Research Policy</em> 23, no. 5 (1994): 487&#x2013;521</a> &#x2014; the fullest economic framework for scientific norms and open science. Read pp. 487&#x2013;497 if you read nothing else. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/jep.8.1.3" target="_blank" rel="noopener">Paul M. Romer, &#x201C;The Origins of Endogenous Growth,&#x201D; <em>Journal of Economic Perspectives</em> 8, no. 1 (1994): 3&#x2013;22</a> &#x2014; accessible account of why non-rival ideas drive long-run growth; connects Nelson to growth theory. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1007/BF01101453" target="_blank" rel="noopener">Michael Polanyi, &#x201C;The Republic of Science,&#x201D; <em>Minerva</em> 1, no. 1 (1962): 54&#x2013;73</a> &#x2014; science as spontaneous order, analogous to a market. The philosophical complement to Nelson. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://experimentalhistory.substack.com/p/the-rise-and-fall-of-peer-review" target="_blank" rel="noopener">Adam Mastroianni, &#x201C;The Rise and Fall of Peer Review,&#x201D; <em>Experimental History</em> (2022)</a> &#x2014; does scientific self-governance actually work? A short, provocative read for students who want a contemporary angle.</li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://worksinprogress.co/issue/innovation-is-not-linear/" target="_blank" rel="noopener">Jason Crawford, &#x201C;Innovation is not linear,&#x201D; <em>Works in Progress</em></a> &#x2014; a clear corrective to the simple pipeline model in which basic science mechanically becomes applied technology. Useful for seeing science and invention as reciprocal, iterative, and institutionally entangled.</li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/aer.20221365" target="_blank" rel="noopener">Daniel Gross &amp; Bhaven Sampat, &#x201C;America, Jump-Started: World War II R&amp;D and the Takeoff of the U.S. Innovation System,&#x201D; <em>American Economic Review</em> 113, no. 12 (2023): 3323&#x2013;3356</a> &#x2014; how the wartime science mobilisation of 1940&#x2013;45 permanently shifted the US innovation system toward basic research and university-industry linkages. Context for why Bush&#x2019;s 1945 report landed when it did. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
+              <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Luz Marina Arias, <a href="https://books.core-econ.org/understanding-our-economy/uoe-101/03-01.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, Chapter 3: "Our world transformed"</a> — focus on capitalism's core institutions, how the rules of the game shape the gains from cooperation and their distribution, and the unequal and environmental costs of transformation.</li>
+            </ul>
+          </div>
+          <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">UOE Ch. 3</span></div>
+        </div>
+      </div>
+
+      <div class="session-row">
+        <div class="session-row__date">Thu Sep 17</div>
+        <div class="session-row__body">
+          <div class="session-row__title"><a href="session-notes/session04-great-enrichment.html">Session 6 · Baltimore Museum of Industry Field Visit</a></div>
+          <div class="session-row__meta">
+            <strong>Confirmed field visit.</strong> Meet outside Mason Hall as close to 10:15 AM as possible so that we can leave promptly. We will use the museum's artifacts to connect Chapter 3 to technology, infrastructure, firms, labor, and public institutions in Baltimore. Students should alert professors teaching classes after ours that the FYS trip may make them late.
+          </div>
+          <div class="session-row__tags"><span class="tag tag--accent">Confirmed BMI visit</span></div>
+        </div>
+      </div>
+
+      <div class="session-row">
+        <div class="session-row__date">Tue Sep 22</div>
+        <div class="session-row__body">
+          <div class="session-row__title"><a href="session-notes/session05-science-public-good.html">Session 7 · Science as a Public Good</a></div>
+          <div class="session-row__meta">
+            <ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1086/258177" target="_blank" rel="noopener">Richard R. Nelson, "The Simple Economics of Basic Scientific Research"</a> — why markets underinvest in basic research and what institutions can fill the gap. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
+              <li><span class="tag tag--required">Required</span> Vannevar Bush, <em>Science, The Endless Frontier</em>, transmittal letter + Chapter 3 — why should government fund basic research? <a href="https://www.nsf.gov/od/lpa/nsf50/vbush1945.htm" target="_blank" rel="noopener">[free at nsf.gov]</a></li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
@@ -271,55 +287,21 @@ description: "Syllabus — FYS: Progress"
       </div>
 
       <div class="session-row">
-        <div class="session-row__date">Thu Sep 17</div>
+        <div class="session-row__date">Thu Sep 24</div>
         <div class="session-row__body">
-          <div class="session-row__title"><a href="session-notes/session06-innovation-incentives-technology.html">Session 6 · Innovation, Incentives, and Technology</a></div>
+          <div class="session-row__title"><a href="session-notes/session06-innovation-incentives-technology.html">Session 8 · Innovation, Incentives, and Technology</a></div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Simon D. Halliday &amp; Eric Bottorff, <a href="https://books.core-econ.org/understanding-our-economy/uoe-101/04-01.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, Chapter 4: "Innovation, incentives, and technology"</a> (selections) — how do incentives shape the direction and pace of innovation?</li>
-              <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/aer.20180338" target="_blank" rel="noopener">Nicholas Bloom, Charles I. Jones, John Van Reenen &amp; Michael Webb, "Are Ideas Getting Harder to Find?" <em>American Economic Review</em> 110, no. 4 (2020): 1104–1144</a> — read the introduction and conclusion only (~8 pp.). The central finding is striking and completely accessible: the number of researchers required to sustain Moore's Law has grown 18-fold since the early 1970s. Ideas are genuinely getting harder to find even as R&amp;D inputs soar — the empirical backbone for why innovation institutions and incentive structures matter so much. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
+              <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/aer.20180338" target="_blank" rel="noopener">Nicholas Bloom, Charles I. Jones, John Van Reenen &amp; Michael Webb, "Are Ideas Getting Harder to Find?"</a> — read the introduction and conclusion only. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
             </ul>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">UOE Ch. 4</span></div>
         </div>
       </div>
 
-      <div class="session-row">
-        <div class="session-row__date">Tue Sep 22</div>
-        <div class="session-row__body">
-          <div class="session-row__title"><a href="session-notes/session07-renaissance-florence.html">Session 7 · Cities 1: Renaissance Florence and the Geography of Ideas</a></div>
-          <div class="session-row__meta"><span style="color: var(--accent);">Field visit: Walters Art Museum, Mount Vernon — Renaissance collection.</span>
-            <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> Ada Palmer, excerpts from <em>Inventing the Renaissance</em> (2025) — what made Florence a crucible of innovation?</li>
-              <li><span class="tag tag--required">Required</span> <a href="https://web.archive.org/web/https://www.vox.com/2016/5/18/11691818/barone-mocetti-florence" target="_blank" rel="noopener">"Florence's wealthiest families in 1427 are still the wealthiest today," <em>Vox</em> (May 18, 2016)</a> — an accessible account of Barone and Mocetti's finding that Florentine surnames linked to wealthy households in the 1427 <em>catasto</em> are still associated with high earnings today; a vivid illustration of how deep and durable economic status can be. <span style="color:var(--ink-light);">[archived version]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> Dan Chiasson, "Man of the House" (<em>New Yorker</em>, Apr 29 2019) on the Bauhaus — a counterpoint on design, craft, and collective creativity.</li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1093/restud/rdaa075" target="_blank" rel="noopener">Guglielmo Barone &amp; Sauro Mocetti, "Intergenerational Mobility in the Very Long Run: Florence 1427–2011," <em>Review of Economic Studies</em> 88, no. 4 (2021): 1863–1891</a> — matches Florentine <em>catasto</em> records from 1427 to modern tax data by surname; finds that earnings rank persists across 600 years at a rate comparable to single-generation estimates, suggesting economic status is far more entrenched than cross-generational studies typically show. The source behind the Vox piece. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
-            </ul>
-          </div>
-          <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">Walters Art Museum visit</span></div>
-        </div>
-      </div>
-
-      <div class="session-row">
-        <div class="session-row__date">Thu Sep 24</div>
-        <div class="session-row__body">
-          <div class="session-row__title"><a href="session-notes/session08-silicon-valley-agglomeration.html">Session 8 · Cities 2: Silicon Valley and Economies of Agglomeration</a></div>
-          <div class="session-row__meta">
-            <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> <a href="https://geekway.substack.com/p/a-visualization-of-europes-non-bubbly" target="_blank" rel="noopener">Andrew McAfee, &#x201C;A Visualization of Europe&#x2019;s Non-Bubbly Economy,&#x201D; <em>The Geek Way</em> (December 2024, ~1,200 words)</a> &#x2014; two bubble charts that make the US&#x2013;Europe innovation gap visceral: Europe has produced 14 from-scratch public companies worth over $10B in the past fifty years; the US has produced hundreds, collectively worth almost $30 trillion. McAfee draws on the Draghi report to diagnose why &#x2014; fragmented markets, restrictive regulation, and a VC ecosystem that lags the US by a factor of five at every funding stage. The sharpest short answer to &#x201C;why Silicon Valley?&#x201D; and &#x201C;why not Europe?&#x201D; <span style="color:var(--ink-light);">[free, Substack]</span></li>
-              <li><span class="tag tag--required">Required</span> AnnaLee Saxenian, <em>Regional Advantage: Culture and Competition in Silicon Valley and Route 128</em>, Introduction (8 pp., 1996) &#x2014; explains why Silicon Valley recovered from the crises of the early 1980s while Route 128 did not. Saxenian's answer is institutional: Silicon Valley had open networks and fluid labor markets; Route 128 had hierarchical, self-contained firms. The Introduction is enough to grasp both the empirical puzzle and the core thesis. <span style="color:var(--ink-light);">[PDF on Canvas]</span></li>
-              <li><span class="tag tag--required">Required</span> <a href="https://worksinprogress.co/issue/clusters-rule-everything-around-me/" target="_blank" rel="noopener">Caleb Watney, &#x201C;Clusters rule everything around me,&#x201D; <em>Works in Progress</em></a> &#x2014; why high-growth technology clusters form, why they are hard to copy, and what policy can do to make them more likely. A contemporary bridge from Saxenian's regional comparison to live policy debates about agglomeration.</li>
-              <li><span class="tag tag--required">Required</span> Sebastian Mallaby, <em>The Power Law: Venture Capital and the Making of the New Future</em>, Prologue (~15 pp., 2022) &#x2014; how did venture capital as a financing form emerge in California, and why has it proved so hard to replicate elsewhere? Mallaby traces the origins to a small group of investors who chose equity over fees &#x2014; a structural choice that, compounded over decades, produced the funding ecosystem McAfee&#x2019;s charts make visible. <span style="color:var(--ink-light);">[PDF via library]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://worksinprogress.co/issue/the-housing-theory-of-everything/" target="_blank" rel="noopener">John Myers, Sam Bowman &amp; Ben Southwood, &#x201C;The housing theory of everything,&#x201D; <em>Works in Progress</em></a> &#x2014; a broader argument that housing scarcity blocks mobility, productivity, fertility, and innovation. Best read in selected sections as an extension of the cities-and-clusters argument.</li>
-              <li><span class="tag tag--recommended">Recommended</span> Mario Draghi, <em>The Future of European Competitiveness</em> (European Commission, September 2024), pp. 1&#x2013;15 (Part A executive summary) &#x2014; the report McAfee is reacting to. Draghi argues Europe faces an &#x201C;existential crisis&#x201D; driven by falling productivity growth, underinvestment in deep tech, and regulatory fragmentation. The headline statistics &#x2014; no from-scratch EU company worth over &#x20AC;100B in fifty years; VC funding lagging the US at every stage by roughly 5&#xD7; &#x2014; are all here in primary form. Read pp. 1&#x2013;15 for the diagnosis; the rest is policy prescription. <a href="https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en?filename=The%20future%20of%20European%20competitiveness%20_%20A%20competitiveness%20strategy%20for%20Europe.pdf" target="_blank" rel="noopener">[PDF, free]</a></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.technologyreview.com/2015/08/18/10816/the-past-and-future-of-kendall-square/" target="_blank" rel="noopener">Michael Blanding, &#x201C;The Past and Future of Kendall Square,&#x201D; <em>MIT Technology Review</em> (August 18, 2015)</a> &#x2014; a five-act history of how an abandoned industrial wasteland became what the Boston Consulting Group called &#x201C;the most innovative square mile on Earth.&#x201D; Covers the role of MIT lab spinouts (Biogen, Genzyme), the arrival of Big Pharma, and the deliberate curation of co-location as an innovation strategy. A Cambridge counterpart to the Silicon Valley story &#x2014; and a vivid illustration of what Saxenian&#x2019;s network-based model looks like in life sciences. <span style="color:var(--ink-light);">[free]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://www.bostonglobe.com/2020/02/24/business/engine-mit-is-revving-up-potential-tough-tech/" target="_blank" rel="noopener">Scott Kirsner, &#x201C;The Engine at MIT is revving up the potential of &#x2018;tough tech,&#x2019;&#x201D; <em>Boston Globe</em> (February 24, 2020)</a> &#x2014; profiles MIT&#x2019;s tough-tech accelerator, which funds companies whose science is too capital-intensive and slow-moving for standard VC &#x2014; fusion energy, green steel, grid-scale batteries. Companies like Commonwealth Fusion Systems were born here. Connects Mallaby&#x2019;s VC origin story to the question of what happens to breakthroughs that don&#x2019;t fit the standard venture model. <span style="color:var(--ink-light);">[may require Globe subscription or library access]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://news.mit.edu/2021/MIT-CFS-major-advance-toward-fusion-energy-0908" target="_blank" rel="noopener">David Chandler, &#x201C;MIT-designed project achieves major advance toward fusion energy,&#x201D; <em>MIT News</em> (September 8, 2021)</a> &#x2014; the moment Commonwealth Fusion Systems and MIT&#x2019;s Plasma Science and Fusion Center demonstrated a 20-tesla superconducting magnet &#x2014; a world record, and the critical milestone on the path to SPARC, their planned fusion demonstration reactor. A concrete example of how a research university spinout can move from a class project to a world-changing engineering milestone &#x2014; and how that process looks nothing like a standard tech startup. <span style="color:var(--ink-light);">[free]</span></li>
-            </ul>
-            <p class="reading-note">Silicon Valley exists for reasons &#x2014; and so does the gap between it and everywhere else. McAfee makes the US&#x2013;Europe comparison impossible to dismiss; Saxenian and Moretti explain the agglomeration economics underneath it.</p>
-          </div>
-          <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">Baltimore Video due</span></div>
-        </div>
+      <div class="notice notice--quiet" style="margin-bottom: var(--sp-lg);">
+        <strong>From September 29 onward:</strong> the topics below remain the planned sequence, but their exact dates and session numbers are provisional while we absorb the slower start. Canvas announcements will give the authoritative week-by-week assignments.
       </div>
 
       <div class="session-row">

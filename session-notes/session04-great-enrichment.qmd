@@ -1,6 +1,6 @@
 ---
 title: "The Great Enrichment in One City"
-subtitle: "Session 4 · Thu Sep 10 · Tentative BMI field visit"
+subtitle: "Sessions 5–6 · Tue Sep 15 and Thu Sep 17 · BMI field visit"
 description: "Why did sustained economic growth begin around 1800, and which institutions made the Great Enrichment possible?"
 order: 4
 ---
@@ -99,12 +99,12 @@ This is the bridge from the Session 1 perception exercise to UOE's mechanism. Pu
 
 ## Connections
 
-**Builds on:** [Session 2](session02-chimpanzee-test.html) and [Session 3](session03-progress-and-freedom.html) established that the world has improved dramatically (Rosling) and that development means expanding freedom (Sen). Session 4 asks: where did this improvement come from? The answer — capitalism and its institutions — sets up a key tension: the same system that produced the Great Enrichment also produced inequality, environmental degradation, and the costs of creative destruction.
+**Builds on:** [Session 2](session02-chimpanzee-test.html), [Session 3](session03-progress-and-freedom.html), and the Session 4 reading workshop established that the world has improved dramatically (Rosling), that development means expanding freedom (Sen), and that difficult claims must be broken into arguments and evidence. Sessions 5–6 ask: where did this improvement come from? The answer — capitalism and its institutions — sets up a key tension: the same system that produced the Great Enrichment also produced inequality, environmental degradation, and the costs of creative destruction.
 
 **Sets up:** Module 2 (Institutions & Innovation) asks what institutions produce and sustain progress: science, cities, the state. Once students can see ordinary abundance, the next question is what institutional arrangements keep producing, maintaining, and extending it.
 
 ::: {.instructor}
-**Arc note:** Session 4 is the pivot between the "what has happened" (Sessions 1–3) and the "how and why" (rest of the course). Students should leave with: (1) a clear picture of the hockey stick and what produced it; (2) a mechanism connecting capitalist institutions to innovation; (3) the first hint that progress is not automatic — which sets up the entire arc of the course from innovation through limits and risks.
+**Arc note:** Sessions 5–6 are the pivot between the "what has happened" opening and the "how and why" that follows. Students should leave with: (1) a clear picture of the hockey stick and what produced it; (2) a mechanism connecting capitalist institutions to innovation; and (3) the first hint that progress is not automatic — which sets up the course arc from innovation through limits and risks.
 :::
 
 ## Review cards
