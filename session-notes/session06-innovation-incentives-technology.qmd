@@ -2,7 +2,7 @@
 title: "Innovation, Incentives, and Technology"
 subtitle: "Session 8 · Thu Sep 24"
 description: "Why does steady technological progress require more researchers over time, and what does that mean for institutions that support innovation?"
-order: 6
+order: 8
 ---
 
 ## The law that became harder to obey
@@ -190,7 +190,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 ### Required
 
-**Halliday, Simon D., and Eric Bottorff.** *Understanding Our Economy*, Chapter 4: "Innovation, incentives, and technology" (selections). Available at [core-understanding-our-economy.netlify.app](https://core-understanding-our-economy.netlify.app/uoe-101/04-01.html).
+**Halliday, Simon D., and Eric Bottorff.** [*Understanding Our Economy*, Chapter 4: "Innovation, incentives, and technology"](https://books.core-econ.org/understanding-our-economy/uoe-101/04-01.html) (selections).
 
 > **What to look for:** Track the incentive mechanism. What makes someone search for a new technology rather than keep using the old one? Pay attention to the difference between invention itself and the institutional conditions that make invention worthwhile.
 >
@@ -198,7 +198,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Prepare to discuss:** One example of a socially valuable technology that [**markets**]{.term data-example="Venture-backed software may be rewarded quickly when customers can pay and adoption scales fast, while clean-water infrastructure may create benefits that are harder for a firm to capture."} seem to reward strongly, and one that markets seem to under-reward.
 
-**Bloom, Nicholas, Charles I. Jones, John Van Reenen, and Michael Webb.** "Are Ideas Getting Harder to Find?" *American Economic Review* 110, no. 4 (2020): 1104-1144. Read the introduction and conclusion only.
+**Bloom, Nicholas, Charles I. Jones, John Van Reenen, and Michael Webb.** ["Are Ideas Getting Harder to Find?"](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/aer.20180338) *American Economic Review* 110, no. 4 (2020): 1104-1144. Read the introduction and conclusion only.
 
 > **What to look for:** Focus on the simple equation in the introduction and the Moore's Law example. You do not need the technical sections to understand the central claim. Ask yourself: if the number of researchers has to rise just to keep growth constant, what does that imply about the future of progress?
 >
@@ -208,7 +208,7 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 ### Recommended
 
-**Jones, Benjamin F.** "The Burden of Knowledge and the Death of the Renaissance Man: Is Innovation Getting Harder?" *Review of Economic Studies* 76, no. 1 (2009): 283-317.
+**Jones, Benjamin F.** ["The Burden of Knowledge and the Death of the Renaissance Man: Is Innovation Getting Harder?"](http://proxy.library.jhu.edu/login?url=https://doi.org/10.1111/j.1467-937X.2008.00531.x) *Review of Economic Studies* 76, no. 1 (2009): 283-317.
 
 > The best companion for students interested in the human side of Bloom et al.: as knowledge accumulates, innovators need longer training, narrower specialization, and larger teams.
 

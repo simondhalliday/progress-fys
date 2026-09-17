@@ -1,8 +1,8 @@
 ---
 title: "Baltimore: Progress, Decline, and Reinvention"
-subtitle: "Session 9 · Tue Sep 29"
+subtitle: "Session 11 · Tue Oct 6"
 description: "How can one city be a model of reinvention, a warning about decline, and a possible comeback story at the same time?"
-order: 9
+order: 11
 ---
 
 ## The city that looked better and worse
@@ -89,7 +89,7 @@ The recent *New York Times* piece brings the story into the present: Baltimore h
 
 Some explanations are national: many cities saw violence fall after the pandemic-era spike. Some are local: Baltimore's leadership, violence-prevention strategy, police practices, data systems, vacancy work, and community organizations may have changed the city's capacity to respond. The Santi Ruiz interview with James Anderson and the *Odd Lots* conversation with Mayor Brandon Scott both push us toward the capacity question: can city hall learn, coordinate, set goals, use data, and execute repeatedly on hard problems?
 
-This is where Session 9 connects to the rest of the course. We have already asked why some regions generate innovation and why institutions shape progress. Baltimore asks the same question at city scale. The scarce resource may not be ideas alone. It may be the ability to turn goals into working systems.
+This is where Session 11 connects to the rest of the course. We have already asked why some regions generate innovation and why institutions shape progress. Baltimore asks the same question at city scale. The scarce resource may not be ideas alone. It may be the ability to turn goals into working systems.
 
 > A city makes progress when it can convert diagnosis into coordinated action, and when that action reaches the places where the problem is concentrated.
 
@@ -178,12 +178,12 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 ## Connections
 
-**Builds on:** [Session 8](session08-silicon-valley-agglomeration.html) treated regions as systems of knowledge, finance, labor, and institutions. Baltimore asks how those systems work in a city shaped by industrial decline, segregation, and uneven public capacity.
+**Builds on:** [Session 10](session08-silicon-valley-agglomeration.html) treated regions as systems of knowledge, finance, labor, and institutions. Baltimore asks how those systems work in a city shaped by industrial decline, segregation, and uneven public capacity.
 
-**Sets up:** [Session 10](session10-liberty-property-rights.html) turns from city evidence to institutions more generally: rules, property rights, outside options, and the conditions under which freedom and progress reinforce each other.
+**Sets up:** [Session 12](session10-liberty-property-rights.html) turns from city evidence to institutions more generally: rules, property rights, outside options, and the conditions under which freedom and progress reinforce each other.
 
 ::: {.instructor}
-**Arc note:** This is the pivot from "where does progress happen?" to "who benefits, and through what institutions?" It also gives the Baltimore video project intellectual footing before the later BMI visit and inequality/race sessions.
+**Arc note:** This is the pivot from "where does progress happen?" to "who benefits, and through what institutions?" It revisits evidence gathered during the earlier BMI visit and gives the Baltimore video project intellectual footing before the inequality and race sessions.
 :::
 
 ## Reading Guide

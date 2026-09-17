@@ -1,8 +1,8 @@
 ---
 title: "Renaissance Florence and the Geography of Ideas"
-subtitle: "Session 7 · Tue Sep 22"
+subtitle: "Session 9 · Tue Sep 29"
 description: "Why do some places become engines of creativity, and why can the same places preserve inequality for centuries?"
-order: 7
+order: 9
 ---
 
 ## A city that made new things and kept old advantages
@@ -160,9 +160,9 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 ## Connections
 
-**Builds on:** [Session 6](session06-innovation-incentives-technology.html) asked how incentives shape innovation. Florence adds the role of place, patronage, networks, and inherited status.
+**Builds on:** [Session 8](session06-innovation-incentives-technology.html) asked how incentives shape innovation. Florence adds the role of place, patronage, networks, and inherited status.
 
-**Sets up:** [Session 8](session08-silicon-valley-agglomeration.html) turns the same question toward modern technology clusters: why did Silicon Valley adapt while Route 128 struggled?
+**Sets up:** [Session 10](session08-silicon-valley-agglomeration.html) turns the same question toward modern technology clusters: why did Silicon Valley adapt while Route 128 struggled?
 
 ::: {.instructor}
 **Arc note:** This note should give students a vocabulary for cities before the Silicon Valley and Baltimore sessions: cluster, recombination, persistence, institutions, and access.

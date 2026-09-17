@@ -29,7 +29,7 @@ description: "Assignments — FYS: Progress"
         </div>
         <div>
           <div class="assignment-card__title">Baltimore Progress Video</div>
-          <p class="assignment-card__desc">Group project (2–3 students). A 5–7 minute video exploring a Baltimore site through the lens of course themes. Due: Week 4 (Sep 24). Screened in class Week 5.</p>
+          <p class="assignment-card__desc">Group project (2–3 students). A 5–7 minute video exploring a Baltimore site through the lens of course themes. Due: Thursday, October 1. Screened in class Tuesday, October 6.</p>
         </div>
       </div>
 
@@ -116,7 +116,7 @@ description: "Assignments — FYS: Progress"
 
     <h3 class="mt-lg">Screening</h3>
     <p>
-      Videos are screened in class in Week 5 (around October 1). Each group gives a 5-minute live
+      Videos are screened in class on Tuesday, October 6. Each group gives a 5-minute live
       introduction before the screening, followed by class discussion.
     </p>
 
@@ -144,7 +144,7 @@ description: "Assignments — FYS: Progress"
 
     <p class="small text-mid mt-md">
       <strong>Due dates:</strong> Groups and sites confirmed Week 1 (Sep 3) ·
-      Final video submitted Week 4 (Sep 24) · Screening Week 5 (Oct 1).
+      Final video submitted Thursday, October 1 · Screening Tuesday, October 6.
     </p>
   </div>
 </section>

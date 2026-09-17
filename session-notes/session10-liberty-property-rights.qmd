@@ -1,8 +1,8 @@
 ---
 title: "Liberty, Property Rights, and the Conditions for Progress"
-subtitle: "Session 10 · Thu Oct 1"
+subtitle: "Session 12 · Thu Oct 8"
 description: "Why do prices and institutions matter for progress, and why is liberty never just a technical problem of efficient markets?"
-order: 10
+order: 12
 ---
 
 ## The freedom to choose what?
@@ -142,14 +142,14 @@ If a new technology would raise total income but harm a politically weak group, 
 ```
 
 ::: {.instructor}
-This is a good setup for Yuen Yuen Ang if you keep her in Session 11. Hayek gives a clean coordination argument; UOE gives students a more tractable model of rules and power; Ang complicates both by asking how development can begin under messy, transitional, and partially corrupt institutions.
+This is a good setup for Yuen Yuen Ang in Session 13. Hayek gives a clean coordination argument; UOE gives students a more tractable model of rules and power; Ang complicates both by asking how development can begin under messy, transitional, and partially corrupt institutions.
 :::
 
 ## Connections
 
-**Builds on:** [Session 8](session08-silicon-valley-agglomeration.html) showed how regional institutions shape innovation. Session 10 scales up to the level of social rules: prices, property rights, outside options, and political decisions determine whether people can coordinate and challenge incumbents.
+**Builds on:** [Session 10](session08-silicon-valley-agglomeration.html) showed how regional institutions shape innovation. Session 12 scales up to the level of social rules: prices, property rights, outside options, and political decisions determine whether people can coordinate and challenge incumbents.
 
-**Sets up:** Session 11 on escaping poverty traps will ask how poor societies build developmental capacity when the ideal institutions described here are incomplete, contested, or still emerging.
+**Sets up:** Session 13 on escaping poverty traps will ask how poor societies build developmental capacity when the ideal institutions described here are incomplete, contested, or still emerging.
 
 ::: {.instructor}
 **Arc note:** This session gives students the institutional baseline before the course turns to poverty traps and [**inequality**]{.term data-example="Rules, bargaining power, and outside options can protect opportunities for insiders while leaving outsiders with weaker choices and fewer ways to challenge harms."}. If they leave with only "markets good" or "institutions good," the session has failed. The target understanding is subtler: decentralized progress needs price signals, secure rights, and political institutions broad enough to let many people act.

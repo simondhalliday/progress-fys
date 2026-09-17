@@ -8,7 +8,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
 </p>
 
 <div class="notice notice--quiet" style="margin-bottom: var(--sp-lg);">
-  <strong>Schedule revised September 11.</strong> We slowed down in Session 4 to practise breaking down difficult readings. The Great Enrichment is now Session 5 on September 15, the BMI visit is Session 6 on September 17, and science and innovation move to September 22 and 24. Later dates remain provisional while the sequence is rebalanced.
+  <strong>Schedule revised September 17.</strong> Science and innovation remain next week; Florence, Silicon Valley, and Baltimore follow as Sessions 9–11. The later sequence has been rebalanced accordingly.
 </div>
 
 ```{=html}
@@ -103,8 +103,8 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">9</td>
       <td style="padding:10px 16px 10px 0;">
-        <a href="session09-baltimore-progress-decline.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Baltimore: Progress, Decline, and Reinvention</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Szanton + Hiss + NYT — forecast, reinvention, public safety, and uneven urban progress</div>
+        <a href="session07-renaissance-florence.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Cities 1: Renaissance Florence and the Geography of Ideas</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Palmer + Barone/Mocetti · creativity, patronage, and the persistence of advantage</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Sep 29</td>
     </tr>
@@ -112,8 +112,8 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">10</td>
       <td style="padding:10px 16px 10px 0;">
-        <a href="session10-liberty-property-rights.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Liberty, Property Rights, and the Conditions for Progress</a>
-        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Hayek + UOE Chs 1–2 — prices, property rights, power, bargaining, and institutions</div>
+        <a href="session08-silicon-valley-agglomeration.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Cities 2: Silicon Valley and Economies of Agglomeration</a>
+        <div style="color:var(--ink-light); font-size:0.78rem; margin-top:2px;">Saxenian + Watney · networks, clusters, and why regional innovation systems diverge</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Thu Oct 1</td>
     </tr>
@@ -121,8 +121,8 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">11</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Escaping the Poverty Trap</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Ang + Grier + Wang optional — adaptive governance, state capacity, and China as an engineering state</div>
+        <a href="session09-baltimore-progress-decline.html" style="font-family:var(--font-serif); font-size:0.95rem; color:var(--ink);">Baltimore: Progress, Decline, and Reinvention</a>
+        <div style="font-size:0.78rem; margin-top:2px;">Szanton + Hiss + NYT — forecast, reinvention, public safety, and uneven urban progress</div>
       </td>
       <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Tue Oct 6</td>
     </tr>
@@ -133,29 +133,29 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr style="border-bottom:1px solid var(--rule);">
       <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">12–16</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Inequality, Race, Baltimore, Labor</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Piketty/Chetty, Wilkerson, industrial labor and race, Smith + Dickens</div>
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Liberty, State Capacity, Inequality, Race, and Barriers</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Hayek + UOE; Ang and Grier; Chetty; Wilkerson; Collison and Cowen</div>
       </td>
-      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 8–22</td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 8–27</td>
     </tr>
 
     <!-- Module 4 -->
     <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 4 — Ambition &amp; Agency</td></tr>
 
     <tr style="border-bottom:1px solid var(--rule);">
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">17–21</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">17–20</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
-        <span style="font-family:var(--font-serif); font-size:0.95rem;">Great Inventors, Guest Speakers, Top-Down Innovation</span>
-        <div style="font-size:0.78rem; margin-top:2px;">Carlyle + Koyama + outsiders; Teles; Reinhardt + buyers/prizes; Williams/Niehaus</div>
+        <span style="font-family:var(--font-serif); font-size:0.95rem;">Great Individuals, Ambition, Reform, and Top-Down Innovation</span>
+        <div style="font-size:0.78rem; margin-top:2px;">Carlyle + Koyama + outsiders; Baumol; Teles; Reinhardt + buyers/prizes</div>
       </td>
-      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 27 – Nov 10</td>
+      <td style="padding:10px 0; color:var(--ink-light); white-space:nowrap;">Oct 29 – Nov 10</td>
     </tr>
 
     <!-- Module 5 -->
     <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 5 — Limits &amp; Risks</td></tr>
 
     <tr style="border-bottom:1px solid var(--rule);">
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">22–24</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">21–23</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
         <span style="font-family:var(--font-serif); font-size:0.95rem;">Environment, Slowdown, Catastrophic Risk</span>
         <div style="font-size:0.78rem; margin-top:2px;">Ritchie + acid rain; Thompson/Russell/Vinsel + R&amp;D labs; AI and infrastructure risks</div>
@@ -167,7 +167,7 @@ Each note summarises the key concepts for the week, frames the readings, and inc
     <tr><td colspan="3" style="padding:16px 0 6px; font-family:var(--font-sans); font-size:0.72rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent);">Module 6 — Looking Forward</td></tr>
 
     <tr>
-      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">25–28</td>
+      <td style="padding:10px 16px 10px 0; color:var(--ink-light); font-weight:600;">24–27</td>
       <td style="padding:10px 16px 10px 0; color:var(--ink-light);">
         <span style="font-family:var(--font-serif); font-size:0.95rem;">Synthesis + Data Project Presentations</span>
         <div style="font-size:0.78rem; margin-top:2px;">Closing reflection: how has your thinking changed?</div>

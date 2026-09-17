@@ -1,8 +1,8 @@
 ---
 title: "Silicon Valley and Economies of Agglomeration"
-subtitle: "Session 8 · Thu Sep 24"
+subtitle: "Session 10 · Thu Oct 1"
 description: "Why did Silicon Valley adapt when Route 128 stalled, and what does that tell us about the geography of innovation?"
-order: 8
+order: 10
 ---
 
 ## Two regions, one shock
@@ -125,9 +125,9 @@ Tie this back to the Baltimore project. Students are already studying places in 
 
 ## Connections
 
-**Builds on:** [Session 6](session06-innovation-incentives-technology.html) argued that ideas are getting harder to find and that innovation depends on institutions. Session 8 shows one institutional form in action: a regional system that helps people recombine knowledge.
+**Builds on:** [Session 8](session06-innovation-incentives-technology.html) argued that ideas are getting harder to find and that innovation depends on institutions. Session 10 shows one institutional form in action: a regional system that helps people recombine knowledge.
 
-**Sets up:** [Session 10](session10-liberty-property-rights.html) moves from regional institutions to national ones: prices, property rights, and political rules that make decentralized coordination possible.
+**Sets up:** [Session 12](session10-liberty-property-rights.html) moves from regional institutions to national ones: prices, property rights, and political rules that make decentralized coordination possible.
 
 ::: {.instructor}
 **Arc note:** This session gives students a concrete middle level between individual inventors and national institutions. Progress happens in places. But places matter because they organize information, trust, labor mobility, and capital in different ways.
@@ -183,6 +183,11 @@ Work through these cards now, then Orbit will schedule them for review over the 
   </orbit-prompt>
 
   <orbit-prompt
+    question="What does Watney add to Saxenian's cluster argument?"
+    answer="Saxenian explains how one successful cluster worked by comparing Silicon Valley with Route 128. Watney turns the question toward policy: if clusters are powerful but hard to copy, what can governments, universities, firms, and cities do to make new clusters more likely?">
+  </orbit-prompt>
+
+  <orbit-prompt
     question="How does the Silicon Valley session connect to the Baltimore project?"
     answer="It asks students to look at places as systems of relationships, not just locations. In Baltimore, they should ask who exchanges knowledge, who funds whom, who hires whom, and what institutions help or block recombination.">
   </orbit-prompt>
@@ -210,6 +215,14 @@ Work through these cards now, then Orbit will schedule them for review over the 
 >
 > **Prepare to discuss:** One feature of Silicon Valley's network system that seems valuable, and one feature that might have costs.
 
+**Watney, Caleb.** "Clusters rule everything around me." *Works in Progress*.
+
+> **What to look for:** Watney asks the policy version of Saxenian's puzzle. If clusters matter so much, why are they hard to build deliberately? Notice which ingredients look movable and which depend on accumulated local history.
+>
+> **Key argument:** Innovation clusters are powerful because they concentrate talent, firms, capital, institutions, and tacit knowledge, but successful clusters are difficult to copy because they depend on dense, self-reinforcing systems rather than single policy levers.
+>
+> **Prepare to discuss:** One policy intervention that seems likely to strengthen a cluster, and one that seems like it would create only the appearance of a cluster.
+
 **Mallaby, Sebastian.** *The Power Law: Venture Capital and the Making of the New Future.* New York: Penguin Press, 2022. Prologue.
 
 > **What to look for:** Mallaby adds the finance layer. How does venture capital make risky recombination possible? Why might a region with many good ideas still fail if the financing system rewards the wrong kind of project?
@@ -224,6 +237,10 @@ Work through these cards now, then Orbit will schedule them for review over the 
 
 > A useful Cambridge/Boston counterpoint: Kendall Square shows that Route 128 was not the final word on Massachusetts innovation, and that regional systems can change over time.
 
+**Myers, John, Sam Bowman, and Ben Southwood.** "The housing theory of everything." *Works in Progress*.
+
+> Extends the cluster argument by asking what happens when high-productivity places cannot admit more people. Especially useful for connecting agglomeration to housing, migration, productivity, and the politics of building.
+
 ::: {.instructor}
-**Teaching note on readings:** If time is short, prioritize Saxenian. McAfee supplies the hook and Mallaby supplies the financing extension, but Saxenian is the analytical backbone. Keep returning students to the comparison: same country, similar starting ingredients, different organizational systems.
+**Teaching note on readings:** If time is short, prioritize Saxenian and Watney. Saxenian is the analytical backbone: same country, similar starting ingredients, different organizational systems. Watney turns that comparison into the contemporary policy question: what can actually be built or changed if we want more places to become engines of progress? McAfee supplies the hook, Mallaby supplies the financing extension, and the housing piece is the cleanest recommended bridge to abundance and building constraints.
 :::

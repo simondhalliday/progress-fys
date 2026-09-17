@@ -2,7 +2,7 @@
 title: "Science as a Public Good"
 subtitle: "Session 7 · Tue Sep 22"
 description: "Why do markets tend to underprovide basic research, and which institutions help societies capture its wider benefits?"
-order: 5
+order: 7
 ---
 
 ## A warning from 1898
