@@ -85,7 +85,7 @@ description: "Assignments — FYS: Progress"
 <section>
   <div class="container--text">
     <p class="meta">Assignment 1 — 30% — Group</p>
-    <h2>Baltimore Progress Video</h2>
+    <h2 id="baltimore-progress-video">Baltimore Progress Video</h2>
 
     <div class="pull-quote">
       <p>"The most important things to understand about progress are not in textbooks. They're on street corners."</p>
@@ -113,6 +113,18 @@ description: "Assignments — FYS: Progress"
       Groups are formed and sites confirmed in the first week of class. See the <a href="baltimore.html">Baltimore page</a>
       for the interactive map of all sites, with background on each location.
     </p>
+
+    <h3 class="mt-lg" id="youtube-submission">Upload to YouTube and submit your link</h3>
+    <p><strong>Due Thursday, October 1, 2026 at 11:59 p.m. Eastern.</strong> Submit your finished 5–7 minute video through the <a href="https://jhu.instructure.com/courses/127466/assignments/1367086">Baltimore Progress Video — YouTube Link Submission assignment on Canvas</a>.</p>
+    <ul>
+      <li>Sign in to <a href="https://studio.youtube.com/" target="_blank" rel="noopener">YouTube Studio</a>. Select <strong>Create → Upload videos</strong> and choose your finished video file.</li>
+      <li>Add a title and description, including the names of all group members. Complete the required video details and proceed to <strong>Visibility</strong>.</li>
+      <li>Under <strong>Visibility</strong>, select <strong>Unlisted</strong> and click <strong>Save</strong>. Anyone with the link can watch and reshare an unlisted video; it is not restricted to invited viewers.</li>
+      <li>If you already uploaded the video, open <strong>YouTube Studio → Content</strong>, find it, change <strong>Visibility → Unlisted</strong>, and click <strong>Save</strong>.</li>
+      <li>Wait for processing to finish. Copy the viewer-facing YouTube watch link, then open it in a private/incognito browser window while signed out to check that the video and audio play.</li>
+      <li><strong>Every group member must submit the same video URL</strong> in the Canvas assignment’s <strong>Website URL</strong> field. Submit the watch link, not a YouTube Studio editing link.</li>
+    </ul>
+    <p class="small">YouTube help: <a href="https://support.google.com/youtube/answer/157177?hl=en" target="_blank" rel="noopener">change video privacy settings</a>. Keep your video accessible for the class screening on Tuesday, October 6.</p>
 
     <h3 class="mt-lg">Screening</h3>
     <p>
