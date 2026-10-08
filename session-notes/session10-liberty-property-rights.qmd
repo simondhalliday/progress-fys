@@ -1,8 +1,8 @@
 ---
 title: "Liberty, Property Rights, and the Conditions for Progress"
-subtitle: "Session 12 · Thu Oct 8"
+subtitle: "Session 13 · Thu Oct 15"
 description: "Why do prices and institutions matter for progress, and why is liberty never just a technical problem of efficient markets?"
-order: 12
+order: 13
 ---
 
 ## The freedom to choose what?
@@ -142,14 +142,14 @@ If a new technology would raise total income but harm a politically weak group, 
 ```
 
 ::: {.instructor}
-This is a good setup for Yuen Yuen Ang in Session 13. Hayek gives a clean coordination argument; UOE gives students a more tractable model of rules and power; Ang complicates both by asking how development can begin under messy, transitional, and partially corrupt institutions.
+This is a good setup for Yuen Yuen Ang in Session 14. Hayek gives a clean coordination argument; UOE gives students a more tractable model of rules and power; Ang complicates both by asking how development can begin under messy, transitional, and partially corrupt institutions.
 :::
 
 ## Connections
 
-**Builds on:** [Session 10](session08-silicon-valley-agglomeration.html) showed how regional institutions shape innovation. Session 12 scales up to the level of social rules: prices, property rights, outside options, and political decisions determine whether people can coordinate and challenge incumbents.
+**Builds on:** [Session 10](session08-silicon-valley-agglomeration.html) showed how regional institutions shape innovation. Session 13 scales up to the level of social rules: prices, property rights, outside options, and political decisions determine whether people can coordinate and challenge incumbents.
 
-**Sets up:** Session 13 on escaping poverty traps will ask how poor societies build developmental capacity when the ideal institutions described here are incomplete, contested, or still emerging.
+**Sets up:** Session 14 on escaping poverty traps will ask how poor societies build developmental capacity when the ideal institutions described here are incomplete, contested, or still emerging.
 
 ::: {.instructor}
 **Arc note:** This session gives students the institutional baseline before the course turns to poverty traps and [**inequality**]{.term data-example="Rules, bargaining power, and outside options can protect opportunities for insiders while leaving outsiders with weaker choices and fewer ways to challenge harms."}. If they leave with only "markets good" or "institutions good," the session has failed. The target understanding is subtler: decentralized progress needs price signals, secure rights, and political institutions broad enough to let many people act.
@@ -238,6 +238,10 @@ Work through these cards now, then Orbit will schedule them for review over the 
 > **Prepare to discuss:** One example of a rule change that would improve someone's outside option, and one example of a case where the price system alone would not resolve the conflict.
 
 ### Recommended
+
+**Roberts, Russ; Boudreaux, Don; and Munger, Michael.** ["Emergent Order"](https://www.econtalk.org/don-boudreaux-michael-munger-and-russ-roberts-on-emergent-order/). *EconTalk*, 2017.
+
+> **Optional companion:** A conversational, everyday introduction to the coordination problem behind Hayek's argument. The episode uses bread, traffic, norms, and public rules to ask how complex order can emerge without a single designer. It is not a substitute for the Hayek essay, and it also stresses that emergent outcomes are not automatically good.
 
 **North, Douglass C.** *Institutions, Institutional Change and Economic Performance.* Cambridge University Press, 1990. Chapter 1.
 

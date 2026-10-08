@@ -386,11 +386,39 @@ description: "Syllabus — FYS: Progress"
         </div>
       </div>
 
-      <!--
       <div class="session-row">
         <div class="session-row__date">Tue Oct 13</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 13 · Escaping the Poverty Trap</div>
+          <div class="session-row__title">Session 12 · UOE: Game Trees and Changing the Rules of the Game</div>
+          <div class="session-row__meta">
+            <ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> <em>Understanding Our Economy 101</em>, Chapters 1 and 2 in the course reading pack — focus on game trees, cooperation and conflict, outside options, bargaining power, and how changing the rules changes an interaction.</li>
+            </ul>
+            <p class="reading-note"><strong>Please prepare these chapters for Tuesday.</strong> We will use them for in-class game-tree exercises rather than treating them as background reading.</p>
+          </div>
+          <div class="session-row__tags"><span class="tag">In-class exercises</span><span class="tag tag--accent">UOE Chs. 1–2</span></div>
+        </div>
+      </div>
+
+      <div class="session-row">
+        <div class="session-row__date">Thu Oct 15</div>
+        <div class="session-row__body">
+          <div class="session-row__title"><a href="session-notes/session10-liberty-property-rights.html">Session 13 · Liberty, Property Rights, and the Conditions for Progress</a></div>
+          <div class="session-row__meta">
+            <ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> <a href="https://www.econlib.org/library/Essays/hykKnw.html" target="_blank" rel="noopener">F. A. Hayek, "The Use of Knowledge in Society," <em>American Economic Review</em> 35, no. 4 (1945): 519–530</a> — why market prices coordinate dispersed knowledge that no central planner can collect. <a href="https://jhu.instructure.com/courses/127466/files/19322605">[PDF on Canvas]</a></li>
+              <li><span class="tag tag--recommended">Optional companion</span> <a href="https://www.econtalk.org/don-boudreaux-michael-munger-and-russ-roberts-on-emergent-order/" target="_blank" rel="noopener">Russ Roberts, Don Boudreaux, and Michael Munger, "Emergent Order," <em>EconTalk</em> (2017)</a> — a conversational introduction to the coordination problem behind Hayek's argument.</li>
+            </ul>
+            <p class="reading-note">Hayek makes the knowledge argument for decentralized coordination. We will connect it to Tuesday's work on game trees, outside options, and how rules shape who can act on opportunities.</p>
+          </div>
+          <div class="session-row__tags"><span class="tag">In-class response</span></div>
+        </div>
+      </div>
+
+      <div class="session-row">
+        <div class="session-row__date">Tue Oct 20</div>
+        <div class="session-row__body">
+          <div class="session-row__title">Session 14 · Escaping the Poverty Trap</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Yuen Yuen Ang, <a href="https://www.jstor.org/stable/10.7591/j.ctt1zgwm1j.6" target="_blank" rel="noopener"><em>How China Escaped the Poverty Trap</em>, Introduction</a> — how do poor societies bootstrap growth, and what does this mean for the role of the state? Ang's central idea is "directed improvisation": central goals paired with local experimentation, adaptation, and problem-solving. <span style="color:var(--ink-light);">[open access via JSTOR/Cornell]</span></li>
@@ -404,44 +432,37 @@ description: "Syllabus — FYS: Progress"
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
       </div>
-      -->
 
-      <div class="session-row">
-        <div class="session-row__date">Tue Oct 13</div>
+      <div class="session-row" style="opacity: 0.7;">
+        <div class="session-row__date">Thu Oct 22</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 12 · UOE: Game Trees and Changing the Rules of the Game</div>
-          <div class="session-row__meta">
-            <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> <em>Understanding Our Economy 101</em>, Chapters 1 and 2 in the course reading pack — focus on game trees, cooperation and conflict, outside options, bargaining power, and how changing the rules changes an interaction.</li>
-            </ul>
-            <p class="reading-note"><strong>Please prepare these chapters for Tuesday.</strong> We will use them for in-class game-tree exercises rather than treating them as background reading. If Tuesday becomes a Progress Conference report-back, bring the same preparation to Thursday, October 15; no additional reading will be assigned for that change.</p>
-          </div>
-          <div class="session-row__tags"><span class="tag">In-class exercises</span><span class="tag tag--accent">UOE Chs. 1–2</span></div>
+          <div class="session-row__title" style="color: var(--ink-light); font-style: italic;">No class — KSAS Fall Break</div>
+          <div class="session-row__meta" style="color: var(--ink-light);">No class during Krieger School of Arts and Sciences Fall Break.</div>
         </div>
       </div>
 
       <div class="session-row">
-        <div class="session-row__date">Thu Oct 15</div>
+        <div class="session-row__date">Tue Oct 27</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 14 · Inequality, Mobility, and the Geography of Opportunity</div>
+          <div class="session-row__title">Session 15 · Inequality, Mobility, and the Geography of Opportunity</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Simon D. Halliday, <a href="https://core-understanding-our-economy.netlify.app/uoe-101/05-01.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, Chapter 5, sections 5.1–5.2</a> — the incomes of the top 1%, income inequality across countries, market and disposable income, and the Gini coefficient. <span style="color:var(--ink-light);">[<a href="https://jhu.instructure.com/courses/127466/files/19324005">compact Chapter 5 reading PDF on Canvas</a>, 46 pages; use the same intact chapter for both inequality sessions]</span></li>
               <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1093/qje/qjy007" target="_blank" rel="noopener">Raj Chetty &amp; Nathaniel Hendren, "The Impacts of Neighborhoods on Intergenerational Mobility I: Childhood Exposure Effects," <em>Quarterly Journal of Economics</em> 133, no. 3 (2018): 1107–1162</a> — read the Introduction and Conclusion only (~8 pp.). The evidence that where you grow up causally shapes where you end up: a natural experiment using families who move across counties. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
             </ul>
-            <p class="reading-note">Sections 5.1–5.2 introduce inequality and its measurement. Chetty &amp; Hendren show that neighborhoods causally shape opportunity. Keep the same Chapter 5 reading for October 20, when we turn to section 5.3 on accidents of birth. The printed chapter stays intact; extensions and end-matter are omitted.</p>
+            <p class="reading-note">Sections 5.1–5.2 introduce inequality and its measurement. Chetty &amp; Hendren show that neighborhoods causally shape opportunity. Keep the same Chapter 5 reading for October 29, when we turn to section 5.3 on accidents of birth. The printed chapter stays intact; extensions and end-matter are omitted.</p>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span><span class="tag tag--accent">UOE Ch. 5</span></div>
         </div>
       </div>
 
       <div class="session-row">
-        <div class="session-row__date">Tue Oct 20</div>
+        <div class="session-row__date">Thu Oct 29</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 15 · Race and Progress in America</div>
+          <div class="session-row__title">Session 16 · Race and Progress in America</div>
           <div class="session-row__meta">
             <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> Simon D. Halliday, <a href="https://core-understanding-our-economy.netlify.app/uoe-101/05-03.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, section 5.3: “Accidents of birth: Another lens for studying inequality”</a> — categorical and intergenerational inequality, discrimination, and the institutions that sustain unequal opportunities. Use the <a href="https://jhu.instructure.com/courses/127466/files/19324005">same Chapter 5 reading PDF</a> as October 15; the chapter is printed once, intact.</li>
+              <li><span class="tag tag--required">Required</span> Simon D. Halliday, <a href="https://core-understanding-our-economy.netlify.app/uoe-101/05-03.html" target="_blank" rel="noopener"><em>Understanding Our Economy</em>, section 5.3: “Accidents of birth: Another lens for studying inequality”</a> — categorical and intergenerational inequality, discrimination, and the institutions that sustain unequal opportunities. Use the <a href="https://jhu.instructure.com/courses/127466/files/19324005">same Chapter 5 reading PDF</a> as October 27; the chapter is printed once, intact.</li>
               <li><span class="tag tag--required">Required</span> Ellora Derenoncourt, interviewed by Chris Fleisher, <a href="https://www.aeaweb.org/research/ellora-derenoncourt-great-migration" target="_blank" rel="noopener">“Moving on up?”</a>, <em>American Economic Association Research Highlights</em> (March 2, 2022) — read the full edited interview. Why did moving expand opportunity for Black families, and how did segregation, white flight, and local policy responses limit mobility for later generations? <span style="color:var(--ink-light);">[free online]</span> <a href="https://jhu.instructure.com/courses/127466/files/19322606">[PDF on Canvas]</a></li>
               <li><span class="tag tag--recommended">Recommended</span> Eric Bottorff, Trevon Logan &amp; Suresh Naidu, <a href="https://books.core-econ.org/insights/persistent-racial-inequality-in-the-united-states/00-highlights.html" target="_blank" rel="noopener">"Persistent Racial Inequality in the United States," <em>CORE Insights</em> (2022)</a> — optional background on segregation, discrimination, and political inequality. Omitted from the printed pack; selected material may be supplied in the in-class worksheet.</li>
             </ul>
@@ -451,13 +472,6 @@ description: "Syllabus — FYS: Progress"
         </div>
       </div>
 
-      <div class="session-row" style="opacity: 0.7;">
-        <div class="session-row__date">Thu Oct 22</div>
-        <div class="session-row__body">
-          <div class="session-row__title" style="color: var(--ink-light); font-style: italic;">No class — KSAS Fall Break</div>
-          <div class="session-row__meta" style="color: var(--ink-light);">No class during Krieger School of Arts and Sciences Fall Break.</div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -476,9 +490,9 @@ description: "Syllabus — FYS: Progress"
       </p>
 
       <div class="session-row">
-        <div class="session-row__date">Tue Oct 27</div>
+        <div class="session-row__date">Tue Nov 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 16 · Contemporary Barriers to Progress: Why We&#x2019;ve Stopped Building</div>
+          <div class="session-row__title">Session 17 · Contemporary Barriers to Progress: Why We&#x2019;ve Stopped Building</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~1,500 words)</a> — the short manifesto that launched Progress Studies as a field. Why has no academic discipline made the causes of progress its central object of inquiry?</li>
@@ -512,7 +526,7 @@ description: "Syllabus — FYS: Progress"
       -->
 
       <div class="session-row">
-        <div class="session-row__date">Tue Nov 3</div>
+        <div class="session-row__date">Thu Nov 5</div>
         <div class="session-row__body">
           <div class="session-row__title">Session 18 · Ambition</div>
           <div class="session-row__meta"><ul class="reading-list">
@@ -527,7 +541,7 @@ description: "Syllabus — FYS: Progress"
       </div>
 
       <div class="session-row">
-        <div class="session-row__date">Thu Nov 5</div>
+        <div class="session-row__date">Tue Nov 10</div>
         <div class="session-row__body">
           <div class="session-row__title">Session 19 · Guest: Political Economy of Reform</div>
           <div class="session-row__meta">Guest speaker: Professor Steve Teles (Hopkins).
@@ -580,7 +594,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 12</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 21 · Environmental Progress: Can We Fix What We Broke?</div>
+          <div class="session-row__title">Session 20 · Environmental Progress: Can We Fix What We Broke?</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Hannah Ritchie, <em>Not the End of the World</em> (2024), Chapter 1: "Air Pollution" (~35 pp.) — the evidence for environmental progress, and where it falls short.</li>
@@ -594,7 +608,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Nov 17</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 22 · When Progress Ends — and What We Must Maintain</div>
+          <div class="session-row__title">Session 21 · When Progress Ends — and What We Must Maintain</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/magazine/archive/2023/01/science-technology-vaccine-invention-history/672227/" target="_blank" rel="noopener">Derek Thompson, "Why the Age of American Progress Ended," <em>The Atlantic</em> (Jan/Feb 2023)</a> — the case that innovation has slowed and what might explain it. <span style="color:var(--ink-light);">[free, may ask you to create an account]</span></li>
@@ -611,7 +625,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 19</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 23 · Catastrophic Risk: Pandemic, AI, and Existential Threats</div>
+          <div class="session-row__title">Session 22 · AI and Catastrophic Risk</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/jep.20261505" target="_blank" rel="noopener">Charles I. Jones, "AI and Our Economic Future," <em>Journal of Economic Perspectives</em> 40, no. 3 (2026): 3–22</a> — AI as both a possible accelerator of economic growth and a source of catastrophic risk. Read the introduction and conclusion if time is tight. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
@@ -659,7 +673,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Dec 1</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 24 · The Future of Progress</div>
+          <div class="session-row__title">Session 23 · The Future of Progress</div>
           <div class="session-row__meta">
             <ul class="reading-list">
               <li><span class="tag tag--required">Required</span> Ted Chiang, "Exhalation" (2019, ~6,000 words) — a meditation on entropy, memory, and what it means to understand. Read slowly. Bring one sentence that you think is about progress, even though the story never uses that word.</li>
@@ -675,7 +689,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Dec 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 25 · Data Project Presentations (Part 1)</div>
+          <div class="session-row__title">Session 24 · Data Project Presentations (Part 1)</div>
           <div class="session-row__meta">Six presentations, ~10 minutes each + Q&amp;A. No advance reading assigned.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project presentations</span></div>
         </div>
@@ -684,7 +698,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Tue Dec 8</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 26 · Data Project Presentations (Part 2)</div>
+          <div class="session-row__title">Session 25 · Data Project Presentations (Part 2)</div>
           <div class="session-row__meta">Six presentations, ~10 minutes each + Q&amp;A. No advance reading assigned.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Data project presentations</span></div>
         </div>
@@ -693,7 +707,7 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Dec 10</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 27 · Closing: Celebration and Final Questions</div>
+          <div class="session-row__title">Session 26 · Closing: Celebration and Final Questions</div>
           <div class="session-row__meta">Students share closing reflections (revisiting Week 1's opening prompt). The seminar ends with open questions students have brought from across the semester — the things they still want to know. Cookies may be involved.</div>
           <div class="session-row__tags"><span class="tag tag--accent">Closing reflection due</span></div>
         </div>
