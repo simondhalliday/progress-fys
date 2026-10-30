@@ -485,22 +485,23 @@ description: "Syllabus — FYS: Progress"
         <h2 class="syllabus-module__title">Ambition &amp; Agency</h2>
       </div>
       <p style="font-family: var(--font-sans); font-size: 0.9rem; color: var(--ink-mid); margin-bottom: var(--sp-lg); max-width: 600px;">
-        Does progress flow from exceptional individuals or inevitable structural forces?
-        What is the role of ambition, luck, and the systems that enable or suppress it?
+        Who gets to shape progress? We examine political voice, the institutions that enable
+        or obstruct building, and the possibilities for reform. The “Ambition” session is deferred; its new date is to be announced.
       </p>
 
-      <div class="session-row">
+      <div class="session-row" id="session-17-democracy">
         <div class="session-row__date">Tue Nov 3</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 17 · Contemporary Barriers to Progress: Why We&#x2019;ve Stopped Building</div>
+          <div class="session-row__title">Session 17 · Elections, Democracy, and Progress</div>
           <div class="session-row__meta">
+            <p><a href="session-notes/session17-democracy-and-progress.html">Reading module and discussion guide</a> · <a href="https://jhu.instructure.com/courses/127466/files/19733009/download">15-page reading packet on Canvas</a></p>
             <ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~1,500 words)</a> — the short manifesto that launched Progress Studies as a field. Why has no academic discipline made the causes of progress its central object of inquiry?</li>
-              <li><span class="tag tag--required">Required</span> Ezra Klein &amp; Derek Thompson, <em>Abundance</em>, Chapter 1: "The Politics of More" (2025, ~25 pp.) — the political economy of why America has stopped building: housing, clean energy, infrastructure. The argument that progressive politics has become entangled with a politics of restriction.</li>
-              <li><span class="tag tag--recommended">Recommended</span> Brian Potter, <em>The Origins of Efficiency</em> (Stripe Press, 2025) — selections from the chapters on housing and construction (~20 pp.). Potter analyses why the production process in construction has not seen the efficiency gains of steel or semiconductors. A complementary, production-side analysis of the same barriers Klein &amp; Thompson identify from the political side.</li>
-              <li><span class="tag tag--recommended">Optional extension</span> Eric Bottorff &amp; Simon D. Halliday, <em>Understanding Our Economy</em>, Chapter 10: "Work, Pay, and Power" (selections; not yet publicly released), paired with David H. Autor, <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/jep.29.3.3" target="_blank" rel="noopener">"Why Are There Still So Many Jobs?" <em>Journal of Economic Perspectives</em> 29, no. 3 (2015): 3–30</a> — labor markets, automation, and how progress changes work. <span style="color:var(--ink-light);">[Autor via JHU Library]</span></li>
+              <li><span class="tag tag--required">Required</span> CORE, “Democracy as a political institution,” <em>The Economy 2.0: Macroeconomics</em>, Section 10.3 — packet pp. 1–3.</li>
+              <li><span class="tag tag--required">Required</span> Amartya Sen, “Democracy as a Universal Value” (1999), “Democracy and Economic Development” and “The Functions of Democracy” — packet pp. 4–9.</li>
+              <li><span class="tag tag--required">Required</span> CORE, “Women’s suffrage and the reduction in child mortality in the US” — packet pp. 10–11.</li>
+              <li><span class="tag tag--required">Required</span> Bottorff, Logan, and Naidu, <em>Persistent Racial Inequality in the United States</em>, assigned selections from Sections 3 and 6, including Figure 4 — packet pp. 12–15.</li>
             </ul>
-            <p class="reading-note">The course has asked why progress happened. This session asks why, in some domains and in some countries, it seems to have slowed — and what structural, political, and behavioural obstacles have replaced the old material ones.</p>
+            <p class="reading-note">How does expanding who can vote change what governments do? Is political freedom itself a form of progress? We will use Our World in Data graphs in class; no advance preparation of the graphs is required.</p>
           </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
@@ -528,14 +529,17 @@ description: "Syllabus — FYS: Progress"
       <div class="session-row">
         <div class="session-row__date">Thu Nov 5</div>
         <div class="session-row__body">
-          <div class="session-row__title">Session 18 · Ambition</div>
-          <div class="session-row__meta"><ul class="reading-list">
-              <li><span class="tag tag--required">Required</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1086/261712" target="_blank" rel="noopener">William J. Baumol, &#x201C;Entrepreneurship: Productive, Unproductive, and Destructive,&#x201D; <em>Journal of Political Economy</em> 98, no. 5 (1990): 893&#x2013;921</a> &#x2014; the total supply of entrepreneurs may be roughly constant across societies; what varies &#x2014; enormously &#x2014; is how the rules of the game channel them toward innovation versus rent-seeking. A framework that explains why Rome produced lawyers and generals instead of engineers. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="https://hbr.org/2017/06/is-america-encouraging-the-wrong-kind-of-entrepreneurship" target="_blank" rel="noopener">Robert E. Litan &amp; Ian Hathaway, &#x201C;Is America Encouraging the Wrong Kind of Entrepreneurship?&#x201D; <em>Harvard Business Review</em> (June 2017)</a> &#x2014; written as a tribute to Baumol shortly after his death, this short piece asks whether current US incentives are steering entrepreneurs toward extractive activities (rent-seeking, financial engineering) rather than productive ones. A direct application of the Baumol framework to contemporary America.</li>
-              <li><span class="tag tag--recommended">Recommended</span> Max Weber, <em>The Protestant Ethic and the Spirit of Capitalism</em>, Chapter 1: "Religious Affiliation and Social Stratification" (1905, ~20 pp.) &#x2014; the classic claim that cultural attitudes toward work, thrift, and calling shaped the emergence of capitalism in Protestant societies. Read as a foil to Baumol: are entrepreneurial energies shaped by institutions alone, or also by culture and belief?</li>
-              <li><span class="tag tag--recommended">Recommended</span> <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.3982/ECTA16484" target="_blank" rel="noopener">Samuel Bazzi, Martin Fiszbein &amp; Mesay Gebresilasse, &#x201C;Frontier Culture: The Roots and Persistence of &#x2018;Rugged Individualism&#x2019; in the United States,&#x201D; <em>Econometrica</em> 88, no. 6 (2020): 2329&#x2013;2368</a> &#x2014; read the introduction and conclusion only (~8 pp.). Uses the historical westward movement of the frontier to show that individualistic, anti-government attitudes persist to this day in counties that were once frontier territory. A striking empirical test of the Weber-style claim that history shapes economic culture. <span style="color:var(--ink-light);">[via JHU Library]</span></li>
+          <div class="session-row__title">Session 18 · Contemporary Barriers to Progress: Why We&#x2019;ve Stopped Building</div>
+          <div class="session-row__meta">
+            <ul class="reading-list">
+              <li><span class="tag tag--required">Required</span> <a href="https://www.theatlantic.com/science/archive/2019/07/we-need-new-science-progress/594946/" target="_blank" rel="noopener">Patrick Collison &amp; Tyler Cowen, "We Need a New Science of Progress," <em>The Atlantic</em> (July 2019, ~1,500 words)</a> — the short manifesto that launched Progress Studies as a field. Why has no academic discipline made the causes of progress its central object of inquiry?</li>
+              <li><span class="tag tag--required">Required</span> Ezra Klein &amp; Derek Thompson, <em>Abundance</em>, Chapter 1: "Grow" (2025, ~25 pp.) — the political economy of why America has stopped building: housing, clean energy, infrastructure. The argument that progressive politics has become entangled with a politics of restriction.</li>
+              <li><span class="tag tag--recommended">Recommended</span> Brian Potter, <em>The Origins of Efficiency</em> (Stripe Press, 2025) — selections from the chapters on housing and construction (~20 pp.). Potter analyses why the production process in construction has not seen the efficiency gains of steel or semiconductors. A complementary, production-side analysis of the same barriers Klein &amp; Thompson identify from the political side.</li>
+              <li><span class="tag tag--recommended">Optional extension</span> Eric Bottorff &amp; Simon D. Halliday, <em>Understanding Our Economy</em>, Chapter 10: "Work, Pay, and Power" (selections; not yet publicly released), paired with David H. Autor, <a href="http://proxy.library.jhu.edu/login?url=https://doi.org/10.1257/jep.29.3.3" target="_blank" rel="noopener">"Why Are There Still So Many Jobs?" <em>Journal of Economic Perspectives</em> 29, no. 3 (2015): 3–30</a> — labor markets, automation, and how progress changes work. <span style="color:var(--ink-light);">[Autor via JHU Library]</span></li>
+              <li><span class="tag tag--recommended">Optional</span> David Foster &amp; Joseph Warren, <a href="https://worksinprogress.co/issue/the-nimby-problem/">“The NIMBY Problem,” <em>Works in Progress</em></a> — local democracy, sharing the benefits of development, and getting more housing built.</li>
             </ul>
-            <p class="reading-note">Together: what kind of entrepreneurship does this society actually reward &#x2014; and is that the kind that produces progress?</p></div>
+            <p class="reading-note">Moved from Tuesday, November 3. The course has asked why progress happened. This session asks why, in some domains and in some countries, it seems to have slowed — and what structural, political, and behavioural obstacles have replaced the old material ones.</p>
+          </div>
           <div class="session-row__tags"><span class="tag">In-class response</span></div>
         </div>
       </div>
